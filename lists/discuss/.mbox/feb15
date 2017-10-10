@@ -1,0 +1,80 @@
+From owner-discuss@nationaldataservice.org Mon Feb  9 10:23:23 2015
+Received: (from majordomo@localhost)
+	by pop.ncsa.uiuc.edu (8.11.7/8.11.7) id t19GNNI29984;
+	Mon, 9 Feb 2015 10:23:23 -0600
+X-Envelope-From: matthewturk@gmail.com
+X-Envelope-To: <discuss@nationaldataservice.org>
+Received: from rimantadine.ncsa.uiuc.edu (rimantadine.ncsa.uiuc.edu [141.142.199.3])
+	by pop.ncsa.uiuc.edu (8.11.7/8.11.7) with ESMTP id t19GNM029974
+	for <discuss@nationaldataservice.org>; Mon, 9 Feb 2015 10:23:22 -0600
+Received: from mail-ie0-f175.google.com (mail-ie0-f175.google.com [209.85.223.175])
+	by rimantadine.ncsa.uiuc.edu (8.14.9/8.14.4) with ESMTP id t19GNFEX012197
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL)
+	for <discuss@nationaldataservice.org>; Mon, 9 Feb 2015 10:23:15 -0600
+Received: by iecrd18 with SMTP id rd18so5580641iec.8
+        for <discuss@nationaldataservice.org>; Mon, 09 Feb 2015 08:23:00 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:from:date:message-id:subject:to:content-type;
+        bh=tTbmpN3ihrhNDkJtivbxKQge4t5npSIO8BWPArk5JI8=;
+        b=vh9SWaxg/gBWt5dVdHo5y4TBSgfHNXAw8W5a/1eW6peVPKXz1geKi6/zmE5U0bvyRg
+         AuBbrhNFwmhF3oJbsnINBF1J/OSkXbjoA9E9tD/RPkBZOLY7dSJo3Bt/KPVJPfsJX3mz
+         qLNZQE0rYq0o63QmRBqBG/GyZHpVdp6iww0Hi67+WpfJL4alL39K3upE9UYCSajm3+jO
+         ehtyVuqLJ1xp1SBVghsEbV9jf/rOiCFEHQpzRzJCFK2vYxO0tLz9UHBYPruoHoDeO4K2
+         kJ6G8GR0Mvf3usYGPCK8cHXM91YiWtjPpy+05x5kZjzurPuohwfRtHqQSERpVJe/lSUj
+         Hmtg==
+X-Received: by 10.50.147.99 with SMTP id tj3mr17823773igb.41.1423498979910;
+ Mon, 09 Feb 2015 08:22:59 -0800 (PST)
+MIME-Version: 1.0
+Received: by 10.42.247.132 with HTTP; Mon, 9 Feb 2015 08:22:39 -0800 (PST)
+From: Matthew Turk <matthewturk@gmail.com>
+Date: Mon, 9 Feb 2015 10:22:39 -0600
+Message-ID: <CALO3=5H2uzN7PC67JFVYV+dzwqCrDj4sn1A23DarfL20MQRLOg@mail.gmail.com>
+Subject: ownCloud 8
+To: "discuss@nationaldataservice.org" <discuss@nationaldataservice.org>
+Content-Type: text/plain; charset=UTF-8
+X-Null-Tag: 63c234547c331867967902faa96ed2c9
+X-Scanned-By: milter-spamc/1.15.388 (rimantadine.ncsa.uiuc.edu [141.142.199.3]); Mon, 09 Feb 2015 10:23:20 -0600
+X-Spam-Status: NO, hits=2.90 required=4.90
+X-Spam-Report: Spam detection software, running on the system "rimantadine.ncsa.uiuc.edu", has
+  | identified this incoming email as possible spam.  The original message
+  | has been attached to this so you can view it (if it isn't spam) or label
+  | similar future email.  If you have any questions, see
+  | postmaster@ncsa.uiuc.edu for details.
+  | 
+  | Content preview:  Hi all, ownCloud 8 was just released: https://owncloud.org/eight/
+  |    [...]
+  | 
+  | Content analysis details:   (2.9 points, 4.9 required)
+  | 
+  |  pts rule name              description
+  | ---- ---------------------- --------------------------------------------------
+  |  0.7 DNS_FROM_AHBL_RHSBL    RBL: Envelope sender listed in dnsbl.ahbl.org
+  |  4.0 BAYES_99               BODY: Bayesian spam probability is 99 to 100p
+  |                             [score: 1.0000]
+  | -1.0 RCVD_IN_DNSWL_LOW      RBL: Sender listed at http://www.dnswl.org/, low
+  |                             trust
+  |                             [209.85.223.175 listed in list.dnswl.org]
+  | -1.0 SPF_PASS               SPF: sender matches SPF record
+  |  0.2 AWL                    AWL: From: address is in the auto white-list
+  | 
+X-NCSA-MailScanner-Information: Please contact help@ncsa.uiuc.edu for more information, rimantadine.ncsa.uiuc.edu
+X-NCSA-MailScanner-ID: t19GNFEX012197
+X-NCSA-MailScanner: Found to be clean
+Sender: owner-discuss@nationaldataservice.org
+Precedence: bulk
+Reply-To: discuss@nationaldataservice.org
+
+Hi all,
+
+ownCloud 8 was just released:
+
+https://owncloud.org/eight/
+
+One of the more interesting bits was in this section of the
+announcement, which seems relevant here:
+
+https://owncloud.org/blog/opencloudmesh-ties-together-universities-and-researchers/
+
+-Matt
+

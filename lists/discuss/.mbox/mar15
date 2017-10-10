@@ -1,0 +1,1570 @@
+From owner-discuss@nationaldataservice.org Wed Mar 11 20:10:31 2015
+Received: (from majordomo@localhost)
+	by pop.ncsa.uiuc.edu (8.11.7/8.11.7) id t2C1AVs20774;
+	Wed, 11 Mar 2015 20:10:31 -0500
+X-Envelope-From: jreadey@hdfgroup.org
+X-Envelope-To: <discuss@nationaldataservice.org>
+Received: from rimantadine.ncsa.uiuc.edu (rimantadine.ncsa.uiuc.edu [141.142.199.3])
+	by pop.ncsa.uiuc.edu (8.11.7/8.11.7) with ESMTP id t2C1AUY20761
+	for <discuss@nationaldataservice.org>; Wed, 11 Mar 2015 20:10:30 -0500
+Received: from na01-bn1-obe.outbound.protection.outlook.com (mail-bn1bbn0101.outbound.protection.outlook.com [157.56.111.101])
+	by rimantadine.ncsa.uiuc.edu (8.14.9/8.14.4) with ESMTP id t2C1AJWr003205
+	(version=TLSv1/SSLv3 cipher=AES256-SHA bits=256 verify=FAIL)
+	for <discuss@nationaldataservice.org>; Wed, 11 Mar 2015 20:10:20 -0500
+Received: from BN1PR07MB933.namprd07.prod.outlook.com (10.141.62.18) by
+ BN1PR07MB935.namprd07.prod.outlook.com (10.141.63.144) with Microsoft SMTP
+ Server (TLS) id 15.1.106.15; Thu, 12 Mar 2015 01:10:09 +0000
+Received: from BN1PR07MB933.namprd07.prod.outlook.com ([10.141.62.18]) by
+ BN1PR07MB933.namprd07.prod.outlook.com ([10.141.62.18]) with mapi id
+ 15.01.0106.007; Thu, 12 Mar 2015 01:10:08 +0000
+From: John Readey <jreadey@hdfgroup.org>
+To: "discuss@nationaldataservice.org" <discuss@nationaldataservice.org>
+Subject: Google "Nearline" service
+Thread-Topic: Google "Nearline" service
+Thread-Index: AQHQXGAN9qkiT5WZVkiMvq6sHe5g+w==
+Date: Thu, 12 Mar 2015 01:10:08 +0000
+Message-ID: <1426122608264.96097@hdfgroup.org>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+x-originating-ip: [65.102.187.50]
+authentication-results: nationaldataservice.org; dkim=none (message not
+ signed) header.d=none;
+x-microsoft-antispam: UriScan:;BCL:0;PCL:0;RULEID:;SRVR:BN1PR07MB935;
+x-forefront-antispam-report: BMV:1;SFV:NSPM;SFS:(10019020)(51444003)(99286002)(92566002)(450100001)(106116001)(19617315012)(2656002)(62966003)(77096005)(50986999)(87936001)(86362001)(36756003)(19580395003)(54356999)(110136001)(2351001)(102836002)(19627405001)(122556002)(2501003)(107886001)(117636001)(77156002)(16236675004)(2900100001)(15975445007)(40100003)(66066001)(46102003)(229853001);DIR:OUT;SFP:1102;SCL:1;SRVR:BN1PR07MB935;H:BN1PR07MB933.namprd07.prod.outlook.com;FPR:;SPF:None;MLV:sfv;LANG:en;
+x-microsoft-antispam-prvs: <BN1PR07MB9353DBA35033570EAAE29DBDF060@BN1PR07MB935.namprd07.prod.outlook.com>
+x-exchange-antispam-report-test: UriScan:;
+x-exchange-antispam-report-cfa-test: BCL:0;PCL:0;RULEID:(601004)(5002009)(5005006);SRVR:BN1PR07MB935;BCL:0;PCL:0;RULEID:;SRVR:BN1PR07MB935;
+x-forefront-prvs: 05134F8B4F
+Content-Type: multipart/alternative;
+	boundary="_000_142612260826496097hdfgrouporg_"
+MIME-Version: 1.0
+X-OriginatorOrg: hdfgroup.org
+X-MS-Exchange-CrossTenant-originalarrivaltime: 12 Mar 2015 01:10:08.6207
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 670728e4-f05c-4505-9642-0d1e5754ea9e
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BN1PR07MB935
+X-Null-Tag: afe1346f54efb922e66c8a993cae0237
+X-Scanned-By: milter-spamc/1.15.388 (amantadine-old.ncsa.illinois.edu [141.142.199.5]); Wed, 11 Mar 2015 20:10:27 -0500
+X-Spam-Status: NO, hits=3.70 required=4.90
+X-Spam-Report: Spam detection software, running on the system "rimantadine.ncsa.uiuc.edu", has
+  | identified this incoming email as possible spam.  The original message
+  | has been attached to this so you can view it (if it isn't spam) or label
+  | similar future email.  If you have any questions, see
+  | postmaster@ncsa.uiuc.edu for details.
+  | 
+  | Content preview:  Hey, Google just announced it's nearline storage service today:
+  |    https://cloud.google.com/storage/docs/nearline-storage?. It gives you storage
+  |    at 1/3 the cost ($0.01/gb/month) with some extra latency (3 sec) when the
+  |    data is requested. [...]
+  | 
+  | Content analysis details:   (3.7 points, 4.9 required)
+  | 
+  |  pts rule name              description
+  | ---- ---------------------- --------------------------------------------------
+  |  4.0 BAYES_99               BODY: Bayesian spam probability is 99 to 100p
+  |                             [score: 1.0000]
+  |  0.7 DNS_FROM_AHBL_RHSBL    RBL: Envelope sender listed in dnsbl.ahbl.org
+  | -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+  | -1.0 SPF_PASS               SPF: sender matches SPF record
+  |  0.0 HTML_MESSAGE           BODY: HTML included in message
+  |  0.0 AWL                    AWL: From: address is in the auto white-list
+  | 
+X-NCSA-MailScanner-Information: Please contact help@ncsa.uiuc.edu for more information, rimantadine.ncsa.uiuc.edu
+X-NCSA-MailScanner-ID: t2C1AJWr003205
+X-NCSA-MailScanner: Found to be clean
+Sender: owner-discuss@nationaldataservice.org
+Precedence: bulk
+Reply-To: discuss@nationaldataservice.org
+
+--_000_142612260826496097hdfgrouporg_
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Hey,
+
+
+Google just announced it's nearline storage service today: https://cloud.go=
+ogle.com/storage/docs/nearline-storage?.   It gives you storage at 1/3 the =
+cost ($0.01/gb/month) with some extra latency (3 sec) when the data is requ=
+ested.
+
+
+I think that this would be perfect for storing many scientific datasets in =
+the cloud where much of the data is infrequently accessed.
+
+
+What are this groups thoughts on the suitability  of cloud storage for scie=
+ntific data?
+
+
+John
+
+--_000_142612260826496097hdfgrouporg_
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+<style type=3D"text/css" style=3D"display:none;"><!-- P {margin-top:0;margi=
+n-bottom:0;} --></style>
+</head>
+<body dir=3D"ltr">
+<div id=3D"divtagdefaultwrapper" style=3D"font-size:12pt;color:#000000;back=
+ground-color:#FFFFFF;font-family:Calibri,Arial,Helvetica,sans-serif;">
+<p>Hey,</p>
+<p><br>
+</p>
+<p>Google just announced it's nearline storage service today:&nbsp;<a href=
+=3D"https://cloud.google.com/storage/docs/nearline-storage" id=3D"LPlnk5473=
+09">https://cloud.google.com/storage/docs/nearline-storage</a>&#8203;. &nbs=
+p;&nbsp;It gives you storage at 1/3 the cost ($0.01/gb/month)
+ with some extra latency (3 sec) when the data is requested.<br>
+</p>
+<p><br>
+</p>
+<p>I think that this would be perfect for storing&nbsp;many scientific data=
+sets in the cloud where much of the data is infrequently accessed. &nbsp;<b=
+r>
+</p>
+<p><br>
+</p>
+<p>What are this groups thoughts on the suitability &nbsp;of cloud storage =
+for scientific data?<br>
+</p>
+<p><br>
+</p>
+<p>John<br>
+</p>
+</div>
+</body>
+</html>
+
+--_000_142612260826496097hdfgrouporg_--
+
+From owner-discuss@nationaldataservice.org Thu Mar 12 15:36:29 2015
+Received: (from majordomo@localhost)
+	by pop.ncsa.uiuc.edu (8.11.7/8.11.7) id t2CKaT726115;
+	Thu, 12 Mar 2015 15:36:29 -0500
+X-Envelope-From: jtowns@ncsa.illinois.edu
+X-Envelope-To: <discuss@nationaldataservice.org>
+Received: from rimantadine.ncsa.uiuc.edu (rimantadine.ncsa.uiuc.edu [141.142.199.3])
+	by pop.ncsa.uiuc.edu (8.11.7/8.11.7) with ESMTP id t2CKaTY26105
+	for <discuss@nationaldataservice.org>; Thu, 12 Mar 2015 15:36:29 -0500
+Received: from [141.142.146.161] (vpn-user-161.ncsa.illinois.edu [141.142.146.161])
+	(authenticated bits=0)
+	by rimantadine.ncsa.uiuc.edu (8.14.9/8.14.4) with ESMTP id t2CKaMOv006542
+	(version=TLSv1/SSLv3 cipher=DHE-RSA-AES128-SHA bits=128 verify=NO)
+	for <discuss@nationaldataservice.org>; Thu, 12 Mar 2015 15:36:25 -0500
+Message-ID: <5501C26C.2090204@ncsa.illinois.edu>
+Date: Thu, 12 Mar 2015 11:44:28 -0500
+From: John Towns - NCSA Cog <jtowns@ncsa.illinois.edu>
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:31.0) Gecko/20100101 Thunderbird/31.5.0
+MIME-Version: 1.0
+To: discuss@nationaldataservice.org
+Subject: Re: Google "Nearline" service
+References: <1426122608264.96097@hdfgroup.org>
+In-Reply-To: <1426122608264.96097@hdfgroup.org>
+Content-Type: multipart/alternative;
+ boundary="------------010506000304070404040509"
+X-Null-Tag: f8134eaeb1defa8f63ff46f01897e052
+X-NCSA-MailScanner-Information: Please contact help@ncsa.uiuc.edu for more information, rimantadine.ncsa.uiuc.edu
+X-NCSA-MailScanner-ID: t2CKaMOv006542
+X-NCSA-MailScanner: Found to be clean
+Sender: owner-discuss@nationaldataservice.org
+Precedence: bulk
+Reply-To: discuss@nationaldataservice.org
+
+This is a multi-part message in MIME format.
+--------------010506000304070404040509
+Content-Type: text/plain; charset=UTF-8; format=flowed
+Content-Transfer-Encoding: 8bit
+
+John--  I haven't looked at this and am not online currently, but the 
+typical problem with these services is that they tend to be 
+"store-once-read-never" optimized.  Is there a fee for data retrieval?  
+I like the notion of cloud storage for scientific data, but the cost are 
+almost always prohibitive for large collections of data.
+
+-John
+
+
+On 3/11/2015 8:10 PM, John Readey wrote:
+>
+> Hey,
+>
+>
+> Google just announced it's nearline storage service today: 
+> https://cloud.google.com/storage/docs/nearline-storage​ .   It gives 
+> you storage at 1/3 the cost ($0.01/gb/month) with some extra latency 
+> (3 sec) when the data is requested.
+>
+>
+> I think that this would be perfect for storing many scientific 
+> datasets in the cloud where much of the data is infrequently accessed.
+>
+>
+> What are this groups thoughts on the suitability  of cloud storage for 
+> scientific data?
+>
+>
+> John
+>
+
+
+--------------010506000304070404040509
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<html>
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+  </head>
+  <body bgcolor="#FFFFFF" text="#000000">
+    John--  I haven't looked at this and am not online currently, but
+    the typical problem with these services is that they tend to be
+    "store-once-read-never" optimized.  Is there a fee for data
+    retrieval?  I like the notion of cloud storage for scientific data,
+    but the cost are almost always prohibitive for large collections of
+    data.  <br>
+    <br>
+    -John<br>
+    <br>
+    <br>
+    <div class="moz-cite-prefix">On 3/11/2015 8:10 PM, John Readey
+      wrote:<br>
+    </div>
+    <blockquote cite="mid:1426122608264.96097@hdfgroup.org" type="cite">
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <style type="text/css" style="display:none;"><!-- P {margin-top:0;margin-bottom:0;} --></style>
+      <div id="divtagdefaultwrapper"
+style="font-size:12pt;color:#000000;background-color:#FFFFFF;font-family:Calibri,Arial,Helvetica,sans-serif;">
+        <p>Hey,</p>
+        <p><br>
+        </p>
+        <p>Google just announced it's nearline storage service today: <a
+            moz-do-not-send="true"
+            href="https://cloud.google.com/storage/docs/nearline-storage"
+            id="LPlnk547309">https://cloud.google.com/storage/docs/nearline-storage</a>​
+          .   It gives you storage at 1/3 the cost ($0.01/gb/month) with
+          some extra latency (3 sec) when the data is requested.<br>
+        </p>
+        <p><br>
+        </p>
+        <p>I think that this would be perfect for storing many
+          scientific datasets in the cloud where much of the data is
+          infrequently accessed.  <br>
+        </p>
+        <p><br>
+        </p>
+        <p>What are this groups thoughts on the suitability  of cloud
+          storage for scientific data?<br>
+        </p>
+        <p><br>
+        </p>
+        <p>John<br>
+        </p>
+      </div>
+    </blockquote>
+    <br>
+  </body>
+</html>
+
+--------------010506000304070404040509--
+
+From owner-discuss@nationaldataservice.org Thu Mar 12 15:46:15 2015
+Received: (from majordomo@localhost)
+	by pop.ncsa.uiuc.edu (8.11.7/8.11.7) id t2CKkFG04144;
+	Thu, 12 Mar 2015 15:46:15 -0500
+X-Envelope-From: matthewturk@gmail.com
+X-Envelope-To: <discuss@nationaldataservice.org>
+Received: from amantadine.ncsa.uiuc.edu (amantadine.ncsa.uiuc.edu [141.142.192.229])
+	by pop.ncsa.uiuc.edu (8.11.7/8.11.7) with ESMTP id t2CKkFY04130
+	for <discuss@nationaldataservice.org>; Thu, 12 Mar 2015 15:46:15 -0500
+Received: from mail-ie0-f177.google.com (mail-ie0-f177.google.com [209.85.223.177])
+	by amantadine.ncsa.uiuc.edu (8.14.9/8.14.4) with ESMTP id t2CKk4R7000307
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL)
+	for <discuss@nationaldataservice.org>; Thu, 12 Mar 2015 15:46:04 -0500
+Received: by iecsl2 with SMTP id sl2so59639465iec.1
+        for <discuss@nationaldataservice.org>; Thu, 12 Mar 2015 13:46:04 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:in-reply-to:references:from:date:message-id:subject:to
+         :content-type;
+        bh=uYtkUaxRrOOlI6xm2SMOfoAQugbLh7h8bCBE10bEOPA=;
+        b=DmNgNT1ZJ46PJn1OnnkTsTOUVy+mhkI9RXdu8o1Vk4FEIhhIXaUlAmWbmUFuOmpBf4
+         d5yc1oN20qQ0n1j3d4cuqKRr7SwWR59oOSOJp+k33o1oJmiG0k7WPl71RN/sCgRz/aUS
+         TH7wlYM+HMH8Vj2aFGjZTjnr6waEi7IXjYdjzJ8NlqctLoLhFLdFfhg7mij4CAWJZdtQ
+         Spcu7El+DGoqqhzxchsbuK1Qm5Qn9Q3yMsifni6SyW7n0MMZo9xnfUfyvJxSEkMjg3lZ
+         eYILd8PyBiGDiCiGibKyNsn9B2Y34q9jN37l3CzAE9JiZoNl5RZBW+iYgB2kC3dR4YKh
+         7ozg==
+X-Received: by 10.42.250.76 with SMTP id mn12mr52043877icb.40.1426192721838;
+ Thu, 12 Mar 2015 13:38:41 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.42.247.132 with HTTP; Thu, 12 Mar 2015 13:38:21 -0700 (PDT)
+In-Reply-To: <5501C26C.2090204@ncsa.illinois.edu>
+References: <1426122608264.96097@hdfgroup.org> <5501C26C.2090204@ncsa.illinois.edu>
+From: Matthew Turk <matthewturk@gmail.com>
+Date: Thu, 12 Mar 2015 15:38:21 -0500
+Message-ID: <CALO3=5FDdfitpOyNRQHRkf7dDDVdiJA6J7Gd=Z7e-fFY_49qyQ@mail.gmail.com>
+Subject: Re: Google "Nearline" service
+To: "discuss@nationaldataservice.org" <discuss@nationaldataservice.org>
+Content-Type: multipart/alternative; boundary=20cf301b61f99106e405111d5e6f
+X-Null-Tag: c71bbeab27fd816a6071e88c39f844d5
+X-Scanned-By: milter-spamc/1.15.388 (amantadine-old.ncsa.illinois.edu [141.142.199.5]); Thu, 12 Mar 2015 15:46:10 -0500
+X-Spam-Status: NO, hits=2.90 required=4.90
+X-Spam-Report: Spam detection software, running on the system "amantadine.ncsa.uiuc.edu", has
+  | identified this incoming email as possible spam.  The original message
+  | has been attached to this so you can view it (if it isn't spam) or label
+  | similar future email.  If you have any questions, see
+  | postmaster@ncsa.uiuc.edu for details.
+  | 
+  | Content preview:  Hi Johns Towns and Readey, JR: This is a pretty promising
+  |   service! The discussion on hacker news was pretty interesting as well. JT:
+  |    The cost for retrieval is pretty low, and they obliquely compare quite favorably
+  |    it to Glacier. Supposedly very, very fast retrieval speeds too. [...]
+  | 
+  | Content analysis details:   (2.9 points, 4.9 required)
+  | 
+  |  pts rule name              description
+  | ---- ---------------------- --------------------------------------------------
+  |  0.7 DNS_FROM_AHBL_RHSBL    RBL: Envelope sender listed in dnsbl.ahbl.org
+  | -1.0 RCVD_IN_DNSWL_LOW      RBL: Sender listed at http://www.dnswl.org/, low
+  |                             trust
+  |                             [209.85.223.177 listed in list.dnswl.org]
+  |  4.0 BAYES_99               BODY: Bayesian spam probability is 99 to 100p
+  |                             [score: 1.0000]
+  | -1.0 SPF_PASS               SPF: sender matches SPF record
+  |  0.0 HTML_MESSAGE           BODY: HTML included in message
+  |  0.2 AWL                    AWL: From: address is in the auto white-list
+  | 
+X-NCSA-MailScanner-Information: Please contact help@ncsa.uiuc.edu for more information, rimantadine.ncsa.uiuc.edu
+X-NCSA-MailScanner-ID: t2CKk4R7000307
+X-NCSA-MailScanner: Found to be clean
+Sender: owner-discuss@nationaldataservice.org
+Precedence: bulk
+Reply-To: discuss@nationaldataservice.org
+
+--20cf301b61f99106e405111d5e6f
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Hi Johns Towns and Readey,
+
+JR: This is a pretty promising service!  The discussion on hacker news was
+pretty interesting as well.
+
+JT: The cost for retrieval is pretty low, and they obliquely compare quite
+favorably it to Glacier.  Supposedly very, very fast retrieval speeds too.
+
+-Matt
+
+On Thu, Mar 12, 2015 at 11:44 AM, John Towns - NCSA Cog <
+jtowns@ncsa.illinois.edu> wrote:
+
+>  John--  I haven't looked at this and am not online currently, but the
+> typical problem with these services is that they tend to be
+> "store-once-read-never" optimized.  Is there a fee for data retrieval?  I
+> like the notion of cloud storage for scientific data, but the cost are
+> almost always prohibitive for large collections of data.
+>
+> -John
+>
+>
+>
+> On 3/11/2015 8:10 PM, John Readey wrote:
+>
+>  Hey,
+>
+>
+>  Google just announced it's nearline storage service today:
+> https://cloud.google.com/storage/docs/nearline-storage=E2=80=8B .   It gi=
+ves you
+> storage at 1/3 the cost ($0.01/gb/month) with some extra latency (3 sec)
+> when the data is requested.
+>
+>
+>  I think that this would be perfect for storing many scientific datasets
+> in the cloud where much of the data is infrequently accessed.
+>
+>
+>  What are this groups thoughts on the suitability  of cloud storage for
+> scientific data?
+>
+>
+>  John
+>
+>
+>
+
+--20cf301b61f99106e405111d5e6f
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Hi Johns Towns and Readey,<br><div><br></div><div>JR: This=
+ is a pretty promising service!=C2=A0 The discussion on hacker news was pre=
+tty interesting as well.</div><div><br></div><div>JT: The cost for retrieva=
+l is pretty low, and they obliquely compare quite favorably it to Glacier.=
+=C2=A0 Supposedly very, very fast retrieval speeds too.</div><div><br></div=
+><div>-Matt</div></div><div class=3D"gmail_extra"><br><div class=3D"gmail_q=
+uote">On Thu, Mar 12, 2015 at 11:44 AM, John Towns - NCSA Cog <span dir=3D"=
+ltr">&lt;<a href=3D"mailto:jtowns@ncsa.illinois.edu" target=3D"_blank">jtow=
+ns@ncsa.illinois.edu</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_qu=
+ote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex=
+">
+ =20
+   =20
+ =20
+  <div bgcolor=3D"#FFFFFF" text=3D"#000000">
+    John--=C2=A0 I haven&#39;t looked at this and am not online currently, =
+but
+    the typical problem with these services is that they tend to be
+    &quot;store-once-read-never&quot; optimized.=C2=A0 Is there a fee for d=
+ata
+    retrieval?=C2=A0 I like the notion of cloud storage for scientific data=
+,
+    but the cost are almost always prohibitive for large collections of
+    data.=C2=A0 <br><span class=3D"HOEnZb"><font color=3D"#888888">
+    <br>
+    -John</font></span><div><div class=3D"h5"><br>
+    <br>
+    <br>
+    <div>On 3/11/2015 8:10 PM, John Readey
+      wrote:<br>
+    </div>
+    <blockquote type=3D"cite">
+     =20
+     =20
+      <div style=3D"font-size:12pt;color:#000000;background-color:#ffffff;f=
+ont-family:Calibri,Arial,Helvetica,sans-serif">
+        <p>Hey,</p>
+        <p><br>
+        </p>
+        <p>Google just announced it&#39;s nearline storage service today:=
+=C2=A0<a href=3D"https://cloud.google.com/storage/docs/nearline-storage" ta=
+rget=3D"_blank">https://cloud.google.com/storage/docs/nearline-storage</a>=
+=E2=80=8B
+          . =C2=A0=C2=A0It gives you storage at 1/3 the cost ($0.01/gb/mont=
+h) with
+          some extra latency (3 sec) when the data is requested.<br>
+        </p>
+        <p><br>
+        </p>
+        <p>I think that this would be perfect for storing=C2=A0many
+          scientific datasets in the cloud where much of the data is
+          infrequently accessed. =C2=A0<br>
+        </p>
+        <p><br>
+        </p>
+        <p>What are this groups thoughts on the suitability =C2=A0of cloud
+          storage for scientific data?<br>
+        </p>
+        <p><br>
+        </p>
+        <p>John<br>
+        </p>
+      </div>
+    </blockquote>
+    <br>
+  </div></div></div>
+
+</blockquote></div><br></div>
+
+--20cf301b61f99106e405111d5e6f--
+
+From owner-discuss@nationaldataservice.org Thu Mar 12 16:05:48 2015
+Received: (from majordomo@localhost)
+	by pop.ncsa.uiuc.edu (8.11.7/8.11.7) id t2CL5mk01685;
+	Thu, 12 Mar 2015 16:05:48 -0500
+X-Envelope-From: jreadey@hdfgroup.org
+X-Envelope-To: <discuss@nationaldataservice.org>
+Received: from rimantadine.ncsa.uiuc.edu (rimantadine.ncsa.uiuc.edu [141.142.199.3])
+	by pop.ncsa.uiuc.edu (8.11.7/8.11.7) with ESMTP id t2CL5lY01672
+	for <discuss@nationaldataservice.org>; Thu, 12 Mar 2015 16:05:47 -0500
+Received: from na01-bn1-obe.outbound.protection.outlook.com (mail-bn1on0139.outbound.protection.outlook.com [157.56.110.139])
+	by rimantadine.ncsa.uiuc.edu (8.14.9/8.14.4) with ESMTP id t2CL5ZGD023842
+	(version=TLSv1/SSLv3 cipher=AES256-SHA bits=256 verify=FAIL)
+	for <discuss@nationaldataservice.org>; Thu, 12 Mar 2015 16:05:36 -0500
+Received: from BN1PR07MB933.namprd07.prod.outlook.com (10.141.62.18) by
+ BN1PR07MB933.namprd07.prod.outlook.com (10.141.62.18) with Microsoft SMTP
+ Server (TLS) id 15.1.106.15; Thu, 12 Mar 2015 21:05:23 +0000
+Received: from BN1PR07MB933.namprd07.prod.outlook.com ([10.141.62.18]) by
+ BN1PR07MB933.namprd07.prod.outlook.com ([10.141.62.18]) with mapi id
+ 15.01.0106.007; Thu, 12 Mar 2015 21:05:23 +0000
+From: John Readey <jreadey@hdfgroup.org>
+To: "discuss@nationaldataservice.org" <discuss@nationaldataservice.org>
+Subject: Re: Google "Nearline" service
+Thread-Topic: Google "Nearline" service
+Thread-Index: AQHQXGAN9qkiT5WZVkiMvq6sHe5g+50ZDtwAgABBWICAAATVOg==
+Date: Thu, 12 Mar 2015 21:05:23 +0000
+Message-ID: <1426194322262.80508@hdfgroup.org>
+References: <1426122608264.96097@hdfgroup.org>
+ <5501C26C.2090204@ncsa.illinois.edu>,<CALO3=5FDdfitpOyNRQHRkf7dDDVdiJA6J7Gd=Z7e-fFY_49qyQ@mail.gmail.com>
+In-Reply-To: <CALO3=5FDdfitpOyNRQHRkf7dDDVdiJA6J7Gd=Z7e-fFY_49qyQ@mail.gmail.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+x-originating-ip: [65.102.187.50]
+authentication-results: nationaldataservice.org; dkim=none (message not
+ signed) header.d=none;
+x-microsoft-antispam: UriScan:;BCL:0;PCL:0;RULEID:;SRVR:BN1PR07MB933;
+x-forefront-antispam-report: BMV:1;SFV:NSPM;SFS:(10019020)(377454003)(51444003)(24454002)(479174004)(15975445007)(2900100001)(2950100001)(102836002)(110136001)(19627405001)(19625215002)(117636001)(2351001)(87936001)(19580405001)(36756003)(40100003)(86362001)(450100001)(2656002)(54356999)(66066001)(77156002)(2501003)(16236675004)(19580395003)(77096005)(50986999)(62966003)(107886001)(46102003)(92566002)(106116001)(76176999)(19617315012);DIR:OUT;SFP:1102;SCL:1;SRVR:BN1PR07MB933;H:BN1PR07MB933.namprd07.prod.outlook.com;FPR:;SPF:None;MLV:sfv;LANG:en;
+x-microsoft-antispam-prvs: <BN1PR07MB933AB0EF2B495231D9834C2DF060@BN1PR07MB933.namprd07.prod.outlook.com>
+x-exchange-antispam-report-test: UriScan:;
+x-exchange-antispam-report-cfa-test: BCL:0;PCL:0;RULEID:(601004)(5002009)(5005006);SRVR:BN1PR07MB933;BCL:0;PCL:0;RULEID:;SRVR:BN1PR07MB933;
+x-forefront-prvs: 05134F8B4F
+Content-Type: multipart/alternative;
+	boundary="_000_142619432226280508hdfgrouporg_"
+MIME-Version: 1.0
+X-OriginatorOrg: hdfgroup.org
+X-MS-Exchange-CrossTenant-originalarrivaltime: 12 Mar 2015 21:05:23.0783
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 670728e4-f05c-4505-9642-0d1e5754ea9e
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BN1PR07MB933
+X-Null-Tag: 677c5c442082265a2600765d33b851b3
+X-Scanned-By: milter-spamc/1.15.388 (rimantadine.ncsa.uiuc.edu [141.142.199.3]); Thu, 12 Mar 2015 16:05:45 -0500
+X-Spam-Status: NO, hits=3.70 required=4.90
+X-Spam-Report: Spam detection software, running on the system "rimantadine.ncsa.uiuc.edu", has
+  | identified this incoming email as possible spam.  The original message
+  | has been attached to this so you can view it (if it isn't spam) or label
+  | similar future email.  If you have any questions, see
+  | postmaster@ncsa.uiuc.edu for details.
+  | 
+  | Content preview:  ?Right, the pricing model for AWS Glacier definitely gets
+  |   you when you do retrievals. Nearline looks a million times better in this
+  |   regard. Also, I'm thinking that access to the data would be mediated by a
+  |   service layer. The service could make informed decisions (based on recent
+  |   access) about which objects to keep in online vs nearline storage. It maybe
+  |    as simple as keep everything in nearline. On access move to online and keep
+  |    for the next n days. [...]
+  | 
+  | Content analysis details:   (3.7 points, 4.9 required)
+  | 
+  |  pts rule name              description
+  | ---- ---------------------- --------------------------------------------------
+  |  0.7 DNS_FROM_AHBL_RHSBL    RBL: Envelope sender listed in dnsbl.ahbl.org
+  |  4.0 BAYES_99               BODY: Bayesian spam probability is 99 to 100p
+  |                             [score: 1.0000]
+  | -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+  | -1.0 SPF_PASS               SPF: sender matches SPF record
+  |  0.0 HTML_MESSAGE           BODY: HTML included in message
+  |  0.0 AWL                    AWL: From: address is in the auto white-list
+  | 
+X-NCSA-MailScanner-Information: Please contact help@ncsa.uiuc.edu for more information, rimantadine.ncsa.uiuc.edu
+X-NCSA-MailScanner-ID: t2CL5ZGD023842
+X-NCSA-MailScanner: Found to be clean
+Sender: owner-discuss@nationaldataservice.org
+Precedence: bulk
+Reply-To: discuss@nationaldataservice.org
+
+--_000_142619432226280508hdfgrouporg_
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+?Right, the pricing model for AWS Glacier definitely gets you when you do r=
+etrievals.  Nearline looks a million times better in this regard.
+
+
+Also, I'm thinking that access to the data would be mediated by a service l=
+ayer.  The service could make informed decisions (based on recent access) a=
+bout which objects to keep in online vs nearline storage.  It maybe as simp=
+le as keep everything in nearline.  On access move to online and keep for t=
+he next n days.
+
+
+Notice the retrieval throughput scales with the amount of data you have in =
+storage.  4 MB/s per TB of storage.  So at PB-scale this is looking pretty =
+good.
+
+
+-john
+
+________________________________
+From: owner-discuss@nationaldataservice.org <owner-discuss@nationaldataserv=
+ice.org> on behalf of Matthew Turk <matthewturk@gmail.com>
+Sent: Thursday, March 12, 2015 1:38 PM
+To: discuss@nationaldataservice.org
+Subject: Re: Google "Nearline" service
+
+Hi Johns Towns and Readey,
+
+JR: This is a pretty promising service!  The discussion on hacker news was =
+pretty interesting as well.
+
+JT: The cost for retrieval is pretty low, and they obliquely compare quite =
+favorably it to Glacier.  Supposedly very, very fast retrieval speeds too.
+
+-Matt
+
+On Thu, Mar 12, 2015 at 11:44 AM, John Towns - NCSA Cog <jtowns@ncsa.illino=
+is.edu<mailto:jtowns@ncsa.illinois.edu>> wrote:
+John--  I haven't looked at this and am not online currently, but the typic=
+al problem with these services is that they tend to be "store-once-read-nev=
+er" optimized.  Is there a fee for data retrieval?  I like the notion of cl=
+oud storage for scientific data, but the cost are almost always prohibitive=
+ for large collections of data.
+
+-John
+
+
+
+On 3/11/2015 8:10 PM, John Readey wrote:
+
+Hey,
+
+
+Google just announced it's nearline storage service today: https://cloud.go=
+ogle.com/storage/docs/nearline-storage? .   It gives you storage at 1/3 the=
+ cost ($0.01/gb/month) with some extra latency (3 sec) when the data is req=
+uested.
+
+
+I think that this would be perfect for storing many scientific datasets in =
+the cloud where much of the data is infrequently accessed.
+
+
+What are this groups thoughts on the suitability  of cloud storage for scie=
+ntific data?
+
+
+John
+
+
+
+--_000_142619432226280508hdfgrouporg_
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+<style type=3D"text/css" style=3D"display:none;"><!-- P {margin-top:0;margi=
+n-bottom:0;} --></style>
+</head>
+<body dir=3D"ltr">
+<div id=3D"divtagdefaultwrapper" style=3D"font-size:12pt;color:#000000;back=
+ground-color:#FFFFFF;font-family:Calibri,Arial,Helvetica,sans-serif;">
+<p>&#8203;Right, the pricing model for AWS Glacier definitely gets you when=
+ you do retrievals. &nbsp;Nearline looks a million times better in this reg=
+ard. &nbsp;<br>
+</p>
+<p><br>
+</p>
+<p>Also, I'm thinking that access to the data would be mediated by a servic=
+e layer. &nbsp;The service could make informed decisions (based on recent a=
+ccess) about which objects to keep in online vs nearline storage. &nbsp;It =
+maybe as simple as keep everything in nearline.
+ &nbsp;On access move to online and keep for the next n days.<br>
+</p>
+<p><br>
+</p>
+<p>Notice the retrieval throughput scales with the amount of data you have =
+in storage. &nbsp;4 MB/s per TB of storage. &nbsp;So at PB-scale this is lo=
+oking pretty good.<br>
+</p>
+<p><br>
+</p>
+<p>-john<br>
+</p>
+<div style=3D"color: rgb(33, 33, 33);">
+<hr tabindex=3D"-1" style=3D"display:inline-block; width:98%">
+<div id=3D"divRplyFwdMsg" dir=3D"ltr"><font face=3D"Calibri, sans-serif" co=
+lor=3D"#000000" style=3D"font-size:11pt"><b>From:</b> owner-discuss@nationa=
+ldataservice.org &lt;owner-discuss@nationaldataservice.org&gt; on behalf of=
+ Matthew Turk &lt;matthewturk@gmail.com&gt;<br>
+<b>Sent:</b> Thursday, March 12, 2015 1:38 PM<br>
+<b>To:</b> discuss@nationaldataservice.org<br>
+<b>Subject:</b> Re: Google &quot;Nearline&quot; service</font>
+<div>&nbsp;</div>
+</div>
+<div>
+<div dir=3D"ltr">Hi Johns Towns and Readey,<br>
+<div><br>
+</div>
+<div>JR: This is a pretty promising service!&nbsp; The discussion on hacker=
+ news was pretty interesting as well.</div>
+<div><br>
+</div>
+<div>JT: The cost for retrieval is pretty low, and they obliquely compare q=
+uite favorably it to Glacier.&nbsp; Supposedly very, very fast retrieval sp=
+eeds too.</div>
+<div><br>
+</div>
+<div>-Matt</div>
+</div>
+<div class=3D"gmail_extra"><br>
+<div class=3D"gmail_quote">On Thu, Mar 12, 2015 at 11:44 AM, John Towns - N=
+CSA Cog <span dir=3D"ltr">
+&lt;<a href=3D"mailto:jtowns@ncsa.illinois.edu" target=3D"_blank">jtowns@nc=
+sa.illinois.edu</a>&gt;</span> wrote:<br>
+<blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex; border-left:1=
+px #ccc solid; padding-left:1ex">
+<div bgcolor=3D"#FFFFFF">John--&nbsp; I haven't looked at this and am not o=
+nline currently, but the typical problem with these services is that they t=
+end to be &quot;store-once-read-never&quot; optimized.&nbsp; Is there a fee=
+ for data retrieval?&nbsp; I like the notion of cloud storage
+ for scientific data, but the cost are almost always prohibitive for large =
+collections of data.&nbsp;
+<br>
+<span class=3D"HOEnZb"><font color=3D"#888888"><br>
+-John</font></span>
+<div>
+<div class=3D"h5"><br>
+<br>
+<br>
+<div>On 3/11/2015 8:10 PM, John Readey wrote:<br>
+</div>
+<blockquote type=3D"cite">
+<div style=3D"font-size:12pt; color:#000000; background-color:#ffffff; font=
+-family:Calibri,Arial,Helvetica,sans-serif">
+<p>Hey,</p>
+<p><br>
+</p>
+<p>Google just announced it's nearline storage service today:&nbsp;<a href=
+=3D"https://cloud.google.com/storage/docs/nearline-storage" target=3D"_blan=
+k">https://cloud.google.com/storage/docs/nearline-storage</a>&#8203; . &nbs=
+p;&nbsp;It gives you storage at 1/3 the cost ($0.01/gb/month)
+ with some extra latency (3 sec) when the data is requested.<br>
+</p>
+<p><br>
+</p>
+<p>I think that this would be perfect for storing&nbsp;many scientific data=
+sets in the cloud where much of the data is infrequently accessed. &nbsp;<b=
+r>
+</p>
+<p><br>
+</p>
+<p>What are this groups thoughts on the suitability &nbsp;of cloud storage =
+for scientific data?<br>
+</p>
+<p><br>
+</p>
+<p>John<br>
+</p>
+</div>
+</blockquote>
+<br>
+</div>
+</div>
+</div>
+</blockquote>
+</div>
+<br>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
+
+--_000_142619432226280508hdfgrouporg_--
+
+From owner-discuss@nationaldataservice.org Thu Mar 12 16:09:28 2015
+Received: (from majordomo@localhost)
+	by pop.ncsa.uiuc.edu (8.11.7/8.11.7) id t2CL9Sj07852;
+	Thu, 12 Mar 2015 16:09:28 -0500
+X-Envelope-From: matthewturk@gmail.com
+X-Envelope-To: <discuss@nationaldataservice.org>
+Received: from rimantadine.ncsa.uiuc.edu (rimantadine.ncsa.uiuc.edu [141.142.199.3])
+	by pop.ncsa.uiuc.edu (8.11.7/8.11.7) with ESMTP id t2CL9SY07842
+	for <discuss@nationaldataservice.org>; Thu, 12 Mar 2015 16:09:28 -0500
+Received: from mail-ie0-f174.google.com (mail-ie0-f174.google.com [209.85.223.174])
+	by rimantadine.ncsa.uiuc.edu (8.14.9/8.14.4) with ESMTP id t2CL9KnX026290
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL)
+	for <discuss@nationaldataservice.org>; Thu, 12 Mar 2015 16:09:20 -0500
+Received: by iegc3 with SMTP id c3so62925834ieg.3
+        for <discuss@nationaldataservice.org>; Thu, 12 Mar 2015 14:08:54 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:in-reply-to:references:from:date:message-id:subject:to
+         :content-type;
+        bh=q5v+r+u8S1g4FVA7ixypM/GttvWYYRzHz0Fs9cpKPIc=;
+        b=jDM2qjfV5Hypvc2Tv2pqzk2Bh5Ab0o868K6EyB2LfKIeklJsKPAR377WyyYEOXZP6v
+         aGHpmkEEhQY/rdPBov35d5oR/aWJzl1y/Fb6jklU0BuymXKRk8lwh9dY1zWt5/UXShcL
+         53GXywll/S6UGwaQlypo28wK4vwYK52pO2+kTkE7G9hijca+2OxhJhi0zLQFhfXVY/N7
+         Juc4nmwx1sfijfV+eTibBMgUZqk0aVIFsDhE1BhOmPSNnmlQspHAHjcPbaePoicJKe54
+         JMVi/IHf7FDkXZlSS9S5YumVilk1wWeS3Hcbudy3Dk9AbK/b3Df0XuKMeG47FUCUgUkN
+         m+gQ==
+X-Received: by 10.50.43.162 with SMTP id x2mr104317025igl.46.1426194533826;
+ Thu, 12 Mar 2015 14:08:53 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.42.247.132 with HTTP; Thu, 12 Mar 2015 14:08:30 -0700 (PDT)
+In-Reply-To: <1426194322262.80508@hdfgroup.org>
+References: <1426122608264.96097@hdfgroup.org> <5501C26C.2090204@ncsa.illinois.edu>
+ <CALO3=5FDdfitpOyNRQHRkf7dDDVdiJA6J7Gd=Z7e-fFY_49qyQ@mail.gmail.com> <1426194322262.80508@hdfgroup.org>
+From: Matthew Turk <matthewturk@gmail.com>
+Date: Thu, 12 Mar 2015 16:08:30 -0500
+Message-ID: <CALO3=5E8UdX3ryHfADxnhDY29TOpGhWMrif3t8ko5Mq6J9bENA@mail.gmail.com>
+Subject: Re: Google "Nearline" service
+To: "discuss@nationaldataservice.org" <discuss@nationaldataservice.org>
+Content-Type: multipart/alternative; boundary=089e0103e4ce925abd05111dca3d
+X-Null-Tag: 9960efe0b2d4f84b5d8cf05c2d1fff9d
+X-Scanned-By: milter-spamc/1.15.388 (zanamavir.ncsa.uiuc.edu [141.142.199.4]); Thu, 12 Mar 2015 16:09:26 -0500
+X-Spam-Status: NO, hits=2.90 required=4.90
+X-Spam-Report: Spam detection software, running on the system "rimantadine.ncsa.uiuc.edu", has
+  | identified this incoming email as possible spam.  The original message
+  | has been attached to this so you can view it (if it isn't spam) or label
+  | similar future email.  If you have any questions, see
+  | postmaster@ncsa.uiuc.edu for details.
+  | 
+  | Content preview:  Hi John, Agreed -- and in fact, it should be reasonably straightforward
+  |    to deploy on GCE, too. (Things developed in the nds-labs repo would be transparently
+  |    deployable there, in fact.) A petabyte would be $10k/month or so, just for
+  |    storage, right? It would be interesting to experiment with this. [...]
+  | 
+  | Content analysis details:   (2.9 points, 4.9 required)
+  | 
+  |  pts rule name              description
+  | ---- ---------------------- --------------------------------------------------
+  |  0.7 DNS_FROM_AHBL_RHSBL    RBL: Envelope sender listed in dnsbl.ahbl.org
+  | -1.0 RCVD_IN_DNSWL_LOW      RBL: Sender listed at http://www.dnswl.org/, low
+  |                             trust
+  |                             [209.85.223.174 listed in list.dnswl.org]
+  |  4.0 BAYES_99               BODY: Bayesian spam probability is 99 to 100p
+  |                             [score: 1.0000]
+  | -1.0 SPF_PASS               SPF: sender matches SPF record
+  |  0.0 HTML_MESSAGE           BODY: HTML included in message
+  |  0.2 AWL                    AWL: From: address is in the auto white-list
+  | 
+X-NCSA-MailScanner-Information: Please contact help@ncsa.uiuc.edu for more information, rimantadine.ncsa.uiuc.edu
+X-NCSA-MailScanner-ID: t2CL9KnX026290
+X-NCSA-MailScanner: Found to be clean
+Sender: owner-discuss@nationaldataservice.org
+Precedence: bulk
+Reply-To: discuss@nationaldataservice.org
+
+--089e0103e4ce925abd05111dca3d
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Hi John,
+
+Agreed -- and in fact, it should be reasonably straightforward to deploy on
+GCE, too.  (Things developed in the nds-labs repo would be transparently
+deployable there, in fact.)  A petabyte would be $10k/month or so, just for
+storage, right?  It would be interesting to experiment with this.
+
+-Matt
+
+On Thu, Mar 12, 2015 at 4:05 PM, John Readey <jreadey@hdfgroup.org> wrote:
+
+>  =E2=80=8BRight, the pricing model for AWS Glacier definitely gets you wh=
+en you
+> do retrievals.  Nearline looks a million times better in this regard.
+>
+>
+>  Also, I'm thinking that access to the data would be mediated by a
+> service layer.  The service could make informed decisions (based on recen=
+t
+> access) about which objects to keep in online vs nearline storage.  It
+> maybe as simple as keep everything in nearline.  On access move to online
+> and keep for the next n days.
+>
+>
+>  Notice the retrieval throughput scales with the amount of data you have
+> in storage.  4 MB/s per TB of storage.  So at PB-scale this is looking
+> pretty good.
+>
+>
+>  -john
+>  ------------------------------
+> *From:* owner-discuss@nationaldataservice.org <
+> owner-discuss@nationaldataservice.org> on behalf of Matthew Turk <
+> matthewturk@gmail.com>
+> *Sent:* Thursday, March 12, 2015 1:38 PM
+> *To:* discuss@nationaldataservice.org
+> *Subject:* Re: Google "Nearline" service
+>
+>  Hi Johns Towns and Readey,
+>
+>  JR: This is a pretty promising service!  The discussion on hacker news
+> was pretty interesting as well.
+>
+>  JT: The cost for retrieval is pretty low, and they obliquely compare
+> quite favorably it to Glacier.  Supposedly very, very fast retrieval spee=
+ds
+> too.
+>
+>  -Matt
+>
+> On Thu, Mar 12, 2015 at 11:44 AM, John Towns - NCSA Cog <
+> jtowns@ncsa.illinois.edu> wrote:
+>
+>> John--  I haven't looked at this and am not online currently, but the
+>> typical problem with these services is that they tend to be
+>> "store-once-read-never" optimized.  Is there a fee for data retrieval?  =
+I
+>> like the notion of cloud storage for scientific data, but the cost are
+>> almost always prohibitive for large collections of data.
+>>
+>> -John
+>>
+>>
+>>
+>> On 3/11/2015 8:10 PM, John Readey wrote:
+>>
+>>  Hey,
+>>
+>>
+>>  Google just announced it's nearline storage service today:
+>> https://cloud.google.com/storage/docs/nearline-storage=E2=80=8B .   It g=
+ives you
+>> storage at 1/3 the cost ($0.01/gb/month) with some extra latency (3 sec)
+>> when the data is requested.
+>>
+>>
+>>  I think that this would be perfect for storing many scientific datasets
+>> in the cloud where much of the data is infrequently accessed.
+>>
+>>
+>>  What are this groups thoughts on the suitability  of cloud storage for
+>> scientific data?
+>>
+>>
+>>  John
+>>
+>>
+>>
+>
+
+--089e0103e4ce925abd05111dca3d
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Hi John,<div><br></div><div>Agreed -- and in fact, it shou=
+ld be reasonably straightforward to deploy on GCE, too. =C2=A0(Things devel=
+oped in the nds-labs repo would be transparently deployable there, in fact.=
+) =C2=A0A petabyte would be $10k/month or so, just for storage, right?=C2=
+=A0 It would be interesting to experiment with this.</div><div><br></div><d=
+iv>-Matt</div></div><div class=3D"gmail_extra"><br><div class=3D"gmail_quot=
+e">On Thu, Mar 12, 2015 at 4:05 PM, John Readey <span dir=3D"ltr">&lt;<a hr=
+ef=3D"mailto:jreadey@hdfgroup.org" target=3D"_blank">jreadey@hdfgroup.org</=
+a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quote" style=3D"margin:0=
+ 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex">
+
+
+
+
+<div dir=3D"ltr">
+<div style=3D"font-size:12pt;color:#000000;background-color:#ffffff;font-fa=
+mily:Calibri,Arial,Helvetica,sans-serif">
+<p>=E2=80=8BRight, the pricing model for AWS Glacier definitely gets you wh=
+en you do retrievals.=C2=A0 Nearline looks a million times better in this r=
+egard. =C2=A0<br>
+</p>
+<p><br>
+</p>
+<p>Also, I&#39;m thinking that access to the data would be mediated by a se=
+rvice layer.=C2=A0 The service could make informed decisions (based on rece=
+nt access) about which objects to keep in online vs nearline storage.=C2=A0=
+ It maybe as simple as keep everything in nearline.
+ =C2=A0On access move to online and keep for the next n days.<br>
+</p>
+<p><br>
+</p>
+<p>Notice the retrieval throughput scales with the amount of data you have =
+in storage. =C2=A04 MB/s per TB of storage.=C2=A0 So at PB-scale this is lo=
+oking pretty good.<br>
+</p>
+<p><br>
+</p>
+<p>-john<br>
+</p>
+<div style=3D"color:rgb(33,33,33)">
+<hr style=3D"display:inline-block;width:98%">
+<div dir=3D"ltr"><font face=3D"Calibri, sans-serif" color=3D"#000000" style=
+=3D"font-size:11pt"><b>From:</b> <a href=3D"mailto:owner-discuss@nationalda=
+taservice.org" target=3D"_blank">owner-discuss@nationaldataservice.org</a> =
+&lt;<a href=3D"mailto:owner-discuss@nationaldataservice.org" target=3D"_bla=
+nk">owner-discuss@nationaldataservice.org</a>&gt; on behalf of Matthew Turk=
+ &lt;<a href=3D"mailto:matthewturk@gmail.com" target=3D"_blank">matthewturk=
+@gmail.com</a>&gt;<br>
+<b>Sent:</b> Thursday, March 12, 2015 1:38 PM<br>
+<b>To:</b> <a href=3D"mailto:discuss@nationaldataservice.org" target=3D"_bl=
+ank">discuss@nationaldataservice.org</a><br>
+<b>Subject:</b> Re: Google &quot;Nearline&quot; service</font>
+<div>=C2=A0</div>
+</div><div><div class=3D"h5">
+<div>
+<div dir=3D"ltr">Hi Johns Towns and Readey,<br>
+<div><br>
+</div>
+<div>JR: This is a pretty promising service!=C2=A0 The discussion on hacker=
+ news was pretty interesting as well.</div>
+<div><br>
+</div>
+<div>JT: The cost for retrieval is pretty low, and they obliquely compare q=
+uite favorably it to Glacier.=C2=A0 Supposedly very, very fast retrieval sp=
+eeds too.</div>
+<div><br>
+</div>
+<div>-Matt</div>
+</div>
+<div class=3D"gmail_extra"><br>
+<div class=3D"gmail_quote">On Thu, Mar 12, 2015 at 11:44 AM, John Towns - N=
+CSA Cog <span dir=3D"ltr">
+&lt;<a href=3D"mailto:jtowns@ncsa.illinois.edu" target=3D"_blank">jtowns@nc=
+sa.illinois.edu</a>&gt;</span> wrote:<br>
+<blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1p=
+x #ccc solid;padding-left:1ex">
+<div bgcolor=3D"#FFFFFF">John--=C2=A0 I haven&#39;t looked at this and am n=
+ot online currently, but the typical problem with these services is that th=
+ey tend to be &quot;store-once-read-never&quot; optimized.=C2=A0 Is there a=
+ fee for data retrieval?=C2=A0 I like the notion of cloud storage
+ for scientific data, but the cost are almost always prohibitive for large =
+collections of data.=C2=A0
+<br>
+<span><font color=3D"#888888"><br>
+-John</font></span>
+<div>
+<div><br>
+<br>
+<br>
+<div>On 3/11/2015 8:10 PM, John Readey wrote:<br>
+</div>
+<blockquote type=3D"cite">
+<div style=3D"font-size:12pt;color:#000000;background-color:#ffffff;font-fa=
+mily:Calibri,Arial,Helvetica,sans-serif">
+<p>Hey,</p>
+<p><br>
+</p>
+<p>Google just announced it&#39;s nearline storage service today:=C2=A0<a h=
+ref=3D"https://cloud.google.com/storage/docs/nearline-storage" target=3D"_b=
+lank">https://cloud.google.com/storage/docs/nearline-storage</a>=E2=80=8B .=
+ =C2=A0=C2=A0It gives you storage at 1/3 the cost ($0.01/gb/month)
+ with some extra latency (3 sec) when the data is requested.<br>
+</p>
+<p><br>
+</p>
+<p>I think that this would be perfect for storing=C2=A0many scientific data=
+sets in the cloud where much of the data is infrequently accessed. =C2=A0<b=
+r>
+</p>
+<p><br>
+</p>
+<p>What are this groups thoughts on the suitability =C2=A0of cloud storage =
+for scientific data?<br>
+</p>
+<p><br>
+</p>
+<p>John<br>
+</p>
+</div>
+</blockquote>
+<br>
+</div>
+</div>
+</div>
+</blockquote>
+</div>
+<br>
+</div>
+</div>
+</div></div></div>
+</div>
+</div>
+
+</blockquote></div><br></div>
+
+--089e0103e4ce925abd05111dca3d--
+
+From owner-discuss@nationaldataservice.org Thu Mar 12 16:12:23 2015
+Received: (from majordomo@localhost)
+	by pop.ncsa.uiuc.edu (8.11.7/8.11.7) id t2CLCNM13671;
+	Thu, 12 Mar 2015 16:12:23 -0500
+X-Envelope-From: foster@anl.gov
+X-Envelope-To: <discuss@nationaldataservice.org>
+Received: from amantadine.ncsa.uiuc.edu (amantadine.ncsa.uiuc.edu [141.142.192.229])
+	by pop.ncsa.uiuc.edu (8.11.7/8.11.7) with ESMTP id t2CLCMY13661
+	for <discuss@nationaldataservice.org>; Thu, 12 Mar 2015 16:12:22 -0500
+Received: from mailrelay.anl.gov (mailrelay.anl.gov [130.202.101.22])
+	by amantadine.ncsa.uiuc.edu (8.14.9/8.14.4) with ESMTP id t2CLCLra009346
+	(version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=FAIL)
+	for <discuss@nationaldataservice.org>; Thu, 12 Mar 2015 16:12:21 -0500
+Received: from mailgateway.anl.gov (mailgateway.anl.gov [130.202.101.28])
+	(using TLSv1 with cipher RC4-SHA (128/128 bits))
+	(No client certificate requested)
+	by mailrelay.anl.gov (Postfix) with ESMTPS id C592A2000D8
+	for <discuss@nationaldataservice.org>; Thu, 12 Mar 2015 16:12:20 -0500 (CDT)
+X-IronPort-AV: E=Sophos;i="5.11,390,1422943200"; 
+   d="scan'208,217";a="71451756"
+Received: from george.anl.gov ([146.137.81.23])
+  by mailgateway.anl.gov with ESMTP/TLS/AES128-SHA; 12 Mar 2015 16:12:21 -0500
+Received: from DITKA.anl.gov ([fe80::4c70:9e9e:3e24:2d2]) by GEORGE.anl.gov
+ ([2002:9289:5117::9289:5117]) with mapi id 14.03.0210.002; Thu, 12 Mar 2015
+ 16:12:20 -0500
+From: "Foster, Ian T." <foster@anl.gov>
+To: "discuss@nationaldataservice.org" <discuss@nationaldataservice.org>
+Subject: Re: Google "Nearline" service
+Thread-Topic: Google "Nearline" service
+Thread-Index: AQHQXGAN9qkiT5WZVkiMvq6sHe5g+50ZYq0AgABBWYCAAAeOgIAAAfCA
+Date: Thu, 12 Mar 2015 21:12:19 +0000
+Message-ID: <37A1536B-4C62-4C16-A411-9EE74E33C3D3@anl.gov>
+References: <1426122608264.96097@hdfgroup.org>
+ <5501C26C.2090204@ncsa.illinois.edu>
+ <,<CALO3=5FDdfitpOyNRQHRkf7dDDVdiJA6J7Gd=Z7e-fFY_49qyQ@mail.gmail.com> <>>
+ <1426194322262.80508@hdfgroup.org>
+In-Reply-To: <1426194322262.80508@hdfgroup.org>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+x-originating-ip: [146.137.81.42]
+Content-Type: multipart/alternative;
+	boundary="_000_37A1536B4C624C16A4119EE74E33C3D3anlgov_"
+MIME-Version: 1.0
+X-Null-Tag: 7ce2f9a92b6b38ba74eeca20d3c80b3b
+X-NCSA-MailScanner-Information: Please contact help@ncsa.uiuc.edu for more information, rimantadine.ncsa.uiuc.edu
+X-NCSA-MailScanner-ID: t2CLCLra009346
+X-NCSA-MailScanner: Found to be clean
+Sender: owner-discuss@nationaldataservice.org
+Precedence: bulk
+Reply-To: discuss@nationaldataservice.org
+
+--_000_37A1536B4C624C16A4119EE74E33C3D3anlgov_
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: base64
+
+V2UgaGF2ZSBTMyBzdXBwb3J0IGluIEdsb2J1czsgd2Ugd2FudCB0byBhZGQgR2xhY2llciBzdXBw
+b3J04oCUcXVpdGUgYSBmZXcgY2FtcHVzZXMgYXJlIGFza2luZyBmb3IgdGhhdC4gT25lIGRheSBz
+b29uIEkgaG9wZSAuLi4NCg0KT24gTWFyIDEyLCAyMDE1LCBhdCA0OjA1IFBNLCBKb2huIFJlYWRl
+eSA8anJlYWRleUBoZGZncm91cC5vcmc8bWFpbHRvOmpyZWFkZXlAaGRmZ3JvdXAub3JnPj4gd3Jv
+dGU6DQoNCuKAi1JpZ2h0LCB0aGUgcHJpY2luZyBtb2RlbCBmb3IgQVdTIEdsYWNpZXIgZGVmaW5p
+dGVseSBnZXRzIHlvdSB3aGVuIHlvdSBkbyByZXRyaWV2YWxzLiAgTmVhcmxpbmUgbG9va3MgYSBt
+aWxsaW9uIHRpbWVzIGJldHRlciBpbiB0aGlzIHJlZ2FyZC4NCg0KQWxzbywgSSdtIHRoaW5raW5n
+IHRoYXQgYWNjZXNzIHRvIHRoZSBkYXRhIHdvdWxkIGJlIG1lZGlhdGVkIGJ5IGEgc2VydmljZSBs
+YXllci4gIFRoZSBzZXJ2aWNlIGNvdWxkIG1ha2UgaW5mb3JtZWQgZGVjaXNpb25zIChiYXNlZCBv
+biByZWNlbnQgYWNjZXNzKSBhYm91dCB3aGljaCBvYmplY3RzIHRvIGtlZXAgaW4gb25saW5lIHZz
+IG5lYXJsaW5lIHN0b3JhZ2UuICBJdCBtYXliZSBhcyBzaW1wbGUgYXMga2VlcCBldmVyeXRoaW5n
+IGluIG5lYXJsaW5lLiAgT24gYWNjZXNzIG1vdmUgdG8gb25saW5lIGFuZCBrZWVwIGZvciB0aGUg
+bmV4dCBuIGRheXMuDQoNCk5vdGljZSB0aGUgcmV0cmlldmFsIHRocm91Z2hwdXQgc2NhbGVzIHdp
+dGggdGhlIGFtb3VudCBvZiBkYXRhIHlvdSBoYXZlIGluIHN0b3JhZ2UuICA0IE1CL3MgcGVyIFRC
+IG9mIHN0b3JhZ2UuICBTbyBhdCBQQi1zY2FsZSB0aGlzIGlzIGxvb2tpbmcgcHJldHR5IGdvb2Qu
+DQoNCi1qb2huDQpfX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fXw0KRnJvbTogb3duZXIt
+ZGlzY3Vzc0BuYXRpb25hbGRhdGFzZXJ2aWNlLm9yZzxtYWlsdG86b3duZXItZGlzY3Vzc0BuYXRp
+b25hbGRhdGFzZXJ2aWNlLm9yZz4gPG93bmVyLWRpc2N1c3NAbmF0aW9uYWxkYXRhc2VydmljZS5v
+cmc8bWFpbHRvOm93bmVyLWRpc2N1c3NAbmF0aW9uYWxkYXRhc2VydmljZS5vcmc+PiBvbiBiZWhh
+bGYgb2YgTWF0dGhldyBUdXJrIDxtYXR0aGV3dHVya0BnbWFpbC5jb208bWFpbHRvOm1hdHRoZXd0
+dXJrQGdtYWlsLmNvbT4+DQpTZW50OiBUaHVyc2RheSwgTWFyY2ggMTIsIDIwMTUgMTozOCBQTQ0K
+VG86IGRpc2N1c3NAbmF0aW9uYWxkYXRhc2VydmljZS5vcmc8bWFpbHRvOmRpc2N1c3NAbmF0aW9u
+YWxkYXRhc2VydmljZS5vcmc+DQpTdWJqZWN0OiBSZTogR29vZ2xlICJOZWFybGluZSIgc2Vydmlj
+ZQ0KDQpIaSBKb2hucyBUb3ducyBhbmQgUmVhZGV5LA0KDQpKUjogVGhpcyBpcyBhIHByZXR0eSBw
+cm9taXNpbmcgc2VydmljZSEgIFRoZSBkaXNjdXNzaW9uIG9uIGhhY2tlciBuZXdzIHdhcyBwcmV0
+dHkgaW50ZXJlc3RpbmcgYXMgd2VsbC4NCg0KSlQ6IFRoZSBjb3N0IGZvciByZXRyaWV2YWwgaXMg
+cHJldHR5IGxvdywgYW5kIHRoZXkgb2JsaXF1ZWx5IGNvbXBhcmUgcXVpdGUgZmF2b3JhYmx5IGl0
+IHRvIEdsYWNpZXIuICBTdXBwb3NlZGx5IHZlcnksIHZlcnkgZmFzdCByZXRyaWV2YWwgc3BlZWRz
+IHRvby4NCg0KLU1hdHQNCg0KT24gVGh1LCBNYXIgMTIsIDIwMTUgYXQgMTE6NDQgQU0sIEpvaG4g
+VG93bnMgLSBOQ1NBIENvZyA8anRvd25zQG5jc2EuaWxsaW5vaXMuZWR1PG1haWx0bzpqdG93bnNA
+bmNzYS5pbGxpbm9pcy5lZHU+PiB3cm90ZToNCkpvaG4tLSAgSSBoYXZlbid0IGxvb2tlZCBhdCB0
+aGlzIGFuZCBhbSBub3Qgb25saW5lIGN1cnJlbnRseSwgYnV0IHRoZSB0eXBpY2FsIHByb2JsZW0g
+d2l0aCB0aGVzZSBzZXJ2aWNlcyBpcyB0aGF0IHRoZXkgdGVuZCB0byBiZSAic3RvcmUtb25jZS1y
+ZWFkLW5ldmVyIiBvcHRpbWl6ZWQuICBJcyB0aGVyZSBhIGZlZSBmb3IgZGF0YSByZXRyaWV2YWw/
+ICBJIGxpa2UgdGhlIG5vdGlvbiBvZiBjbG91ZCBzdG9yYWdlIGZvciBzY2llbnRpZmljIGRhdGEs
+IGJ1dCB0aGUgY29zdCBhcmUgYWxtb3N0IGFsd2F5cyBwcm9oaWJpdGl2ZSBmb3IgbGFyZ2UgY29s
+bGVjdGlvbnMgb2YgZGF0YS4NCg0KLUpvaG4NCg0KDQoNCk9uIDMvMTEvMjAxNSA4OjEwIFBNLCBK
+b2huIFJlYWRleSB3cm90ZToNCkhleSwNCg0KR29vZ2xlIGp1c3QgYW5ub3VuY2VkIGl0J3MgbmVh
+cmxpbmUgc3RvcmFnZSBzZXJ2aWNlIHRvZGF5OiBodHRwczovL2Nsb3VkLmdvb2dsZS5jb20vc3Rv
+cmFnZS9kb2NzL25lYXJsaW5lLXN0b3JhZ2XigIsgLiAgIEl0IGdpdmVzIHlvdSBzdG9yYWdlIGF0
+IDEvMyB0aGUgY29zdCAoJDAuMDEvZ2IvbW9udGgpIHdpdGggc29tZSBleHRyYSBsYXRlbmN5ICgz
+IHNlYykgd2hlbiB0aGUgZGF0YSBpcyByZXF1ZXN0ZWQuDQoNCkkgdGhpbmsgdGhhdCB0aGlzIHdv
+dWxkIGJlIHBlcmZlY3QgZm9yIHN0b3JpbmcgbWFueSBzY2llbnRpZmljIGRhdGFzZXRzIGluIHRo
+ZSBjbG91ZCB3aGVyZSBtdWNoIG9mIHRoZSBkYXRhIGlzIGluZnJlcXVlbnRseSBhY2Nlc3NlZC4N
+Cg0KV2hhdCBhcmUgdGhpcyBncm91cHMgdGhvdWdodHMgb24gdGhlIHN1aXRhYmlsaXR5ICBvZiBj
+bG91ZCBzdG9yYWdlIGZvciBzY2llbnRpZmljIGRhdGE/DQoNCkpvaG4NCg0K
+
+--_000_37A1536B4C624C16A4119EE74E33C3D3anlgov_
+Content-Type: text/html; charset="utf-8"
+Content-ID: <2164444537083F4D833BE2E2BD649525@localhost>
+Content-Transfer-Encoding: base64
+
+PGh0bWw+DQo8aGVhZD4NCjxtZXRhIGh0dHAtZXF1aXY9IkNvbnRlbnQtVHlwZSIgY29udGVudD0i
+dGV4dC9odG1sOyBjaGFyc2V0PXV0Zi04Ij4NCjwvaGVhZD4NCjxib2R5IHN0eWxlPSJ3b3JkLXdy
+YXA6IGJyZWFrLXdvcmQ7IC13ZWJraXQtbmJzcC1tb2RlOiBzcGFjZTsgLXdlYmtpdC1saW5lLWJy
+ZWFrOiBhZnRlci13aGl0ZS1zcGFjZTsiIGNsYXNzPSIiPg0KV2UgaGF2ZSBTMyBzdXBwb3J0IGlu
+IEdsb2J1czsgd2Ugd2FudCB0byBhZGQgR2xhY2llciBzdXBwb3J04oCUcXVpdGUgYSBmZXcgY2Ft
+cHVzZXMgYXJlIGFza2luZyBmb3IgdGhhdC4gT25lIGRheSBzb29uIEkgaG9wZSAuLi4NCjxkaXYg
+Y2xhc3M9IiI+PGJyIGNsYXNzPSIiPg0KPGRpdj4NCjxibG9ja3F1b3RlIHR5cGU9ImNpdGUiIGNs
+YXNzPSIiPg0KPGRpdiBjbGFzcz0iIj5PbiBNYXIgMTIsIDIwMTUsIGF0IDQ6MDUgUE0sIEpvaG4g
+UmVhZGV5ICZsdDs8YSBocmVmPSJtYWlsdG86anJlYWRleUBoZGZncm91cC5vcmciIGNsYXNzPSIi
+PmpyZWFkZXlAaGRmZ3JvdXAub3JnPC9hPiZndDsgd3JvdGU6PC9kaXY+DQo8YnIgY2xhc3M9IkFw
+cGxlLWludGVyY2hhbmdlLW5ld2xpbmUiPg0KPGRpdiBjbGFzcz0iIj4NCjxkaXYgaWQ9ImRpdnRh
+Z2RlZmF1bHR3cmFwcGVyIiBzdHlsZT0iZm9udC1zdHlsZTogbm9ybWFsOyBmb250LXZhcmlhbnQ6
+IG5vcm1hbDsgZm9udC13ZWlnaHQ6IG5vcm1hbDsgbGV0dGVyLXNwYWNpbmc6IG5vcm1hbDsgbGlu
+ZS1oZWlnaHQ6IG5vcm1hbDsgb3JwaGFuczogYXV0bzsgdGV4dC1hbGlnbjogc3RhcnQ7IHRleHQt
+aW5kZW50OiAwcHg7IHRleHQtdHJhbnNmb3JtOiBub25lOyB3aGl0ZS1zcGFjZTogbm9ybWFsOyB3
+aWRvd3M6IGF1dG87IHdvcmQtc3BhY2luZzogMHB4OyAtd2Via2l0LXRleHQtc3Ryb2tlLXdpZHRo
+OiAwcHg7IGZvbnQtc2l6ZTogMTJwdDsgYmFja2dyb3VuZC1jb2xvcjogcmdiKDI1NSwgMjU1LCAy
+NTUpOyBmb250LWZhbWlseTogQ2FsaWJyaSwgQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZjsi
+IGNsYXNzPSIiPg0KPGRpdiBzdHlsZT0ibWFyZ2luLXRvcDogMHB4OyBtYXJnaW4tYm90dG9tOiAw
+cHg7IiBjbGFzcz0iIj7igItSaWdodCwgdGhlIHByaWNpbmcgbW9kZWwgZm9yIEFXUyBHbGFjaWVy
+IGRlZmluaXRlbHkgZ2V0cyB5b3Ugd2hlbiB5b3UgZG8gcmV0cmlldmFscy4gJm5ic3A7TmVhcmxp
+bmUgbG9va3MgYSBtaWxsaW9uIHRpbWVzIGJldHRlciBpbiB0aGlzIHJlZ2FyZC4gJm5ic3A7PGJy
+IGNsYXNzPSIiPg0KPC9kaXY+DQo8ZGl2IHN0eWxlPSJtYXJnaW4tdG9wOiAwcHg7IG1hcmdpbi1i
+b3R0b206IDBweDsiIGNsYXNzPSIiPjxiciBjbGFzcz0iIj4NCjwvZGl2Pg0KPGRpdiBzdHlsZT0i
+bWFyZ2luLXRvcDogMHB4OyBtYXJnaW4tYm90dG9tOiAwcHg7IiBjbGFzcz0iIj5BbHNvLCBJJ20g
+dGhpbmtpbmcgdGhhdCBhY2Nlc3MgdG8gdGhlIGRhdGEgd291bGQgYmUgbWVkaWF0ZWQgYnkgYSBz
+ZXJ2aWNlIGxheWVyLiAmbmJzcDtUaGUgc2VydmljZSBjb3VsZCBtYWtlIGluZm9ybWVkIGRlY2lz
+aW9ucyAoYmFzZWQgb24gcmVjZW50IGFjY2VzcykgYWJvdXQgd2hpY2ggb2JqZWN0cyB0byBrZWVw
+IGluIG9ubGluZSB2cyBuZWFybGluZQ0KIHN0b3JhZ2UuICZuYnNwO0l0IG1heWJlIGFzIHNpbXBs
+ZSBhcyBrZWVwIGV2ZXJ5dGhpbmcgaW4gbmVhcmxpbmUuICZuYnNwO09uIGFjY2VzcyBtb3ZlIHRv
+IG9ubGluZSBhbmQga2VlcCBmb3IgdGhlIG5leHQgbiBkYXlzLjxiciBjbGFzcz0iIj4NCjwvZGl2
+Pg0KPGRpdiBzdHlsZT0ibWFyZ2luLXRvcDogMHB4OyBtYXJnaW4tYm90dG9tOiAwcHg7IiBjbGFz
+cz0iIj48YnIgY2xhc3M9IiI+DQo8L2Rpdj4NCjxkaXYgc3R5bGU9Im1hcmdpbi10b3A6IDBweDsg
+bWFyZ2luLWJvdHRvbTogMHB4OyIgY2xhc3M9IiI+Tm90aWNlIHRoZSByZXRyaWV2YWwgdGhyb3Vn
+aHB1dCBzY2FsZXMgd2l0aCB0aGUgYW1vdW50IG9mIGRhdGEgeW91IGhhdmUgaW4gc3RvcmFnZS4g
+Jm5ic3A7NCBNQi9zIHBlciBUQiBvZiBzdG9yYWdlLiAmbmJzcDtTbyBhdCBQQi1zY2FsZSB0aGlz
+IGlzIGxvb2tpbmcgcHJldHR5IGdvb2QuPGJyIGNsYXNzPSIiPg0KPC9kaXY+DQo8ZGl2IHN0eWxl
+PSJtYXJnaW4tdG9wOiAwcHg7IG1hcmdpbi1ib3R0b206IDBweDsiIGNsYXNzPSIiPjxiciBjbGFz
+cz0iIj4NCjwvZGl2Pg0KPGRpdiBzdHlsZT0ibWFyZ2luLXRvcDogMHB4OyBtYXJnaW4tYm90dG9t
+OiAwcHg7IiBjbGFzcz0iIj4tam9objxiciBjbGFzcz0iIj4NCjwvZGl2Pg0KPGRpdiBzdHlsZT0i
+Y29sb3I6IHJnYigzMywgMzMsIDMzKTsiIGNsYXNzPSIiPg0KPGhyIHRhYmluZGV4PSItMSIgc3R5
+bGU9ImRpc3BsYXk6IGlubGluZS1ibG9jazsgd2lkdGg6IDExMTUuMjM0Mzc1cHg7IiBjbGFzcz0i
+Ij4NCjxkaXYgaWQ9ImRpdlJwbHlGd2RNc2ciIGRpcj0ibHRyIiBjbGFzcz0iIj48Zm9udCBmYWNl
+PSJDYWxpYnJpLCBzYW5zLXNlcmlmIiBzdHlsZT0iZm9udC1zaXplOiAxMXB0OyIgY2xhc3M9IiI+
+PGIgY2xhc3M9IiI+RnJvbTo8L2I+PHNwYW4gY2xhc3M9IkFwcGxlLWNvbnZlcnRlZC1zcGFjZSI+
+Jm5ic3A7PC9zcGFuPjxhIGhyZWY9Im1haWx0bzpvd25lci1kaXNjdXNzQG5hdGlvbmFsZGF0YXNl
+cnZpY2Uub3JnIiBjbGFzcz0iIj5vd25lci1kaXNjdXNzQG5hdGlvbmFsZGF0YXNlcnZpY2Uub3Jn
+PC9hPjxzcGFuIGNsYXNzPSJBcHBsZS1jb252ZXJ0ZWQtc3BhY2UiPiZuYnNwOzwvc3Bhbj4mbHQ7
+PGEgaHJlZj0ibWFpbHRvOm93bmVyLWRpc2N1c3NAbmF0aW9uYWxkYXRhc2VydmljZS5vcmciIGNs
+YXNzPSIiPm93bmVyLWRpc2N1c3NAbmF0aW9uYWxkYXRhc2VydmljZS5vcmc8L2E+Jmd0Ow0KIG9u
+IGJlaGFsZiBvZiBNYXR0aGV3IFR1cmsgJmx0OzxhIGhyZWY9Im1haWx0bzptYXR0aGV3dHVya0Bn
+bWFpbC5jb20iIGNsYXNzPSIiPm1hdHRoZXd0dXJrQGdtYWlsLmNvbTwvYT4mZ3Q7PGJyIGNsYXNz
+PSIiPg0KPGIgY2xhc3M9IiI+U2VudDo8L2I+PHNwYW4gY2xhc3M9IkFwcGxlLWNvbnZlcnRlZC1z
+cGFjZSI+Jm5ic3A7PC9zcGFuPlRodXJzZGF5LCBNYXJjaCAxMiwgMjAxNSAxOjM4IFBNPGJyIGNs
+YXNzPSIiPg0KPGIgY2xhc3M9IiI+VG86PC9iPjxzcGFuIGNsYXNzPSJBcHBsZS1jb252ZXJ0ZWQt
+c3BhY2UiPiZuYnNwOzwvc3Bhbj48YSBocmVmPSJtYWlsdG86ZGlzY3Vzc0BuYXRpb25hbGRhdGFz
+ZXJ2aWNlLm9yZyIgY2xhc3M9IiI+ZGlzY3Vzc0BuYXRpb25hbGRhdGFzZXJ2aWNlLm9yZzwvYT48
+YnIgY2xhc3M9IiI+DQo8YiBjbGFzcz0iIj5TdWJqZWN0OjwvYj48c3BhbiBjbGFzcz0iQXBwbGUt
+Y29udmVydGVkLXNwYWNlIj4mbmJzcDs8L3NwYW4+UmU6IEdvb2dsZSAmcXVvdDtOZWFybGluZSZx
+dW90OyBzZXJ2aWNlPC9mb250Pg0KPGRpdiBjbGFzcz0iIj4mbmJzcDs8L2Rpdj4NCjwvZGl2Pg0K
+PGRpdiBjbGFzcz0iIj4NCjxkaXYgZGlyPSJsdHIiIGNsYXNzPSIiPkhpIEpvaG5zIFRvd25zIGFu
+ZCBSZWFkZXksPGJyIGNsYXNzPSIiPg0KPGRpdiBjbGFzcz0iIj48YnIgY2xhc3M9IiI+DQo8L2Rp
+dj4NCjxkaXYgY2xhc3M9IiI+SlI6IFRoaXMgaXMgYSBwcmV0dHkgcHJvbWlzaW5nIHNlcnZpY2Uh
+Jm5ic3A7IFRoZSBkaXNjdXNzaW9uIG9uIGhhY2tlciBuZXdzIHdhcyBwcmV0dHkgaW50ZXJlc3Rp
+bmcgYXMgd2VsbC48L2Rpdj4NCjxkaXYgY2xhc3M9IiI+PGJyIGNsYXNzPSIiPg0KPC9kaXY+DQo8
+ZGl2IGNsYXNzPSIiPkpUOiBUaGUgY29zdCBmb3IgcmV0cmlldmFsIGlzIHByZXR0eSBsb3csIGFu
+ZCB0aGV5IG9ibGlxdWVseSBjb21wYXJlIHF1aXRlIGZhdm9yYWJseSBpdCB0byBHbGFjaWVyLiZu
+YnNwOyBTdXBwb3NlZGx5IHZlcnksIHZlcnkgZmFzdCByZXRyaWV2YWwgc3BlZWRzIHRvby48L2Rp
+dj4NCjxkaXYgY2xhc3M9IiI+PGJyIGNsYXNzPSIiPg0KPC9kaXY+DQo8ZGl2IGNsYXNzPSIiPi1N
+YXR0PC9kaXY+DQo8L2Rpdj4NCjxkaXYgY2xhc3M9ImdtYWlsX2V4dHJhIj48YnIgY2xhc3M9IiI+
+DQo8ZGl2IGNsYXNzPSJnbWFpbF9xdW90ZSI+T24gVGh1LCBNYXIgMTIsIDIwMTUgYXQgMTE6NDQg
+QU0sIEpvaG4gVG93bnMgLSBOQ1NBIENvZzxzcGFuIGNsYXNzPSJBcHBsZS1jb252ZXJ0ZWQtc3Bh
+Y2UiPiZuYnNwOzwvc3Bhbj48c3BhbiBkaXI9Imx0ciIgY2xhc3M9IiI+Jmx0OzxhIGhyZWY9Im1h
+aWx0bzpqdG93bnNAbmNzYS5pbGxpbm9pcy5lZHUiIHRhcmdldD0iX2JsYW5rIiBjbGFzcz0iIj5q
+dG93bnNAbmNzYS5pbGxpbm9pcy5lZHU8L2E+Jmd0Ozwvc3Bhbj48c3BhbiBjbGFzcz0iQXBwbGUt
+Y29udmVydGVkLXNwYWNlIj4mbmJzcDs8L3NwYW4+d3JvdGU6PGJyIGNsYXNzPSIiPg0KPGJsb2Nr
+cXVvdGUgY2xhc3M9ImdtYWlsX3F1b3RlIiBzdHlsZT0ibWFyZ2luOiAwcHggMHB4IDBweCAwLjhl
+eDsgYm9yZGVyLWxlZnQtd2lkdGg6IDFweDsgYm9yZGVyLWxlZnQtY29sb3I6IHJnYigyMDQsIDIw
+NCwgMjA0KTsgYm9yZGVyLWxlZnQtc3R5bGU6IHNvbGlkOyBwYWRkaW5nLWxlZnQ6IDFleDsiPg0K
+PGRpdiBiZ2NvbG9yPSIjRkZGRkZGIiBjbGFzcz0iIj5Kb2huLS0mbmJzcDsgSSBoYXZlbid0IGxv
+b2tlZCBhdCB0aGlzIGFuZCBhbSBub3Qgb25saW5lIGN1cnJlbnRseSwgYnV0IHRoZSB0eXBpY2Fs
+IHByb2JsZW0gd2l0aCB0aGVzZSBzZXJ2aWNlcyBpcyB0aGF0IHRoZXkgdGVuZCB0byBiZSAmcXVv
+dDtzdG9yZS1vbmNlLXJlYWQtbmV2ZXImcXVvdDsgb3B0aW1pemVkLiZuYnNwOyBJcyB0aGVyZSBh
+IGZlZSBmb3IgZGF0YSByZXRyaWV2YWw/Jm5ic3A7IEkgbGlrZSB0aGUgbm90aW9uIG9mIGNsb3Vk
+DQogc3RvcmFnZSBmb3Igc2NpZW50aWZpYyBkYXRhLCBidXQgdGhlIGNvc3QgYXJlIGFsbW9zdCBh
+bHdheXMgcHJvaGliaXRpdmUgZm9yIGxhcmdlIGNvbGxlY3Rpb25zIG9mIGRhdGEuJm5ic3A7PHNw
+YW4gY2xhc3M9IkFwcGxlLWNvbnZlcnRlZC1zcGFjZSI+Jm5ic3A7PC9zcGFuPjxiciBjbGFzcz0i
+Ij4NCjxzcGFuIGNsYXNzPSJIT0VuWmIiPjxmb250IGNvbG9yPSIjODg4ODg4IiBjbGFzcz0iIj48
+YnIgY2xhc3M9IiI+DQotSm9objwvZm9udD48L3NwYW4+DQo8ZGl2IGNsYXNzPSIiPg0KPGRpdiBj
+bGFzcz0iaDUiPjxiciBjbGFzcz0iIj4NCjxiciBjbGFzcz0iIj4NCjxiciBjbGFzcz0iIj4NCjxk
+aXYgY2xhc3M9IiI+T24gMy8xMS8yMDE1IDg6MTAgUE0sIEpvaG4gUmVhZGV5IHdyb3RlOjxiciBj
+bGFzcz0iIj4NCjwvZGl2Pg0KPGJsb2NrcXVvdGUgdHlwZT0iY2l0ZSIgY2xhc3M9IiI+DQo8ZGl2
+IHN0eWxlPSJmb250LXNpemU6IDEycHQ7IGJhY2tncm91bmQtY29sb3I6IHJnYigyNTUsIDI1NSwg
+MjU1KTsgZm9udC1mYW1pbHk6IENhbGlicmksIEFyaWFsLCBIZWx2ZXRpY2EsIHNhbnMtc2VyaWY7
+IiBjbGFzcz0iIj4NCjxkaXYgc3R5bGU9Im1hcmdpbi10b3A6IDBweDsgbWFyZ2luLWJvdHRvbTog
+MHB4OyIgY2xhc3M9IiI+SGV5LDwvZGl2Pg0KPGRpdiBzdHlsZT0ibWFyZ2luLXRvcDogMHB4OyBt
+YXJnaW4tYm90dG9tOiAwcHg7IiBjbGFzcz0iIj48YnIgY2xhc3M9IiI+DQo8L2Rpdj4NCjxkaXYg
+c3R5bGU9Im1hcmdpbi10b3A6IDBweDsgbWFyZ2luLWJvdHRvbTogMHB4OyIgY2xhc3M9IiI+R29v
+Z2xlIGp1c3QgYW5ub3VuY2VkIGl0J3MgbmVhcmxpbmUgc3RvcmFnZSBzZXJ2aWNlIHRvZGF5OiZu
+YnNwOzxhIGhyZWY9Imh0dHBzOi8vY2xvdWQuZ29vZ2xlLmNvbS9zdG9yYWdlL2RvY3MvbmVhcmxp
+bmUtc3RvcmFnZSIgdGFyZ2V0PSJfYmxhbmsiIGNsYXNzPSIiPmh0dHBzOi8vY2xvdWQuZ29vZ2xl
+LmNvbS9zdG9yYWdlL2RvY3MvbmVhcmxpbmUtc3RvcmFnZTwvYT7igIsNCiAuICZuYnNwOyZuYnNw
+O0l0IGdpdmVzIHlvdSBzdG9yYWdlIGF0IDEvMyB0aGUgY29zdCAoJDAuMDEvZ2IvbW9udGgpIHdp
+dGggc29tZSBleHRyYSBsYXRlbmN5ICgzIHNlYykgd2hlbiB0aGUgZGF0YSBpcyByZXF1ZXN0ZWQu
+PGJyIGNsYXNzPSIiPg0KPC9kaXY+DQo8ZGl2IHN0eWxlPSJtYXJnaW4tdG9wOiAwcHg7IG1hcmdp
+bi1ib3R0b206IDBweDsiIGNsYXNzPSIiPjxiciBjbGFzcz0iIj4NCjwvZGl2Pg0KPGRpdiBzdHls
+ZT0ibWFyZ2luLXRvcDogMHB4OyBtYXJnaW4tYm90dG9tOiAwcHg7IiBjbGFzcz0iIj5JIHRoaW5r
+IHRoYXQgdGhpcyB3b3VsZCBiZSBwZXJmZWN0IGZvciBzdG9yaW5nJm5ic3A7bWFueSBzY2llbnRp
+ZmljIGRhdGFzZXRzIGluIHRoZSBjbG91ZCB3aGVyZSBtdWNoIG9mIHRoZSBkYXRhIGlzIGluZnJl
+cXVlbnRseSBhY2Nlc3NlZC4gJm5ic3A7PGJyIGNsYXNzPSIiPg0KPC9kaXY+DQo8ZGl2IHN0eWxl
+PSJtYXJnaW4tdG9wOiAwcHg7IG1hcmdpbi1ib3R0b206IDBweDsiIGNsYXNzPSIiPjxiciBjbGFz
+cz0iIj4NCjwvZGl2Pg0KPGRpdiBzdHlsZT0ibWFyZ2luLXRvcDogMHB4OyBtYXJnaW4tYm90dG9t
+OiAwcHg7IiBjbGFzcz0iIj5XaGF0IGFyZSB0aGlzIGdyb3VwcyB0aG91Z2h0cyBvbiB0aGUgc3Vp
+dGFiaWxpdHkgJm5ic3A7b2YgY2xvdWQgc3RvcmFnZSBmb3Igc2NpZW50aWZpYyBkYXRhPzxiciBj
+bGFzcz0iIj4NCjwvZGl2Pg0KPGRpdiBzdHlsZT0ibWFyZ2luLXRvcDogMHB4OyBtYXJnaW4tYm90
+dG9tOiAwcHg7IiBjbGFzcz0iIj48YnIgY2xhc3M9IiI+DQo8L2Rpdj4NCjxkaXYgc3R5bGU9Im1h
+cmdpbi10b3A6IDBweDsgbWFyZ2luLWJvdHRvbTogMHB4OyIgY2xhc3M9IiI+Sm9objwvZGl2Pg0K
+PC9kaXY+DQo8L2Jsb2NrcXVvdGU+DQo8L2Rpdj4NCjwvZGl2Pg0KPC9kaXY+DQo8L2Jsb2NrcXVv
+dGU+DQo8L2Rpdj4NCjwvZGl2Pg0KPC9kaXY+DQo8L2Rpdj4NCjwvZGl2Pg0KPC9kaXY+DQo8L2Js
+b2NrcXVvdGU+DQo8L2Rpdj4NCjxiciBjbGFzcz0iIj4NCjwvZGl2Pg0KPC9ib2R5Pg0KPC9odG1s
+Pg0K
+
+--_000_37A1536B4C624C16A4119EE74E33C3D3anlgov_--
+
+From owner-discuss@nationaldataservice.org Thu Mar 12 17:01:20 2015
+Received: (from majordomo@localhost)
+	by pop.ncsa.uiuc.edu (8.11.7/8.11.7) id t2CM1KP21605;
+	Thu, 12 Mar 2015 17:01:20 -0500
+X-Envelope-From: lapine@illinois.edu
+X-Envelope-To: <discuss@nationaldataservice.org>
+Received: from amantadine.ncsa.uiuc.edu (amantadine.ncsa.uiuc.edu [141.142.192.229])
+	by pop.ncsa.uiuc.edu (8.11.7/8.11.7) with ESMTP id t2CM1KY21567
+	for <discuss@nationaldataservice.org>; Thu, 12 Mar 2015 17:01:20 -0500
+Received: from pps01.cites.illinois.edu (pps01.cites.illinois.edu [192.17.82.69])
+	by amantadine.ncsa.uiuc.edu (8.14.9/8.14.4) with ESMTP id t2CM1Gsd024205
+	(version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NO)
+	for <discuss@nationaldataservice.org>; Thu, 12 Mar 2015 17:01:16 -0500
+Received: from chiht3.cites.illinois.edu (chiht3.cites.illinois.edu [64.22.177.75])
+	by pps01.cites.illinois.edu (8.14.5/8.14.5) with ESMTP id t2CM1Ctx004621
+	(version=TLSv1/SSLv3 cipher=AES128-SHA bits=128 verify=NOT)
+	for <discuss@nationaldataservice.org>; Thu, 12 Mar 2015 17:01:16 -0500
+Received: from CHIMBX5.ad.uillinois.edu ([169.254.12.210]) by
+ CHIHT3.ad.uillinois.edu ([64.22.177.75]) with mapi id 14.03.0210.002; Thu, 12
+ Mar 2015 17:01:14 -0500
+From: "Lapine, Daniel L" <lapine@illinois.edu>
+To: "discuss@nationaldataservice.org" <discuss@nationaldataservice.org>
+Subject: RE: Google "Nearline" service
+Thread-Topic: Google "Nearline" service
+Thread-Index: AQHQXGAN9qkiT5WZVkiMvq6sHe5g+50ZYq0AgABBWYCAAAeOgIAAAfCA//+5JWI=
+Date: Thu, 12 Mar 2015 22:01:13 +0000
+Message-ID: <E5C476B3333A224BA537E42A24B980EC76A038AA@CHIMBX5.ad.uillinois.edu>
+References: <1426122608264.96097@hdfgroup.org>
+ <5501C26C.2090204@ncsa.illinois.edu>
+ <,<CALO3=5FDdfitpOyNRQHRkf7dDDVdiJA6J7Gd=Z7e-fFY_49qyQ@mail.gmail.com> <>>
+ <1426194322262.80508@hdfgroup.org>,<37A1536B-4C62-4C16-A411-9EE74E33C3D3@anl.gov>
+In-Reply-To: <37A1536B-4C62-4C16-A411-9EE74E33C3D3@anl.gov>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+x-originating-ip: [128.174.34.198]
+Content-Type: multipart/alternative;
+	boundary="_000_E5C476B3333A224BA537E42A24B980EC76A038AACHIMBX5aduillin_"
+MIME-Version: 1.0
+X-Spam-Score: 0
+X-Spam-Details: rule=cautious_plus_nq_notspam policy=cautious_plus_nq score=0 spamscore=0
+ suspectscore=0 phishscore=0 adultscore=0 bulkscore=0 classifier=spam
+ adjust=0 reason=mlx scancount=1 engine=7.0.1-1402240000
+ definitions=main-1503120212
+X-Spam-OrigSender: lapine@illinois.edu
+X-Spam-Bar: 
+X-Null-Tag: f371f10d0152e3126d375bdae9aaeaa1
+X-NCSA-MailScanner-Information: Please contact help@ncsa.uiuc.edu for more information, rimantadine.ncsa.uiuc.edu
+X-NCSA-MailScanner-ID: t2CM1Gsd024205
+X-NCSA-MailScanner: Found to be clean
+Sender: owner-discuss@nationaldataservice.org
+Precedence: bulk
+Reply-To: discuss@nationaldataservice.org
+
+--_000_E5C476B3333A224BA537E42A24B980EC76A038AACHIMBX5aduillin_
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: base64
+
+RGlkIHRoZXkgcmVsZWFzZSBhbnkgaW5mb3JtYXRpb24gb24gdGhlIHJlbGlhYmlsaXR5IG9mIHRo
+ZSBzdG9yYWdlIG1lZGlhIG9yIGRhdGEgdmVyaWZpY2F0aW9uPyBCZXNpZGVzIHNpemUgYW5kIGFj
+Y2VzcyBzcGVlZCwgdGhhdCB3YXMgdGhlIG5leHQgYmlnZ2VzdCBwb2ludCByZXF1ZXN0ZWQgZm9y
+IGEgImRhdGEgYXJjaGl2ZSIgaW4gb3VyIHN1cnZleXMuIE90aGVyd2lzZSwgdGhpcyBkb2VzIGxv
+b2sgbGlrZSBpdCB3b3VsZCBtZWV0IG9uZSBvZiB0aGUgQmlnIERhdGEgdXNlIGNhc2VzIG5pY2Vs
+eS4NCl9fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fDQpGcm9tOiBvd25lci1kaXNjdXNz
+QG5hdGlvbmFsZGF0YXNlcnZpY2Uub3JnIFtvd25lci1kaXNjdXNzQG5hdGlvbmFsZGF0YXNlcnZp
+Y2Uub3JnXSBvbiBiZWhhbGYgb2YgRm9zdGVyLCBJYW4gVC4gW2Zvc3RlckBhbmwuZ292XQ0KU2Vu
+dDogVGh1cnNkYXksIE1hcmNoIDEyLCAyMDE1IDQ6MTIgUE0NClRvOiBkaXNjdXNzQG5hdGlvbmFs
+ZGF0YXNlcnZpY2Uub3JnDQpTdWJqZWN0OiBSZTogR29vZ2xlICJOZWFybGluZSIgc2VydmljZQ0K
+DQpXZSBoYXZlIFMzIHN1cHBvcnQgaW4gR2xvYnVzOyB3ZSB3YW50IHRvIGFkZCBHbGFjaWVyIHN1
+cHBvcnTigJRxdWl0ZSBhIGZldyBjYW1wdXNlcyBhcmUgYXNraW5nIGZvciB0aGF0LiBPbmUgZGF5
+IHNvb24gSSBob3BlIC4uLg0KDQpPbiBNYXIgMTIsIDIwMTUsIGF0IDQ6MDUgUE0sIEpvaG4gUmVh
+ZGV5IDxqcmVhZGV5QGhkZmdyb3VwLm9yZzxtYWlsdG86anJlYWRleUBoZGZncm91cC5vcmc+PiB3
+cm90ZToNCg0K4oCLUmlnaHQsIHRoZSBwcmljaW5nIG1vZGVsIGZvciBBV1MgR2xhY2llciBkZWZp
+bml0ZWx5IGdldHMgeW91IHdoZW4geW91IGRvIHJldHJpZXZhbHMuICBOZWFybGluZSBsb29rcyBh
+IG1pbGxpb24gdGltZXMgYmV0dGVyIGluIHRoaXMgcmVnYXJkLg0KDQpBbHNvLCBJJ20gdGhpbmtp
+bmcgdGhhdCBhY2Nlc3MgdG8gdGhlIGRhdGEgd291bGQgYmUgbWVkaWF0ZWQgYnkgYSBzZXJ2aWNl
+IGxheWVyLiAgVGhlIHNlcnZpY2UgY291bGQgbWFrZSBpbmZvcm1lZCBkZWNpc2lvbnMgKGJhc2Vk
+IG9uIHJlY2VudCBhY2Nlc3MpIGFib3V0IHdoaWNoIG9iamVjdHMgdG8ga2VlcCBpbiBvbmxpbmUg
+dnMgbmVhcmxpbmUgc3RvcmFnZS4gIEl0IG1heWJlIGFzIHNpbXBsZSBhcyBrZWVwIGV2ZXJ5dGhp
+bmcgaW4gbmVhcmxpbmUuICBPbiBhY2Nlc3MgbW92ZSB0byBvbmxpbmUgYW5kIGtlZXAgZm9yIHRo
+ZSBuZXh0IG4gZGF5cy4NCg0KTm90aWNlIHRoZSByZXRyaWV2YWwgdGhyb3VnaHB1dCBzY2FsZXMg
+d2l0aCB0aGUgYW1vdW50IG9mIGRhdGEgeW91IGhhdmUgaW4gc3RvcmFnZS4gIDQgTUIvcyBwZXIg
+VEIgb2Ygc3RvcmFnZS4gIFNvIGF0IFBCLXNjYWxlIHRoaXMgaXMgbG9va2luZyBwcmV0dHkgZ29v
+ZC4NCg0KLWpvaG4NCl9fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fDQpGcm9tOiBvd25l
+ci1kaXNjdXNzQG5hdGlvbmFsZGF0YXNlcnZpY2Uub3JnPG1haWx0bzpvd25lci1kaXNjdXNzQG5h
+dGlvbmFsZGF0YXNlcnZpY2Uub3JnPiA8b3duZXItZGlzY3Vzc0BuYXRpb25hbGRhdGFzZXJ2aWNl
+Lm9yZzxtYWlsdG86b3duZXItZGlzY3Vzc0BuYXRpb25hbGRhdGFzZXJ2aWNlLm9yZz4+IG9uIGJl
+aGFsZiBvZiBNYXR0aGV3IFR1cmsgPG1hdHRoZXd0dXJrQGdtYWlsLmNvbTxtYWlsdG86bWF0dGhl
+d3R1cmtAZ21haWwuY29tPj4NClNlbnQ6IFRodXJzZGF5LCBNYXJjaCAxMiwgMjAxNSAxOjM4IFBN
+DQpUbzogZGlzY3Vzc0BuYXRpb25hbGRhdGFzZXJ2aWNlLm9yZzxtYWlsdG86ZGlzY3Vzc0BuYXRp
+b25hbGRhdGFzZXJ2aWNlLm9yZz4NClN1YmplY3Q6IFJlOiBHb29nbGUgIk5lYXJsaW5lIiBzZXJ2
+aWNlDQoNCkhpIEpvaG5zIFRvd25zIGFuZCBSZWFkZXksDQoNCkpSOiBUaGlzIGlzIGEgcHJldHR5
+IHByb21pc2luZyBzZXJ2aWNlISAgVGhlIGRpc2N1c3Npb24gb24gaGFja2VyIG5ld3Mgd2FzIHBy
+ZXR0eSBpbnRlcmVzdGluZyBhcyB3ZWxsLg0KDQpKVDogVGhlIGNvc3QgZm9yIHJldHJpZXZhbCBp
+cyBwcmV0dHkgbG93LCBhbmQgdGhleSBvYmxpcXVlbHkgY29tcGFyZSBxdWl0ZSBmYXZvcmFibHkg
+aXQgdG8gR2xhY2llci4gIFN1cHBvc2VkbHkgdmVyeSwgdmVyeSBmYXN0IHJldHJpZXZhbCBzcGVl
+ZHMgdG9vLg0KDQotTWF0dA0KDQpPbiBUaHUsIE1hciAxMiwgMjAxNSBhdCAxMTo0NCBBTSwgSm9o
+biBUb3ducyAtIE5DU0EgQ29nIDxqdG93bnNAbmNzYS5pbGxpbm9pcy5lZHU8bWFpbHRvOmp0b3du
+c0BuY3NhLmlsbGlub2lzLmVkdT4+IHdyb3RlOg0KSm9obi0tICBJIGhhdmVuJ3QgbG9va2VkIGF0
+IHRoaXMgYW5kIGFtIG5vdCBvbmxpbmUgY3VycmVudGx5LCBidXQgdGhlIHR5cGljYWwgcHJvYmxl
+bSB3aXRoIHRoZXNlIHNlcnZpY2VzIGlzIHRoYXQgdGhleSB0ZW5kIHRvIGJlICJzdG9yZS1vbmNl
+LXJlYWQtbmV2ZXIiIG9wdGltaXplZC4gIElzIHRoZXJlIGEgZmVlIGZvciBkYXRhIHJldHJpZXZh
+bD8gIEkgbGlrZSB0aGUgbm90aW9uIG9mIGNsb3VkIHN0b3JhZ2UgZm9yIHNjaWVudGlmaWMgZGF0
+YSwgYnV0IHRoZSBjb3N0IGFyZSBhbG1vc3QgYWx3YXlzIHByb2hpYml0aXZlIGZvciBsYXJnZSBj
+b2xsZWN0aW9ucyBvZiBkYXRhLg0KDQotSm9obg0KDQoNCg0KT24gMy8xMS8yMDE1IDg6MTAgUE0s
+IEpvaG4gUmVhZGV5IHdyb3RlOg0KSGV5LA0KDQpHb29nbGUganVzdCBhbm5vdW5jZWQgaXQncyBu
+ZWFybGluZSBzdG9yYWdlIHNlcnZpY2UgdG9kYXk6IGh0dHBzOi8vY2xvdWQuZ29vZ2xlLmNvbS9z
+dG9yYWdlL2RvY3MvbmVhcmxpbmUtc3RvcmFnZeKAiyAuICAgSXQgZ2l2ZXMgeW91IHN0b3JhZ2Ug
+YXQgMS8zIHRoZSBjb3N0ICgkMC4wMS9nYi9tb250aCkgd2l0aCBzb21lIGV4dHJhIGxhdGVuY3kg
+KDMgc2VjKSB3aGVuIHRoZSBkYXRhIGlzIHJlcXVlc3RlZC4NCg0KSSB0aGluayB0aGF0IHRoaXMg
+d291bGQgYmUgcGVyZmVjdCBmb3Igc3RvcmluZyBtYW55IHNjaWVudGlmaWMgZGF0YXNldHMgaW4g
+dGhlIGNsb3VkIHdoZXJlIG11Y2ggb2YgdGhlIGRhdGEgaXMgaW5mcmVxdWVudGx5IGFjY2Vzc2Vk
+Lg0KDQpXaGF0IGFyZSB0aGlzIGdyb3VwcyB0aG91Z2h0cyBvbiB0aGUgc3VpdGFiaWxpdHkgIG9m
+IGNsb3VkIHN0b3JhZ2UgZm9yIHNjaWVudGlmaWMgZGF0YT8NCg0KSm9obg0KDQo=
+
+--_000_E5C476B3333A224BA537E42A24B980EC76A038AACHIMBX5aduillin_
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: base64
+
+PGh0bWwgZGlyPSJsdHIiPg0KPGhlYWQ+DQo8bWV0YSBodHRwLWVxdWl2PSJDb250ZW50LVR5cGUi
+IGNvbnRlbnQ9InRleHQvaHRtbDsgY2hhcnNldD11dGYtOCI+DQo8c3R5bGUgaWQ9Im93YVBhcmFT
+dHlsZSIgdHlwZT0idGV4dC9jc3MiPlAge21hcmdpbi10b3A6MDttYXJnaW4tYm90dG9tOjA7fTwv
+c3R5bGU+DQo8L2hlYWQ+DQo8Ym9keSBvY3NpPSIwIiBmcHN0eWxlPSIxIiBjbGFzcz0iIiBzdHls
+ZT0id29yZC13cmFwOmJyZWFrLXdvcmQiPg0KPGRpdiBzdHlsZT0iZGlyZWN0aW9uOiBsdHI7Zm9u
+dC1mYW1pbHk6IEhlbHZldGljYTtjb2xvcjogIzAwMDAwMDtmb250LXNpemU6IDEwcHQ7Ij4NCkRp
+ZCB0aGV5IHJlbGVhc2UgYW55IGluZm9ybWF0aW9uIG9uIHRoZSByZWxpYWJpbGl0eSBvZiB0aGUg
+c3RvcmFnZSBtZWRpYSBvciBkYXRhIHZlcmlmaWNhdGlvbj8gQmVzaWRlcyBzaXplIGFuZCBhY2Nl
+c3Mgc3BlZWQsIHRoYXQgd2FzIHRoZSBuZXh0IGJpZ2dlc3QgcG9pbnQgcmVxdWVzdGVkIGZvciBh
+ICZxdW90O2RhdGEgYXJjaGl2ZSZxdW90OyBpbiBvdXIgc3VydmV5cy4gT3RoZXJ3aXNlLCB0aGlz
+IGRvZXMgbG9vayBsaWtlIGl0IHdvdWxkIG1lZXQgb25lIG9mDQogdGhlIEJpZyBEYXRhIHVzZSBj
+YXNlcyBuaWNlbHkuPGJyPg0KPGRpdiBzdHlsZT0iZm9udC1mYW1pbHk6IFRpbWVzIE5ldyBSb21h
+bjsgY29sb3I6ICMwMDAwMDA7IGZvbnQtc2l6ZTogMTZweCI+DQo8aHIgdGFiaW5kZXg9Ii0xIj4N
+CjxkaXYgc3R5bGU9ImRpcmVjdGlvbjogbHRyOyIgaWQ9ImRpdlJwRjgzNTU3MCI+PGZvbnQgY29s
+b3I9IiMwMDAwMDAiIHNpemU9IjIiIGZhY2U9IlRhaG9tYSI+PGI+RnJvbTo8L2I+IG93bmVyLWRp
+c2N1c3NAbmF0aW9uYWxkYXRhc2VydmljZS5vcmcgW293bmVyLWRpc2N1c3NAbmF0aW9uYWxkYXRh
+c2VydmljZS5vcmddIG9uIGJlaGFsZiBvZiBGb3N0ZXIsIElhbiBULiBbZm9zdGVyQGFubC5nb3Zd
+PGJyPg0KPGI+U2VudDo8L2I+IFRodXJzZGF5LCBNYXJjaCAxMiwgMjAxNSA0OjEyIFBNPGJyPg0K
+PGI+VG86PC9iPiBkaXNjdXNzQG5hdGlvbmFsZGF0YXNlcnZpY2Uub3JnPGJyPg0KPGI+U3ViamVj
+dDo8L2I+IFJlOiBHb29nbGUgJnF1b3Q7TmVhcmxpbmUmcXVvdDsgc2VydmljZTxicj4NCjwvZm9u
+dD48YnI+DQo8L2Rpdj4NCjxkaXY+PC9kaXY+DQo8ZGl2PldlIGhhdmUgUzMgc3VwcG9ydCBpbiBH
+bG9idXM7IHdlIHdhbnQgdG8gYWRkIEdsYWNpZXIgc3VwcG9ydOKAlHF1aXRlIGEgZmV3IGNhbXB1
+c2VzIGFyZSBhc2tpbmcgZm9yIHRoYXQuIE9uZSBkYXkgc29vbiBJIGhvcGUgLi4uDQo8ZGl2IGNs
+YXNzPSIiPjxiciBjbGFzcz0iIj4NCjxkaXY+DQo8YmxvY2txdW90ZSB0eXBlPSJjaXRlIiBjbGFz
+cz0iIj4NCjxkaXYgY2xhc3M9IiI+T24gTWFyIDEyLCAyMDE1LCBhdCA0OjA1IFBNLCBKb2huIFJl
+YWRleSAmbHQ7PGEgaHJlZj0ibWFpbHRvOmpyZWFkZXlAaGRmZ3JvdXAub3JnIiBjbGFzcz0iIiB0
+YXJnZXQ9Il9ibGFuayI+anJlYWRleUBoZGZncm91cC5vcmc8L2E+Jmd0OyB3cm90ZTo8L2Rpdj4N
+CjxiciBjbGFzcz0iQXBwbGUtaW50ZXJjaGFuZ2UtbmV3bGluZSI+DQo8ZGl2IGNsYXNzPSIiPg0K
+PGRpdiBpZD0iZGl2dGFnZGVmYXVsdHdyYXBwZXIiIGNsYXNzPSIiIHN0eWxlPSJmb250LXN0eWxl
+Om5vcm1hbDsgZm9udC12YXJpYW50Om5vcm1hbDsgZm9udC13ZWlnaHQ6bm9ybWFsOyBsZXR0ZXIt
+c3BhY2luZzpub3JtYWw7IGxpbmUtaGVpZ2h0Om5vcm1hbDsgb3JwaGFuczphdXRvOyB0ZXh0LWFs
+aWduOnN0YXJ0OyB0ZXh0LWluZGVudDowcHg7IHRleHQtdHJhbnNmb3JtOm5vbmU7IHdoaXRlLXNw
+YWNlOm5vcm1hbDsgd2lkb3dzOmF1dG87IHdvcmQtc3BhY2luZzowcHg7IGZvbnQtc2l6ZToxMnB0
+OyBiYWNrZ3JvdW5kLWNvbG9yOnJnYigyNTUsMjU1LDI1NSk7IGZvbnQtZmFtaWx5OkNhbGlicmks
+QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiPg0KPGRpdiBjbGFzcz0iIiBzdHlsZT0ibWFyZ2lu
+LXRvcDowcHg7IG1hcmdpbi1ib3R0b206MHB4Ij7igItSaWdodCwgdGhlIHByaWNpbmcgbW9kZWwg
+Zm9yIEFXUyBHbGFjaWVyIGRlZmluaXRlbHkgZ2V0cyB5b3Ugd2hlbiB5b3UgZG8gcmV0cmlldmFs
+cy4gJm5ic3A7TmVhcmxpbmUgbG9va3MgYSBtaWxsaW9uIHRpbWVzIGJldHRlciBpbiB0aGlzIHJl
+Z2FyZC4gJm5ic3A7PGJyIGNsYXNzPSIiPg0KPC9kaXY+DQo8ZGl2IGNsYXNzPSIiIHN0eWxlPSJt
+YXJnaW4tdG9wOjBweDsgbWFyZ2luLWJvdHRvbTowcHgiPjxiciBjbGFzcz0iIj4NCjwvZGl2Pg0K
+PGRpdiBjbGFzcz0iIiBzdHlsZT0ibWFyZ2luLXRvcDowcHg7IG1hcmdpbi1ib3R0b206MHB4Ij5B
+bHNvLCBJJ20gdGhpbmtpbmcgdGhhdCBhY2Nlc3MgdG8gdGhlIGRhdGEgd291bGQgYmUgbWVkaWF0
+ZWQgYnkgYSBzZXJ2aWNlIGxheWVyLiAmbmJzcDtUaGUgc2VydmljZSBjb3VsZCBtYWtlIGluZm9y
+bWVkIGRlY2lzaW9ucyAoYmFzZWQgb24gcmVjZW50IGFjY2VzcykgYWJvdXQgd2hpY2ggb2JqZWN0
+cyB0byBrZWVwIGluIG9ubGluZSB2cyBuZWFybGluZSBzdG9yYWdlLg0KICZuYnNwO0l0IG1heWJl
+IGFzIHNpbXBsZSBhcyBrZWVwIGV2ZXJ5dGhpbmcgaW4gbmVhcmxpbmUuICZuYnNwO09uIGFjY2Vz
+cyBtb3ZlIHRvIG9ubGluZSBhbmQga2VlcCBmb3IgdGhlIG5leHQgbiBkYXlzLjxiciBjbGFzcz0i
+Ij4NCjwvZGl2Pg0KPGRpdiBjbGFzcz0iIiBzdHlsZT0ibWFyZ2luLXRvcDowcHg7IG1hcmdpbi1i
+b3R0b206MHB4Ij48YnIgY2xhc3M9IiI+DQo8L2Rpdj4NCjxkaXYgY2xhc3M9IiIgc3R5bGU9Im1h
+cmdpbi10b3A6MHB4OyBtYXJnaW4tYm90dG9tOjBweCI+Tm90aWNlIHRoZSByZXRyaWV2YWwgdGhy
+b3VnaHB1dCBzY2FsZXMgd2l0aCB0aGUgYW1vdW50IG9mIGRhdGEgeW91IGhhdmUgaW4gc3RvcmFn
+ZS4gJm5ic3A7NCBNQi9zIHBlciBUQiBvZiBzdG9yYWdlLiAmbmJzcDtTbyBhdCBQQi1zY2FsZSB0
+aGlzIGlzIGxvb2tpbmcgcHJldHR5IGdvb2QuPGJyIGNsYXNzPSIiPg0KPC9kaXY+DQo8ZGl2IGNs
+YXNzPSIiIHN0eWxlPSJtYXJnaW4tdG9wOjBweDsgbWFyZ2luLWJvdHRvbTowcHgiPjxiciBjbGFz
+cz0iIj4NCjwvZGl2Pg0KPGRpdiBjbGFzcz0iIiBzdHlsZT0ibWFyZ2luLXRvcDowcHg7IG1hcmdp
+bi1ib3R0b206MHB4Ij4tam9objxiciBjbGFzcz0iIj4NCjwvZGl2Pg0KPGRpdiBjbGFzcz0iIiBz
+dHlsZT0iY29sb3I6cmdiKDMzLDMzLDMzKSI+DQo8aHIgdGFiaW5kZXg9Ii0xIiBjbGFzcz0iIiBz
+dHlsZT0iZGlzcGxheTppbmxpbmUtYmxvY2s7IHdpZHRoOjExMTUuMjM0Mzc1cHgiPg0KPGRpdiBp
+ZD0iZGl2UnBseUZ3ZE1zZyIgZGlyPSJsdHIiIGNsYXNzPSIiPjxmb250IGNsYXNzPSIiIHN0eWxl
+PSJmb250LXNpemU6MTFwdCIgZmFjZT0iQ2FsaWJyaSwgc2Fucy1zZXJpZiI+PGIgY2xhc3M9IiI+
+RnJvbTo8L2I+PHNwYW4gY2xhc3M9IkFwcGxlLWNvbnZlcnRlZC1zcGFjZSI+Jm5ic3A7PC9zcGFu
+PjxhIGhyZWY9Im1haWx0bzpvd25lci1kaXNjdXNzQG5hdGlvbmFsZGF0YXNlcnZpY2Uub3JnIiBj
+bGFzcz0iIiB0YXJnZXQ9Il9ibGFuayI+b3duZXItZGlzY3Vzc0BuYXRpb25hbGRhdGFzZXJ2aWNl
+Lm9yZzwvYT48c3BhbiBjbGFzcz0iQXBwbGUtY29udmVydGVkLXNwYWNlIj4mbmJzcDs8L3NwYW4+
+Jmx0OzxhIGhyZWY9Im1haWx0bzpvd25lci1kaXNjdXNzQG5hdGlvbmFsZGF0YXNlcnZpY2Uub3Jn
+IiBjbGFzcz0iIiB0YXJnZXQ9Il9ibGFuayI+b3duZXItZGlzY3Vzc0BuYXRpb25hbGRhdGFzZXJ2
+aWNlLm9yZzwvYT4mZ3Q7DQogb24gYmVoYWxmIG9mIE1hdHRoZXcgVHVyayAmbHQ7PGEgaHJlZj0i
+bWFpbHRvOm1hdHRoZXd0dXJrQGdtYWlsLmNvbSIgY2xhc3M9IiIgdGFyZ2V0PSJfYmxhbmsiPm1h
+dHRoZXd0dXJrQGdtYWlsLmNvbTwvYT4mZ3Q7PGJyIGNsYXNzPSIiPg0KPGIgY2xhc3M9IiI+U2Vu
+dDo8L2I+PHNwYW4gY2xhc3M9IkFwcGxlLWNvbnZlcnRlZC1zcGFjZSI+Jm5ic3A7PC9zcGFuPlRo
+dXJzZGF5LCBNYXJjaCAxMiwgMjAxNSAxOjM4IFBNPGJyIGNsYXNzPSIiPg0KPGIgY2xhc3M9IiI+
+VG86PC9iPjxzcGFuIGNsYXNzPSJBcHBsZS1jb252ZXJ0ZWQtc3BhY2UiPiZuYnNwOzwvc3Bhbj48
+YSBocmVmPSJtYWlsdG86ZGlzY3Vzc0BuYXRpb25hbGRhdGFzZXJ2aWNlLm9yZyIgY2xhc3M9IiIg
+dGFyZ2V0PSJfYmxhbmsiPmRpc2N1c3NAbmF0aW9uYWxkYXRhc2VydmljZS5vcmc8L2E+PGJyIGNs
+YXNzPSIiPg0KPGIgY2xhc3M9IiI+U3ViamVjdDo8L2I+PHNwYW4gY2xhc3M9IkFwcGxlLWNvbnZl
+cnRlZC1zcGFjZSI+Jm5ic3A7PC9zcGFuPlJlOiBHb29nbGUgJnF1b3Q7TmVhcmxpbmUmcXVvdDsg
+c2VydmljZTwvZm9udD4NCjxkaXYgY2xhc3M9IiI+Jm5ic3A7PC9kaXY+DQo8L2Rpdj4NCjxkaXYg
+Y2xhc3M9IiI+DQo8ZGl2IGRpcj0ibHRyIiBjbGFzcz0iIj5IaSBKb2hucyBUb3ducyBhbmQgUmVh
+ZGV5LDxiciBjbGFzcz0iIj4NCjxkaXYgY2xhc3M9IiI+PGJyIGNsYXNzPSIiPg0KPC9kaXY+DQo8
+ZGl2IGNsYXNzPSIiPkpSOiBUaGlzIGlzIGEgcHJldHR5IHByb21pc2luZyBzZXJ2aWNlISZuYnNw
+OyBUaGUgZGlzY3Vzc2lvbiBvbiBoYWNrZXIgbmV3cyB3YXMgcHJldHR5IGludGVyZXN0aW5nIGFz
+IHdlbGwuPC9kaXY+DQo8ZGl2IGNsYXNzPSIiPjxiciBjbGFzcz0iIj4NCjwvZGl2Pg0KPGRpdiBj
+bGFzcz0iIj5KVDogVGhlIGNvc3QgZm9yIHJldHJpZXZhbCBpcyBwcmV0dHkgbG93LCBhbmQgdGhl
+eSBvYmxpcXVlbHkgY29tcGFyZSBxdWl0ZSBmYXZvcmFibHkgaXQgdG8gR2xhY2llci4mbmJzcDsg
+U3VwcG9zZWRseSB2ZXJ5LCB2ZXJ5IGZhc3QgcmV0cmlldmFsIHNwZWVkcyB0b28uPC9kaXY+DQo8
+ZGl2IGNsYXNzPSIiPjxiciBjbGFzcz0iIj4NCjwvZGl2Pg0KPGRpdiBjbGFzcz0iIj4tTWF0dDwv
+ZGl2Pg0KPC9kaXY+DQo8ZGl2IGNsYXNzPSJnbWFpbF9leHRyYSI+PGJyIGNsYXNzPSIiPg0KPGRp
+diBjbGFzcz0iZ21haWxfcXVvdGUiPk9uIFRodSwgTWFyIDEyLCAyMDE1IGF0IDExOjQ0IEFNLCBK
+b2huIFRvd25zIC0gTkNTQSBDb2c8c3BhbiBjbGFzcz0iQXBwbGUtY29udmVydGVkLXNwYWNlIj4m
+bmJzcDs8L3NwYW4+PHNwYW4gZGlyPSJsdHIiIGNsYXNzPSIiPiZsdDs8YSBocmVmPSJtYWlsdG86
+anRvd25zQG5jc2EuaWxsaW5vaXMuZWR1IiBjbGFzcz0iIiB0YXJnZXQ9Il9ibGFuayI+anRvd25z
+QG5jc2EuaWxsaW5vaXMuZWR1PC9hPiZndDs8L3NwYW4+PHNwYW4gY2xhc3M9IkFwcGxlLWNvbnZl
+cnRlZC1zcGFjZSI+Jm5ic3A7PC9zcGFuPndyb3RlOjxiciBjbGFzcz0iIj4NCjxibG9ja3F1b3Rl
+IGNsYXNzPSJnbWFpbF9xdW90ZSIgc3R5bGU9Im1hcmdpbjowcHggMHB4IDBweCAwLjhleDsgYm9y
+ZGVyLWxlZnQtd2lkdGg6MXB4OyBib3JkZXItbGVmdC1jb2xvcjpyZ2IoMjA0LDIwNCwyMDQpOyBi
+b3JkZXItbGVmdC1zdHlsZTpzb2xpZDsgcGFkZGluZy1sZWZ0OjFleCI+DQo8ZGl2IGJnY29sb3I9
+IiNGRkZGRkYiIGNsYXNzPSIiPkpvaG4tLSZuYnNwOyBJIGhhdmVuJ3QgbG9va2VkIGF0IHRoaXMg
+YW5kIGFtIG5vdCBvbmxpbmUgY3VycmVudGx5LCBidXQgdGhlIHR5cGljYWwgcHJvYmxlbSB3aXRo
+IHRoZXNlIHNlcnZpY2VzIGlzIHRoYXQgdGhleSB0ZW5kIHRvIGJlICZxdW90O3N0b3JlLW9uY2Ut
+cmVhZC1uZXZlciZxdW90OyBvcHRpbWl6ZWQuJm5ic3A7IElzIHRoZXJlIGEgZmVlIGZvciBkYXRh
+IHJldHJpZXZhbD8mbmJzcDsgSSBsaWtlIHRoZSBub3Rpb24gb2YgY2xvdWQNCiBzdG9yYWdlIGZv
+ciBzY2llbnRpZmljIGRhdGEsIGJ1dCB0aGUgY29zdCBhcmUgYWxtb3N0IGFsd2F5cyBwcm9oaWJp
+dGl2ZSBmb3IgbGFyZ2UgY29sbGVjdGlvbnMgb2YgZGF0YS4mbmJzcDs8c3BhbiBjbGFzcz0iQXBw
+bGUtY29udmVydGVkLXNwYWNlIj4mbmJzcDs8L3NwYW4+PGJyIGNsYXNzPSIiPg0KPHNwYW4gY2xh
+c3M9IkhPRW5aYiI+PGZvbnQgY2xhc3M9IiIgY29sb3I9IiM4ODg4ODgiPjxiciBjbGFzcz0iIj4N
+Ci1Kb2huPC9mb250Pjwvc3Bhbj4NCjxkaXYgY2xhc3M9IiI+DQo8ZGl2IGNsYXNzPSJoNSI+PGJy
+IGNsYXNzPSIiPg0KPGJyIGNsYXNzPSIiPg0KPGJyIGNsYXNzPSIiPg0KPGRpdiBjbGFzcz0iIj5P
+biAzLzExLzIwMTUgODoxMCBQTSwgSm9obiBSZWFkZXkgd3JvdGU6PGJyIGNsYXNzPSIiPg0KPC9k
+aXY+DQo8YmxvY2txdW90ZSB0eXBlPSJjaXRlIiBjbGFzcz0iIj4NCjxkaXYgY2xhc3M9IiIgc3R5
+bGU9ImZvbnQtc2l6ZToxMnB0OyBiYWNrZ3JvdW5kLWNvbG9yOnJnYigyNTUsMjU1LDI1NSk7IGZv
+bnQtZmFtaWx5OkNhbGlicmksQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiPg0KPGRpdiBjbGFz
+cz0iIiBzdHlsZT0ibWFyZ2luLXRvcDowcHg7IG1hcmdpbi1ib3R0b206MHB4Ij5IZXksPC9kaXY+
+DQo8ZGl2IGNsYXNzPSIiIHN0eWxlPSJtYXJnaW4tdG9wOjBweDsgbWFyZ2luLWJvdHRvbTowcHgi
+PjxiciBjbGFzcz0iIj4NCjwvZGl2Pg0KPGRpdiBjbGFzcz0iIiBzdHlsZT0ibWFyZ2luLXRvcDow
+cHg7IG1hcmdpbi1ib3R0b206MHB4Ij5Hb29nbGUganVzdCBhbm5vdW5jZWQgaXQncyBuZWFybGlu
+ZSBzdG9yYWdlIHNlcnZpY2UgdG9kYXk6Jm5ic3A7PGEgaHJlZj0iaHR0cHM6Ly9jbG91ZC5nb29n
+bGUuY29tL3N0b3JhZ2UvZG9jcy9uZWFybGluZS1zdG9yYWdlIiBjbGFzcz0iIiB0YXJnZXQ9Il9i
+bGFuayI+aHR0cHM6Ly9jbG91ZC5nb29nbGUuY29tL3N0b3JhZ2UvZG9jcy9uZWFybGluZS1zdG9y
+YWdlPC9hPuKAiw0KIC4gJm5ic3A7Jm5ic3A7SXQgZ2l2ZXMgeW91IHN0b3JhZ2UgYXQgMS8zIHRo
+ZSBjb3N0ICgkMC4wMS9nYi9tb250aCkgd2l0aCBzb21lIGV4dHJhIGxhdGVuY3kgKDMgc2VjKSB3
+aGVuIHRoZSBkYXRhIGlzIHJlcXVlc3RlZC48YnIgY2xhc3M9IiI+DQo8L2Rpdj4NCjxkaXYgY2xh
+c3M9IiIgc3R5bGU9Im1hcmdpbi10b3A6MHB4OyBtYXJnaW4tYm90dG9tOjBweCI+PGJyIGNsYXNz
+PSIiPg0KPC9kaXY+DQo8ZGl2IGNsYXNzPSIiIHN0eWxlPSJtYXJnaW4tdG9wOjBweDsgbWFyZ2lu
+LWJvdHRvbTowcHgiPkkgdGhpbmsgdGhhdCB0aGlzIHdvdWxkIGJlIHBlcmZlY3QgZm9yIHN0b3Jp
+bmcmbmJzcDttYW55IHNjaWVudGlmaWMgZGF0YXNldHMgaW4gdGhlIGNsb3VkIHdoZXJlIG11Y2gg
+b2YgdGhlIGRhdGEgaXMgaW5mcmVxdWVudGx5IGFjY2Vzc2VkLiAmbmJzcDs8YnIgY2xhc3M9IiI+
+DQo8L2Rpdj4NCjxkaXYgY2xhc3M9IiIgc3R5bGU9Im1hcmdpbi10b3A6MHB4OyBtYXJnaW4tYm90
+dG9tOjBweCI+PGJyIGNsYXNzPSIiPg0KPC9kaXY+DQo8ZGl2IGNsYXNzPSIiIHN0eWxlPSJtYXJn
+aW4tdG9wOjBweDsgbWFyZ2luLWJvdHRvbTowcHgiPldoYXQgYXJlIHRoaXMgZ3JvdXBzIHRob3Vn
+aHRzIG9uIHRoZSBzdWl0YWJpbGl0eSAmbmJzcDtvZiBjbG91ZCBzdG9yYWdlIGZvciBzY2llbnRp
+ZmljIGRhdGE/PGJyIGNsYXNzPSIiPg0KPC9kaXY+DQo8ZGl2IGNsYXNzPSIiIHN0eWxlPSJtYXJn
+aW4tdG9wOjBweDsgbWFyZ2luLWJvdHRvbTowcHgiPjxiciBjbGFzcz0iIj4NCjwvZGl2Pg0KPGRp
+diBjbGFzcz0iIiBzdHlsZT0ibWFyZ2luLXRvcDowcHg7IG1hcmdpbi1ib3R0b206MHB4Ij5Kb2hu
+PC9kaXY+DQo8L2Rpdj4NCjwvYmxvY2txdW90ZT4NCjwvZGl2Pg0KPC9kaXY+DQo8L2Rpdj4NCjwv
+YmxvY2txdW90ZT4NCjwvZGl2Pg0KPC9kaXY+DQo8L2Rpdj4NCjwvZGl2Pg0KPC9kaXY+DQo8L2Rp
+dj4NCjwvYmxvY2txdW90ZT4NCjwvZGl2Pg0KPGJyIGNsYXNzPSIiPg0KPC9kaXY+DQo8L2Rpdj4N
+CjwvZGl2Pg0KPC9kaXY+DQo8L2JvZHk+DQo8L2h0bWw+DQo=
+
+--_000_E5C476B3333A224BA537E42A24B980EC76A038AACHIMBX5aduillin_--
+

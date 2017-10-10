@@ -1,0 +1,167 @@
+From owner-discuss@nationaldataservice.org Thu Feb  4 16:34:33 2016
+X-Envelope-To: /usr/bin/procmail -m /etc/mail/archiver/procmailrc
+Received: (from majordomo@localhost)
+	by pop.ncsa.uiuc.edu (8.11.7/8.11.7) id u14MYXP06181;
+	Thu, 4 Feb 2016 16:34:33 -0600
+X-Envelope-From: robert.hanisch@nist.gov
+Received: from rimantadine.ncsa.uiuc.edu (amantadine.ncsa.uiuc.edu [141.142.192.229])
+	by pop.ncsa.uiuc.edu (8.11.7/8.11.7) with ESMTP id u14MYXa06104;
+	Thu, 4 Feb 2016 16:34:33 -0600
+Received: from gcc01-dm2-obe.outbound.protection.outlook.com (mail-dm2gcc01on0128.outbound.protection.outlook.com [23.103.201.128])
+	by rimantadine.ncsa.uiuc.edu (8.14.9/8.14.4) with ESMTP id u14MYGgC008292
+	(version=TLSv1/SSLv3 cipher=AES256-SHA bits=256 verify=FAIL);
+	Thu, 4 Feb 2016 16:34:16 -0600
+Received: from SN1PR09MB0943.namprd09.prod.outlook.com (10.162.102.143) by
+ SN1PR09MB0942.namprd09.prod.outlook.com (10.162.102.142) with Microsoft SMTP
+ Server (TLS) id 15.1.396.15; Thu, 4 Feb 2016 22:34:15 +0000
+Received: from SN1PR09MB0943.namprd09.prod.outlook.com ([10.162.102.143]) by
+ SN1PR09MB0943.namprd09.prod.outlook.com ([10.162.102.143]) with mapi id
+ 15.01.0396.020; Thu, 4 Feb 2016 22:34:14 +0000
+From: "Hanisch, Robert J." <robert.hanisch@nist.gov>
+To: "nds-announce@nationaldataservice.org"
+	<nds-announce@nationaldataservice.org>,
+   "discuss@nationaldataservice.org"
+	<discuss@nationaldataservice.org>
+CC: NDSC Steering Committee <ndsc-steering@nationaldataservice.org>
+Subject: National Data Service and NSF DIBBs
+Thread-Topic: National Data Service and NSF DIBBs
+Thread-Index: AQHRX5wtzBQjChuX6kSob9HCJV+WEw==
+Date: Thu, 4 Feb 2016 22:34:14 +0000
+Message-ID: <D2D93C0E.357B7%rjh2@nist.gov>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+authentication-results: nationaldataservice.org; dkim=none (message not
+ signed) header.d=none;nationaldataservice.org; dmarc=none action=none
+ header.from=nist.gov;
+x-ms-exchange-messagesentrepresentingtype: 1
+x-originating-ip: [129.6.227.93]
+x-microsoft-exchange-diagnostics: 1;SN1PR09MB0942;5:OiW65s026rmeo8US817wa46CqNPvpDrQ5lNbzOf830tD6qwmznGHSgoa8d6Q6gHpGB6cW75wcx0Q8NRInJ5IbsppeZR3lDL2xcoKAmx/yDqEZiJFWWug0dSXt+qecKGWRY7+mjA1D/QVvx/7wMljKg==;24:DP83Vy5NmorniQyHZDfRNSO8eKmmY45PSpeDe4ceuG1qa8BF3Dz2Fxfe5U8US31wLwn+QDn8woIytNga/PocolHhsKf5+DuYf80EaoQp5tE=
+x-microsoft-antispam: UriScan:;BCL:0;PCL:0;RULEID:;SRVR:SN1PR09MB0942;
+x-ms-office365-filtering-correlation-id: 98eff168-437a-4cae-0ce6-08d32db34faf
+x-microsoft-antispam-prvs: <SN1PR09MB0942189FBF381197FC369E22EED10@SN1PR09MB0942.namprd09.prod.outlook.com>
+x-exchange-antispam-report-test: UriScan:(50460241934527);
+x-exchange-antispam-report-cfa-test: BCL:0;PCL:0;RULEID:(601004)(2401047)(8121501046)(5005006)(10201501046)(3002001);SRVR:SN1PR09MB0942;BCL:0;PCL:0;RULEID:;SRVR:SN1PR09MB0942;
+x-forefront-prvs: 084285FC5C
+x-forefront-antispam-report: SFV:NSPM;SFS:(10019020)(124975003)(50986999)(4326007)(92566002)(10400500002)(5001770100001)(5008740100001)(36756003)(6116002)(122556002)(19580395003)(189998001)(3660700001)(2900100001)(77096005)(15975445007)(450100001)(40100003)(5001960100002)(16236675004)(66066001)(3846002)(561944003)(1220700001)(19617315012)(229853001)(1096002)(54356999)(86362001)(102836003)(5002640100001)(5004730100002)(3280700002)(99286002)(2501003)(106116001)(2906002)(586003)(87936001)(3480700002);DIR:OUT;SFP:1102;SCL:1;SRVR:SN1PR09MB0942;H:SN1PR09MB0943.namprd09.prod.outlook.com;FPR:;SPF:None;MLV:sfv;LANG:en;
+spamdiagnosticoutput: 1:23
+spamdiagnosticmetadata: NSPM
+Content-Type: multipart/alternative;
+	boundary="_000_D2D93C0E357B7rjh2nistgov_"
+MIME-Version: 1.0
+X-OriginatorOrg: nist.gov
+X-MS-Exchange-CrossTenant-originalarrivaltime: 04 Feb 2016 22:34:14.7389
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 2ab5d82f-d8fa-4797-a93e-054655c61dec
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: SN1PR09MB0942
+X-Null-Tag: 38e84e2abacbf98fa6de510143387798
+X-NCSA-MailScanner-Information: Please contact help@ncsa.uiuc.edu for more information, rimantadine.ncsa.uiuc.edu
+X-NCSA-MailScanner-ID: u14MYGgC008292
+X-NCSA-MailScanner: Found to be clean
+Sender: owner-discuss@nationaldataservice.org
+Precedence: bulk
+Reply-To: discuss@nationaldataservice.org
+
+--_000_D2D93C0E357B7rjh2nistgov_
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: base64
+
+QSBnb2FsIG9mIHRoZSBORFMgQ29uc29ydGl1bSBpcyB0byBoZWxwIGJ1aWxkIGFsbGlhbmNlcyBh
+bmQgcGFydG5lcnNoaXBzIHRvIGRldmVsb3AgcHJvcG9zYWxzIGZvciBORFMtcmVsYXRlZCBmdW5k
+aW5nIG9wcG9ydHVuaXRpZXMuICBUaGUgbGF0ZXN0IE5TRiBEYXRhIEluZnJhc3RydWN0dXJlIEJ1
+aWxkaW5nIEJsb2NrcyAoRElCQnMpIHNvbGljaXRhdGlvbiBpcyBub3cgb3V0IChzZWUgVVJMIGJl
+bG93KSBhbmQgd2UgZW5jb3VyYWdlIHlvdSB0byBjb250YWN0IHlvdXIgTkRTIENvbnNvcnRpdW0g
+Y29sbGVhZ3VlcyB0byBmb3JtIHByb3Bvc2FsIHRlYW1zLiAgUHJvamVjdHMgdGhhdCBjYW4gYnVp
+bGQgb24gdGhlIE5EUyBMYWJzIGFuZCBORFMgU2hhcmUgaW5mcmFzdHJ1Y3R1cmUgd291bGQgYmUg
+aGlnaGx5IHJlbGV2YW50IHRvIHRoZSBESUJCcyBwcm9ncmFtLiAgVGhlIG1lbWJlcnMgb2YgdGhl
+IE5EUyBDb25zb3J0aXVtIFN0ZWVyaW5nIENvbW1pdHRlZSBhcmUgYXZhaWxhYmxlIHRvIGhlbHAg
+aWRlbnRpZnkgcG90ZW50aWFsIHBhcnRuZXJzLiAgTGV0IHVzIGtub3cgaWYgd2UgY2FuIGhlbHAh
+DQoNCkJvYiBIYW5pc2NoDQpDaGFpciwgTkRTIENvbnNvcnRpdW0gU3RlZXJpbmcgQ29tbWl0dGVl
+DQoNCmh0dHA6Ly93d3cubnNmLmdvdi9wdWJzLzIwMTYvbnNmMTY1MzAvbnNmMTY1MzAuaHRtP1dU
+Lm1jX2lkPVVTTlNGXzI1JldULm1jX2V2PWNsaWNrDQoNCi0gLSAtIC0gLQ0KDQpEci4gUm9iZXJ0
+IEouIEhhbmlzY2gNCkRpcmVjdG9yLCBPZmZpY2Ugb2YgRGF0YSBhbmQgSW5mb3JtYXRpY3MNCk1h
+dGVyaWFsIE1lYXN1cmVtZW50IExhYm9yYXRvcnkNCk5hdGlvbmFsIEluc3RpdHV0ZSBvZiBTdGFu
+ZGFyZHMgYW5kIFRlY2hub2xvZ3kNCg0KDQo=
+
+--_000_D2D93C0E357B7rjh2nistgov_
+Content-Type: text/html; charset="utf-8"
+Content-ID: <CD66809B29A98F4D8FDD5D2EB98E8786@namprd09.prod.outlook.com>
+Content-Transfer-Encoding: base64
+
+PGh0bWw+DQo8aGVhZD4NCjxtZXRhIGh0dHAtZXF1aXY9IkNvbnRlbnQtVHlwZSIgY29udGVudD0i
+dGV4dC9odG1sOyBjaGFyc2V0PXV0Zi04Ij4NCjwvaGVhZD4NCjxib2R5IHN0eWxlPSJ3b3JkLXdy
+YXA6IGJyZWFrLXdvcmQ7IC13ZWJraXQtbmJzcC1tb2RlOiBzcGFjZTsgLXdlYmtpdC1saW5lLWJy
+ZWFrOiBhZnRlci13aGl0ZS1zcGFjZTsgY29sb3I6IHJnYigwLCAwLCAwKTsgZm9udC1zaXplOiAx
+NHB4OyBmb250LWZhbWlseTogQ2FsaWJyaSwgc2Fucy1zZXJpZjsiPg0KPGRpdj4NCjxkaXYgc3R5
+bGU9ImZvbnQtZmFtaWx5OiBDYWxpYnJpOyBmb250LXNpemU6IG1lZGl1bTsiPg0KPHAgY2xhc3M9
+Ik1zb05vcm1hbCIgc3R5bGU9Im1hcmdpbjogMGluIDBpbiAwLjAwMDFwdDsgZm9udC1zaXplOiAx
+MXB0OyBmb250LWZhbWlseTogQ2FsaWJyaSwgc2Fucy1zZXJpZjsiPg0KPHNwYW4gc3R5bGU9ImZv
+bnQtc2l6ZTogMTAuNXB0OyI+QSBnb2FsIG9mIHRoZSBORFMgQ29uc29ydGl1bSBpcyB0byBoZWxw
+IGJ1aWxkIGFsbGlhbmNlcyBhbmQgcGFydG5lcnNoaXBzIHRvIGRldmVsb3AgcHJvcG9zYWxzIGZv
+ciBORFMtcmVsYXRlZCBmdW5kaW5nIG9wcG9ydHVuaXRpZXMuICZuYnNwO1RoZSBsYXRlc3QgTlNG
+IERhdGEgSW5mcmFzdHJ1Y3R1cmUgQnVpbGRpbmcgQmxvY2tzIChESUJCcykgc29saWNpdGF0aW9u
+IGlzIG5vdyBvdXQgKHNlZSBVPC9zcGFuPjxzcGFuIHN0eWxlPSJmb250LXNpemU6IDEwLjVwdDsi
+PlJMDQogYmVsb3cpIGFuZCB3ZSBlbmNvdXJhZ2UgeW91IHRvIGNvbnRhY3QgeW91ciBORFMgQ29u
+c29ydGl1bSBjb2xsZWFndWVzIHRvIGZvcm0gcHJvcG9zYWwgdGVhbXMuICZuYnNwO1Byb2plY3Rz
+IHRoYXQgY2FuIGJ1aWxkIG9uIHRoZSBORFMgTGFicyBhbmQgTkRTIFNoYXJlIGluZnJhc3RydWN0
+dXJlIHdvdWxkIGJlIGhpZ2hseSByZWxldmFudCB0byB0aGUgRElCQnMgcHJvZ3JhbS4gJm5ic3A7
+VGhlIG1lbWJlcnMgb2YgdGhlIE5EUyBDb25zb3J0aXVtIFN0ZWVyaW5nIENvbW1pdHRlZQ0KIGFy
+ZSBhdmFpbGFibGUgdG8gaGVscCBpZGVudGlmeSBwb3RlbnRpYWwgcGFydG5lcnMuICZuYnNwO0xl
+dCB1cyBrbm93IGlmIHdlIGNhbiBoZWxwITwvc3Bhbj48L3A+DQo8L2Rpdj4NCjxkaXYgc3R5bGU9
+ImZvbnQtZmFtaWx5OiBDYWxpYnJpOyBmb250LXNpemU6IG1lZGl1bTsiPg0KPHAgY2xhc3M9Ik1z
+b05vcm1hbCIgc3R5bGU9Im1hcmdpbjogMGluIDBpbiAwLjAwMDFwdDsgZm9udC1zaXplOiAxMXB0
+OyBmb250LWZhbWlseTogQ2FsaWJyaSwgc2Fucy1zZXJpZjsiPg0KPHNwYW4gc3R5bGU9ImZvbnQt
+c2l6ZTogMTAuNXB0OyI+Jm5ic3A7PC9zcGFuPjwvcD4NCjwvZGl2Pg0KPGRpdiBzdHlsZT0iZm9u
+dC1mYW1pbHk6IENhbGlicmk7IGZvbnQtc2l6ZTogbWVkaXVtOyI+DQo8cCBjbGFzcz0iTXNvTm9y
+bWFsIiBzdHlsZT0ibWFyZ2luOiAwaW4gMGluIDAuMDAwMXB0OyBmb250LXNpemU6IDExcHQ7IGZv
+bnQtZmFtaWx5OiBDYWxpYnJpLCBzYW5zLXNlcmlmOyI+DQo8c3BhbiBzdHlsZT0iZm9udC1zaXpl
+OiAxMC41cHQ7Ij5Cb2IgSGFuaXNjaDxvOnA+PC9vOnA+PC9zcGFuPjwvcD4NCjwvZGl2Pg0KPGRp
+diBzdHlsZT0iZm9udC1mYW1pbHk6IENhbGlicmk7IGZvbnQtc2l6ZTogbWVkaXVtOyI+DQo8cCBj
+bGFzcz0iTXNvTm9ybWFsIiBzdHlsZT0ibWFyZ2luOiAwaW4gMGluIDAuMDAwMXB0OyBmb250LXNp
+emU6IDExcHQ7IGZvbnQtZmFtaWx5OiBDYWxpYnJpLCBzYW5zLXNlcmlmOyI+DQo8c3BhbiBzdHls
+ZT0iZm9udC1zaXplOiAxMC41cHQ7Ij5DaGFpciwgTkRTIENvbnNvcnRpdW0gU3RlZXJpbmcgQ29t
+bWl0dGVlPG86cD48L286cD48L3NwYW4+PC9wPg0KPHAgY2xhc3M9Ik1zb05vcm1hbCIgc3R5bGU9
+Im1hcmdpbjogMGluIDBpbiAwLjAwMDFwdDsgZm9udC1zaXplOiAxMXB0OyBmb250LWZhbWlseTog
+Q2FsaWJyaSwgc2Fucy1zZXJpZjsiPg0KPHNwYW4gc3R5bGU9ImZvbnQtc2l6ZTogMTAuNXB0OyI+
+PGJyPg0KPC9zcGFuPjwvcD4NCjxwIGNsYXNzPSJNc29Ob3JtYWwiIHN0eWxlPSJtYXJnaW46IDBp
+biAwaW4gMC4wMDAxcHQ7IGZvbnQtc2l6ZTogMTFwdDsgZm9udC1mYW1pbHk6IENhbGlicmksIHNh
+bnMtc2VyaWY7Ij4NCjxhIGhyZWY9Imh0dHA6Ly93d3cubnNmLmdvdi9wdWJzLzIwMTYvbnNmMTY1
+MzAvbnNmMTY1MzAuaHRtP1dULm1jX2lkPVVTTlNGXzI1JmFtcDtXVC5tY19ldj1jbGljayIgc3R5
+bGU9ImNvbG9yOiByZ2IoMTQ5LCA3OSwgMTE0KTsiPmh0dHA6Ly93d3cubnNmLmdvdi9wdWJzLzIw
+MTYvbnNmMTY1MzAvbnNmMTY1MzAuaHRtP1dULm1jX2lkPVVTTlNGXzI1JmFtcDtXVC5tY19ldj1j
+bGljazwvYT48L3A+DQo8L2Rpdj4NCjxkaXYgc3R5bGU9ImZvbnQtZmFtaWx5OiBDYWxpYnJpOyBm
+b250LXNpemU6IG1lZGl1bTsiPg0KPHAgY2xhc3M9Ik1zb05vcm1hbCIgc3R5bGU9Im1hcmdpbjog
+MGluIDBpbiAwLjAwMDFwdDsgZm9udC1zaXplOiAxMXB0OyBmb250LWZhbWlseTogQ2FsaWJyaSwg
+c2Fucy1zZXJpZjsiPg0KPHNwYW4gc3R5bGU9ImZvbnQtc2l6ZTogMTAuNXB0OyI+Jm5ic3A7PC9z
+cGFuPjwvcD4NCjwvZGl2Pg0KPGRpdiBzdHlsZT0iZm9udC1mYW1pbHk6IENhbGlicmk7IGZvbnQt
+c2l6ZTogbWVkaXVtOyI+DQo8ZGl2Pg0KPHAgY2xhc3M9Ik1zb05vcm1hbCIgc3R5bGU9Im1hcmdp
+bjogMGluIDBpbiAwLjAwMDFwdDsgZm9udC1zaXplOiAxMXB0OyBmb250LWZhbWlseTogQ2FsaWJy
+aSwgc2Fucy1zZXJpZjsiPg0KPHNwYW4gc3R5bGU9ImZvbnQtc2l6ZTogMTAuNXB0OyI+LSAtIC0g
+LSAtPG86cD48L286cD48L3NwYW4+PC9wPg0KPC9kaXY+DQo8ZGl2Pg0KPHAgY2xhc3M9Ik1zb05v
+cm1hbCIgc3R5bGU9Im1hcmdpbjogMGluIDBpbiAwLjAwMDFwdDsgZm9udC1zaXplOiAxMXB0OyBm
+b250LWZhbWlseTogQ2FsaWJyaSwgc2Fucy1zZXJpZjsiPg0KPHNwYW4gc3R5bGU9ImZvbnQtc2l6
+ZTogMTAuNXB0OyI+Jm5ic3A7PC9zcGFuPjwvcD4NCjwvZGl2Pg0KPGRpdj4NCjxwIGNsYXNzPSJN
+c29Ob3JtYWwiIHN0eWxlPSJtYXJnaW46IDBpbiAwaW4gMC4wMDAxcHQ7IGZvbnQtc2l6ZTogMTFw
+dDsgZm9udC1mYW1pbHk6IENhbGlicmksIHNhbnMtc2VyaWY7Ij4NCjxzcGFuIHN0eWxlPSJmb250
+LXNpemU6IDEwLjVwdDsiPkRyLiBSb2JlcnQgSi4gSGFuaXNjaDxvOnA+PC9vOnA+PC9zcGFuPjwv
+cD4NCjwvZGl2Pg0KPGRpdj4NCjxwIGNsYXNzPSJNc29Ob3JtYWwiIHN0eWxlPSJtYXJnaW46IDBp
+biAwaW4gMC4wMDAxcHQ7IGZvbnQtc2l6ZTogMTFwdDsgZm9udC1mYW1pbHk6IENhbGlicmksIHNh
+bnMtc2VyaWY7Ij4NCjxzcGFuIHN0eWxlPSJmb250LXNpemU6IDEwLjVwdDsiPkRpcmVjdG9yLCBP
+ZmZpY2Ugb2YgRGF0YSBhbmQgSW5mb3JtYXRpY3M8bzpwPjwvbzpwPjwvc3Bhbj48L3A+DQo8L2Rp
+dj4NCjxkaXY+DQo8cCBjbGFzcz0iTXNvTm9ybWFsIiBzdHlsZT0ibWFyZ2luOiAwaW4gMGluIDAu
+MDAwMXB0OyBmb250LXNpemU6IDExcHQ7IGZvbnQtZmFtaWx5OiBDYWxpYnJpLCBzYW5zLXNlcmlm
+OyI+DQo8c3BhbiBzdHlsZT0iZm9udC1zaXplOiAxMC41cHQ7Ij5NYXRlcmlhbCBNZWFzdXJlbWVu
+dCBMYWJvcmF0b3J5PG86cD48L286cD48L3NwYW4+PC9wPg0KPC9kaXY+DQo8ZGl2Pg0KPHAgY2xh
+c3M9Ik1zb05vcm1hbCIgc3R5bGU9Im1hcmdpbjogMGluIDBpbiAwLjAwMDFwdDsgZm9udC1zaXpl
+OiAxMXB0OyBmb250LWZhbWlseTogQ2FsaWJyaSwgc2Fucy1zZXJpZjsiPg0KPHNwYW4gc3R5bGU9
+ImZvbnQtc2l6ZTogMTAuNXB0OyI+TmF0aW9uYWwgSW5zdGl0dXRlIG9mIFN0YW5kYXJkcyBhbmQg
+VGVjaG5vbG9neTxvOnA+PC9vOnA+PC9zcGFuPjwvcD4NCjwvZGl2Pg0KPGRpdj4NCjxwIGNsYXNz
+PSJNc29Ob3JtYWwiIHN0eWxlPSJtYXJnaW46IDBpbiAwaW4gMC4wMDAxcHQ7IGZvbnQtc2l6ZTog
+MTFwdDsgZm9udC1mYW1pbHk6IENhbGlicmksIHNhbnMtc2VyaWY7Ij4NCjxzcGFuIHN0eWxlPSJm
+b250LXNpemU6IDEwLjVwdDsiPiZuYnNwOzwvc3Bhbj48L3A+DQo8L2Rpdj4NCjwvZGl2Pg0KPC9k
+aXY+DQo8YnI+DQo8L2JvZHk+DQo8L2h0bWw+DQo=
+
+--_000_D2D93C0E357B7rjh2nistgov_--
+

@@ -1,0 +1,312 @@
+From owner-nds-announce@nationaldataservice.org Wed Feb  4 15:55:24 2015
+Received: (from majordomo@localhost)
+	by pop.ncsa.uiuc.edu (8.11.7/8.11.7) id t14LtOE00797;
+	Wed, 4 Feb 2015 15:55:24 -0600
+X-Envelope-From: rplante@illinois.edu
+X-Envelope-To: <nds-announce@nationaldataservice.org>
+Received: from rimantadine.ncsa.uiuc.edu (rimantadine.ncsa.uiuc.edu [141.142.199.3])
+	by pop.ncsa.uiuc.edu (8.11.7/8.11.7) with ESMTP id t14LtO000787
+	for <nds-announce@nationaldataservice.org>; Wed, 4 Feb 2015 15:55:24 -0600
+Received: from epte.local ([141.142.20.197])
+	(authenticated bits=0)
+	by rimantadine.ncsa.uiuc.edu (8.14.9/8.14.4) with ESMTP id t14LtONM013081
+	(version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NO)
+	for <nds-announce@nationaldataservice.org>; Wed, 4 Feb 2015 15:55:24 -0600
+Date: Wed, 4 Feb 2015 15:55:24 -0600 (CST)
+From: Ray Plante <rplante@illinois.edu>
+X-X-Sender: rplante@epte
+To: NDS Announce <nds-announce@nationaldataservice.org>
+Subject: Large-scale Data Projects Session at RDA
+Message-ID: <alpine.DEB.2.02.1502041543030.17251@epte>
+User-Agent: Alpine 2.02 (DEB 1266 2009-07-14)
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+X-Null-Tag: 6670a20b762ae852dc2a9152a5469dca
+X-NCSA-MailScanner-Information: Please contact help@ncsa.uiuc.edu for more information, rimantadine.ncsa.uiuc.edu
+X-NCSA-MailScanner-ID: t14LtONM013081
+X-NCSA-MailScanner: Found to be clean
+Sender: owner-nds-announce@nationaldataservice.org
+Precedence: bulk
+Reply-To: nds-announce@nationaldataservice.org
+
+Hi NDS friends,
+
+We expect that we'll see many of you at Research Data Alliance 
+Plenary 5 meeting in San Diego (3/8-11/2015, www.rd-alliance.org).  We 
+do want to call your attention to a special session that is 
+particularly relevent to the NDS.
+
+The Large-scale Data Projects Session (on Sat. 3/8) will address how 
+to advance the goals of RDA and further increase adoption with tool 
+developers and researchers in the larger context of large data 
+facilities and projects.  A call for papers to present during 
+this session is now open; the deadline to submit is Feb. 8.  
+
+hope to see you there,
+Ray Plante
+Rob Pennington
+
+
+nds-announce is a mail list of the National Data Service Consortium.
+To unsubscribe, send a message to majordomo@nationaldataservice.org
+with "unsubscribe nds-announce Ray Plante <rplante@illinois.edu>" in the body.
+Questions about the list can be sent to
+owner-nds-announce@nationaldataservice.org.
+
+From owner-nds-announce@nationaldataservice.org Thu Feb  5 13:49:15 2015
+Received: (from majordomo@localhost)
+	by pop.ncsa.uiuc.edu (8.11.7/8.11.7) id t15JnFx03865;
+	Thu, 5 Feb 2015 13:49:15 -0600
+X-Envelope-From: rplante@illinois.edu
+X-Envelope-To: <nds-announce@nationaldataservice.org>
+Received: from rimantadine.ncsa.uiuc.edu (rimantadine.ncsa.uiuc.edu [141.142.199.3])
+	by pop.ncsa.uiuc.edu (8.11.7/8.11.7) with ESMTP id t15JnF003855
+	for <nds-announce@nationaldataservice.org>; Thu, 5 Feb 2015 13:49:15 -0600
+Received: from epte.local ([141.142.20.197])
+	(authenticated bits=0)
+	by rimantadine.ncsa.uiuc.edu (8.14.9/8.14.4) with ESMTP id t15JnEGq002087
+	(version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NO);
+	Thu, 5 Feb 2015 13:49:14 -0600
+Date: Thu, 5 Feb 2015 13:49:14 -0600 (CST)
+From: Ray Plante <rplante@illinois.edu>
+X-X-Sender: rplante@epte
+To: David Schade <David.Schade@nrc-cnrc.gc.ca>
+cc: "nds-announce@nationaldataservice.org" <nds-announce@nationaldataservice.org>
+Subject: Re: Large-scale Data Projects Session at RDA
+In-Reply-To: <54D3BBE6.5060002@nrc-cnrc.gc.ca>
+Message-ID: <alpine.DEB.2.02.1502051346360.17251@epte>
+References: <alpine.DEB.2.02.1502041543030.17251@epte> <54D3BBE6.5060002@nrc-cnrc.gc.ca>
+User-Agent: Alpine 2.02 (DEB 1266 2009-07-14)
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+X-Null-Tag: a1f4c4ee27fd7895b05d4a706fb7b102
+X-NCSA-MailScanner-Information: Please contact help@ncsa.uiuc.edu for more information, rimantadine.ncsa.uiuc.edu
+X-NCSA-MailScanner-ID: t15JnEGq002087
+X-NCSA-MailScanner: Found to be clean
+Sender: owner-nds-announce@nationaldataservice.org
+Precedence: bulk
+Reply-To: nds-announce@nationaldataservice.org
+
+Hey David,
+
+On Thu, 5 Feb 2015, David Schade wrote:
+>  I'm very interested in giving a talk at this session.
+
+Excellent.  Unfortunately, I'm not involved in the planning for that 
+session; please visit the RDA website to submit.  I see that I should 
+have included the URL:
+
+https://rd-alliance.org/large-scale-data-projects-meet-rda-rda-5th-plenary-session.html
+
+BTW, we're expecting to get together with the ComputeCanada folks 
+later in the week--don't know if you are part of that.
+
+cheers,
+Ray
+
+
+nds-announce is a mail list of the National Data Service Consortium.
+To unsubscribe, send a message to majordomo@nationaldataservice.org
+with "unsubscribe nds-announce Ray Plante <rplante@illinois.edu>" in the body.
+Questions about the list can be sent to
+owner-nds-announce@nationaldataservice.org.
+
+From owner-nds-announce@nationaldataservice.org Fri Feb 13 09:33:06 2015
+Received: (from majordomo@localhost)
+	by pop.ncsa.uiuc.edu (8.11.7/8.11.7) id t1DFX6P12387;
+	Fri, 13 Feb 2015 09:33:06 -0600
+X-Envelope-From: rplante@illinois.edu
+X-Envelope-To: <nds-announce@nationaldataservice.org>
+Received: from amantadine.ncsa.uiuc.edu (amantadine.ncsa.uiuc.edu [141.142.192.229])
+	by pop.ncsa.uiuc.edu (8.11.7/8.11.7) with ESMTP id t1DFX4012377
+	for <nds-announce@nationaldataservice.org>; Fri, 13 Feb 2015 09:33:04 -0600
+Received: from epte.local ([141.142.23.232])
+	(authenticated bits=0)
+	by amantadine.ncsa.uiuc.edu (8.14.9/8.14.4) with ESMTP id t1DFX3bc013986
+	(version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NO)
+	for <nds-announce@nationaldataservice.org>; Fri, 13 Feb 2015 09:33:03 -0600
+Date: Fri, 13 Feb 2015 09:33:03 -0600 (CST)
+From: Ray Plante <rplante@illinois.edu>
+X-X-Sender: rplante@epte
+To: NDS Announce <nds-announce@nationaldataservice.org>
+Subject: Call for Proposal Participation
+Message-ID: <alpine.DEB.2.02.1502130928500.9341@epte>
+User-Agent: Alpine 2.02 (DEB 1266 2009-07-14)
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+X-Null-Tag: ffba446b00bac062edb0617a22fe3586
+X-NCSA-MailScanner-Information: Please contact help@ncsa.uiuc.edu for more information, rimantadine.ncsa.uiuc.edu
+X-NCSA-MailScanner-ID: t1DFX3bc013986
+X-NCSA-MailScanner: Found to be clean
+Sender: owner-nds-announce@nationaldataservice.org
+Precedence: bulk
+Reply-To: nds-announce@nationaldataservice.org
+
+Dear NDS Consortium Partners,
+
+As you may know, we've been pursuing multiple opportunities for
+funding NDS activities, and I would like to tell you about one of the
+latest.  The NDS Executive Committee has launched an effort to submit
+to the NSF "Campus Cyberinfrastructure - Data, Networking, and Innovation"
+Program (CC*DNI, http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=504748), 
+under the DIBBs area, and we would like to invite you to participate.
+
+This is a somewhat small program, not enough, certainly, to fund all
+of the NDS as we envision it; however, it is a good program for putting
+some important building blocks into place and for demonstrating how we
+can operate as a community.  We would to like identify both Consortium
+partners to work with as well as problem scenarios that we might work
+on together.  
+
+From our discussions with NSF, we expect that there will be a strong
+emphasis on enabling science and research; thus, we especially want to
+encourage participation by partners who have strong connections to 
+researchers that can benefit from our activities in the near-term.
+Connection to a currently funded data project will also be very
+helpful; as there will not be a lot of funds to spread around, it will
+help if we can leverage existing projects and activities.  
+
+If you are interested in getting involved in this proposal, please
+contact us via info@nationaldataservice.org, describing in a short
+paragraph your project or community needs and a specific research
+problem (or two) that we might collaborate on.  Consider what data
+your community currently shares, what tools and techniques are
+currently in place, and where there is room for improvement.  Problems
+that apply to other communities as well would be particularly helpful.
+
+I would also encourage open discussion of the proposal, science
+scenarios, and specific project ideas on the consortium discussion list
+(see http://www.nationaldataservice.org/get_involved/email_lists.html
+for joining details).  Feel free to CC: your suggests to that list if
+you subscribe to it.  
+
+Finally, I'll note that I expect that some of you may be working on
+your own CC*DNI proposal.  That, of course, is fine, and that should
+not automatically keep you from playing a role in this one as well.
+Further, if there is anything the Consortium can do to help with your
+proposal, feel free to contact us via info@nationaldataservice.org.
+
+Thanks for your continued interest in the NDS--we look forward to
+hearing from you.  
+
+cheers,
+Ray Plante
+Interim Project Manager
+
+
+
+nds-announce is a mail list of the National Data Service Consortium.
+To unsubscribe, send a message to majordomo@nationaldataservice.org
+with "unsubscribe nds-announce Ray Plante <rplante@illinois.edu>" in the body.
+Questions about the list can be sent to
+owner-nds-announce@nationaldataservice.org.
+
+From owner-nds-announce@nationaldataservice.org Sat Feb 28 07:32:48 2015
+Received: (from majordomo@localhost)
+	by pop.ncsa.uiuc.edu (8.11.7/8.11.7) id t1SDWmT18901;
+	Sat, 28 Feb 2015 07:32:48 -0600
+X-Envelope-From: rplante@illinois.edu
+X-Envelope-To: <nds-announce@nationaldataservice.org>
+Received: from amantadine.ncsa.uiuc.edu (amantadine.ncsa.uiuc.edu [141.142.192.229])
+	by pop.ncsa.uiuc.edu (8.11.7/8.11.7) with ESMTP id t1SDWmY18891
+	for <nds-announce@nationaldataservice.org>; Sat, 28 Feb 2015 07:32:48 -0600
+Received: from epte.local (adsl-76-199-1-224.dsl.chmpil.sbcglobal.net [76.199.1.224])
+	(authenticated bits=0)
+	by amantadine.ncsa.uiuc.edu (8.14.9/8.14.4) with ESMTP id t1SDWldF016687
+	(version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NO)
+	for <nds-announce@nationaldataservice.org>; Sat, 28 Feb 2015 07:32:47 -0600
+Date: Sat, 28 Feb 2015 07:32:46 -0600 (CST)
+From: Ray Plante <rplante@illinois.edu>
+X-X-Sender: rplante@epte
+To: NDS Announce <nds-announce@nationaldataservice.org>
+Subject: NDS News: NDS3, elections, and more
+Message-ID: <alpine.DEB.2.02.1502280728350.3546@epte>
+User-Agent: Alpine 2.02 (DEB 1266 2009-07-14)
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+X-Null-Tag: c4f2089b5eeb0efc2cb258dbcbf2ba67
+X-NCSA-MailScanner-Information: Please contact help@ncsa.uiuc.edu for more information, rimantadine.ncsa.uiuc.edu
+X-NCSA-MailScanner-ID: t1SDWldF016687
+X-NCSA-MailScanner: Found to be clean
+Sender: owner-nds-announce@nationaldataservice.org
+Precedence: bulk
+Reply-To: nds-announce@nationaldataservice.org
+
+Hi friends of NDS,
+
+As the NDS3 workshop approaches, I wanted to let you know about some
+updates to our web site and some coming activity
+
+  o  NDS3 Program and Accommadation info is now available
+  o  NDS3: Small meetings and the NDS Labs Tutorial
+  o  Steering Committee nominations are requested
+  o  New Stakeholder Analysis survey launching
+
+There's a lot of information we want to share, so you will be getting
+additional mailings in the coming days.  For now, here's a preview...
+
+NDS Program and Lodging info is now available
+---------------------------------------------------
+
+We've added more information about the NDS3 meeting to help you plan
+your trip.  We have a more detailed overview of the program describing
+the different sessions.  We have lodging information available as
+well.  Visit the site at 
+http://www.nationaldataservice.org/get_involved/events/NDS3/.
+
+Lost your invitiation? Find it here:
+http://www.nationaldataservice.org/docs/NDS3invitation.html
+
+Ready to register?  You can do that here:
+https://illinois.edu/fb/sec/7222716
+
+
+NDS3: Small meetings and the NDS Labs Tutorial
+----------------------------------------------
+
+With NDS3, we've added a Small Groups Day on Wednesday, March 25,
+before the plenary.  This is a chance for small teams to get together
+in person.  Are you part of pilot project or coordination group?  Are
+you part of an RDA working group?  You can reserve one of our small
+meeting rooms for any part of the day.  Room requests can be sent to
+info@nationaldataservice.org; just include your group name, the
+organizers contact info, the length of time you would like the room,
+and your preferred start time.  
+
+A special feature of the Small Groups Day will be a tutorial on using
+NDS Labs.  This will happen from 10am to noon on Wednesday, March 25.
+In the afternoon, you'll have the chance to experiment in the Labs
+environment.  More information about the tutorial will be sent out
+shortly. 
+
+
+Steering Committee nominations are requested
+--------------------------------------------
+
+Very soon, you'll receive an official call for nominations to the
+Consortium Steering Committee.  This is called for by our new charter
+(http://www.nationaldataservice.org/docs/NDS_Charter_v28.pdf).  We see
+to quickly gather nominations and hold an electronic election by the
+NDS3 workshop.  
+
+New Stakeholder Analysis survey launching
+-----------------------------------------
+
+The second part of our stakeholder analysis survey is about to start.
+You may have participated in last years survey which we reported at
+the June Meeting in Boulder.  This gave a good representation of the
+perspectives of the "friends of NDS".  This time, we will be looking
+to reach out into the scientific and research user communities.  Look
+for the follow-up survey announcement coming soon.  
+
+Hope to see you in Austin!
+Ray Plante
+Interim Project Manager
+
+
+nds-announce is a mail list of the National Data Service Consortium.
+To unsubscribe, send a message to majordomo@nationaldataservice.org
+with "unsubscribe nds-announce Ray Plante <rplante@illinois.edu>" in the body.
+Questions about the list can be sent to
+owner-nds-announce@nationaldataservice.org.
+

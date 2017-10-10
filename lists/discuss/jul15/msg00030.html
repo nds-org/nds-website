@@ -1,0 +1,171 @@
+<!-- MHonArc v2.6.10 -->
+<!--X-Subject: Re: REST API of create_lab, suspend_lab, resume_lab, delete_lab in place -->
+<!--X-From-R13: Ynpcre Ybjnyvx <kneguvfvhf.xxNtznvy.pbz> -->
+<!--X-Date: Fri, 17 Jul 2015 14:57:57 &#45;0500 -->
+<!--X-Message-Id: 55A95E3B.8030701@gmail.com -->
+<!--X-Content-Type: multipart/signed -->
+<!--X-Reference: CA+1QfO=5AmuG+f8BAu5dPHqRy_R4T6Wr2RpxkVcn0cN8QkE7KA@mail.gmail.com -->
+<!--X-Reference: E2327468FA22F742AF5C86405B05AC1A08FC3C5D@CITESMBX5.ad.uillinois.edu -->
+<!--X-Reference: 55A9579F.5080201@gmail.com -->
+<!--X-Reference: E2327468FA22F742AF5C86405B05AC1A08FC3CA7@CITESMBX5.ad.uillinois.edu -->
+<!--X-Derived: pgpuuvdlgyl85.pgp -->
+<!--X-Head-End-->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML//EN">
+<HTML>
+<HEAD>
+<TITLE>Re: REST API of create_lab, suspend_lab, resume_lab, delete_lab in place</TITLE>
+<LINK REV="made" HREF="mailto:xarthisius.kk@gmail.com">
+</HEAD>
+<!--#INCLUDE VIRTUAL="/include/lists/discuss/message-header.html"-->
+<!--X-Body-Begin-->
+<!--X-User-Header-->
+<!--X-User-Header-End-->
+<!--X-TopPNI-->
+<!---->
+
+<!--X-TopPNI-End-->
+<!--X-MsgBody-->
+<!--X-Subject-Header-Begin-->
+<H1>Re: REST API of create_lab, suspend_lab, resume_lab, delete_lab in place<HR></H1>
+<!--X-Subject-Header-End-->
+<!--X-Head-of-Message-->
+<ul>
+<li><strong>To</strong>: <strong><a href="mailto:discuss@DOMAIN.HIDDEN">discuss@xxxxxxxxxxxxxxxxxxxxxxx</a></strong></li>
+<li><strong>Subject</strong>: <strong>Re: REST API of create_lab, suspend_lab, resume_lab, delete_lab in place</strong></li>
+<li><strong>From</strong>: <strong>Kacper Kowalik &lt;<a href="mailto:xarthisius.kk@DOMAIN.HIDDEN">xarthisius.kk@xxxxxxxxx</a>&gt;</strong></li>
+<li>Date: Fri, 17 Jul 2015 14:57:47 -0500</li>
+<li>Content-type: multipart/signed; micalg=pgp-sha256; protocol=&quot;application/pgp-signature&quot;; boundary=&quot;c5fRIujLc2wE5QrcdVdH7GLPobJQqKgpr&quot;</li>
+<li>Dkim-signature: v=1; a=rsa-sha256; c=relaxed/relaxed;        d=gmail.com; s=20120113;        h=message-id:date:from:user-agent:mime-version:to:subject:references         :in-reply-to:content-type;        bh=qsWH8ekWB88kxoL6A2gmkX/KvHX0uY92/bZgU8TAgAs=;        b=xJ7sivbzP/R5pI40PrgNKLsen5i3UYSTw9k38oD5WwywdijQ8Wb+eMikq+sgEGiy5x         VZchpEAJhXEfOtYyWAiA+9ScPzswEHdvWoo+ppQy3bd5qP9boWbf6AbAOu/wQtv/Skb0         IvIr9WsqIVp69323KvEl2h7fgG/Z3LZSQlTlhJPqme5U8PtD2meD5u6E4zT+8R0GT7SJ         ZFOYTsC19dgM4N85hPnmGHB7tQF6D+QYN+upc1RJG7L6ISpDuYwGndVmiM/CWzgqm6e1         6lRH0h7BTr+M//rT/LNIZ9pQdAxU+hAzpDc5WZQn22WFh6kGYnI4ggkDEldtuZ8Vs2Bp         ZOLA==</li>
+<li>In-reply-to: &lt;<a href="msg00029.html">E2327468FA22F742AF5C86405B05AC1A08FC3CA7@CITESMBX5.ad.uillinois.edu</a>&gt;</li>
+<li>References: &lt;<a href="msg00027.html">CA+1QfO=5AmuG+f8BAu5dPHqRy_R4T6Wr2RpxkVcn0cN8QkE7KA@mail.gmail.com</a>&gt; &lt;E2327468FA22F742AF5C86405B05AC1A08FC3C5D@CITESMBX5.ad.uillinois.edu&gt; &lt;55A9579F.5080201@gmail.com&gt; &lt;<a href="msg00029.html">E2327468FA22F742AF5C86405B05AC1A08FC3CA7@CITESMBX5.ad.uillinois.edu</a>&gt;</li>
+<li>Reply-to: <a href="mailto:discuss@DOMAIN.HIDDEN">discuss@xxxxxxxxxxxxxxxxxxxxxxx</a></li>
+<li>Sender: <a href="mailto:owner-discuss@DOMAIN.HIDDEN">owner-discuss@xxxxxxxxxxxxxxxxxxxxxxx</a></li>
+<li>User-agent: Mozilla/5.0 (X11; Linux x86_64; rv:31.0) Gecko/20100101 Thunderbird/31.2.0</li>
+</ul>
+<!--X-Head-of-Message-End-->
+<!--X-Head-Body-Sep-Begin-->
+<hr>
+<!--X-Head-Body-Sep-End-->
+<!--X-Body-of-Message-->
+<pre>On 07/17/2015 02:35 PM, Felarca, Mario Marcaida wrote:
+&gt; 
+&gt;&gt; Hi,
+&gt;&gt; are you aware that Lengyue NCSA's credentials are hardcoded in those files?
+&gt;&gt; Anyone can login as him right now...
+&gt; 
+&gt; Thanks for catching that, Kacper. We will rectify it now as well.
+
+I looked at that application briefly. As far as I can tell you have a js
+app that spawns python shell to execute script that uses cmdline
+arguments to wrap around novaclient, which is yet another wrapper around
+native OpenStack API.
+Wouldn't it be simpler to just call OpenStack API directly via e.g.
+jQuery? There's no obligation to use Python along the way.
+
+BTW, you can also authenticate user once to generate token, which then
+can be reused for each API call.
+
+Cheers,
+Kacper
+
+&gt; Mario-
+&gt; 
+&gt; 
+&gt;&gt;
+&gt;&gt; Cheers,
+&gt;&gt; Kacper
+&gt;&gt;
+&gt;&gt;
+&gt;&gt;
+&gt;&gt;&gt; From: owner-discuss@xxxxxxxxxxxxxxxxxxxxxxx
+&gt;&gt;&gt; [<a  href="mailto:owner-discuss@xxxxxxxxxxxxxxxxxxxxxxx">mailto:owner-discuss@xxxxxxxxxxxxxxxxxxxxxxx</a>] On Behalf Of Lengyue
+&gt;&gt;&gt; Chen
+&gt;&gt;&gt; Sent: Friday, July 17, 2015 12:52 PM
+&gt;&gt;&gt; To: discuss@xxxxxxxxxxxxxxxxxxxxxxx
+&gt;&gt;&gt; Subject: REST API of create_lab, suspend_lab, resume_lab, delete_lab
+&gt;&gt;&gt; in place
+&gt;&gt;&gt;
+&gt;&gt;&gt; Hi all
+&gt;&gt;&gt; I have pushed the source code of create_lab, suspend_lab, resume_lab,
+&gt;&gt;&gt; delete_lab API to the repository:
+&gt;&gt;&gt; <a  href="https://bitbucket.org/nds-org/nds-webservice/branch/nds-27-implement-">https://bitbucket.org/nds-org/nds-webservice/branch/nds-27-implement-</a>
+&gt;&gt; c
+&gt;&gt;&gt; reate-rest-
+&gt;&gt; endpoint?head=16023b516887ce760cafc42e165b571d25ff2756&lt;http
+&gt;&gt;&gt; s://urldefense.proofpoint.com/v2/url?u=https-3A__bitbucket.org_nds-
+&gt;&gt; 2Do
+&gt;&gt;&gt; rg_nds-2Dwebservice_branch_nds-2D27-2Dimplement-2Dcreate-2Drest-
+&gt;&gt; 2Dendp
+&gt;&gt;&gt; oint-3Fhead-
+&gt;&gt; 3D16023b516887ce760cafc42e165b571d25ff2756&amp;d=AwMFaQ&amp;c=8hUW
+&gt;&gt;&gt; FZcy2Z-
+&gt;&gt; Za5rBPlktOQ&amp;r=JOuddKqy8U0za9sj3XnXgmDQ3RLS98xIjIwaaTaI68Q&amp;m=WJy
+&gt;&gt;&gt;
+&gt;&gt; vbWO6jIZaMN1ZcvsaZ6OTrcKvq3WsGQiimSELTCM&amp;s=s2qpeU8tvpZ6GQWaG
+&gt;&gt; YZdZOzevZU
+&gt;&gt;&gt; NdQ5sRjHDBRWLLE0&amp;e=&gt; They are pretty alpha quality at this point and I
+&gt;&gt;&gt; am working on optimizing them. Email any issues in your trial. Thanks.
+&gt;&gt;&gt; Best
+&gt;&gt;&gt; Zeo
+&gt;&gt;&gt;
+&gt;&gt;
+&gt; 
+
+
+</pre><p><strong>Attachment:
+<a href="pgpuuvdlgyl85.pgp" ><tt>signature.asc</tt></a></strong><br>
+<em>Description:</em> OpenPGP digital signature</p>
+
+<!--X-Body-of-Message-End-->
+<!--X-MsgBody-End-->
+<!--X-Follow-Ups-->
+<hr>
+<ul><li><strong>Follow-Ups</strong>:
+<ul>
+<li><strong><a name="00031" href="msg00031.html">RE: REST API of create_lab, suspend_lab, resume_lab, delete_lab in place</a></strong>
+<ul><li><em>From:</em> Felarca, Mario Marcaida</li></ul></li>
+</ul></li></ul>
+<!--X-Follow-Ups-End-->
+<!--X-References-->
+<ul><li><strong>References</strong>:
+<ul>
+<li><strong><a name="00027" href="msg00027.html">REST API of create_lab, suspend_lab, resume_lab, delete_lab in place</a></strong>
+<ul><li><em>From:</em> Lengyue Chen</li></ul></li>
+<li><strong><a name="00029" href="msg00029.html">RE: REST API of create_lab, suspend_lab, resume_lab, delete_lab in place</a></strong>
+<ul><li><em>From:</em> Felarca, Mario Marcaida</li></ul></li>
+</ul></li></ul>
+<!--X-References-End-->
+<!--X-BotPNI-->
+<HR>
+<UL>
+<li>Prev by Date:
+<strong><a href="msg00029.html">RE: REST API of create_lab, suspend_lab, resume_lab, delete_lab in place</a></strong>
+</li>
+<li>Next by Date:
+<strong><a href="msg00031.html">RE: REST API of create_lab, suspend_lab, resume_lab, delete_lab in place</a></strong>
+</li>
+
+<li>Previous by thread:
+<strong><a href="msg00029.html">RE: REST API of create_lab, suspend_lab, resume_lab, delete_lab in place</a></strong>
+</li>
+<li>Next by thread:
+<strong><a href="msg00031.html">RE: REST API of create_lab, suspend_lab, resume_lab, delete_lab in place</a></strong>
+</li>
+
+</UL>
+<!--#INCLUDE VIRTUAL="/include/lists/discuss/message-footer.html"-->
+
+<!--X-BotPNI-End-->
+<!--X-User-Footer-->
+<strong>
+<center>
+<a href="/lists/">Other Mailing lists</a> |
+<a href="author.html">Author Index</a> |
+<a href="maillist.html">Date Index</a> |
+<a href="subject.html">Subject Index</a> |
+<a href="threads.html">Thread Index</a>
+</center>
+</strong>
+<!--X-User-Footer-End-->
+</body>
+</html>

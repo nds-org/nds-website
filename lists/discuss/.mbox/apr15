@@ -1,0 +1,403 @@
+From owner-discuss@nationaldataservice.org Mon Apr 13 18:42:26 2015
+Received: (from majordomo@localhost)
+	by pop.ncsa.uiuc.edu (8.11.7/8.11.7) id t3DNgQ312961;
+	Mon, 13 Apr 2015 18:42:26 -0500
+X-Envelope-From: matthewturk@gmail.com
+X-Envelope-To: <discuss@nationaldataservice.org>
+Received: from rimantadine.ncsa.uiuc.edu (rimantadine.ncsa.uiuc.edu [141.142.199.3])
+	by pop.ncsa.uiuc.edu (8.11.7/8.11.7) with ESMTP id t3DNgQY12951
+	for <discuss@nationaldataservice.org>; Mon, 13 Apr 2015 18:42:26 -0500
+Received: from mail-ie0-f169.google.com (mail-ie0-f169.google.com [209.85.223.169])
+	by rimantadine.ncsa.uiuc.edu (8.14.9/8.14.4) with ESMTP id t3DNgJ7K011889
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL)
+	for <discuss@nationaldataservice.org>; Mon, 13 Apr 2015 18:42:19 -0500
+Received: by iejt8 with SMTP id t8so2228862iej.2
+        for <discuss@nationaldataservice.org>; Mon, 13 Apr 2015 16:42:19 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:references:in-reply-to:from:date:message-id:subject:to
+         :content-type;
+        bh=fN7n0rlXi4nKrYmiLsazck9aNNJ7OUeTa0lrIFJb/WI=;
+        b=Hs/3LO41PKTfylErX+ICJuzqby9HTweHXrNHQQ29Xar+raV1VJjTAEp6J9jTqays6h
+         R+mOBGCn4xfznZ9yyjTJVJYaY582iWqBWDNlfGOK6D5MmHzTjj0OC7Ss3ELOOsjfx3pS
+         +6+KSDdhucQa/6h5TxvlcVggJFMy9CCEc7KS646O2l3jONM3Mn023ZO675j7JqXeEPrs
+         epfN5NHepy+F/nStZotnJqa1zYZ+OYjZpOwTCOcaZM4At1aXGsQbiM4uUnVY5xJhhKD2
+         2UiNmVyAFmFnKHzHjaeZ0f7MtnT3HwVY8yFQXc96/xZ/if5R5wEJqDvO45X/J+wd/IU8
+         SBRg==
+X-Received: by 10.50.41.8 with SMTP id b8mr20030290igl.38.1428968539552; Mon,
+ 13 Apr 2015 16:42:19 -0700 (PDT)
+MIME-Version: 1.0
+References: <54bda1a5-5627-4bf8-9d6c-8310f77331e7@googlegroups.com>
+In-Reply-To: <54bda1a5-5627-4bf8-9d6c-8310f77331e7@googlegroups.com>
+From: Matthew Turk <matthewturk@gmail.com>
+Date: Mon, 13 Apr 2015 23:42:19 +0000
+Message-ID: <CALO3=5ETbmuf15gAGkcQJiRED2uCiMw5o1srq4mOMcMaVJYrqQ@mail.gmail.com>
+Subject: Fwd: [Dataverse-Users] Dataverse 4.0 is here!
+To: discuss@nationaldataservice.org
+Content-Type: multipart/alternative; boundary=089e0116197a3201ce0513a3aa6b
+X-Null-Tag: 9788881f2a5d8fd7f64117e982dfbd35
+X-Scanned-By: milter-spamc/1.15.388 (rimantadine.ncsa.uiuc.edu [141.142.199.3]); Mon, 13 Apr 2015 18:42:25 -0500
+X-Spam-Status: NO, hits=2.90 required=4.90
+X-Spam-Report: Spam detection software, running on the system "rimantadine.ncsa.uiuc.edu", has
+  | identified this incoming email as possible spam.  The original message
+  | has been attached to this so you can view it (if it isn't spam) or label
+  | similar future email.  If you have any questions, see
+  | postmaster@ncsa.uiuc.edu for details.
+  | 
+  | Content preview:  Very cool news! Forwarded message --------- From: Elizabeth
+  |    Quigley <elizabethaquigley@gmail.com> Date: Mon, Apr 13, 2015, 5:57 PM Subject:
+  |    [Dataverse-Users] Dataverse 4.0 is here! To: <dataverse-community@googlegroups.com>
+  |    [...]
+  | 
+  | Content analysis details:   (2.9 points, 4.9 required)
+  | 
+  |  pts rule name              description
+  | ---- ---------------------- --------------------------------------------------
+  |  0.7 DNS_FROM_AHBL_RHSBL    RBL: Envelope sender listed in dnsbl.ahbl.org
+  |  4.0 BAYES_99               BODY: Bayesian spam probability is 99 to 100p
+  |                             [score: 1.0000]
+  | -1.0 RCVD_IN_DNSWL_LOW      RBL: Sender listed at http://www.dnswl.org/, low
+  |                             trust
+  |                             [209.85.223.169 listed in list.dnswl.org]
+  | -1.0 SPF_PASS               SPF: sender matches SPF record
+  |  0.0 HTML_MESSAGE           BODY: HTML included in message
+  |  0.2 AWL                    AWL: From: address is in the auto white-list
+  | 
+X-NCSA-MailScanner-Information: Please contact help@ncsa.uiuc.edu for more information, rimantadine.ncsa.uiuc.edu
+X-NCSA-MailScanner-ID: t3DNgJ7K011889
+X-NCSA-MailScanner: Found to be clean
+Sender: owner-discuss@nationaldataservice.org
+Precedence: bulk
+Reply-To: discuss@nationaldataservice.org
+
+--089e0116197a3201ce0513a3aa6b
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Very cool news!
+
+---------- Forwarded message ---------
+From: Elizabeth Quigley <elizabethaquigley@gmail.com>
+Date: Mon, Apr 13, 2015, 5:57 PM
+Subject: [Dataverse-Users] Dataverse 4.0 is here!
+To: <dataverse-community@googlegroups.com>
+
+
+Dataverse 4.0 is here!
+
+
+Harvard Dataverse has been upgraded to Dataverse 4.0 and is available for
+all to use at dataverse.harvard.edu
+<https://urldefense.proofpoint.com/v2/url?u=3Dhttp-3A__harvard.us10.list-2D=
+manage1.com_track_click-3Fu-3Dcaec4196e4cb34738b2070a35-26id-3D01a2594d08-2=
+6e-3Df5a4c87bc4&d=3DBQMFaQ&c=3DWO-RGvefibhHBZq3fL85hQ&r=3DY9aY3P6kFFpmMLaYY=
+O_id08dS3gL1xWMQuI2CZ74PoI&m=3DzK1504R-SJgY7R1RDkWmQO93J70koeFH3zqCx0MZ8d8&=
+s=3DsQGsA7L4BhT6hM6iPlP197lx8tGrgEOlZx0U8tnIiWo&e=3D>
+!
+
+Please note that you will have to enter a new password when logging in for
+the first time due to stricter password requirements. Passwords in 4.0 must
+be at least 6 characters and contain at least one number and letter.
+
+Thank you to all the Dataverse users who participated in usability testing
+and provided feedback. Dataverse 4.0 would not be the same without you!
+
+
+What's changing with Dataverse 4.0?
+
+   - A complete redo of the code and a new look and feel
+   - New way to brand a dataverse + widgets
+   <https://urldefense.proofpoint.com/v2/url?u=3Dhttp-3A__harvard.us10.list=
+-2Dmanage.com_track_click-3Fu-3Dcaec4196e4cb34738b2070a35-26id-3D33b97f5a9b=
+-26e-3Df5a4c87bc4&d=3DBQMFaQ&c=3DWO-RGvefibhHBZq3fL85hQ&r=3DY9aY3P6kFFpmMLa=
+YYO_id08dS3gL1xWMQuI2CZ74PoI&m=3DzK1504R-SJgY7R1RDkWmQO93J70koeFH3zqCx0MZ8d=
+8&s=3D8X3Y2xUNi1PIRzr8oIYBhZeMhcl8BX19ThAlUoUmilU&e=3D>
+
+   - Discovery of data (powerful search with customizable facets)
+   <https://urldefense.proofpoint.com/v2/url?u=3Dhttp-3A__harvard.us10.list=
+-2Dmanage.com_track_click-3Fu-3Dcaec4196e4cb34738b2070a35-26id-3D985657b7c8=
+-26e-3Df5a4c87bc4&d=3DBQMFaQ&c=3DWO-RGvefibhHBZq3fL85hQ&r=3DY9aY3P6kFFpmMLa=
+YYO_id08dS3gL1xWMQuI2CZ74PoI&m=3DzK1504R-SJgY7R1RDkWmQO93J70koeFH3zqCx0MZ8d=
+8&s=3DhsA7ACURu5KxnYCZp4Xue61o0MHzYCuIaJMgFMJAtyE&e=3D>
+   - Adding Data
+   <https://urldefense.proofpoint.com/v2/url?u=3Dhttp-3A__harvard.us10.list=
+-2Dmanage.com_track_click-3Fu-3Dcaec4196e4cb34738b2070a35-26id-3D3c20ca1653=
+-26e-3Df5a4c87bc4&d=3DBQMFaQ&c=3DWO-RGvefibhHBZq3fL85hQ&r=3DY9aY3P6kFFpmMLa=
+YYO_id08dS3gL1xWMQuI2CZ74PoI&m=3DzK1504R-SJgY7R1RDkWmQO93J70koeFH3zqCx0MZ8d=
+8&s=3Desk2tGUT3gdDwAul-a_IaX3fhTEoWEBWkUqK_n9L_JM&e=3D>
+   - CC0 Waiver Default for Datasets
+   <https://urldefense.proofpoint.com/v2/url?u=3Dhttp-3A__harvard.us10.list=
+-2Dmanage1.com_track_click-3Fu-3Dcaec4196e4cb34738b2070a35-26id-3Dcc047efe7=
+3-26e-3Df5a4c87bc4&d=3DBQMFaQ&c=3DWO-RGvefibhHBZq3fL85hQ&r=3DY9aY3P6kFFpmML=
+aYYO_id08dS3gL1xWMQuI2CZ74PoI&m=3DzK1504R-SJgY7R1RDkWmQO93J70koeFH3zqCx0MZ8=
+d8&s=3D6w5CMd_za9TK3b8U0PVz4RS7Fb26FPGPxymyqXMOCeY&e=3D>
+   - Permission
+   <https://urldefense.proofpoint.com/v2/url?u=3Dhttp-3A__harvard.us10.list=
+-2Dmanage.com_track_click-3Fu-3Dcaec4196e4cb34738b2070a35-26id-3D576edfe059=
+-26e-3Df5a4c87bc4&d=3DBQMFaQ&c=3DWO-RGvefibhHBZq3fL85hQ&r=3DY9aY3P6kFFpmMLa=
+YYO_id08dS3gL1xWMQuI2CZ74PoI&m=3DzK1504R-SJgY7R1RDkWmQO93J70koeFH3zqCx0MZ8d=
+8&s=3Dr1EACTqBbT8dG9jvWMK53mzgXJ2JgklVTuiKaZwOCPA&e=3D>
+   s
+   <https://urldefense.proofpoint.com/v2/url?u=3Dhttp-3A__harvard.us10.list=
+-2Dmanage1.com_track_click-3Fu-3Dcaec4196e4cb34738b2070a35-26id-3D7ac9e861c=
+f-26e-3Df5a4c87bc4&d=3DBQMFaQ&c=3DWO-RGvefibhHBZq3fL85hQ&r=3DY9aY3P6kFFpmML=
+aYYO_id08dS3gL1xWMQuI2CZ74PoI&m=3DzK1504R-SJgY7R1RDkWmQO93J70koeFH3zqCx0MZ8=
+d8&s=3DJe974agISxk6cWN1D9A16IBJ1SkpVbPbR_nrRpJlNtI&e=3D>
+   - TwoRavens, tabular data exploration and analysis tool
+   <https://urldefense.proofpoint.com/v2/url?u=3Dhttp-3A__harvard.us10.list=
+-2Dmanage.com_track_click-3Fu-3Dcaec4196e4cb34738b2070a35-26id-3D6e7ea41138=
+-26e-3Df5a4c87bc4&d=3DBQMFaQ&c=3DWO-RGvefibhHBZq3fL85hQ&r=3DY9aY3P6kFFpmMLa=
+YYO_id08dS3gL1xWMQuI2CZ74PoI&m=3DzK1504R-SJgY7R1RDkWmQO93J70koeFH3zqCx0MZ8d=
+8&s=3DO3Xhpdewqw_TqM6RDu69HYGs_IIzIWVJ2AnEeKOTVsc&e=3D>
+   - Integration with WorldMap for shape files
+   <https://urldefense.proofpoint.com/v2/url?u=3Dhttp-3A__harvard.us10.list=
+-2Dmanage2.com_track_click-3Fu-3Dcaec4196e4cb34738b2070a35-26id-3D0b9d6aae1=
+5-26e-3Df5a4c87bc4&d=3DBQMFaQ&c=3DWO-RGvefibhHBZq3fL85hQ&r=3DY9aY3P6kFFpmML=
+aYYO_id08dS3gL1xWMQuI2CZ74PoI&m=3DzK1504R-SJgY7R1RDkWmQO93J70koeFH3zqCx0MZ8=
+d8&s=3DobxO6neb8cnepLLEAvK35G_7IWXDWI4r1eiQSPAH6cc&e=3D>
+   - Searchable FITS files for astronomy
+   <https://urldefense.proofpoint.com/v2/url?u=3Dhttp-3A__harvard.us10.list=
+-2Dmanage.com_track_click-3Fu-3Dcaec4196e4cb34738b2070a35-26id-3Dbaf3e59ebd=
+-26e-3Df5a4c87bc4&d=3DBQMFaQ&c=3DWO-RGvefibhHBZq3fL85hQ&r=3DY9aY3P6kFFpmMLa=
+YYO_id08dS3gL1xWMQuI2CZ74PoI&m=3DzK1504R-SJgY7R1RDkWmQO93J70koeFH3zqCx0MZ8d=
+8&s=3DflADE9h76BTnqF_9r2jIf1nj9fFz3saSPDi-P3pJdRA&e=3D>
+   - And many more new features!
+
+
+Questions? Comments? Please contact us at support@dataverse.org
+<support@dataverse.org?subject=3DSupport%20for%20Dataverse%204.0>
+*Reminder: The current version of the Harvard Dataverse (thedata.harvard.ed=
+u
+<https://urldefense.proofpoint.com/v2/url?u=3Dhttp-3A__harvard.us10.list-2D=
+manage1.com_track_click-3Fu-3Dcaec4196e4cb34738b2070a35-26id-3De2428b7a81-2=
+6e-3Df5a4c87bc4&d=3DBQMFaQ&c=3DWO-RGvefibhHBZq3fL85hQ&r=3DY9aY3P6kFFpmMLaYY=
+O_id08dS3gL1xWMQuI2CZ74PoI&m=3DzK1504R-SJgY7R1RDkWmQO93J70koeFH3zqCx0MZ8d8&=
+s=3D7mg3HNAW9jM3xtMD-_o3kB-hmJpUuDEYnuXVuCPs7M8&e=3D>)
+will still be available for the next month for you to view.
+
+Enjoy!
+
+-Elizabeth
+
+
+Elizabeth Quigley
+
+Usability Specialist
+
+Institute for Quantitative Social Science
+
+Harvard University
+
+datascience.iq.harvard.edu/
+
+--=20
+You received this message because you are subscribed to the Google Groups
+"Dataverse Users Community" group.
+To unsubscribe from this group and stop receiving emails from it, send an
+email to dataverse-community+unsubscribe@googlegroups.com.
+To post to this group, send email to dataverse-community@googlegroups.com.
+To view this discussion on the web visit
+https://groups.google.com/d/msgid/dataverse-community/54bda1a5-5627-4bf8-9d=
+6c-8310f77331e7%40googlegroups.com
+<https://groups.google.com/d/msgid/dataverse-community/54bda1a5-5627-4bf8-9=
+d6c-8310f77331e7%40googlegroups.com?utm_medium=3Demail&utm_source=3Dfooter>
+.
+For more options, visit https://groups.google.com/d/optout.
+
+--089e0116197a3201ce0513a3aa6b
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<p dir=3D"ltr">Very cool news!<br>
+</p>
+<br><div class=3D"gmail_quote">---------- Forwarded message ---------<br>Fr=
+om: Elizabeth Quigley &lt;<a href=3D"mailto:elizabethaquigley@gmail.com">el=
+izabethaquigley@gmail.com</a>&gt;<br>Date: Mon, Apr 13, 2015, 5:57 PM<br>Su=
+bject: [Dataverse-Users] Dataverse 4.0 is here!<br>To:  &lt;<a href=3D"mail=
+to:dataverse-community@googlegroups.com">dataverse-community@googlegroups.c=
+om</a>&gt;<br><br><br><div dir=3D"ltr"><h1><span style=3D"font-family:&quot=
+;Georgia&quot;,&quot;serif&quot;">Dataverse
+4.0 is here!</span><u></u><u></u></h1>
+
+<p class=3D"MsoNormal" style=3D"line-height:150%"><span style=3D"font-size:=
+10.0pt;line-height:150%;font-family:&quot;Georgia&quot;,&quot;serif&quot;;c=
+olor:#606060"><br>
+</span><font face=3D"georgia, serif" size=3D"2"><span style=3D"line-height:=
+150%;color:rgb(96,96,96)">Harvard Dataverse has been upgraded to Dataverse =
+4.0 and is
+available for all to use at <a href=3D"https://urldefense.proofpoint.com/v2=
+/url?u=3Dhttp-3A__harvard.us10.list-2Dmanage1.com_track_click-3Fu-3Dcaec419=
+6e4cb34738b2070a35-26id-3D01a2594d08-26e-3Df5a4c87bc4&amp;d=3DBQMFaQ&amp;c=
+=3DWO-RGvefibhHBZq3fL85hQ&amp;r=3DY9aY3P6kFFpmMLaYYO_id08dS3gL1xWMQuI2CZ74P=
+oI&amp;m=3DzK1504R-SJgY7R1RDkWmQO93J70koeFH3zqCx0MZ8d8&amp;s=3DsQGsA7L4BhT6=
+hM6iPlP197lx8tGrgEOlZx0U8tnIiWo&amp;e=3D" style=3D"word-wrap:break-word" ta=
+rget=3D"_blank"><span style=3D"color:#6dc6dd">dataverse.harvard.edu</span><=
+/a>!<br>
+<br>
+Please note that you will have to enter a new password when logging in for =
+the
+first time due to stricter password requirements. Passwords in 4.0 must be =
+at
+least 6 characters and contain at least one number and letter.<br>
+<br>
+Thank you to all the Dataverse users who participated in usability testing =
+and
+provided feedback. Dataverse 4.0 would not be the same without you!</span><=
+span style=3D"line-height:150%;color:rgb(96,96,96)"><br>
+<br>
+<br>
+</span><span style=3D"line-height:150%;color:rgb(96,96,96)">What&#39;s chan=
+ging with Dataverse 4.0?</span><span style=3D"line-height:150%;color:rgb(96=
+,96,96)"> <u></u><u></u></span></font></p>
+
+<ul type=3D"disc">
+ <li class=3D"MsoNormal" style=3D"color:#606060;line-height:15.6pt"><font f=
+ace=3D"georgia, serif" size=3D"2">A complete redo of the
+     code and a new look and feel<u></u><u></u></font></li>
+ <li class=3D"MsoNormal" style=3D"color:#606060;line-height:15.6pt"><font f=
+ace=3D"georgia, serif" size=3D"2"><a href=3D"https://urldefense.proofpoint.=
+com/v2/url?u=3Dhttp-3A__harvard.us10.list-2Dmanage.com_track_click-3Fu-3Dca=
+ec4196e4cb34738b2070a35-26id-3D33b97f5a9b-26e-3Df5a4c87bc4&amp;d=3DBQMFaQ&a=
+mp;c=3DWO-RGvefibhHBZq3fL85hQ&amp;r=3DY9aY3P6kFFpmMLaYYO_id08dS3gL1xWMQuI2C=
+Z74PoI&amp;m=3DzK1504R-SJgY7R1RDkWmQO93J70koeFH3zqCx0MZ8d8&amp;s=3D8X3Y2xUN=
+i1PIRzr8oIYBhZeMhcl8BX19ThAlUoUmilU&amp;e=3D" style=3D"word-wrap:break-word=
+" target=3D"_blank"><span style=3D"color:#6dc6dd">New way to
+     brand a dataverse + widgets</span></a>=C2=A0<u></u><u></u></font></li>
+ <li class=3D"MsoNormal" style=3D"color:#606060;line-height:15.6pt"><font f=
+ace=3D"georgia, serif" size=3D"2"><a href=3D"https://urldefense.proofpoint.=
+com/v2/url?u=3Dhttp-3A__harvard.us10.list-2Dmanage.com_track_click-3Fu-3Dca=
+ec4196e4cb34738b2070a35-26id-3D985657b7c8-26e-3Df5a4c87bc4&amp;d=3DBQMFaQ&a=
+mp;c=3DWO-RGvefibhHBZq3fL85hQ&amp;r=3DY9aY3P6kFFpmMLaYYO_id08dS3gL1xWMQuI2C=
+Z74PoI&amp;m=3DzK1504R-SJgY7R1RDkWmQO93J70koeFH3zqCx0MZ8d8&amp;s=3DhsA7ACUR=
+u5KxnYCZp4Xue61o0MHzYCuIaJMgFMJAtyE&amp;e=3D" style=3D"word-wrap:break-word=
+" target=3D"_blank"><span style=3D"color:#6dc6dd">Discovery
+     of=C2=A0data (powerful search with customizable facets)</span></a><u><=
+/u><u></u></font></li>
+ <li class=3D"MsoNormal" style=3D"color:#606060;line-height:15.6pt"><font f=
+ace=3D"georgia, serif" size=3D"2"><a href=3D"https://urldefense.proofpoint.=
+com/v2/url?u=3Dhttp-3A__harvard.us10.list-2Dmanage.com_track_click-3Fu-3Dca=
+ec4196e4cb34738b2070a35-26id-3D3c20ca1653-26e-3Df5a4c87bc4&amp;d=3DBQMFaQ&a=
+mp;c=3DWO-RGvefibhHBZq3fL85hQ&amp;r=3DY9aY3P6kFFpmMLaYYO_id08dS3gL1xWMQuI2C=
+Z74PoI&amp;m=3DzK1504R-SJgY7R1RDkWmQO93J70koeFH3zqCx0MZ8d8&amp;s=3Desk2tGUT=
+3gdDwAul-a_IaX3fhTEoWEBWkUqK_n9L_JM&amp;e=3D" style=3D"word-wrap:break-word=
+" target=3D"_blank"><span style=3D"color:#6dc6dd">Adding Data</span></a><u>=
+</u><u></u></font></li>
+ <li class=3D"MsoNormal" style=3D"color:#606060;line-height:15.6pt"><font f=
+ace=3D"georgia, serif" size=3D"2"><a href=3D"https://urldefense.proofpoint.=
+com/v2/url?u=3Dhttp-3A__harvard.us10.list-2Dmanage1.com_track_click-3Fu-3Dc=
+aec4196e4cb34738b2070a35-26id-3Dcc047efe73-26e-3Df5a4c87bc4&amp;d=3DBQMFaQ&=
+amp;c=3DWO-RGvefibhHBZq3fL85hQ&amp;r=3DY9aY3P6kFFpmMLaYYO_id08dS3gL1xWMQuI2=
+CZ74PoI&amp;m=3DzK1504R-SJgY7R1RDkWmQO93J70koeFH3zqCx0MZ8d8&amp;s=3D6w5CMd_=
+za9TK3b8U0PVz4RS7Fb26FPGPxymyqXMOCeY&amp;e=3D" style=3D"word-wrap:break-wor=
+d" target=3D"_blank"><span style=3D"color:#6dc6dd">CC0 Waiver
+     Default for Datasets</span></a><u></u><u></u></font></li>
+ <li class=3D"MsoNormal" style=3D"color:#606060;line-height:15.6pt"><font f=
+ace=3D"georgia, serif" size=3D"2"><a href=3D"https://urldefense.proofpoint.=
+com/v2/url?u=3Dhttp-3A__harvard.us10.list-2Dmanage.com_track_click-3Fu-3Dca=
+ec4196e4cb34738b2070a35-26id-3D576edfe059-26e-3Df5a4c87bc4&amp;d=3DBQMFaQ&a=
+mp;c=3DWO-RGvefibhHBZq3fL85hQ&amp;r=3DY9aY3P6kFFpmMLaYYO_id08dS3gL1xWMQuI2C=
+Z74PoI&amp;m=3DzK1504R-SJgY7R1RDkWmQO93J70koeFH3zqCx0MZ8d8&amp;s=3Dr1EACTqB=
+bT8dG9jvWMK53mzgXJ2JgklVTuiKaZwOCPA&amp;e=3D" style=3D"word-wrap:break-word=
+" target=3D"_blank"><span style=3D"color:#6dc6dd">Permission</span></a><a h=
+ref=3D"https://urldefense.proofpoint.com/v2/url?u=3Dhttp-3A__harvard.us10.l=
+ist-2Dmanage1.com_track_click-3Fu-3Dcaec4196e4cb34738b2070a35-26id-3D7ac9e8=
+61cf-26e-3Df5a4c87bc4&amp;d=3DBQMFaQ&amp;c=3DWO-RGvefibhHBZq3fL85hQ&amp;r=
+=3DY9aY3P6kFFpmMLaYYO_id08dS3gL1xWMQuI2CZ74PoI&amp;m=3DzK1504R-SJgY7R1RDkWm=
+QO93J70koeFH3zqCx0MZ8d8&amp;s=3DJe974agISxk6cWN1D9A16IBJ1SkpVbPbR_nrRpJlNtI=
+&amp;e=3D" style=3D"word-wrap:break-word" target=3D"_blank"><span style=3D"=
+color:#6dc6dd">s</span></a><u></u><u></u></font></li>
+ <li class=3D"MsoNormal" style=3D"color:#606060;line-height:15.6pt"><font f=
+ace=3D"georgia, serif" size=3D"2"><a href=3D"https://urldefense.proofpoint.=
+com/v2/url?u=3Dhttp-3A__harvard.us10.list-2Dmanage.com_track_click-3Fu-3Dca=
+ec4196e4cb34738b2070a35-26id-3D6e7ea41138-26e-3Df5a4c87bc4&amp;d=3DBQMFaQ&a=
+mp;c=3DWO-RGvefibhHBZq3fL85hQ&amp;r=3DY9aY3P6kFFpmMLaYYO_id08dS3gL1xWMQuI2C=
+Z74PoI&amp;m=3DzK1504R-SJgY7R1RDkWmQO93J70koeFH3zqCx0MZ8d8&amp;s=3DO3Xhpdew=
+qw_TqM6RDu69HYGs_IIzIWVJ2AnEeKOTVsc&amp;e=3D" style=3D"word-wrap:break-word=
+" target=3D"_blank"><span style=3D"color:#6dc6dd">TwoRavens,
+     tabular data exploration and analysis tool</span></a><u></u><u></u></f=
+ont></li>
+ <li class=3D"MsoNormal" style=3D"color:#606060;line-height:15.6pt"><font f=
+ace=3D"georgia, serif" size=3D"2"><a href=3D"https://urldefense.proofpoint.=
+com/v2/url?u=3Dhttp-3A__harvard.us10.list-2Dmanage2.com_track_click-3Fu-3Dc=
+aec4196e4cb34738b2070a35-26id-3D0b9d6aae15-26e-3Df5a4c87bc4&amp;d=3DBQMFaQ&=
+amp;c=3DWO-RGvefibhHBZq3fL85hQ&amp;r=3DY9aY3P6kFFpmMLaYYO_id08dS3gL1xWMQuI2=
+CZ74PoI&amp;m=3DzK1504R-SJgY7R1RDkWmQO93J70koeFH3zqCx0MZ8d8&amp;s=3DobxO6ne=
+b8cnepLLEAvK35G_7IWXDWI4r1eiQSPAH6cc&amp;e=3D" style=3D"word-wrap:break-wor=
+d" target=3D"_blank"><span style=3D"color:#6dc6dd">Integration
+     with WorldMap for shape files</span></a><u></u><u></u></font></li>
+ <li class=3D"MsoNormal" style=3D"color:#606060;line-height:15.6pt"><font f=
+ace=3D"georgia, serif" size=3D"2"><a href=3D"https://urldefense.proofpoint.=
+com/v2/url?u=3Dhttp-3A__harvard.us10.list-2Dmanage.com_track_click-3Fu-3Dca=
+ec4196e4cb34738b2070a35-26id-3Dbaf3e59ebd-26e-3Df5a4c87bc4&amp;d=3DBQMFaQ&a=
+mp;c=3DWO-RGvefibhHBZq3fL85hQ&amp;r=3DY9aY3P6kFFpmMLaYYO_id08dS3gL1xWMQuI2C=
+Z74PoI&amp;m=3DzK1504R-SJgY7R1RDkWmQO93J70koeFH3zqCx0MZ8d8&amp;s=3DflADE9h7=
+6BTnqF_9r2jIf1nj9fFz3saSPDi-P3pJdRA&amp;e=3D" style=3D"word-wrap:break-word=
+" target=3D"_blank"><span style=3D"color:#6dc6dd">Searchable
+     FITS files for astronomy</span></a><u></u><u></u></font></li>
+ <li class=3D"MsoNormal" style=3D"color:#606060;line-height:15.6pt"><font f=
+ace=3D"georgia, serif" size=3D"2">And many more new
+     features!<u></u><u></u></font></li>
+</ul>
+
+<p class=3D"MsoNormal" style=3D"line-height:150%"><font face=3D"georgia, se=
+rif" size=3D"2"><span style=3D"line-height:150%;color:rgb(96,96,96)"><br>
+</span><span style=3D"line-height:150%;color:rgb(96,96,96)">Questions? Comm=
+ents? Please contact us at <a href=3D"mailto:support@dataverse.org?subject=
+=3DSupport%20for%20Dataverse%204.0" style=3D"word-wrap:break-word" target=
+=3D"_blank"><span style=3D"color:#6dc6dd">support@dataverse.org</span></a>=
+=C2=A0</span><span style=3D"line-height:150%;color:rgb(96,96,96)"> <u></u><=
+u></u></span></font></p>
+
+<span style=3D"color:rgb(96,96,96)"><font face=3D"georgia, serif" size=3D"2=
+">*Reminder:=C2=A0The current version of the Harvard Dataverse (<a href=3D"=
+https://urldefense.proofpoint.com/v2/url?u=3Dhttp-3A__harvard.us10.list-2Dm=
+anage1.com_track_click-3Fu-3Dcaec4196e4cb34738b2070a35-26id-3De2428b7a81-26=
+e-3Df5a4c87bc4&amp;d=3DBQMFaQ&amp;c=3DWO-RGvefibhHBZq3fL85hQ&amp;r=3DY9aY3P=
+6kFFpmMLaYYO_id08dS3gL1xWMQuI2CZ74PoI&amp;m=3DzK1504R-SJgY7R1RDkWmQO93J70ko=
+eFH3zqCx0MZ8d8&amp;s=3D7mg3HNAW9jM3xtMD-_o3kB-hmJpUuDEYnuXVuCPs7M8&amp;e=3D=
+" style=3D"word-wrap:break-word" target=3D"_blank"><span style=3D"color:#6d=
+c6dd">thedata.harvard.edu</span></a>)
+will still be available for the next month for you to view.</font></span><d=
+iv><span style=3D"color:rgb(96,96,96)"><font face=3D"georgia, serif" size=
+=3D"2"><br></font></span></div><div><span style=3D"color:rgb(96,96,96)"><fo=
+nt face=3D"georgia, serif" size=3D"2">Enjoy!=C2=A0</font></span></div><div>=
+<span style=3D"color:rgb(96,96,96)"><font face=3D"georgia, serif" size=3D"2=
+"><br></font></span></div><div><span style=3D"color:rgb(96,96,96)"><font fa=
+ce=3D"georgia, serif" size=3D"2">-Elizabeth</font></span></div><div><span s=
+tyle=3D"color:rgb(96,96,96)"><font face=3D"georgia, serif" size=3D"2"><br><=
+/font></span></div><div><p class=3D"MsoNormal"><br></p><p class=3D"MsoNorma=
+l">Elizabeth Quigley<u></u><u></u></p>
+
+<p class=3D"MsoNormal">Usability Specialist<u></u><u></u></p>
+
+<p class=3D"MsoNormal">Institute for
+Quantitative Social Science<u></u><u></u></p>
+
+<p class=3D"MsoNormal">Harvard University<u></u><u></u></p>
+
+<p class=3D"MsoNormal"><a href=3D"http://datascience.iq.harvard.edu/" targe=
+t=3D"_blank">datascience.iq.harvard.edu/</a><u></u><u></u></p></div></div>
+
+<p></p>
+
+-- <br>
+You received this message because you are subscribed to the Google Groups &=
+quot;Dataverse Users Community&quot; group.<br>
+To unsubscribe from this group and stop receiving emails from it, send an e=
+mail to <a href=3D"mailto:dataverse-community+unsubscribe@googlegroups.com"=
+ target=3D"_blank">dataverse-community+unsubscribe@googlegroups.com</a>.<br=
+>
+To post to this group, send email to <a href=3D"mailto:dataverse-community@=
+googlegroups.com" target=3D"_blank">dataverse-community@googlegroups.com</a=
+>.<br>
+To view this discussion on the web visit <a href=3D"https://groups.google.c=
+om/d/msgid/dataverse-community/54bda1a5-5627-4bf8-9d6c-8310f77331e7%40googl=
+egroups.com?utm_medium=3Demail&amp;utm_source=3Dfooter" target=3D"_blank">h=
+ttps://groups.google.com/d/msgid/dataverse-community/54bda1a5-5627-4bf8-9d6=
+c-8310f77331e7%40googlegroups.com</a>.<br>
+For more options, visit <a href=3D"https://groups.google.com/d/optout" targ=
+et=3D"_blank">https://groups.google.com/d/optout</a>.<br>
+</div>
+
+--089e0116197a3201ce0513a3aa6b--
+

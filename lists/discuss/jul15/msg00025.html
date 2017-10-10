@@ -1,0 +1,164 @@
+<!-- MHonArc v2.6.10 -->
+<!--X-Subject: Re: Create NDS Labs API -->
+<!--X-From-R13: [vxr Terrzba <zserrzbaNvyyvabvf.rqh> -->
+<!--X-Date: Wed, 15 Jul 2015 21:24:51 &#45;0500 -->
+<!--X-Message-Id: 55A715E7.9060000@illinois.edu -->
+<!--X-Content-Type: text/plain -->
+<!--X-Reference: CA+1QfOnhiJDEOC&#45;=D6ky=5u=hmP6Y1Z14BgFP5iq373d5N6ALw@mail.gmail.com -->
+<!--X-Head-End-->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML//EN">
+<HTML>
+<HEAD>
+<TITLE>Re: Create NDS Labs API</TITLE>
+<LINK REV="made" HREF="mailto:mfreemon@illinois.edu">
+</HEAD>
+<!--#INCLUDE VIRTUAL="/include/lists/discuss/message-header.html"-->
+<!--X-Body-Begin-->
+<!--X-User-Header-->
+<!--X-User-Header-End-->
+<!--X-TopPNI-->
+<!---->
+
+<!--X-TopPNI-End-->
+<!--X-MsgBody-->
+<!--X-Subject-Header-Begin-->
+<H1>Re: Create NDS Labs API<HR></H1>
+<!--X-Subject-Header-End-->
+<!--X-Head-of-Message-->
+<ul>
+<li><strong>To</strong>: <strong><a href="mailto:discuss@DOMAIN.HIDDEN">discuss@xxxxxxxxxxxxxxxxxxxxxxx</a></strong></li>
+<li><strong>Subject</strong>: <strong>Re: Create NDS Labs API</strong></li>
+<li><strong>From</strong>: <strong>Mike Freemon &lt;<a href="mailto:mfreemon@DOMAIN.HIDDEN">mfreemon@xxxxxxxxxxxx</a>&gt;</strong></li>
+<li>Date: Wed, 15 Jul 2015 21:24:39 -0500</li>
+<li>Content-transfer-encoding: 7bit</li>
+<li>Content-type: text/plain; charset=utf-8; format=flowed</li>
+<li>In-reply-to: &lt;<a href="msg00017.html">CA+1QfOnhiJDEOC-=D6ky=5u=hmP6Y1Z14BgFP5iq373d5N6ALw@mail.gmail.com</a>&gt;</li>
+<li>References: &lt;<a href="msg00017.html">CA+1QfOnhiJDEOC-=D6ky=5u=hmP6Y1Z14BgFP5iq373d5N6ALw@mail.gmail.com</a>&gt;</li>
+<li>Reply-to: <a href="mailto:discuss@DOMAIN.HIDDEN">discuss@xxxxxxxxxxxxxxxxxxxxxxx</a></li>
+<li>Sender: <a href="mailto:owner-discuss@DOMAIN.HIDDEN">owner-discuss@xxxxxxxxxxxxxxxxxxxxxxx</a></li>
+<li>User-agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Thunderbird/38.1.0</li>
+</ul>
+<!--X-Head-of-Message-End-->
+<!--X-Head-Body-Sep-Begin-->
+<hr>
+<!--X-Head-Body-Sep-End-->
+<!--X-Body-of-Message-->
+<tt>An interesting question arises from Zeo's work here and our recent 
+discussions, captured in the v4 diagram here:<br>
+<a  href="https://wiki.ncsa.illinois.edu/display/NDS/NDS+Explorer+Design+and+Implementation">https://wiki.ncsa.illinois.edu/display/NDS/NDS+Explorer+Design+and+Implementation</a></tt><br>
+<br>
+<tt>First, I observe that Zeo's nds-webservices implementation depends on an 
+installed and working startup_ndslabs.py script locally on the same node 
+where the webservices code is running.  My initial reaction was:  We 
+should move the startup_ndslabs.py script to the webservices repo -- so 
+all these related pieces of code are version controlled together and 
+self contained.  The 'nds_labs' repo, where the script currently 
+resides, contains NDS services.  NDS services are not tightly coupled to 
+the nds labs environment startup script.</tt><br>
+<br>
+<tt>This last point made me realize further -- there will be numerous 
+_optional_ services that require persistent storage (i.e. OpenStack 
+volumes or object containers).  We should not be allocating OpenStack 
+volumes for all the optional services during NDS Labs startup. 
+Actually, I think a stronger statement can be made:  We don't have 
+apriori knowledge of where (in which Instances) future services 
+requiring persistent storage will be launched, therefore we cannot 
+allocate persistent storage at &quot;nds labs create&quot; time.  So storage 
+allocation should only occur if and when the NDS service is first 
+launched, which is performed by the internal (to the labs environment) 
+REST API for the management of NDS services (currently labelled as 
+&quot;nds-django&quot; on the v4 diagram).</tt><br>
+<br>
+<pre style="margin: 0em;">A couple of options for how to do that:</pre><br>
+<tt>1. Put functionality for calling OpenStack inside that internal REST 
+implementation (labelled &quot;nds-django&quot;) to allocate OpenStack volumes, or<br>
+2. Have the internal REST implementation (labelled &quot;nds-django&quot;) call 
+out to the nds-webservices to allocate OpenStack Volumes, or<br>
+3. Door number 3</tt><br>
+<br>
+<pre style="margin: 0em;">Thoughts?</pre><br>
+<pre style="margin: 0em;">- Mike</pre><br>
+<tt><br>On 7/14/2015 4:32 PM, Lengyue Chen wrote:
+</tt><blockquote style="border-left: #5555EE solid 0.2em; margin: 0em; padding-left: 0.85em"><pre style="margin: 0em;">Hi all</pre><br>
+<pre style="margin: 0em;">I have pushed the code of REST API to create NDS Lab to the
+nds-27-implement-create-rest-endpoint branch.
+<a  href="https://bitbucket.org/nds-org/nds-webservice/src/8eeff20c855b27893418b1cc056db17c284b89f7?at=nds-27-implement-create-rest-endpoint">https://bitbucket.org/nds-org/nds-webservice/src/8eeff20c855b27893418b1cc056db17c284b89f7?at=nds-27-implement-create-rest-endpoint</a>
+&lt;<a  href="https://urldefense.proofpoint.com/v2/url?u=https-3A__bitbucket.org_nds-2Dorg_nds-2Dwebservice_src_8eeff20c855b27893418b1cc056db17c284b89f7-3Fat-3Dnds-2D27-2Dimplement-2Dcreate-2Drest-2Dendpoint&amp;d=AwMFaQ&amp;c=8hUWFZcy2Z-Za5rBPlktOQ&amp;r=iEj4zY2m23d9QPzTewICNOX29P1IYSX9q3kyeqIQKeo&amp;m=89NnXcXnhkwcENaqjCnS9Q86T2FUVe3fBndL6TGTVuc&amp;s=5krOedlROcqw2IMxxT6cTEY9R-6zZtvE4jGV0ISiGTk&amp;e=">https://urldefense.proofpoint.com/v2/url?u=https-3A__bitbucket.org_nds-2Dorg_nds-2Dwebservice_src_8eeff20c855b27893418b1cc056db17c284b89f7-3Fat-3Dnds-2D27-2Dimplement-2Dcreate-2Drest-2Dendpoint&amp;d=AwMFaQ&amp;c=8hUWFZcy2Z-Za5rBPlktOQ&amp;r=iEj4zY2m23d9QPzTewICNOX29P1IYSX9q3kyeqIQKeo&amp;m=89NnXcXnhkwcENaqjCnS9Q86T2FUVe3fBndL6TGTVuc&amp;s=5krOedlROcqw2IMxxT6cTEY9R-6zZtvE4jGV0ISiGTk&amp;e=</a>&gt;</pre><br>
+<pre style="margin: 0em;">To try the API, you have to install strongloop on which the api are
+built. It provides a test server running on you local host and a GUI to
+send HTTP request. <a  href="https://strongloop.com/get-started/">https://strongloop.com/get-started/</a>
+&lt;<a  href="https://urldefense.proofpoint.com/v2/url?u=https-3A__strongloop.com_get-2Dstarted_&amp;d=AwMFaQ&amp;c=8hUWFZcy2Z-Za5rBPlktOQ&amp;r=iEj4zY2m23d9QPzTewICNOX29P1IYSX9q3kyeqIQKeo&amp;m=89NnXcXnhkwcENaqjCnS9Q86T2FUVe3fBndL6TGTVuc&amp;s=8oQlgrgFaa9Qd2-IB0e_HPKwX0956-FHlkkcxLy9tFE&amp;e=">https://urldefense.proofpoint.com/v2/url?u=https-3A__strongloop.com_get-2Dstarted_&amp;d=AwMFaQ&amp;c=8hUWFZcy2Z-Za5rBPlktOQ&amp;r=iEj4zY2m23d9QPzTewICNOX29P1IYSX9q3kyeqIQKeo&amp;m=89NnXcXnhkwcENaqjCnS9Q86T2FUVe3fBndL6TGTVuc&amp;s=8oQlgrgFaa9Qd2-IB0e_HPKwX0956-FHlkkcxLy9tFE&amp;e=</a>&gt;</pre><br>
+<pre style="margin: 0em;">After installing the strongloop, cd into nds-webservice directory and run
+npm install
+to install all dependencies.</pre><br>
+<pre style="margin: 0em;">And then you need to
+1. modify nds-webservice/common/models/environment.js. In line 10,
+specify your ssh key name, openstack user name, password in the
+arguments of the python script.
+2. modify nds-webservice/startup_ndslabs.py in line 129-136, specify
+your own volumes ids which can be found in openstack dash board.</pre><br>
+<pre style="margin: 0em;">The last step is to follow instructions here provided by Mike to resolve
+the connectivity issue to the vlad-mgmt:</pre><br>
+<pre style="margin: 0em;"><a  href="https://wiki.ncsa.illinois.edu/display/NDS/Connectivity+to+the+VLAD+OpenStack+Management+Network">https://wiki.ncsa.illinois.edu/display/NDS/Connectivity+to+the+VLAD+OpenStack+Management+Network</a>
+&lt;<a  href="https://urldefense.proofpoint.com/v2/url?u=https-3A__wiki.ncsa.illinois.edu_display_NDS_Connectivity-2Bto-2Bthe-2BVLAD-2BOpenStack-2BManagement-2BNetwork&amp;d=AwMFaQ&amp;c=8hUWFZcy2Z-Za5rBPlktOQ&amp;r=iEj4zY2m23d9QPzTewICNOX29P1IYSX9q3kyeqIQKeo&amp;m=89NnXcXnhkwcENaqjCnS9Q86T2FUVe3fBndL6TGTVuc&amp;s=1AEZ3qFWwrjj4LqRnPD-Q37chGSgmvyNHtCyjOJWEvw&amp;e=">https://urldefense.proofpoint.com/v2/url?u=https-3A__wiki.ncsa.illinois.edu_display_NDS_Connectivity-2Bto-2Bthe-2BVLAD-2BOpenStack-2BManagement-2BNetwork&amp;d=AwMFaQ&amp;c=8hUWFZcy2Z-Za5rBPlktOQ&amp;r=iEj4zY2m23d9QPzTewICNOX29P1IYSX9q3kyeqIQKeo&amp;m=89NnXcXnhkwcENaqjCnS9Q86T2FUVe3fBndL6TGTVuc&amp;s=1AEZ3qFWwrjj4LqRnPD-Q37chGSgmvyNHtCyjOJWEvw&amp;e=</a>&gt;</pre><br>
+<pre style="margin: 0em;"><br>You can start the server with command:
+node .</pre><br>
+<pre style="margin: 0em;">and then browse to <a  href="http://localhost:3000/explorer/">http://localhost:3000/explorer/</a>
+&lt;<a  href="https://urldefense.proofpoint.com/v2/url?u=http-3A__localhost-3A3000_explorer_&amp;d=AwMFaQ&amp;c=8hUWFZcy2Z-Za5rBPlktOQ&amp;r=iEj4zY2m23d9QPzTewICNOX29P1IYSX9q3kyeqIQKeo&amp;m=89NnXcXnhkwcENaqjCnS9Q86T2FUVe3fBndL6TGTVuc&amp;s=C8GusXWOtRw61nBuDjzOYZxjWgKCmfWcZQTz3p8Cyf8&amp;e=">https://urldefense.proofpoint.com/v2/url?u=http-3A__localhost-3A3000_explorer_&amp;d=AwMFaQ&amp;c=8hUWFZcy2Z-Za5rBPlktOQ&amp;r=iEj4zY2m23d9QPzTewICNOX29P1IYSX9q3kyeqIQKeo&amp;m=89NnXcXnhkwcENaqjCnS9Q86T2FUVe3fBndL6TGTVuc&amp;s=C8GusXWOtRw61nBuDjzOYZxjWgKCmfWcZQTz3p8Cyf8&amp;e=</a>&gt;
+to try the API.</pre><br>
+<pre style="margin: 0em;"><br>At this point, just specify the lab name and put 3 for the number of
+instances. It will create 3 instances in openstack and one of them is
+master node with public ip. It will store the instance id and ip address
+to the mongodb, with which we can manipulate those instances in other
+apis. Email me any issues you run into. Thank you.</pre><br>
+<pre style="margin: 0em;">Best
+Zeo</pre><br>
+<br>
+</blockquote><br>
+
+<!--X-Body-of-Message-End-->
+<!--X-MsgBody-End-->
+<!--X-Follow-Ups-->
+<hr>
+<!--X-Follow-Ups-End-->
+<!--X-References-->
+<ul><li><strong>References</strong>:
+<ul>
+<li><strong><a name="00017" href="msg00017.html">Create NDS Labs API</a></strong>
+<ul><li><em>From:</em> Lengyue Chen</li></ul></li>
+</ul></li></ul>
+<!--X-References-End-->
+<!--X-BotPNI-->
+<HR>
+<UL>
+<li>Prev by Date:
+<strong><a href="msg00024.html">NDS Explorer Block Diagram Version 4</a></strong>
+</li>
+<li>Next by Date:
+<strong><a href="msg00026.html">NDS Developer Meeting / Working Session 7/17/2015</a></strong>
+</li>
+
+<li>Previous by thread:
+<strong><a href="msg00017.html">Create NDS Labs API</a></strong>
+</li>
+<li>Next by thread:
+<strong><a href="msg00018.html">Issues in creating labs with more than 3 instances</a></strong>
+</li>
+
+</UL>
+<!--#INCLUDE VIRTUAL="/include/lists/discuss/message-footer.html"-->
+
+<!--X-BotPNI-End-->
+<!--X-User-Footer-->
+<strong>
+<center>
+<a href="/lists/">Other Mailing lists</a> |
+<a href="author.html">Author Index</a> |
+<a href="maillist.html">Date Index</a> |
+<a href="subject.html">Subject Index</a> |
+<a href="threads.html">Thread Index</a>
+</center>
+</strong>
+<!--X-User-Footer-End-->
+</body>
+</html>

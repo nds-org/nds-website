@@ -1,0 +1,771 @@
+From owner-discuss@nationaldataservice.org Fri Jan  9 15:00:10 2015
+Received: (from majordomo@localhost)
+	by pop.ncsa.uiuc.edu (8.11.7/8.11.7) id t09L0AA15407;
+	Fri, 9 Jan 2015 15:00:10 -0600
+X-Envelope-From: rplante@illinois.edu
+X-Envelope-To: <discuss@nationaldataservice.org>
+Received: from rimantadine.ncsa.uiuc.edu (rimantadine.ncsa.uiuc.edu [141.142.199.3])
+	by pop.ncsa.uiuc.edu (8.11.7/8.11.7) with ESMTP id t09L0AC15384
+	for <discuss@nationaldataservice.org>; Fri, 9 Jan 2015 15:00:10 -0600
+Received: from epte.local ([141.142.40.169])
+	(authenticated bits=0)
+	by rimantadine.ncsa.uiuc.edu (8.14.9/8.14.4) with ESMTP id t09KxuxW010598
+	(version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NO)
+	for <discuss@nationaldataservice.org>; Fri, 9 Jan 2015 14:59:56 -0600
+Date: Fri, 9 Jan 2015 15:00:08 -0600 (CST)
+From: Ray Plante <rplante@illinois.edu>
+X-X-Sender: rplante@epte
+To: discuss@nationaldataservice.org
+Subject: Resources coming to NDS Labs and NDS Share
+Message-ID: <alpine.DEB.2.00.1501091251130.6226@epte>
+User-Agent: Alpine 2.00 (DEB 1167 2008-08-23)
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+X-Null-Tag: 742c5771c8d76806c51124173a79286e
+X-NCSA-MailScanner-Information: Please contact help@ncsa.uiuc.edu for more information, rimantadine.ncsa.uiuc.edu
+X-NCSA-MailScanner-ID: t09KxuxW010598
+X-NCSA-MailScanner: Found to be clean
+Sender: owner-discuss@nationaldataservice.org
+Precedence: bulk
+Reply-To: discuss@nationaldataservice.org
+
+Hi folks,
+
+Since the NDS workshop, there's been a lot of activity pulling 
+together the NDS Labs environment we discussed at the workshop.  As a 
+reminder, NDS Labs is a developer's environment that is being made 
+available to consortium collaborators to explore, build, and 
+demonstrate important capabilities needed by the NDS.  In this 
+environment, developers will have access to significant storage, cloud 
+computing, and common data software tools ready to use or modify.  We 
+hope and expect that many of the capabilities created in NDS Labs will 
+be of immediate use to researchers today; for these products, we 
+expect to migrate them to NDS Share, a platform for hosting data 
+applications and services, where we can expose them to friendly users.
+
+Recently, we had a telecon of the supercomputing consortium partners 
+to discuss what resources we can make available in this environment.  
+To give you a sense of what's coming, I'm sharing my notes from that 
+meeting below.  
+
+I'll note that we're looking to do an initial roll-out of NDS Labs 
+roughly around February 1.  Interested folks will find via the Labs 
+portal information on how to get access and what the environment 
+currently looks like.  Note, however, it won't be a complete solution, 
+and I hope to interest consortium partners in not only using the 
+environment, but also in helping us expand it.  In particular, if your 
+organization is interested in making resources available, we would 
+love to hear from you.  Alternatively, as a developer, you may have 
+ideas about software or capabilities that would be useful to have.
+
+In other words, we're keen to get the discussion going again.  I 
+believe Matt is going to follow-up with a summary of what we expect to 
+have upon "opening day" and some of the directions we're going.  For 
+now, have a look at my notes, particularly in the 2nd half for the 
+list of resources we are hoping to bring to NDS Labs.
+
+cheers,
+Ray Plante
+
+-------------------------
+Here are my notes from our call on Friday where we discussed resources 
+to be included in NDS Labs and Share.  The main purpose was to take a 
+census of the resources we would like to include both near- and 
+long-term.  I also reviewed the goals of Labs and Share and answered 
+policy-type questions.  Technical questions and problem-solving were 
+deferred to our follow-up call in January when Matt could attend.  
+
+Some of the high points from the policy related discussion:
+  o  We recognize that support for resources is coming out of the 
+     margins of existing projects; thus, we'll need to do our best to 
+     accommadate the constraints and limits this may present in terms 
+     of integration, support, and schedule
+  o  It is assumed that access to resources will be subject to local 
+     security policies.
+  o  NDS Labs targeted to developers from the consortium interested in 
+     developing some component or demonstration of NDS capabilities.  
+     While the consortium is broadly inclusive (no membership cards 
+     required) and the barrier to access should be low, the bargain is 
+     that the development is intended to bring back value to the 
+     consortium.  
+  o  There should also be a value proposition for the 
+     developers--something that they get out of it.  Often this will 
+     be in the form of real value/capability made available to a 
+     community (via Share).  In other cases it will be support for 
+     development that is also of local interest.  
+  o  We envision that potential users will submit a short application, 
+     proposing their project and listing the resources they would like 
+     access to.  A visit to the Labs web site will show a list of 
+     resources available.  
+  o  We see 3 levels of integration possible.  
+     1)  At the lowest end, itegration is limited to being listed in 
+         the Labs list of resources:  the resource may available only 
+         through its host site, and Labs provides a link to its access 
+         point.  
+     2)  Labs can leverage the federation capabilities built into a 
+         particular resource that is available at multiple sites.  
+         Examples include:
+           o  support for a Globus endpoint
+	   o  IRODS federation: the ability to access other IRODS 
+               storage at other sites
+           o  SciDrive instances that can transfer from other 
+               instances. 
+     3)  At the highest level of integration, other openstack clusters 
+         can support the "Labs Infrastructure" based on Docker 
+         containers and re-use either stock Labs containers or new 
+         ones produced by projects.  
+  o  NDS Share is targeted to "friendly users" in which we invited 
+     end-users to use deployed instances of various applications, 
+     including ones developed in Labs, to understand how users make 
+     use of them and where their particular strengths are.  
+  o  Visitors to the Share web site will see a menu of applications of 
+     available for use.  
+  o  Share will also be supported by the Labs Infrastructure.  That 
+     is, most of the services made available will run in Docker 
+     containers.  
+
+Here's what resources we recorded that could be made available via 
+Labs and Share.  Do let me know of corrections or if I've missed 
+something.  For the items below, those marked with * are resources 
+that can be made available more or less now (as personnel resources 
+allow).
+
+TACC:
+  *  Rodeo, an openstack cloud platform
+  o  1 PB filesystem (old; not clear how much and for how long)
+  o  Wrangler - cluster optimized for high through-put data analytics, 
+     10 PB repository, distributed between Indiana and TACC.  (Now
+     under assembly)
+  o  Chameleon - cloud compute
+
+SDSC:
+  *  Portion of 100TB replicated Lustre filesystem, accessible via 
+     Globus Share.  An XSEDE resource which SDSC has discretionary 
+     access that could be provided for NDS.  
+  *  Portion of 100TB openstack Cloud storage accessible via Swift 
+     web service and SciDrive
+  *  Gordon, an XSEDE resource; allocations could be made available 
+     from discretionary time.  (Example of lowest integration level.)
+  o  Comet -- virtual cloud resource, in works on June-ish time-scale
+  o  openstack compute cluster (February-ish)
+
+NCSA: 
+  *  Portion of storage condo
+  *  ISL openstack compute cluster
+  o  Production openstack compute cluster (available late-winter?)
+
+BTW, Is this something we should share on the NDS discuss list?  
+
+thanks,
+Ray
+
+From owner-discuss@nationaldataservice.org Mon Jan 12 16:25:34 2015
+Received: (from majordomo@localhost)
+	by pop.ncsa.uiuc.edu (8.11.7/8.11.7) id t0CMPYA21451;
+	Mon, 12 Jan 2015 16:25:34 -0600
+X-Envelope-From: matthewturk@gmail.com
+X-Envelope-To: <discuss@nationaldataservice.org>
+Received: from rimantadine.ncsa.uiuc.edu (rimantadine.ncsa.uiuc.edu [141.142.199.3])
+	by pop.ncsa.uiuc.edu (8.11.7/8.11.7) with ESMTP id t0CMPYC21397
+	for <discuss@nationaldataservice.org>; Mon, 12 Jan 2015 16:25:34 -0600
+Received: from mail-ie0-f175.google.com (mail-ie0-f175.google.com [209.85.223.175])
+	by rimantadine.ncsa.uiuc.edu (8.14.9/8.14.4) with ESMTP id t0CMPDks021440
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL)
+	for <discuss@nationaldataservice.org>; Mon, 12 Jan 2015 16:25:13 -0600
+Received: by mail-ie0-f175.google.com with SMTP id x19so27976071ier.6
+        for <discuss@nationaldataservice.org>; Mon, 12 Jan 2015 14:25:26 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:in-reply-to:references:from:date:message-id:subject:to
+         :content-type;
+        bh=oWrBhnrprOnbs7TF/PlZw1yYGj2wePtBl5VOeZjgcrA=;
+        b=dAenGJtVeskSzbdethKrUPUOLMbT62g39z7r51jLec16HGjKRnC3g6ITPmAiN2rUH9
+         KFh2NaeQpFkjoqVsg8pp+KRCbLbJr4kB56LhurF3Mz+wondqH52b7HHHL2hfOFvjC0Q9
+         cZEU88LMccCdY7CwLO2ziX+2XWMR3NaJEpsLQpwaIevyR1620UjFswVgW4vprtoqDS2A
+         hS5SUJJxbArNRRiV1MVPjEX3sazYshWjaEnBU5DgZ7/nCD0kkFbR4kl6rm//dbMRgTj5
+         6R6ctxjHlDRsqUrVBH83+62iOnBCNKXUKLfrugJr6wymBNaHlUS14WGBlMYQeCiizWQK
+         LIhg==
+X-Received: by 10.50.43.169 with SMTP id x9mr17580896igl.28.1421101526676;
+ Mon, 12 Jan 2015 14:25:26 -0800 (PST)
+MIME-Version: 1.0
+Received: by 10.42.247.132 with HTTP; Mon, 12 Jan 2015 14:25:06 -0800 (PST)
+In-Reply-To: <9A50426E-1CFA-4560-924C-CFD803A36A07@renci.org>
+References: <9A50426E-1CFA-4560-924C-CFD803A36A07@renci.org>
+From: Matthew Turk <matthewturk@gmail.com>
+Date: Mon, 12 Jan 2015 16:25:06 -0600
+Message-ID: <CALO3=5HYAH6aHUT2VuKETgFCx7X35mq6ED-UF9g19O=oKMoqHg@mail.gmail.com>
+Subject: Fwd: [iROD-Chat:13083] Announcing iRODS Digital Archive Working Group
+To: "discuss@nationaldataservice.org" <discuss@nationaldataservice.org>
+Content-Type: multipart/alternative; boundary=089e01184b9aaffc9d050c7bfb7f
+X-Null-Tag: a54afdbdc99bd920c0e84350744c9f71
+X-Scanned-By: milter-spamc/1.15.388 (amantadine-old.ncsa.illinois.edu [141.142.199.5]); Mon, 12 Jan 2015 16:25:19 -0600
+X-Spam-Status: NO, hits=2.90 required=4.90
+X-Spam-Report: Spam detection software, running on the system "rimantadine.ncsa.uiuc.edu", has
+  | identified this incoming email as possible spam.  The original message
+  | has been attached to this so you can view it (if it isn't spam) or label
+  | similar future email.  If you have any questions, see
+  | postmaster@ncsa.uiuc.edu for details.
+  | 
+  | Content preview:  Hi all, I thought this might be of interest to the group.
+  |   -Matt [...]
+  | 
+  | Content analysis details:   (2.9 points, 4.9 required)
+  | 
+  |  pts rule name              description
+  | ---- ---------------------- --------------------------------------------------
+  |  0.7 DNS_FROM_AHBL_RHSBL    RBL: Envelope sender listed in dnsbl.ahbl.org
+  | -1.0 RCVD_IN_DNSWL_LOW      RBL: Sender listed at http://www.dnswl.org/, low
+  |                             trust
+  |                             [209.85.223.175 listed in list.dnswl.org]
+  |  4.0 BAYES_99               BODY: Bayesian spam probability is 99 to 100p
+  |                             [score: 1.0000]
+  | -1.0 SPF_PASS               SPF: sender matches SPF record
+  |  0.0 HTML_MESSAGE           BODY: HTML included in message
+  |  0.2 AWL                    AWL: From: address is in the auto white-list
+  | 
+X-NCSA-MailScanner-Information: Please contact help@ncsa.uiuc.edu for more information, rimantadine.ncsa.uiuc.edu
+X-NCSA-MailScanner-ID: t0CMPDks021440
+X-NCSA-MailScanner: Found to be clean
+Sender: owner-discuss@nationaldataservice.org
+Precedence: bulk
+Reply-To: discuss@nationaldataservice.org
+
+--089e01184b9aaffc9d050c7bfb7f
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Hi all,
+
+I thought this might be of interest to the group.
+
+-Matt
+
+---------- Forwarded message ----------
+From: Dan Bedard <danb@renci.org>
+Date: Mon, Jan 12, 2015 at 4:21 PM
+Subject: [iROD-Chat:13083] Announcing iRODS Digital Archive Working Group
+To: "irod-chat@googlegroups.com" <irod-chat@googlegroups.com>
+
+
+  Hello,
+
+ I'm pleased to announce creation of the iRODS Digital Archive Working
+Group. This will be the first topic-specific iRODS working group, with more
+to follow.
+
+ The working group will be creating an iRODS-based reference implementation
+of a digital archive. This is a forum for members to contribute their
+opinions about what features and structure the implementation should have,
+with the eventual outcome of code, templates, documents, a cookbook, VM
+images, and any other materials that would help someone begin to set up a
+digital repository using iRODS.
+
+ We have brought together a core group of experts to begin the conversation=
+:
+
+  Jeremy Frumkin, University of Arizona Libraries
+Dave Pcolar, Digital Preservation Network
+Chris Jordan, Texas Advanced Computing Center
+Matthias Grawinkel, Everbit and University of Mainz
+
+  And we have created a Google group to host discussions specific to the
+reference implementation: https://groups.google.com/forum/#!forum/irods-daw=
+g
+
+ We are working to schedule an introductory Google Hangout next week. I
+will post details here and on the new Google Group once scheduled.
+
+ If you're interested in participating, please register with the Google
+Group. Please recommend others to the group as well.
+
+ Thank you,
+Dan Bedard
+
+ =E2=80=94
+ Dan Bedard
+iRODS Market Development Manager
+(919)445-0632
+danb@renci.org
+
+irods.org =E2=80=94 Take Control of Your Data
+
+ --
+--=20
+"iRODS: the Integrated Rule-Oriented Data-management System; A community
+driven, open source, data grid software solution" https://www.irods.org
+
+iROD-Chat: http://groups.google.com/group/iROD-Chat
+
+---
+You received this message because you are subscribed to the Google Groups
+"iRODS-Chat" group.
+To unsubscribe from this group and stop receiving emails from it, send an
+email to irod-chat+unsubscribe@googlegroups.com.
+For more options, visit https://groups.google.com/d/optout.
+
+--089e01184b9aaffc9d050c7bfb7f
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Hi all,<div><br></div><div>I thought this might be of inte=
+rest to the group.</div><div><br></div><div>-Matt</div><div><br><div class=
+=3D"gmail_quote">---------- Forwarded message ----------<br>From: <b class=
+=3D"gmail_sendername">Dan Bedard</b> <span dir=3D"ltr">&lt;<a href=3D"mailt=
+o:danb@renci.org" target=3D"_blank">danb@renci.org</a>&gt;</span><br>Date: =
+Mon, Jan 12, 2015 at 4:21 PM<br>Subject: [iROD-Chat:13083] Announcing iRODS=
+ Digital Archive Working Group<br>To: &quot;<a href=3D"mailto:irod-chat@goo=
+glegroups.com" target=3D"_blank">irod-chat@googlegroups.com</a>&quot; &lt;<=
+a href=3D"mailto:irod-chat@googlegroups.com" target=3D"_blank">irod-chat@go=
+oglegroups.com</a>&gt;<br><br><br>
+
+
+
+<div style=3D"word-wrap:break-word">
+<div style=3D"font-family:ArialMT">
+<div>
+<div>Hello,</div>
+</div>
+</div>
+<div style=3D"font-family:ArialMT"><br>
+</div>
+<div style=3D"font-family:ArialMT">I&#39;m pleased to announce creation of =
+the iRODS Digital Archive Working Group. This will be the first topic-speci=
+fic iRODS working group, with more to follow.</div>
+<div style=3D"font-family:ArialMT"><br>
+</div>
+<div style=3D"font-family:ArialMT">The working group will be creating an iR=
+ODS-based reference implementation of a digital archive. This is a forum fo=
+r members to contribute their opinions about what features and structure th=
+e implementation should
+ have, with the eventual outcome of code, templates, documents, a cookbook,=
+ VM images, and any other materials that would help someone begin to set up=
+ a digital repository using iRODS.</div>
+<div style=3D"font-family:ArialMT">
+<div><br>
+</div>
+<div>We have brought together a core group of experts to begin the conversa=
+tion:</div>
+<div><br>
+</div>
+<div>
+<div>
+<div>Jeremy Frumkin, University of Arizona Libraries</div>
+<div>Dave Pcolar, Digital Preservation Network</div>
+<div>Chris Jordan, Texas Advanced Computing Center</div>
+<div>Matthias Grawinkel, Everbit and University of Mainz</div>
+<div><br>
+</div>
+</div>
+</div>
+<div>And we have created a Google group to host discussions specific to the=
+ reference implementation:=C2=A0<a href=3D"https://groups.google.com/forum/=
+#!forum/irods-dawg" target=3D"_blank">https://groups.google.com/forum/#!for=
+um/irods-dawg</a></div>
+<div><br>
+</div>
+<div>We are working to schedule an introductory Google Hangout next week. I=
+ will post details here and on the new Google Group once scheduled.</div>
+<div><br>
+</div>
+<div>If you&#39;re interested in participating, please register with the Go=
+ogle Group. Please recommend others to the group as well.</div>
+</div>
+<div style=3D"font-family:ArialMT"><br>
+</div>
+<div style=3D"font-family:ArialMT">Thank you,</div>
+<div style=3D"font-family:ArialMT">Dan Bedard</div>
+<div style=3D"font-family:ArialMT"><br>
+</div>
+<div style=3D"font-family:ArialMT">=E2=80=94=C2=A0</div>
+<div>
+<div style=3D"color:rgb(0,0,0);letter-spacing:normal;text-align:start;text-=
+indent:0px;text-transform:none;white-space:normal;word-spacing:0px;word-wra=
+p:break-word">
+Dan Bedard<br>
+iRODS Market Development Manager<br>
+<a href=3D"tel:%28919%29445-0632" value=3D"+19194450632" target=3D"_blank">=
+(919)445-0632</a><br>
+<a href=3D"mailto:danb@renci.org" target=3D"_blank">danb@renci.org</a><br>
+<br>
+<a href=3D"http://irods.org" target=3D"_blank">irods.org</a> =E2=80=94=C2=
+=A0Take Control of Your Data<span><font color=3D"#888888"><br>
+</font></span></div><span><font color=3D"#888888">
+</font></span></div><span><font color=3D"#888888">
+<br>
+</font></span></div><span><font color=3D"#888888">
+
+
+<p></p>
+
+-- <br>
+-- <br>
+&quot;iRODS: the Integrated Rule-Oriented Data-management System; A communi=
+ty driven, open source, data grid software solution&quot;   <a href=3D"http=
+s://www.irods.org" target=3D"_blank">https://www.irods.org</a><br>
+=C2=A0<br>
+ iROD-Chat:  <a href=3D"http://groups.google.com/group/iROD-Chat" target=3D=
+"_blank">http://groups.google.com/group/iROD-Chat</a><br>
+<br>
+--- <br>
+You received this message because you are subscribed to the Google Groups &=
+quot;iRODS-Chat&quot; group.<br>
+To unsubscribe from this group and stop receiving emails from it, send an e=
+mail to <a href=3D"mailto:irod-chat+unsubscribe@googlegroups.com" target=3D=
+"_blank">irod-chat+unsubscribe@googlegroups.com</a>.<br>
+For more options, visit <a href=3D"https://groups.google.com/d/optout" targ=
+et=3D"_blank">https://groups.google.com/d/optout</a>.<br>
+</font></span></div><br></div></div>
+
+--089e01184b9aaffc9d050c7bfb7f--
+
+From owner-discuss@nationaldataservice.org Wed Jan 14 13:16:21 2015
+Received: (from majordomo@localhost)
+	by pop.ncsa.uiuc.edu (8.11.7/8.11.7) id t0EJGLv21870;
+	Wed, 14 Jan 2015 13:16:21 -0600
+X-Envelope-From: apsmith@aps.org
+X-Envelope-To: <discuss@nationaldataservice.org>
+Received: from rimantadine.ncsa.uiuc.edu (rimantadine.ncsa.uiuc.edu [141.142.199.3])
+	by pop.ncsa.uiuc.edu (8.11.7/8.11.7) with ESMTP id t0EJGKC21860
+	for <discuss@nationaldataservice.org>; Wed, 14 Jan 2015 13:16:21 -0600
+Received: from mail-qc0-f179.google.com (mail-qc0-f179.google.com [209.85.216.179])
+	by rimantadine.ncsa.uiuc.edu (8.14.9/8.14.4) with ESMTP id t0EJFxgD014937
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL)
+	for <discuss@nationaldataservice.org>; Wed, 14 Jan 2015 13:15:59 -0600
+Received: by mail-qc0-f179.google.com with SMTP id c9so8805854qcz.10
+        for <discuss@nationaldataservice.org>; Wed, 14 Jan 2015 11:16:12 -0800 (PST)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:message-id:date:from:user-agent:mime-version:to
+         :subject:references:in-reply-to:content-type;
+        bh=3WTyKHLkDKE40JI51zvgvwkUcp8BFn8uJXizB9By8kw=;
+        b=R3YEVLv3aJQ55SSITo2Sxwg7hYqbJcTd9cgv+Bz66w/zl0IvLCR4CWeOw/JaHOWCdS
+         54wMHxR6KgzBWTkWE0zSM3kngXQduA3fuTggFnFJXC1zTk8K9+neaL/yNjnnyrj+0ukh
+         47O+mFeJojIBP3qrVXIJnbLibxb8ScLqvWuAtdgU/ukjKshuVUPe1JwnHE3cd4RqR6Fc
+         Vic5svcYh0IBBkC7cfVmFdJwHMAY2RwbO1vWiT9glwPsqH+qOOvWSLshh2CevvDJFMID
+         77ljES5d3Iq4wYLrMc+rXO1iDFScbtxj9e/UdZCidXud5bCtGcdiXYkt8MDbjcdTZJHK
+         UnLA==
+X-Gm-Message-State: ALoCoQm5O49dJNwABFMFFjdLXfg1nrztt+Zs8sKqJMx/TenRvtF618sWhjC+5X+lpE9G6c15dbhB
+X-Received: by 10.224.132.71 with SMTP id a7mr9710034qat.28.1421262972234;
+        Wed, 14 Jan 2015 11:16:12 -0800 (PST)
+Received: from arthur-laptop.local ([149.28.5.252])
+        by mx.google.com with ESMTPSA id 9sm21326964qam.9.2015.01.14.11.16.10
+        for <discuss@nationaldataservice.org>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 14 Jan 2015 11:16:11 -0800 (PST)
+Message-ID: <54B6C07C.7060209@aps.org>
+Date: Wed, 14 Jan 2015 14:16:12 -0500
+From: Arthur Smith <apsmith@aps.org>
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:31.0) Gecko/20100101 Thunderbird/31.3.0
+MIME-Version: 1.0
+To: discuss@nationaldataservice.org
+Subject: Re: Fwd: [iROD-Chat:13083] Announcing iRODS Digital Archive Working
+ Group
+References: <9A50426E-1CFA-4560-924C-CFD803A36A07@renci.org> <CALO3=5HYAH6aHUT2VuKETgFCx7X35mq6ED-UF9g19O=oKMoqHg@mail.gmail.com>
+In-Reply-To: <CALO3=5HYAH6aHUT2VuKETgFCx7X35mq6ED-UF9g19O=oKMoqHg@mail.gmail.com>
+Content-Type: multipart/alternative;
+ boundary="------------090006080707010406090504"
+X-Null-Tag: 79b24f4d034b903742d35265ff44d76b
+X-Scanned-By: milter-spamc/1.15.388 (rimantadine.ncsa.uiuc.edu [141.142.199.3]); Wed, 14 Jan 2015 13:16:05 -0600
+X-Spam-Status: NO, hits=3.10 required=4.90
+X-Spam-Report: Spam detection software, running on the system "rimantadine.ncsa.uiuc.edu", has
+  | identified this incoming email as possible spam.  The original message
+  | has been attached to this so you can view it (if it isn't spam) or label
+  | similar future email.  If you have any questions, see
+  | postmaster@ncsa.uiuc.edu for details.
+  | 
+  | Content preview:  Hi Matt and all, For reference the FORCE11 discussion on "machine
+  |    accessible data" has led to a recommendation document being considered for
+  |    publication here: https://peerj.com/preprints/697/ [...]
+  | 
+  | Content analysis details:   (3.1 points, 4.9 required)
+  | 
+  |  pts rule name              description
+  | ---- ---------------------- --------------------------------------------------
+  |  4.0 BAYES_99               BODY: Bayesian spam probability is 99 to 100p
+  |                             [score: 1.0000]
+  | -1.0 RCVD_IN_DNSWL_LOW      RBL: Sender listed at http://www.dnswl.org/, low
+  |                             trust
+  |                             [209.85.216.179 listed in list.dnswl.org]
+  |  0.0 HTML_MESSAGE           BODY: HTML included in message
+  |  0.1 AWL                    AWL: From: address is in the auto white-list
+  | 
+X-NCSA-MailScanner-Information: Please contact help@ncsa.uiuc.edu for more information, rimantadine.ncsa.uiuc.edu
+X-NCSA-MailScanner-ID: t0EJFxgD014937
+X-NCSA-MailScanner: Found to be clean
+Sender: owner-discuss@nationaldataservice.org
+Precedence: bulk
+Reply-To: discuss@nationaldataservice.org
+
+This is a multi-part message in MIME format.
+--------------090006080707010406090504
+Content-Type: text/plain; charset=utf-8; format=flowed
+Content-Transfer-Encoding: 8bit
+
+Hi Matt and all,
+
+     For reference the FORCE11 discussion on "machine accessible data" 
+has led to a recommendation document being considered for publication here:
+
+https://peerj.com/preprints/697/
+
+It's not highly prescriptive (intended to be flexible given different 
+needs of different communities of researchers) but the section 
+"RECOMMENDATIONS FOR ACHIEVING MACHINE ACCESSIBILITY" has some specific 
+recommendations that would be good for any "digital archive" to follow - 
+on assigning unique identifiers, providing a "landing page" and metadata 
+in various formats from that point, including DCAT etc.
+
+Also if any of you have any feedback on these recommendations I can 
+forward them to the authors.
+
+    Arthur
+
+On 1/12/15 5:25 PM, Matthew Turk wrote:
+> Hi all,
+>
+> I thought this might be of interest to the group.
+>
+> -Matt
+>
+> ---------- Forwarded message ----------
+> From: *Dan Bedard* <danb@renci.org <mailto:danb@renci.org>>
+> Date: Mon, Jan 12, 2015 at 4:21 PM
+> Subject: [iROD-Chat:13083] Announcing iRODS Digital Archive Working Group
+> To: "irod-chat@googlegroups.com <mailto:irod-chat@googlegroups.com>" 
+> <irod-chat@googlegroups.com <mailto:irod-chat@googlegroups.com>>
+>
+>
+> Hello,
+>
+> I'm pleased to announce creation of the iRODS Digital Archive Working 
+> Group. This will be the first topic-specific iRODS working group, with 
+> more to follow.
+>
+> The working group will be creating an iRODS-based reference 
+> implementation of a digital archive. This is a forum for members to 
+> contribute their opinions about what features and structure the 
+> implementation should have, with the eventual outcome of code, 
+> templates, documents, a cookbook, VM images, and any other materials 
+> that would help someone begin to set up a digital repository using iRODS.
+>
+> We have brought together a core group of experts to begin the 
+> conversation:
+>
+> Jeremy Frumkin, University of Arizona Libraries
+> Dave Pcolar, Digital Preservation Network
+> Chris Jordan, Texas Advanced Computing Center
+> Matthias Grawinkel, Everbit and University of Mainz
+>
+> And we have created a Google group to host discussions specific to the 
+> reference implementation: 
+> https://groups.google.com/forum/#!forum/irods-dawg 
+> <https://groups.google.com/forum/#%21forum/irods-dawg>
+>
+> We are working to schedule an introductory Google Hangout next week. I 
+> will post details here and on the new Google Group once scheduled.
+>
+> If you're interested in participating, please register with the Google 
+> Group. Please recommend others to the group as well.
+>
+> Thank you,
+> Dan Bedard
+>
+> —
+> Dan Bedard
+> iRODS Market Development Manager
+> (919)445-0632 <tel:%28919%29445-0632>
+> danb@renci.org <mailto:danb@renci.org>
+>
+> irods.org <http://irods.org> — Take Control of Your Data
+>
+> -- 
+> -- 
+> "iRODS: the Integrated Rule-Oriented Data-management System; A 
+> community driven, open source, data grid software solution" 
+> https://www.irods.org
+>
+> iROD-Chat: http://groups.google.com/group/iROD-Chat
+>
+> ---
+> You received this message because you are subscribed to the Google 
+> Groups "iRODS-Chat" group.
+> To unsubscribe from this group and stop receiving emails from it, send 
+> an email to irod-chat+unsubscribe@googlegroups.com 
+> <mailto:irod-chat+unsubscribe@googlegroups.com>.
+> For more options, visit https://groups.google.com/d/optout.
+>
+
+
+--------------090006080707010406090504
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+<html>
+  <head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+  </head>
+  <body bgcolor="#FFFFFF" text="#000000">
+    <div class="moz-cite-prefix">Hi Matt and all,<br>
+      <br>
+          For reference the FORCE11 discussion on "machine accessible
+      data" has led to a recommendation document being considered for
+      publication here:<br>
+      <br>
+      <a class="moz-txt-link-freetext" href="https://peerj.com/preprints/697/">https://peerj.com/preprints/697/</a><br>
+      <br>
+      It's not highly prescriptive (intended to be flexible given
+      different needs of different communities of researchers) but the
+      section "RECOMMENDATIONS FOR ACHIEVING MACHINE ACCESSIBILITY" has
+      some specific recommendations that would be good for any "digital
+      archive" to follow - on assigning unique identifiers, providing a
+      "landing page" and metadata in various formats from that point,
+      including DCAT etc.<br>
+      <br>
+      Also if any of you have any feedback on these recommendations I
+      can forward them to the authors.<br>
+      <br>
+         Arthur<br>
+      <br>
+      On 1/12/15 5:25 PM, Matthew Turk wrote:<br>
+    </div>
+    <blockquote
+cite="mid:CALO3=5HYAH6aHUT2VuKETgFCx7X35mq6ED-UF9g19O=oKMoqHg@mail.gmail.com"
+      type="cite">
+      <div dir="ltr">Hi all,
+        <div><br>
+        </div>
+        <div>I thought this might be of interest to the group.</div>
+        <div><br>
+        </div>
+        <div>-Matt</div>
+        <div><br>
+          <div class="gmail_quote">---------- Forwarded message
+            ----------<br>
+            From: <b class="gmail_sendername">Dan Bedard</b> <span
+              dir="ltr">&lt;<a moz-do-not-send="true"
+                href="mailto:danb@renci.org" target="_blank">danb@renci.org</a>&gt;</span><br>
+            Date: Mon, Jan 12, 2015 at 4:21 PM<br>
+            Subject: [iROD-Chat:13083] Announcing iRODS Digital Archive
+            Working Group<br>
+            To: "<a moz-do-not-send="true"
+              href="mailto:irod-chat@googlegroups.com" target="_blank">irod-chat@googlegroups.com</a>"
+            &lt;<a moz-do-not-send="true"
+              href="mailto:irod-chat@googlegroups.com" target="_blank">irod-chat@googlegroups.com</a>&gt;<br>
+            <br>
+            <br>
+            <div style="word-wrap:break-word">
+              <div style="font-family:ArialMT">
+                <div>
+                  <div>Hello,</div>
+                </div>
+              </div>
+              <div style="font-family:ArialMT"><br>
+              </div>
+              <div style="font-family:ArialMT">I'm pleased to announce
+                creation of the iRODS Digital Archive Working Group.
+                This will be the first topic-specific iRODS working
+                group, with more to follow.</div>
+              <div style="font-family:ArialMT"><br>
+              </div>
+              <div style="font-family:ArialMT">The working group will be
+                creating an iRODS-based reference implementation of a
+                digital archive. This is a forum for members to
+                contribute their opinions about what features and
+                structure the implementation should have, with the
+                eventual outcome of code, templates, documents, a
+                cookbook, VM images, and any other materials that would
+                help someone begin to set up a digital repository using
+                iRODS.</div>
+              <div style="font-family:ArialMT">
+                <div><br>
+                </div>
+                <div>We have brought together a core group of experts to
+                  begin the conversation:</div>
+                <div><br>
+                </div>
+                <div>
+                  <div>
+                    <div>Jeremy Frumkin, University of Arizona Libraries</div>
+                    <div>Dave Pcolar, Digital Preservation Network</div>
+                    <div>Chris Jordan, Texas Advanced Computing Center</div>
+                    <div>Matthias Grawinkel, Everbit and University of
+                      Mainz</div>
+                    <div><br>
+                    </div>
+                  </div>
+                </div>
+                <div>And we have created a Google group to host
+                  discussions specific to the reference implementation: <a
+                    moz-do-not-send="true"
+                    href="https://groups.google.com/forum/#%21forum/irods-dawg"
+                    target="_blank">https://groups.google.com/forum/#!forum/irods-dawg</a></div>
+                <div><br>
+                </div>
+                <div>We are working to schedule an introductory Google
+                  Hangout next week. I will post details here and on the
+                  new Google Group once scheduled.</div>
+                <div><br>
+                </div>
+                <div>If you're interested in participating, please
+                  register with the Google Group. Please recommend
+                  others to the group as well.</div>
+              </div>
+              <div style="font-family:ArialMT"><br>
+              </div>
+              <div style="font-family:ArialMT">Thank you,</div>
+              <div style="font-family:ArialMT">Dan Bedard</div>
+              <div style="font-family:ArialMT"><br>
+              </div>
+              <div style="font-family:ArialMT">— </div>
+              <div>
+                <div
+style="color:rgb(0,0,0);letter-spacing:normal;text-align:start;text-indent:0px;text-transform:none;white-space:normal;word-spacing:0px;word-wrap:break-word">Dan
+                  Bedard<br>
+                  iRODS Market Development Manager<br>
+                  <a moz-do-not-send="true" href="tel:%28919%29445-0632"
+                    value="+19194450632" target="_blank">(919)445-0632</a><br>
+                  <a moz-do-not-send="true" href="mailto:danb@renci.org"
+                    target="_blank">danb@renci.org</a><br>
+                  <br>
+                  <a moz-do-not-send="true" href="http://irods.org"
+                    target="_blank">irods.org</a> — Take Control of Your
+                  Data<span><font color="#888888"><br>
+                    </font></span></div>
+                <span><font color="#888888">
+                  </font></span></div>
+              <span><font color="#888888">
+                  <br>
+                </font></span></div>
+            <span><font color="#888888">
+                -- <br>
+                -- <br>
+                "iRODS: the Integrated Rule-Oriented Data-management
+                System; A community driven, open source, data grid
+                software solution" <a moz-do-not-send="true"
+                  href="https://www.irods.org" target="_blank">https://www.irods.org</a><br>
+                 <br>
+                iROD-Chat: <a moz-do-not-send="true"
+                  href="http://groups.google.com/group/iROD-Chat"
+                  target="_blank">http://groups.google.com/group/iROD-Chat</a><br>
+                <br>
+                --- <br>
+                You received this message because you are subscribed to
+                the Google Groups "iRODS-Chat" group.<br>
+                To unsubscribe from this group and stop receiving emails
+                from it, send an email to <a moz-do-not-send="true"
+                  href="mailto:irod-chat+unsubscribe@googlegroups.com"
+                  target="_blank">irod-chat+unsubscribe@googlegroups.com</a>.<br>
+                For more options, visit <a moz-do-not-send="true"
+                  href="https://groups.google.com/d/optout"
+                  target="_blank">https://groups.google.com/d/optout</a>.<br>
+              </font></span></div>
+          <br>
+        </div>
+      </div>
+    </blockquote>
+    <br>
+  </body>
+</html>
+
+--------------090006080707010406090504--
+

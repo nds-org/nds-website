@@ -1,0 +1,194 @@
+From owner-nds-announce@nationaldataservice.org Tue Apr 14 17:19:52 2015
+Received: (from majordomo@localhost)
+	by pop.ncsa.uiuc.edu (8.11.7/8.11.7) id t3EMJqi27420;
+	Tue, 14 Apr 2015 17:19:52 -0500
+X-Envelope-From: rplante@illinois.edu
+X-Envelope-To: <nds-announce@nationaldataservice.org>
+Received: from rimantadine.ncsa.uiuc.edu (rimantadine.ncsa.uiuc.edu [141.142.199.3])
+	by pop.ncsa.uiuc.edu (8.11.7/8.11.7) with ESMTP id t3EMJqY27410
+	for <nds-announce@nationaldataservice.org>; Tue, 14 Apr 2015 17:19:52 -0500
+Received: from epte.local ([141.142.23.226])
+	(authenticated bits=0)
+	by rimantadine.ncsa.uiuc.edu (8.14.9/8.14.4) with ESMTP id t3EMJmpQ032002
+	(version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NO);
+	Tue, 14 Apr 2015 17:19:48 -0500
+Date: Tue, 14 Apr 2015 17:19:48 -0500 (CDT)
+From: Ray Plante <rplante@illinois.edu>
+X-X-Sender: rplante@epte
+To: NDS Announce <nds-announce@nationaldataservice.org>
+Subject: NDS3 Meeting Summary
+Message-ID: <alpine.DEB.2.02.1504141713360.3548@epte>
+User-Agent: Alpine 2.02 (DEB 1266 2009-07-14)
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+X-Null-Tag: ca89b6f3c4ea167056f3a2090f3990c0
+X-NCSA-MailScanner-Information: Please contact help@ncsa.uiuc.edu for more information, rimantadine.ncsa.uiuc.edu
+X-NCSA-MailScanner-ID: t3EMJmpQ032002
+X-NCSA-MailScanner: Found to be clean
+Sender: owner-nds-announce@nationaldataservice.org
+Precedence: bulk
+Reply-To: nds-announce@nationaldataservice.org
+
+Hello friend of NDS,
+
+Now that we're back from Austin and our 3rd NDS Consortium Workshop
+(March 25-27) and we've had time to catch our breath, I wanted send
+out a brief summary of the meeting, particularly for those of you who
+couldn't make it.  It was an exciting and productive meeting with some
+clear outcomes.  And just because you couldn't make it doesn't mean
+you are shut from getting involved; I'll note the ways you can as I
+summarize:
+
+  o  THE NDS LABS TUTORIAL
+  o  INSPIRATION BUILDING: THE ARC TO THE BREAK-OUTS
+  o  PROJECT BREAK-OUTS
+  o  CONSORTIUM BUILDING & DEVELOPMENT STRATEGIES
+  o  MEETING OUTCOMES
+
+Note that all of the slides and notes are now available on the NDS
+wiki via http://wiki.nationaldataservice.org/NDS3DetailedProgram.
+
+THE NDS LABS TUTORIAL
+
+On the Wednesday before the plenary, we hosted a tutorial on NDS Labs,
+the environment for developing ideas useful to NDS (see
+http://www.nationaldataservice.org/projects/labs.html).  While only 10
+registered, we ended up with about 26 people in attendance.
+Participants were introduced to the cloud-based environment and the
+use of Docker containers for providing useful applications and tools.
+They were taken through some example workflows, and then they had
+plenty of time to try things out on their own.  In the afternoon, we
+saw a few demos (including one on the NDS Dashboard tool and one on
+H5Serv, a restful web-service for serving HDF5 data), and we collected
+feedback and suggestions for Labs going forward.  
+
+I was pleased to see several individuals and groups make at least some
+progress in the limited time available bringing up a new tool of some
+sort.  For example, one pair managed to update the NDS Dashboard to
+allow it to pull data from the SciDrive cloud storage application.  We
+also got a lot of great feedback, particularly on improving the
+documentation.
+
+INSPIRATION BUILDING: THE ARC TO THE BREAK-OUTS
+
+Our agenda on the Thursday, the first day of the plenary, was designed
+to get people thinking about practical problems and projects we could
+work on to help pilot out the NDS infrastructure.  Ed Seidel brought
+us up to date on what's been happening with NDS since the last
+meeting.  He highlighted the construction of NDS Labs as a platform
+available to the Consortium to develop and experiment with new tools,
+standards, and services.  He also noted a number of funding proposals
+and grants within the Consortium that will support NDS-related effort.
+Anita de Waard shared very relevent experiences and advice from the
+history of Force 11, a grass-roots organization for examining the next
+generation of research communication.  Rebecca Koskela represented the
+RDA and gave us a report on the recent RDA Plenary in San Diego early in
+the month; she highlighted the recent working group deliverables as
+well as the RDA fellowship program, both of which could be supported
+going forward through NDS Labs.
+
+Matt Turk then gave us a report on NDS Labs, introducing some of the
+technical underpinings that are in place now and what's still to come.
+This was followed by a series of eight lightning talks, each touching
+on a particular project (either in progress or proposed) or important
+use case which could be a starting point for an NDS pilot effort.
+(See http://wiki.nationaldataservice.org/NDS3DetailedProgram for links
+to the speakers' slides.)  The session included plenty of discussion
+time where additional ideas and variations were suggested and
+discussed.
+
+PROJECT BREAK-OUTS
+
+Using some of the ideas proposed during the lightning talks as well as
+the disciplinary interests of the participants as starting points, we
+had people organically combine and organize around different problem
+ideas.  Four interesting projects emerged.  
+
+  o  The problem of cross-disciplinary data search in the humanities
+  o  The internet of physical samples
+  o  Integrating SciDrive with other data applications
+  o  Implementing the NDS cartoon (see the video at
+     http://www.nationaldataservice.org/about/vision.html)
+
+As part of the break-out, we asked each group to explore their
+problem's scope, identify possible use cases to address, list any
+issues that are important to address, and outline actions for creating
+a simple pilot project.  While this was a tall order for the
+relatively short time available, we were very pleased that all four
+groups were able to reach the final stage identifying actions.  Notes
+from these breakouts are available at
+http://wiki.nationaldataservice.org/NDS3Notes.
+
+This month, we'll be following up with these groups to help move the
+projects forward.  If you are interested in any of these activities,
+you are welcome to join in.  Let us know you want to be kept in the
+loop via an email to info@nationaldataservice.org, or watch for
+additional information through the mailing list.  
+
+CONSORTIUM BUILDING & DEVELOPMENT STRATEGIES
+
+This meeting was also marked by the introduction of the newly elected
+Steering Committee (see http://www.nationaldataservice.org/about/groups.html
+as well as the introductory slides on the detailed program page).
+That group has already begun to meet, and one of its early tasks will
+be to define membership in the Consortium.  
+
+We also heard from Joel Cutcher-Gershenfeld with regard to our latest
+stakeholder alignment survey which is currently underway.  The big
+push on this survey is to reach beyond data providers and
+technologists and out to practicing researchers.  Joel shared some of
+the early results from the survey so far.  
+
+Joel also led a discussion of the barriers and challenges to advancing
+data research practices through a national infrastructure.  This
+discussion was highlighted by examinations of two real-world data
+research workflows (with thanks to Mary Vartigan of ICPSR and Shelly
+Knuth of CU-Boulder).  
+
+MEETING OUTCOMES
+
+We achieved some important outcomes that can be readily acted on and
+built upon; in summary:
+
+  o  We saw a great enthusiasm for NDS Labs as a resource for
+     developing ideas that can bring about the NDS Vision.
+
+  o  To help guide further development of the its infrastructure,
+     we will form an NDS Labs Technical Advisory Committee.  
+
+  o  The group urged better use of the website to connect people with
+     current data resources and to help them understand what exists
+     today.  
+
+  o  We formally announced the creation of a coordinating committee
+     to discuss issues of Humanities, Arts, and Social Science
+     (HASS).  This committee will meet soon (via telecon) to document
+     key issues for this combined community; data privacy issues will
+     be a key topic.  If you are interested in this conversation, let
+     us know via email to info@nationaldataservice.org.  
+
+  o  Action plans for four new pilot projects were created.  We will
+     be sending out further information on these projects and begin
+     supporting participation in carrying them out.  
+
+Overall, we found that participants were ready to see a real shift in
+the NDS Consortium toward building things.  NDS Labs will a key
+resource for making this happen.  
+
+Remember, you didn't have to be there in Austin to get involved in
+Consortium activities.  Visit the meeting site, let us know of your
+interest via email to info@nationaldataservice.org, and we can connect
+you to the right groups.  
+
+Thanks to all the meeting participants and supportive on-lookers,
+Ray Plante
+NDS Interim Project Manager & POC Chair
+
+
+
+nds-announce is a mail list of the National Data Service Consortium.
+To unsubscribe, send a message to majordomo@nationaldataservice.org
+with "unsubscribe nds-announce Ray Plante <rplante@illinois.edu>" in the body.
+Questions about the list can be sent to
+owner-nds-announce@nationaldataservice.org.
+

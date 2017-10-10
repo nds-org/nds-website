@@ -1,0 +1,179 @@
+<!-- MHonArc v2.6.10 -->
+<!--X-Subject: Re: Beyond another cloud: data service discovery for NDSLabs -->
+<!--X-From-R13: Oeguhe Ezvgu <ncfzvguNncf.bet> -->
+<!--X-Date: Thu, 30 Oct 2014 14:17:29 &#45;0500 -->
+<!--X-Message-Id: 54528EBE.2020002@aps.org -->
+<!--X-Content-Type: multipart/alternative -->
+<!--X-Reference: CALO3=5EnDP5ewiDtm2iv92SRCeV=PRhBGR5Xzwmor&#45;o1YOzyuA@mail.gmail.com -->
+<!--X-Head-End-->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML//EN">
+<HTML>
+<HEAD>
+<TITLE>Re: Beyond another cloud: data service discovery for NDSLabs</TITLE>
+<LINK REV="made" HREF="mailto:apsmith@aps.org">
+</HEAD>
+<!--#INCLUDE VIRTUAL="/include/lists/discuss/message-header.html"-->
+<!--X-Body-Begin-->
+<!--X-User-Header-->
+<!--X-User-Header-End-->
+<!--X-TopPNI-->
+<!---->
+
+<!--X-TopPNI-End-->
+<!--X-MsgBody-->
+<!--X-Subject-Header-Begin-->
+<H1>Re: Beyond another cloud: data service discovery for NDSLabs<HR></H1>
+<!--X-Subject-Header-End-->
+<!--X-Head-of-Message-->
+<ul>
+<li><strong>To</strong>: <strong><a href="mailto:discuss@DOMAIN.HIDDEN">discuss@xxxxxxxxxxxxxxxxxxxxxxx</a></strong></li>
+<li><strong>Subject</strong>: <strong>Re: Beyond another cloud: data service discovery for NDSLabs</strong></li>
+<li><strong>From</strong>: <strong>Arthur Smith &lt;<a href="mailto:apsmith@DOMAIN.HIDDEN">apsmith@xxxxxxx</a>&gt;</strong></li>
+<li>Date: Thu, 30 Oct 2014 15:17:18 -0400</li>
+<li>Content-type: multipart/alternative; boundary=&quot;------------070404070101050301050900&quot;</li>
+<li>In-reply-to: &lt;<a href="msg00019.html">CALO3=5EnDP5ewiDtm2iv92SRCeV=PRhBGR5Xzwmor-o1YOzyuA@mail.gmail.com</a>&gt;</li>
+<li>References: &lt;<a href="msg00019.html">CALO3=5EnDP5ewiDtm2iv92SRCeV=PRhBGR5Xzwmor-o1YOzyuA@mail.gmail.com</a>&gt;</li>
+<li>Reply-to: <a href="mailto:discuss@DOMAIN.HIDDEN">discuss@xxxxxxxxxxxxxxxxxxxxxxx</a></li>
+<li>Sender: <a href="mailto:owner-discuss@DOMAIN.HIDDEN">owner-discuss@xxxxxxxxxxxxxxxxxxxxxxx</a></li>
+<li>User-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:24.0) Gecko/20100101 Thunderbird/24.6.0</li>
+</ul>
+<!--X-Head-of-Message-End-->
+<!--X-Head-Body-Sep-Begin-->
+<hr>
+<!--X-Head-Body-Sep-End-->
+<!--X-Body-of-Message-->
+<table width="100%"><tr><td bgcolor="#FFFFFF" style="background-color: #FFFFFF; color: #000000; "><font color="#000000">
+  
+  
+    <div class="moz-cite-prefix">That does sound interesting. However,
+      it also reminds me of RFC 1925:<br>
+      <br>
+      <a class="moz-txt-link-freetext" href="http://tools.ietf.org/html/rfc1925">http://tools.ietf.org/html/rfc1925</a><br>
+      <br>
+      in particular "6a - It is always possible to add another level of
+      indirection.
+      
+      " and perhaps #11 as well... Lots of wisdom in the old IETF...<br>
+      <br>
+      I really liked your talk about what you'd done with Epiphyte - in
+      particular making hard things easy. Very impressive work. Is there
+      some way to organize this by starting from the "hard" use cases
+      NDS labs is trying to address, and drill down to the technology
+      components really needed to make that happen? Discovery does seem
+      likely to be a good part of it, but if it's based on key-value
+      pairs (for example) how does the user know what keys to query, who
+      sets the standards for those keys and meanings of corresponding
+      values? Aside from knowing where exactly the etcd server or
+      whatever is doing that work is. There's got to be some base
+      starting point, a system that knows enough to help the user do
+      things, can we work from there?<br>
+      <br>
+      &#xC2;&#xC2; Arthur<br>
+      <br>
+      <br>
+      On 10/30/14, 11:42 AM, Matthew Turk wrote:<br>
+    </div>
+    <blockquote
+cite=""
+      type="cite">Hi all,
+      <div><br>
+      </div>
+      <div>In the other thread, Arthur brought up that we don't want
+        "just another cloud infrastructure," which I think was really
+        apt, and something that deserves thought for any NDS Labs
+        project.&#xC2; So I wanted to start a couple topics about what can be
+        provided on top of a standard cloud infrastructure that might be
+        of use.</div>
+      <div><br>
+      </div>
+      <div>I'm wondering about discovering data services within a
+        region, where that region is either some subnet on a cloud
+        provider, or even more globally across locations.&#xC2; If we are
+        thinking about interoperability of services, then there are
+        probably a few verbs that could be identified as being
+        necessary.&#xC2; If we can have services identify themselves as
+        providing verb endpoints, that could provide an environment for
+        testing interop.</div>
+      <div><br>
+      </div>
+      <div>Kacper and I have been experimenting with this ourselves,
+        mostly looking at the various service discovery mechanisms that
+        operate on docker containers being orchestrated across
+        machines.&#xC2; Some of these do this via introspection, and some
+        will even set up automatic (nginx) reverse proxies for docker
+        containers running inside a system.&#xC2; Right now it looks like
+        etcd is a pretty good solution for this:</div>
+      <div><br>
+      </div>
+      <div><a moz-do-not-send="true"
+href="https://coreos.com/docs/distributed-configuration/getting-started-with-etcd/">https://coreos.com/docs/distributed-configuration/getting-started-with-etcd/</a><br>
+      </div>
+      <div><a moz-do-not-send="true"
+href="http://www.activestate.com/blog/2014/03/brandon-philips-explains-etcd">http://www.activestate.com/blog/2014/03/brandon-philips-explains-etcd</a><br>
+      </div>
+      <div><a moz-do-not-send="true"
+          href="https://github.com/coreos/etcd">https://github.com/coreos/etcd</a></div>
+      <div><br>
+      </div>
+      <div>as it can allow for key/value pairs to be stored, and it's
+        discoverable.&#xC2; For instance:</div>
+      <div><br>
+      </div>
+      <div><a moz-do-not-send="true"
+          href="http://jasonwilder.com/blog/2014/07/15/docker-service-discovery/">http://jasonwilder.com/blog/2014/07/15/docker-service-discovery/</a><br>
+      </div>
+      <div><br>
+      </div>
+      <div>I think having a discussion about what we want services to be
+        able to do is perhaps a much bigger topic, but I wonder if this
+        type of thing -- particularly etcd -- would be useful to any
+        projects, and would be a good avenue for service discovery and
+        intertop.&#xC2; Is there something else that would be better?</div>
+      <div><br>
+      </div>
+      <div>-Matt</div>
+    </blockquote>
+    <br>
+  
+
+</font></td></tr></table>
+<!--X-Body-of-Message-End-->
+<!--X-MsgBody-End-->
+<!--X-Follow-Ups-->
+<hr>
+<!--X-Follow-Ups-End-->
+<!--X-References-->
+<ul><li><strong>References</strong>:
+<ul>
+<li><strong><a name="00019" href="msg00019.html">Beyond another cloud: data service discovery for NDSLabs</a></strong>
+<ul><li><em>From:</em> Matthew Turk</li></ul></li>
+</ul></li></ul>
+<!--X-References-End-->
+<!--X-BotPNI-->
+<HR>
+<UL>
+<li>Prev by Date:
+<strong><a href="msg00019.html">Beyond another cloud: data service discovery for NDSLabs</a></strong>
+</li>
+
+<li>Previous by thread:
+<strong><a href="msg00019.html">Beyond another cloud: data service discovery for NDSLabs</a></strong>
+</li>
+
+</UL>
+<!--#INCLUDE VIRTUAL="/include/lists/discuss/message-footer.html"-->
+
+<!--X-BotPNI-End-->
+<!--X-User-Footer-->
+<strong>
+<center>
+<a href="/lists/">Other Mailing lists</a> |
+<a href="author.html">Author Index</a> |
+<a href="maillist.html">Date Index</a> |
+<a href="subject.html">Subject Index</a> |
+<a href="threads.html">Thread Index</a>
+</center>
+</strong>
+<!--X-User-Footer-End-->
+</body>
+</html>

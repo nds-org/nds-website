@@ -1,0 +1,147 @@
+<!-- MHonArc v2.6.10 -->
+<!--X-Subject: Re: Source Code Repository Conventions -->
+<!--X-From-R13: [nggurj Fhex <znggurjghexNtznvy.pbz> -->
+<!--X-Date: Tue, 14 Jul 2015 11:45:31 &#45;0500 -->
+<!--X-Message-Id: CALO3=5FOaHHWVRw&#45;10KGp9wOhLBwyPqajkdW5+yAsVjkYBfN7g@mail.gmail.com -->
+<!--X-Content-Type: text/plain -->
+<!--X-Reference: 55A536C8.9030907@illinois.edu -->
+<!--X-Head-End-->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML//EN">
+<HTML>
+<HEAD>
+<TITLE>Re: Source Code Repository Conventions</TITLE>
+<LINK REV="made" HREF="mailto:matthewturk@gmail.com">
+</HEAD>
+<!--#INCLUDE VIRTUAL="/include/lists/discuss/message-header.html"-->
+<!--X-Body-Begin-->
+<!--X-User-Header-->
+<!--X-User-Header-End-->
+<!--X-TopPNI-->
+<!---->
+
+<!--X-TopPNI-End-->
+<!--X-MsgBody-->
+<!--X-Subject-Header-Begin-->
+<H1>Re: Source Code Repository Conventions<HR></H1>
+<!--X-Subject-Header-End-->
+<!--X-Head-of-Message-->
+<ul>
+<li><strong>To</strong>: <strong>&quot;<a href="mailto:discuss@DOMAIN.HIDDEN">discuss@xxxxxxxxxxxxxxxxxxxxxxx</a>&quot; &lt;<a href="mailto:discuss@DOMAIN.HIDDEN">discuss@xxxxxxxxxxxxxxxxxxxxxxx</a>&gt;</strong></li>
+<li><strong>Subject</strong>: <strong>Re: Source Code Repository Conventions</strong></li>
+<li><strong>From</strong>: <strong>Matthew Turk &lt;<a href="mailto:matthewturk@DOMAIN.HIDDEN">matthewturk@xxxxxxxxx</a>&gt;</strong></li>
+<li>Date: Tue, 14 Jul 2015 11:45:03 -0500</li>
+<li>Content-type: text/plain; charset=UTF-8</li>
+<li>Dkim-signature: v=1; a=rsa-sha256; c=relaxed/relaxed;        d=gmail.com; s=20120113;        h=mime-version:in-reply-to:references:from:date:message-id:subject:to         :content-type;        bh=bFcvAtbd28eAPsMlYRNBEsrI23Z5qItI8YKZr7pW2lU=;        b=BA/rvPM5/be92UJRa1WI7+HeAYMPyG4VwVK/oqYuDkBdPy4UtoSDODkSS0iNxVpEpG         +xpn3S544/rQt0r8ty7zbTlqYDBaJWgSAdvNXegr+ZMGX/ZnuRKoLDS8uI9RbEllEp2f         M5EeuMN0DeJon50ljyZ9wJu/rM48O7YgGebyWLw7TPCW6Whi7Yo04h1UvItVRgJBqGGW         EIvs+O7v5/l3RYdXuJgAHElp0kaQHDB6/w0+NSxpTaSJHYwuOc5cVOxGPPFzfjwgW8xZ         NRGeh35wiTOo8ySFCBu9jsdl31fWk06wbWq2zFwQ26qVmP4CXnWZggSMZqgsjDyzy6tT         FieA==</li>
+<li>In-reply-to: &lt;<a href="msg00015.html">55A536C8.9030907@illinois.edu</a>&gt;</li>
+<li>References: &lt;<a href="msg00015.html">55A536C8.9030907@illinois.edu</a>&gt;</li>
+<li>Reply-to: <a href="mailto:discuss@DOMAIN.HIDDEN">discuss@xxxxxxxxxxxxxxxxxxxxxxx</a></li>
+<li>Sender: <a href="mailto:owner-discuss@DOMAIN.HIDDEN">owner-discuss@xxxxxxxxxxxxxxxxxxxxxxx</a></li>
+</ul>
+<!--X-Head-of-Message-End-->
+<!--X-Head-Body-Sep-Begin-->
+<hr>
+<!--X-Head-Body-Sep-End-->
+<!--X-Body-of-Message-->
+<pre>Hi Mike,
+
+I think what you and I discussed yesterday in person is fine: new
+repositories can be in git, but do not convert existing ones.  My
+preference is globally to use mercurial, but I recognize I am probably
+a minority opinion.
+
+git submodules are dangerous, as they are not &quot;version controlled&quot; and
+they should be avoided.
+
+-Matt
+
+On Tue, Jul 14, 2015 at 11:20 AM, Mike Freemon &lt;mfreemon@xxxxxxxxxxxx&gt; wrote:
+&gt; Following up on our discussion yesterday during the developers meeting
+&gt; regarding source code repository conventions:
+&gt;
+&gt; <a  href="https://wiki.ncsa.illinois.edu/display/NDS/Source+Code+Repository+Conventions">https://wiki.ncsa.illinois.edu/display/NDS/Source+Code+Repository+Conventions</a>
+&gt;
+&gt; The point has been raised since the meeting that branching is not the same
+&gt; between hg and git.
+&gt;
+&gt; * git branch != hg branch
+&gt; * git branches are more like hg bookmarks  &lt;-- use these for lightweight
+&gt; development
+&gt; * hg branches are more heavyweight and the information about them is baked
+&gt; into the commit for all time
+&gt; * there should be only a very small number of long-lived hg branches in a hg
+&gt; repository
+&gt;
+&gt; As a bit of an aside, git submodules work differently than hg
+&gt; subrepositories.  We are currently using git submodules in at least one of
+&gt; the NDS repositories.  I consider this an aside since we don't really need
+&gt; to use submodules (AFAICT).
+&gt;
+&gt; The main issue is the branching and merging conventions we want to adopt.
+&gt; These conventions (the language we use and the documentation we write) are,
+&gt; on a day-to-day practical level, closely associated with the tools we use
+&gt; and the terminology of those tools.  I'm certain either mercurial or git
+&gt; would work for us just fine.  It does, however, seem like a good idea to
+&gt; just pick one and go with it.
+&gt;
+&gt; Please comment.
+&gt;
+&gt; Various random links that touch on this topics:
+&gt;
+&gt; *
+&gt; <a  href="https://docs.python.org/devguide/gitdevs.html#main-differences-between-git-and-hg">https://docs.python.org/devguide/gitdevs.html#main-differences-between-git-and-hg</a>
+&gt; * <a  href="https://jhw.dreamwidth.org/1868.html">https://jhw.dreamwidth.org/1868.html</a>  (pro hg)
+&gt; * <a  href="https://felipec.wordpress.com/2013/08/27/analysis-of-hg-and-git-branches/">https://felipec.wordpress.com/2013/08/27/analysis-of-hg-and-git-branches/</a>
+&gt; (pro git)
+&gt; * <a  href="https://git-scm.com/book/en/v2/Git-Tools-Submodules">https://git-scm.com/book/en/v2/Git-Tools-Submodules</a>
+&gt; * <a  href="https://mercurial.selenic.com/wiki/Subrepository">https://mercurial.selenic.com/wiki/Subrepository</a>
+&gt;
+&gt; - Mike
+&gt;
+
+</pre>
+<!--X-Body-of-Message-End-->
+<!--X-MsgBody-End-->
+<!--X-Follow-Ups-->
+<hr>
+<!--X-Follow-Ups-End-->
+<!--X-References-->
+<ul><li><strong>References</strong>:
+<ul>
+<li><strong><a name="00015" href="msg00015.html">Source Code Repository Conventions</a></strong>
+<ul><li><em>From:</em> Mike Freemon</li></ul></li>
+</ul></li></ul>
+<!--X-References-End-->
+<!--X-BotPNI-->
+<HR>
+<UL>
+<li>Prev by Date:
+<strong><a href="msg00015.html">Source Code Repository Conventions</a></strong>
+</li>
+<li>Next by Date:
+<strong><a href="msg00017.html">Create NDS Labs API</a></strong>
+</li>
+
+<li>Previous by thread:
+<strong><a href="msg00015.html">Source Code Repository Conventions</a></strong>
+</li>
+<li>Next by thread:
+<strong><a href="msg00017.html">Create NDS Labs API</a></strong>
+</li>
+
+</UL>
+<!--#INCLUDE VIRTUAL="/include/lists/discuss/message-footer.html"-->
+
+<!--X-BotPNI-End-->
+<!--X-User-Footer-->
+<strong>
+<center>
+<a href="/lists/">Other Mailing lists</a> |
+<a href="author.html">Author Index</a> |
+<a href="maillist.html">Date Index</a> |
+<a href="subject.html">Subject Index</a> |
+<a href="threads.html">Thread Index</a>
+</center>
+</strong>
+<!--X-User-Footer-End-->
+</body>
+</html>

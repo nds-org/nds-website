@@ -1,0 +1,789 @@
+From owner-discuss@nationaldataservice.org Wed Sep  2 08:56:11 2015
+Received: (from majordomo@localhost)
+	by pop.ncsa.uiuc.edu (8.11.7/8.11.7) id t82DuBY07527;
+	Wed, 2 Sep 2015 08:56:11 -0500
+X-Envelope-From: matthewturk@gmail.com
+X-Envelope-To: <discuss@nationaldataservice.org>
+Received: from rimantadine.ncsa.uiuc.edu (rimantadine.ncsa.uiuc.edu [141.142.199.3])
+	by pop.ncsa.uiuc.edu (8.11.7/8.11.7) with ESMTP id t82DuAk07517
+	for <discuss@nationaldataservice.org>; Wed, 2 Sep 2015 08:56:10 -0500
+Received: from mail-io0-f196.google.com (mail-io0-f196.google.com [209.85.223.196])
+	by rimantadine.ncsa.uiuc.edu (8.14.9/8.14.4) with ESMTP id t82DtxV8014678
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL)
+	for <discuss@nationaldataservice.org>; Wed, 2 Sep 2015 08:55:59 -0500
+Received: by iofb144 with SMTP id b144so1969085iof.1
+        for <discuss@nationaldataservice.org>; Wed, 02 Sep 2015 06:55:59 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:in-reply-to:references:from:date:message-id:subject:to
+         :content-type;
+        bh=xBQP5Bv+MNOeY1W4O/MUnwu36RDKHLhwLNV6Z2B2UqQ=;
+        b=mHckVm1OMK5Ptl3R/PwsTZDGphUOzQkttv9IIHaZWzxTGpsa7Umn4EfGMXmtBY2XQN
+         YOqNXU+y6ChAp2yOK2IE2yzEdkPjLZZPmay0yjPwZBQ0QwwKTBcvBdG+wvsFG8YtFe6l
+         o96pye/NScXybjYMdVeSi8I9HmyE/uK5oSc6oYHBxTiY4AVaGnwF5io1GbE8flZhmsvy
+         JMpBk9kRWW0ue2OXWFzm4Lxb0+c102E3ZpIZJh537IrQdrtxe3snIrnafXiUWfrf3ppf
+         LkFMzRrcy7JKYuM5zYMnuP8/esqnhDQBCGENUur23C/V0qc5FceAkQACd8jq6no0wkTI
+         14Kw==
+X-Received: by 10.107.156.136 with SMTP id f130mr13733134ioe.6.1441202158840;
+ Wed, 02 Sep 2015 06:55:58 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.107.141.144 with HTTP; Wed, 2 Sep 2015 06:55:39 -0700 (PDT)
+In-Reply-To: <82F978EB-0F8D-408C-8DD7-739B6DBEFEE8@uchicago.edu>
+References: <09EF0684-1A2F-4C55-95F7-3377A9268712@uchicago.edu> <82F978EB-0F8D-408C-8DD7-739B6DBEFEE8@uchicago.edu>
+From: Matthew Turk <matthewturk@gmail.com>
+Date: Wed, 2 Sep 2015 08:55:39 -0500
+Message-ID: <CALO3=5HyuTnBJjRZ8oaHYLoVGP8kJZ+oOYnKTp0D1ddEnBh9hw@mail.gmail.com>
+Subject: Fwd: CFP: 3rd Workshop on Sustainable Software for Science (WSSSPE3):
+ Keynote, Lightning Talks, Registration & Hotel Information, Travel Awards
+ still available
+To: "discuss@nationaldataservice.org" <discuss@nationaldataservice.org>
+Content-Type: multipart/alternative; boundary=001a1140b8d8ba550a051ec406bc
+X-Null-Tag: 11a4dbb84f9c12d896a6ac91bd01a8fe
+X-Scanned-By: milter-spamc/1.15.388 (rimantadine.ncsa.uiuc.edu [141.142.199.3]); Wed, 02 Sep 2015 08:56:07 -0500
+X-Spam-Status: NO, hits=2.90 required=4.90
+X-Spam-Report: Spam detection software, running on the system "rimantadine.ncsa.uiuc.edu", has
+  | identified this incoming email as possible spam.  The original message
+  | has been attached to this so you can view it (if it isn't spam) or label
+  | similar future email.  If you have any questions, see
+  | postmaster@ncsa.uiuc.edu for details.
+  | 
+  | Content preview:  Hi all, this may be of interest to folks on this list. Final
+  |    Call for Participation: 3rd Workshop on Sustainable Software for Science
+  |   Practice and Experiences (WSSSPE3) September 28-29, 2015, Boulder, CO http://wssspe.researchcomputing.org.uk/wssspe3/
+  |    (Co-located with 10th Gateway Community Environments (GCE15) Workshop <http://sciencegateways.org/upcoming-events/gce15/>)
+  |    [...]
+  | 
+  | Content analysis details:   (2.9 points, 4.9 required)
+  | 
+  |  pts rule name              description
+  | ---- ---------------------- --------------------------------------------------
+  |  0.7 DNS_FROM_AHBL_RHSBL    RBL: Envelope sender listed in dnsbl.ahbl.org
+  |  4.0 BAYES_99               BODY: Bayesian spam probability is 99 to 100p
+  |                             [score: 1.0000]
+  | -1.0 RCVD_IN_DNSWL_LOW      RBL: Sender listed at http://www.dnswl.org/, low
+  |                             trust
+  |                             [209.85.223.196 listed in list.dnswl.org]
+  | -1.0 SPF_PASS               SPF: sender matches SPF record
+  |  0.0 HTML_MESSAGE           BODY: HTML included in message
+  |  0.2 AWL                    AWL: From: address is in the auto white-list
+  | 
+X-NCSA-MailScanner-Information: Please contact help@ncsa.uiuc.edu for more information, rimantadine.ncsa.uiuc.edu
+X-NCSA-MailScanner-ID: t82DtxV8014678
+X-NCSA-MailScanner: Found to be clean
+Sender: owner-discuss@nationaldataservice.org
+Precedence: bulk
+Reply-To: discuss@nationaldataservice.org
+
+--001a1140b8d8ba550a051ec406bc
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Hi all, this may be of interest to folks on this list.
+Final Call for Participation:
+3rd Workshop on Sustainable Software for Science Practice and Experiences
+(WSSSPE3)
+
+September 28-29, 2015, Boulder, CO
+http://wssspe.researchcomputing.org.uk/wssspe3/
+(Co-located with 10th Gateway Community Environments (GCE15) Workshop
+<http://sciencegateways.org/upcoming-events/gce15/>)
+
+Progress in scientific research is dependent on the quality and
+accessibility of software at all levels and it is now critical to address
+many new challenges related to the development, deployment, and maintenance
+of reusable software. In addition, it is essential that scientists,
+researchers, and students are able to learn and adopt a new set of
+software-related skills and methodologies. Established researchers are
+already acquiring some of these skills, and in particular a specialized
+class of software developers is emerging in academic environments who are
+an integral and embedded part of successful research teams. WSSSPE provides
+a forum for discussing these challenges, including presenting both
+positions and experiences, as well as a forum for the community to assemble
+and act.
+
+*Workshop Format: *
+
+   - Opening keynote: Matthew Turk, University of Illinois
+   - Lightning talks
+   <http://wssspe.researchcomputing.org.uk/wssspe3/agenda/>
+   - Team sessions =E2=80=93 list of possible sessions below
+   - Team progress report-back to plenary group
+   - During the workshop, teams will =E2=80=9Cpitch=E2=80=9D their ideas to=
+ the audience,
+   possibly including some funders (who would not committed to funding
+   anything, just providing feedback), including e.g., NSF, NIH, EPSRC, Slo=
+an.
+
+*Call for Participation / Actions:*
+
+   1. Save the dates for WSSSPE3: 28-29 September, 2015, Boulder, CO
+   2. Register for WSSSPE3 and plan your travel:
+   http://wssspe.researchcomputing.org.uk/wssspe3/registration-hotel/
+   3. Get started on discussing and planning for team sessions by
+   commenting on them at https://github.com/danielskatz/WSSSPE/issues (note=
+:
+   they are listed as GitHub issues, so you will need to signup for a
+   GitHub account <https://github.com/join> if you don=E2=80=99t have one)
+   4. Join the WSSSPE mailing list to be sure to get further information on
+   WSSSPE3 =E2=80=93 via http://bit.ly/wssspe-list
+
+*Travel Support:*
+
+Some limited travel support is still available; please see the workshop web
+page <http://wssspe.researchcomputing.org.uk/wssspe3/travel-support/>.
+
+*Important Dates:*
+
+   - Lightning talk submissions: 7 August 2015 (any time of day, no further
+   extensions)
+   - Lighting talk decisions: 17 August 2015
+   - Travel support requests: 26 August 2015 (still open)
+   - Decisions on travel support announced: about 31 August 2015
+   - Workshop: 28-29 September 2015
+   - Post-workshop report writing (participation is open to all): 30
+   September 2015
+
+*Context:*
+
+The WSSSPE1 workshop (http://wssspe.researchcomputing.org.uk/wssspe1)
+engaged the broad scientific community to identify challenges and best
+practices in areas relevant to sustainable scientific software.  WSSSPE2  (
+http://wssspe.researchcomputing.org.uk/wssspe2) invited the community to
+propose and discuss specific mechanisms to move towards an imagined future
+practice of software development and usage in science and engineering.
+
+WSSSPE3 will organize self-directed teams that will collaborate prior to
+and during the workshop to create vision documents, proposals, papers, and
+action plans that will help the scientific software community produce
+software that is more sustainable, including developing sustainable career
+paths for community members. These teams are intended to lead into working
+groups that will be active after the workshop, if appropriate, working
+collaboratively to achieve their goals, and seeking funding to do so if
+needed.
+
+Potential WSSSPE3 team activities, based on the breakout groups in WSSSPE2
+and additional community suggestions, are:
+
+   - Development and Community
+      - Writing a white paper/review paper about best practices in
+      developing sustainable software
+      - Documenting successful models for funding specialist expertise in
+      software collaborations
+      - Creating and curating catalogs for software tools that aid
+      sustainability (perhaps categorized by domain, programming languages,
+      architectures, and/or functions, e.g., for code testing, documentatio=
+n)
+      - Documenting case studies for academia/industry interaction
+      - Determining effective strategies for refactoring/improving legacy
+      scientific software
+      - Determining principles for engineering design for sustainable
+      software
+      - Create a set of guidance giving examples of specific metrics for
+      the success of scientific software in use, why they were chosen,
+what they
+      are useful to measure, and any challenges/pitfalls; then publish
+this as a
+      white paper
+   - Training
+      - Writing a white paper on training for developing sustainable
+      software, and coordinating multiple ongoing training-oriented project=
+s
+      - Developing curriculum for software sustainability, and ideas about
+      where such curriculum would be presented, such as a summer training
+      institute
+   - Credit
+      - Hacking the credit and citation ecosystem (making it work, or work
+      better, for software)
+      - Developing a taxonomy of contributorship/guidelines for including
+      software contributions in tenure review
+      - Documenting case studies of receiving credit for software
+      contributions
+      - Developing a system of awards and recognitions to encourage
+      sustainable software
+   - Publishing
+      - Developing a categorization of journals that publish software
+      papers (building on existing work), and case studies of alternative
+      publishing mechanisms that have been shown to improve software
+      discoverability/reuse e.g., popular blogs/websites
+      - Determining what journals that publish software paper should
+      provide to their reviewers (e.g., guidelines, mechanisms, metadata
+      standards, etc.)
+   - Reproducibility and testing
+      - Building a toolkit that could allow conference organizers to easily
+      add a reproducibility track
+      - Documenting best practices for code testing and code review
+   - Documentation
+      - Develop landing pages on the WSSSPE website (or elsewhere) that
+      enable the community to easily find up-to-date information on a WSSSP=
+E
+      topic (e.g., software credit, scientific software metrics, testing
+      scientific software)
+
+
+*Organizers:*
+
+   - Daniel S. Katz, d.katz@ieee.org, University of Chicago & Argonne
+   National Laboratory, USA
+   - Gabrielle Allen, gdallen@illinois.edu, University of Illinois
+   Urbana-Champaign, USA
+   - Sou-Cheng (Terrya) Choi, sctchoi@uchicago.edu,  NORC at the University
+   of Chicago and Illinois Institute of Technology, USA
+   - Neil Chue Hong, N.ChueHong@software.ac.uk, Software Sustainability
+   Institute, University of Edinburgh, UK
+   - Sandra Gesing, sandra.gesing@nd.edu, University of Notre Dame, USA
+   - Lorraine J. Hwang, ljhwang@ucdavis.edu, University of California,
+   Davis, USA
+   - Manish Parashar, parashar@rutgers.edu, Rutgers University, USA
+   - Erin Robinson, erinrobinson@esipfed.org, Foundation for Earth Science,
+   USA (local organizer)
+   - Matthew Turk, matthewturk@gmail.com, University of Illinois
+   Urbana-Champaign, USA
+   - Colin C. Venters, colin.venters@googlemail.com, University of
+   Huddersfield, UK
+
+
+--=20
+Daniel S. Katz
+University of Chicago
+(773) 834-7186 (voice)
+(773) 834-6818 (fax)
+d.katz@ieee.org or dsk@uchicago.edu <dsk@ci.uchicago.edu>
+http://www.ci.uchicago.edu/~dsk/
+
+--001a1140b8d8ba550a051ec406bc
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div class=3D"gmail_quote"><div style=3D"word-wrap:break-w=
+ord"><div><div style=3D"word-wrap:break-word"><h1 style=3D"clear:both;line-=
+height:1.5;margin:1.71429rem 0px"><font size=3D"2"><span style=3D"font-weig=
+ht:normal">Hi all, this may be of interest to folks on this list.</span></f=
+ont></h1><h1 style=3D"clear:both;line-height:1.5;margin:1.714285714rem 0px;=
+font-size:1.5rem"><br></h1><h1 style=3D"clear:both;line-height:1.5;margin:1=
+.714285714rem 0px;font-size:1.5rem">Final=C2=A0Call for Participation:<br>3=
+rd Workshop on Sustainable Software for Science Practice and Experiences (W=
+SSSPE3)</h1><p style=3D"line-height:1.714285714;margin:0px 0px 1.714285714r=
+em">September 28-29, 2015, Boulder, CO<br><a href=3D"http://wssspe.research=
+computing.org.uk/wssspe3/" style=3D"color:rgb(33,117,155);outline:none" tar=
+get=3D"_blank">http://wssspe.researchcomputing.org.uk/wssspe3/<br></a>(Co-l=
+ocated with=C2=A0<a href=3D"http://sciencegateways.org/upcoming-events/gce1=
+5/" style=3D"color:rgb(33,117,155);outline:none" target=3D"_blank">10th Gat=
+eway Community Environments (GCE15) Workshop</a>)</p><p style=3D"line-heigh=
+t:1.714285714;margin:0px 0px 1.714285714rem">Progress in scientific researc=
+h is dependent on the quality and accessibility of software at all levels a=
+nd it is now critical to address many new challenges related to the develop=
+ment, deployment, and maintenance of reusable software. In addition, it is =
+essential that scientists, researchers, and students are able to learn and =
+adopt a new set of software-related skills and methodologies. Established r=
+esearchers are already acquiring some of these skills, and in particular a =
+specialized class of software developers is emerging in academic environmen=
+ts who are an integral and embedded part of successful research teams. WSSS=
+PE provides a forum for discussing these challenges, including presenting b=
+oth positions and experiences, as well as a forum for the community to asse=
+mble and act.</p><p style=3D"line-height:1.714285714;margin:0px 0px 1.71428=
+5714rem"><b>Workshop Format:=C2=A0</b></p><ul style=3D"margin:0px 0px 1.714=
+285714rem;line-height:1.714285714;padding:0px;list-style-position:outside">=
+<li style=3D"margin:0px 0px 0px 1.714285714rem">Opening keynote: Matthew Tu=
+rk, University of Illinois</li><li style=3D"margin:0px 0px 0px 1.714285714r=
+em"><a href=3D"http://wssspe.researchcomputing.org.uk/wssspe3/agenda/" styl=
+e=3D"color:rgb(33,117,155);outline:none" target=3D"_blank">Lightning talks<=
+/a></li><li style=3D"margin:0px 0px 0px 1.714285714rem">Team sessions =E2=
+=80=93 list of possible sessions=C2=A0below</li><li style=3D"margin:0px 0px=
+ 0px 1.714285714rem">Team progress report-back to plenary group</li><li sty=
+le=3D"margin:0px 0px 0px 1.714285714rem">During=C2=A0the workshop, teams wi=
+ll =E2=80=9Cpitch=E2=80=9D their ideas to the audience, possibly including =
+some funders (who would not committed to funding anything, just providing f=
+eedback), including e.g., NSF, NIH, EPSRC,=C2=A0Sloan.</li></ul><p style=3D=
+"line-height:1.714285714;margin:0px 0px 1.714285714rem"><b>Call for Partici=
+pation / Actions:</b></p><ol style=3D"margin:0px 0px 1.714285714rem;line-he=
+ight:1.714285714;padding:0px;list-style-position:outside"><li style=3D"marg=
+in:0px 0px 0px 1.714285714rem">Save the dates for WSSSPE3: 28-29 September,=
+ 2015, Boulder, CO</li><li style=3D"margin:0px 0px 0px 1.714285714rem">Regi=
+ster for WSSSPE3 and plan your travel:=C2=A0<a href=3D"http://wssspe.resear=
+chcomputing.org.uk/wssspe3/registration-hotel/" style=3D"color:rgb(33,117,1=
+55);outline:none" target=3D"_blank">http://wssspe.researchcomputing.org.uk/=
+wssspe3/registration-hotel/</a></li><li style=3D"margin:0px 0px 0px 1.71428=
+5714rem">Get started on discussing and planning for team sessions by commen=
+ting on them at=C2=A0<a href=3D"https://github.com/danielskatz/WSSSPE/issue=
+s" style=3D"color:rgb(33,117,155);outline:none" target=3D"_blank">https://g=
+ithub.com/danielskatz/WSSSPE/issues</a>=C2=A0(note: they are listed as GitH=
+ub issues, so you will need to=C2=A0<a href=3D"https://github.com/join" sty=
+le=3D"color:rgb(33,117,155);outline:none" target=3D"_blank">signup for a Gi=
+tHub account</a>=C2=A0if you don=E2=80=99t have one)</li><li style=3D"margi=
+n:0px 0px 0px 1.714285714rem">Join the WSSSPE mailing list to be sure to ge=
+t further information on WSSSPE3 =E2=80=93 via=C2=A0<a href=3D"http://bit.l=
+y/wssspe-list" style=3D"color:rgb(33,117,155);outline:none" target=3D"_blan=
+k">http://bit.ly/wssspe-list</a></li></ol><p style=3D"line-height:1.7142857=
+14;margin:0px 0px 1.714285714rem"><b>Travel Support:</b></p><p style=3D"lin=
+e-height:1.714285714;margin:0px 0px 1.714285714rem">Some limited travel sup=
+port is still available; please see=C2=A0<a href=3D"http://wssspe.researchc=
+omputing.org.uk/wssspe3/travel-support/" style=3D"color:rgb(33,117,155);out=
+line:none" target=3D"_blank">the workshop web page</a>.</p><p style=3D"line=
+-height:1.714285714;margin:0px 0px 1.714285714rem"><b>Important Dates:</b><=
+/p><ul style=3D"margin:0px 0px 1.714285714rem;line-height:1.714285714;paddi=
+ng:0px;list-style-position:outside"><li style=3D"margin:0px 0px 0px 1.71428=
+5714rem"><del style=3D"color:rgb(51,51,51)">Lightning talk submissions: 7=
+=C2=A0August 2015 (any time of day, no further extensions)</del></li><li st=
+yle=3D"margin:0px 0px 0px 1.714285714rem"><del style=3D"color:rgb(51,51,51)=
+">Lighting talk decisions: 17 August 2015</del></li><li style=3D"margin:0px=
+ 0px 0px 1.714285714rem">Travel support requests: 26 August 2015 (still ope=
+n)</li><li style=3D"margin:0px 0px 0px 1.714285714rem"><del style=3D"color:=
+rgb(51,51,51)">Decisions on travel support announced: about 31 August 2015<=
+/del></li><li style=3D"margin:0px 0px 0px 1.714285714rem">Workshop: 28-29 S=
+eptember 2015</li><li style=3D"margin:0px 0px 0px 1.714285714rem">Post-work=
+shop report writing (participation is open to all): 30 September 2015</li><=
+/ul><p style=3D"line-height:1.714285714;margin:0px 0px 1.714285714rem"><str=
+ong>Context:</strong></p><p style=3D"line-height:1.714285714;margin:0px 0px=
+ 1.714285714rem">The WSSSPE1 workshop (<a href=3D"http://wssspe.researchcom=
+puting.org.uk/wssspe1" style=3D"color:rgb(33,117,155);outline:none" target=
+=3D"_blank">http://wssspe.researchcomputing.org.uk/wssspe1</a>) engaged the=
+ broad scientific community to identify challenges and best practices in ar=
+eas relevant to sustainable scientific software.=C2=A0 WSSSPE2 =C2=A0(<a hr=
+ef=3D"http://wssspe.researchcomputing.org.uk/wssspe2" style=3D"color:rgb(33=
+,117,155);outline:none" target=3D"_blank">http://wssspe.researchcomputing.o=
+rg.uk/wssspe2</a>) invited the community to propose and discuss specific me=
+chanisms to move towards an imagined future practice of software developmen=
+t and usage in science and engineering.</p><p style=3D"line-height:1.714285=
+714;margin:0px 0px 1.714285714rem">WSSSPE3 will organize self-directed team=
+s that will collaborate prior to and during the workshop to create vision d=
+ocuments, proposals, papers, and action plans that will help the scientific=
+ software community produce software that is more sustainable, including de=
+veloping sustainable career paths for community members. These teams are in=
+tended to lead into working groups that will be active after the workshop, =
+if appropriate, working collaboratively to achieve their goals, and seeking=
+ funding to do so if needed.</p><p style=3D"line-height:1.714285714;margin:=
+0px 0px 1.714285714rem"><b></b>Potential WSSSPE3=C2=A0team activities, base=
+d on the breakout groups in WSSSPE2 and additional community suggestions, a=
+re:</p><ul style=3D"margin:0px 0px 1.714285714rem;line-height:1.714285714;p=
+adding:0px;list-style-position:outside"><li style=3D"margin:0px 0px 0px 1.7=
+14285714rem">Development and Community<ul style=3D"margin:0px;line-height:1=
+.714285714;padding:0px;list-style:disc outside"><li style=3D"margin:0px 0px=
+ 0px 1.714285714rem">Writing a white paper/review paper about best practice=
+s in developing sustainable software</li><li style=3D"margin:0px 0px 0px 1.=
+714285714rem">Documenting successful models for funding specialist expertis=
+e in software collaborations</li><li style=3D"margin:0px 0px 0px 1.71428571=
+4rem">Creating and curating catalogs for software tools that aid sustainabi=
+lity (perhaps categorized by domain, programming languages, architectures, =
+and/or functions, e.g., for code testing, documentation)</li><li style=3D"m=
+argin:0px 0px 0px 1.714285714rem">Documenting case studies for academia/ind=
+ustry interaction</li><li style=3D"margin:0px 0px 0px 1.714285714rem">Deter=
+mining effective strategies for refactoring/improving legacy scientific sof=
+tware</li><li style=3D"margin:0px 0px 0px 1.714285714rem">Determining princ=
+iples for engineering design for sustainable software</li><li style=3D"marg=
+in:0px 0px 0px 1.714285714rem">Create a set of guidance giving examples of =
+specific metrics for the success of scientific software in use, why they we=
+re chosen, what they are useful to measure, and any challenges/pitfalls; th=
+en publish this as a white paper</li></ul></li><li style=3D"margin:0px 0px =
+0px 1.714285714rem">Training<ul style=3D"margin:0px;line-height:1.714285714=
+;padding:0px;list-style:disc outside"><li style=3D"margin:0px 0px 0px 1.714=
+285714rem">Writing a white paper on training for developing sustainable sof=
+tware, and coordinating multiple ongoing training-oriented projects</li><li=
+ style=3D"margin:0px 0px 0px 1.714285714rem">Developing curriculum for soft=
+ware sustainability, and ideas about where such curriculum would be present=
+ed, such as a summer training institute</li></ul></li><li style=3D"margin:0=
+px 0px 0px 1.714285714rem">Credit<ul style=3D"margin:0px;line-height:1.7142=
+85714;padding:0px;list-style:disc outside"><li style=3D"margin:0px 0px 0px =
+1.714285714rem">Hacking the credit and citation ecosystem (making it work, =
+or work better, for software)</li><li style=3D"margin:0px 0px 0px 1.7142857=
+14rem">Developing a taxonomy of contributorship/guidelines for including so=
+ftware contributions in tenure review</li><li style=3D"margin:0px 0px 0px 1=
+.714285714rem">Documenting case studies of receiving credit for software co=
+ntributions</li><li style=3D"margin:0px 0px 0px 1.714285714rem">Developing =
+a system of awards and recognitions to encourage sustainable software</li><=
+/ul></li><li style=3D"margin:0px 0px 0px 1.714285714rem">Publishing<ul styl=
+e=3D"margin:0px;line-height:1.714285714;padding:0px;list-style:disc outside=
+"><li style=3D"margin:0px 0px 0px 1.714285714rem">Developing a categorizati=
+on of journals that publish software papers (building on existing work), an=
+d case studies of alternative publishing mechanisms that have been shown to=
+ improve software discoverability/reuse e.g., popular blogs/websites</li><l=
+i style=3D"margin:0px 0px 0px 1.714285714rem">Determining what journals tha=
+t publish software paper should provide to their reviewers (e.g., guideline=
+s, mechanisms, metadata standards, etc.)</li></ul></li><li style=3D"margin:=
+0px 0px 0px 1.714285714rem">Reproducibility and testing<ul style=3D"margin:=
+0px;line-height:1.714285714;padding:0px;list-style:disc outside"><li style=
+=3D"margin:0px 0px 0px 1.714285714rem">Building a toolkit that could allow =
+conference organizers to easily add a reproducibility track</li><li style=
+=3D"margin:0px 0px 0px 1.714285714rem">Documenting best practices for code =
+testing and code review</li></ul></li><li style=3D"margin:0px 0px 0px 1.714=
+285714rem">Documentation<ul style=3D"margin:0px;line-height:1.714285714;pad=
+ding:0px;list-style:disc outside"><li style=3D"margin:0px 0px 0px 1.7142857=
+14rem">Develop landing pages on the WSSSPE website (or elsewhere) that enab=
+le the community to easily find up-to-date information on a WSSSPE topic (e=
+.g., software credit, scientific software metrics, testing scientific softw=
+are)</li></ul></li></ul><p style=3D"line-height:1.714285714;margin:0px 0px =
+1.714285714rem"><br></p><p style=3D"line-height:1.714285714;margin:0px 0px =
+1.714285714rem"><b></b><b>Organizers:</b></p><ul style=3D"margin:0px 0px 1.=
+714285714rem;line-height:1.714285714;padding:0px;list-style-position:outsid=
+e"><li style=3D"margin:0px 0px 0px 1.714285714rem;color:rgb(68,68,68);font-=
+family:&#39;Open Sans&#39;,Helvetica,Arial,sans-serif;font-size:14px;line-h=
+eight:24px">Daniel S. Katz, <a href=3D"mailto:d.katz@ieee.org" target=3D"_b=
+lank">d.katz@ieee.org</a>, University of Chicago &amp; Argonne National Lab=
+oratory, USA</li><li style=3D"margin:0px 0px 0px 1.714285714rem;color:rgb(6=
+8,68,68);font-family:&#39;Open Sans&#39;,Helvetica,Arial,sans-serif;font-si=
+ze:14px;line-height:24px">Gabrielle Allen, <a href=3D"mailto:gdallen@illino=
+is.edu" target=3D"_blank">gdallen@illinois.edu</a>, University of Illinois =
+Urbana-Champaign, USA</li><li style=3D"margin:0px 0px 0px 1.714285714rem;co=
+lor:rgb(68,68,68);font-family:&#39;Open Sans&#39;,Helvetica,Arial,sans-seri=
+f;font-size:14px;line-height:24px">Sou-Cheng (Terrya) Choi, <a href=3D"mail=
+to:sctchoi@uchicago.edu" target=3D"_blank">sctchoi@uchicago.edu</a>, =C2=A0=
+NORC at the University of Chicago and Illinois Institute of Technology, USA=
+</li><li style=3D"margin:0px 0px 0px 1.714285714rem;color:rgb(68,68,68);fon=
+t-family:&#39;Open Sans&#39;,Helvetica,Arial,sans-serif;font-size:14px;line=
+-height:24px">Neil Chue Hong, <a href=3D"mailto:N.ChueHong@software.ac.uk" =
+target=3D"_blank">N.ChueHong@software.ac.uk</a>, Software Sustainability In=
+stitute, University of Edinburgh, UK</li><li style=3D"margin:0px 0px 0px 1.=
+714285714rem;color:rgb(68,68,68);font-family:&#39;Open Sans&#39;,Helvetica,=
+Arial,sans-serif;font-size:14px;line-height:24px">Sandra Gesing, <a href=3D=
+"mailto:sandra.gesing@nd.edu" target=3D"_blank">sandra.gesing@nd.edu</a>, U=
+niversity of Notre Dame, USA</li><li style=3D"margin:0px 0px 0px 1.71428571=
+4rem;color:rgb(68,68,68);font-family:&#39;Open Sans&#39;,Helvetica,Arial,sa=
+ns-serif;font-size:14px;line-height:24px">Lorraine J. Hwang, <a href=3D"mai=
+lto:ljhwang@ucdavis.edu" target=3D"_blank">ljhwang@ucdavis.edu</a>, Univers=
+ity of California, Davis, USA</li><li style=3D"margin:0px 0px 0px 1.7142857=
+14rem;color:rgb(68,68,68);font-family:&#39;Open Sans&#39;,Helvetica,Arial,s=
+ans-serif;font-size:14px;line-height:24px">Manish Parashar, <a href=3D"mail=
+to:parashar@rutgers.edu" target=3D"_blank">parashar@rutgers.edu</a>, Rutger=
+s University, USA</li><li style=3D"margin:0px 0px 0px 1.714285714rem;color:=
+rgb(68,68,68);font-family:&#39;Open Sans&#39;,Helvetica,Arial,sans-serif;fo=
+nt-size:14px;line-height:24px">Erin Robinson, <a href=3D"mailto:erinrobinso=
+n@esipfed.org" target=3D"_blank">erinrobinson@esipfed.org</a>, Foundation f=
+or Earth Science, USA (local organizer)</li><li style=3D"margin:0px 0px 0px=
+ 1.714285714rem;color:rgb(68,68,68);font-family:&#39;Open Sans&#39;,Helveti=
+ca,Arial,sans-serif;font-size:14px;line-height:24px">Matthew Turk, <a href=
+=3D"mailto:matthewturk@gmail.com" target=3D"_blank">matthewturk@gmail.com</=
+a>, University of Illinois Urbana-Champaign, USA</li><li style=3D"margin:0p=
+x 0px 0px 1.714285714rem;color:rgb(68,68,68);font-family:&#39;Open Sans&#39=
+;,Helvetica,Arial,sans-serif;font-size:14px;line-height:24px">Colin C. Vent=
+ers, <a href=3D"mailto:colin.venters@googlemail.com" target=3D"_blank">coli=
+n.venters@googlemail.com</a>, University of Huddersfield, UK</li><span clas=
+s=3D"HOEnZb"><font color=3D"#888888"><br></font></span></ul></div></div><sp=
+an class=3D"HOEnZb"><font color=3D"#888888"><br><div>
+<div style=3D"color:rgb(0,0,0);letter-spacing:normal;text-align:start;text-=
+indent:0px;text-transform:none;white-space:normal;word-spacing:0px;word-wra=
+p:break-word"><div><span style=3D"font-family:Courier;font-size:12px">--=C2=
+=A0</span></div><div><div style=3D"word-wrap:break-word"><span style=3D"fon=
+t-family:&#39;Lucida Grande&#39;;font-size:10px"><div style=3D"word-wrap:br=
+eak-word"><div style=3D"word-wrap:break-word"><span style=3D"font-family:He=
+lvetica;font-size:12px"><div style=3D"word-wrap:break-word"><div style=3D"m=
+argin:0px"><font face=3D"Courier">Daniel S. Katz</font></div><div style=3D"=
+margin:0px"><font face=3D"Courier">University of Chicago</font></div><div s=
+tyle=3D"margin:0px"><font face=3D"Courier"><a href=3D"tel:%28773%29%C2%A083=
+4-7186" value=3D"+17738347186" target=3D"_blank">(773)=C2=A0834-7186</a> (v=
+oice)</font></div><div style=3D"margin:0px"><font face=3D"Courier"><a href=
+=3D"tel:%28773%29%20834-6818" value=3D"+17738346818" target=3D"_blank">(773=
+) 834-6818</a> (fax)</font></div><div style=3D"margin:0px"><font face=3D"Co=
+urier"><a href=3D"mailto:d.katz@ieee.org" target=3D"_blank">d.katz@ieee.org=
+</a>=C2=A0or=C2=A0<a href=3D"mailto:dsk@ci.uchicago.edu" target=3D"_blank">=
+dsk@uchicago.edu</a></font></div><div style=3D"margin:0px;min-height:14px">=
+<span style=3D"font-family:Courier"><a href=3D"http://www.ci.uchicago.edu/~=
+dsk/" target=3D"_blank">http://www.ci.uchicago.edu/~dsk/</a></span></div><d=
+iv><br></div></div></span></div></div></span></div></div></div><br><br>
+</div>
+<br></font></span></div></div><br></div>
+
+--001a1140b8d8ba550a051ec406bc--
+
+From owner-discuss@nationaldataservice.org Fri Sep  4 11:18:10 2015
+Received: (from majordomo@localhost)
+	by pop.ncsa.uiuc.edu (8.11.7/8.11.7) id t84GIA409856;
+	Fri, 4 Sep 2015 11:18:10 -0500
+X-Envelope-From: matthewturk@gmail.com
+X-Envelope-To: <discuss@nationaldataservice.org>
+Received: from rimantadine.ncsa.uiuc.edu (rimantadine.ncsa.uiuc.edu [141.142.199.3])
+	by pop.ncsa.uiuc.edu (8.11.7/8.11.7) with ESMTP id t84GIAK09846
+	for <discuss@nationaldataservice.org>; Fri, 4 Sep 2015 11:18:10 -0500
+Received: from mail-io0-f180.google.com (mail-io0-f180.google.com [209.85.223.180])
+	by rimantadine.ncsa.uiuc.edu (8.14.9/8.14.4) with ESMTP id t84GI3UD005965
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL)
+	for <discuss@nationaldataservice.org>; Fri, 4 Sep 2015 11:18:03 -0500
+Received: by iofb144 with SMTP id b144so29505155iof.1
+        for <discuss@nationaldataservice.org>; Fri, 04 Sep 2015 09:18:02 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:in-reply-to:references:from:date:message-id:subject:to
+         :content-type;
+        bh=iO5tzXGVzuN6WDNjaSVZZ8UheEnRjujoc5rfajDOVlQ=;
+        b=sSoJWcQ4b4FjbbWYcyWabA8QCquNWE16bgzzV+UalUQX4rh5JCCKXC79xW4DUDR+R6
+         MyIW2L5kMJksSAE0iWqS2QysmB3oLp0d8ygvAwMyetJaonMIDemngAAv6nB0hyj9VUHA
+         F2n0gqr42Kw/au7g2EVmpmrL5/WA+WYecYeChkC6etorrcbOJxIRAm9lZ57KDdteWaJI
+         pMct353i3/F9UzrHTfNXY3EcL9+YebOS0CFpAUXxOPm3VRtLNfFmh7/EWXRuTe4fONav
+         u7xq/vv46LGSWiBqfdIwWxXTZZdk4XQKcH4TTGmzsiCrEJoFKKpG/Te7frhy7wd3EWRb
+         d3pQ==
+X-Received: by 10.107.25.1 with SMTP id 1mr8076817ioz.39.1441383482721; Fri,
+ 04 Sep 2015 09:18:02 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.107.141.144 with HTTP; Fri, 4 Sep 2015 09:17:43 -0700 (PDT)
+In-Reply-To: <D20F3574.48FF5%marpierc@iu.edu>
+References: <D20B5E8C.48AAC%marpierc@iu.edu> <D20F3574.48FF5%marpierc@iu.edu>
+From: Matthew Turk <matthewturk@gmail.com>
+Date: Fri, 4 Sep 2015 11:17:43 -0500
+Message-ID: <CALO3=5FuArLTi3=o-TS9xiNxhkPp=PsUm+FSZ9E7gbS4ic+oFQ@mail.gmail.com>
+Subject: Fwd: XSEDE gateways community presentation: Data Collections and
+ Gateways on Wrangler
+To: "discuss@nationaldataservice.org" <discuss@nationaldataservice.org>
+Content-Type: multipart/alternative; boundary=001a113ff224790d54051eee3e81
+X-Null-Tag: 23fd12f917e75f1c1697c6100b428c74
+X-Scanned-By: milter-spamc/1.15.388 (rimantadine.ncsa.uiuc.edu [141.142.199.3]); Fri, 04 Sep 2015 11:18:08 -0500
+X-Spam-Status: NO, hits=2.90 required=4.90
+X-Spam-Report: Spam detection software, running on the system "rimantadine.ncsa.uiuc.edu", has
+  | identified this incoming email as possible spam.  The original message
+  | has been attached to this so you can view it (if it isn't spam) or label
+  | similar future email.  If you have any questions, see
+  | postmaster@ncsa.uiuc.edu for details.
+  | 
+  | Content preview:  Hi all, sorry for not sending this on before the talk started,
+  |    but I thought the slides and links might be of interest. -Matt Forwarded
+  |   message From: Pierce, Marlon <marpierc@iu.edu> Date: Fri, Sep 4, 2015 at 10:50
+  |    AM Subject: Re: XSEDE gateways community presentation: Data Collections and
+  |    Gateways on Wrangler To: "gateways@xsede.org" <gateways@xsede.org>, "auss-gateways@xsede.org"
+  |    < auss-gateways@xsede.org>, "auss-all@xsede.org" <auss-all@xsede.org>, "
+  |   campuschampions@xsede.org" <campuschampions@xsede.org>, "workflows@xsede.org"
+  |    <workflows@xsede.org> Cc: Christopher Jordan <ctjordan@tacc.utexas.edu> [...]
+  | 
+  | 
+  | Content analysis details:   (2.9 points, 4.9 required)
+  | 
+  |  pts rule name              description
+  | ---- ---------------------- --------------------------------------------------
+  |  0.7 DNS_FROM_AHBL_RHSBL    RBL: Envelope sender listed in dnsbl.ahbl.org
+  |  4.0 BAYES_99               BODY: Bayesian spam probability is 99 to 100p
+  |                             [score: 1.0000]
+  | -1.0 RCVD_IN_DNSWL_LOW      RBL: Sender listed at http://www.dnswl.org/, low
+  |                             trust
+  |                             [209.85.223.180 listed in list.dnswl.org]
+  | -1.0 SPF_PASS               SPF: sender matches SPF record
+  |  0.0 HTML_MESSAGE           BODY: HTML included in message
+  |  0.2 AWL                    AWL: From: address is in the auto white-list
+  | 
+X-NCSA-MailScanner-Information: Please contact help@ncsa.uiuc.edu for more information, rimantadine.ncsa.uiuc.edu
+X-NCSA-MailScanner-ID: t84GI3UD005965
+X-NCSA-MailScanner: Found to be clean
+Sender: owner-discuss@nationaldataservice.org
+Precedence: bulk
+Reply-To: discuss@nationaldataservice.org
+
+--001a113ff224790d54051eee3e81
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Hi all, sorry for not sending this on before the talk started, but I
+thought the slides and links might be of interest.
+
+-Matt
+
+---------- Forwarded message ----------
+From: Pierce, Marlon <marpierc@iu.edu>
+Date: Fri, Sep 4, 2015 at 10:50 AM
+Subject: Re: XSEDE gateways community presentation: Data Collections and
+Gateways on Wrangler
+To: "gateways@xsede.org" <gateways@xsede.org>, "auss-gateways@xsede.org" <
+auss-gateways@xsede.org>, "auss-all@xsede.org" <auss-all@xsede.org>, "
+campuschampions@xsede.org" <campuschampions@xsede.org>, "workflows@xsede.or=
+g"
+<workflows@xsede.org>
+Cc: Christopher Jordan <ctjordan@tacc.utexas.edu>
+
+
+Reminder of today=E2=80=99s call. Chris doesn=E2=80=99t plan to use slides =
+and sends the
+following pointers:
+
+iRODS info: http://www.irods.org
+Example Arctos site: http://arctos.database.museum
+Wrangler Portal: https://portal.wrangler.tacc.utexas.edy
+
+Thanks=E2=80=94
+
+Marlon
+
+
+From: Marlon Pierce <marpierc@iu.edu>
+Date: Tuesday, September 1, 2015 at 1:54 PM
+To: "gateways@xsede.org" <gateways@xsede.org>, "auss-gateways@xsede.org" <
+auss-gateways@xsede.org>, "auss-all@xsede.org" <auss-all@xsede.org>, "
+campuschampions@xsede.org" <campuschampions@xsede.org>, "workflows@xsede.or=
+g"
+<workflows@xsede.org>
+Subject: XSEDE gateways community presentation: Data Collections and
+Gateways on Wrangler
+
+Please join us Friday, September 4th for presentation by Chris Jordan on
+Data Collections and Gateways on Wrangler.   Coordinates, title and
+abstract below. Recordings of all our previous presentations are available
+from https://www.xsede.org/gateways-symposium.
+
+Time: 12-1 pm ET, Friday September 4th, 2015
+Phone: 1-866-939-8416
+Participant code: 4906909#
+Web Conference: http://www.atconference.com/web-conferencing/login.php
+
+Data Collections and Gateways on Wrangler
+Chris Jordan, Texas Advanced Computing Center
+
+TACC=E2=80=99s Wrangler system represents a novel architecture with several
+non-traditional aspects, including hardware, software, and support models
+which are new to the XSEDE ecosystem. In this talk, we will introduce the
+data management features of Wrangler along with a brief overview of
+persistent service support, with a focus on the use of these mechanisms to
+develop research data collections and to publish these collections in
+existing or new web-based =E2=80=9Cgateways. The iRODS data grid software a=
+nd
+supported open-source databases, including Postgres and MySQL/MariaDB will
+be briefly discussed, and the mechanisms for provisioning and managing
+these services at the user level will be described. Wrangler-specific iRODS
+features such as audit trails, ingest verification, and data publication
+will be presented as potential components in larger infrastructures to
+allow the wider research community to query, retrieve, and analyze data
+sets created and/or curated by XSEDE users and projects.
+
+Thanks=E2=80=94
+
+Marlon
+
+--001a113ff224790d54051eee3e81
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Hi all, sorry for not sending this on before the talk star=
+ted, but I thought the slides and links might be of interest.<div><br></div=
+><div>-Matt</div><div><br><div class=3D"gmail_quote">---------- Forwarded m=
+essage ----------<br>From: <b class=3D"gmail_sendername">Pierce, Marlon</b>=
+ <span dir=3D"ltr">&lt;<a href=3D"mailto:marpierc@iu.edu">marpierc@iu.edu</=
+a>&gt;</span><br>Date: Fri, Sep 4, 2015 at 10:50 AM<br>Subject: Re: XSEDE g=
+ateways community presentation: Data Collections and Gateways on Wrangler<b=
+r>To: &quot;<a href=3D"mailto:gateways@xsede.org">gateways@xsede.org</a>&qu=
+ot; &lt;<a href=3D"mailto:gateways@xsede.org">gateways@xsede.org</a>&gt;, &=
+quot;<a href=3D"mailto:auss-gateways@xsede.org">auss-gateways@xsede.org</a>=
+&quot; &lt;<a href=3D"mailto:auss-gateways@xsede.org">auss-gateways@xsede.o=
+rg</a>&gt;, &quot;<a href=3D"mailto:auss-all@xsede.org">auss-all@xsede.org<=
+/a>&quot; &lt;<a href=3D"mailto:auss-all@xsede.org">auss-all@xsede.org</a>&=
+gt;, &quot;<a href=3D"mailto:campuschampions@xsede.org">campuschampions@xse=
+de.org</a>&quot; &lt;<a href=3D"mailto:campuschampions@xsede.org">campuscha=
+mpions@xsede.org</a>&gt;, &quot;<a href=3D"mailto:workflows@xsede.org">work=
+flows@xsede.org</a>&quot; &lt;<a href=3D"mailto:workflows@xsede.org">workfl=
+ows@xsede.org</a>&gt;<br>Cc: Christopher Jordan &lt;<a href=3D"mailto:ctjor=
+dan@tacc.utexas.edu">ctjordan@tacc.utexas.edu</a>&gt;<br><br><br>
+
+
+
+<div style=3D"word-wrap:break-word;color:rgb(0,0,0);font-size:14px;font-fam=
+ily:Calibri,sans-serif">
+<div>Reminder of today=E2=80=99s call. Chris doesn=E2=80=99t plan to use sl=
+ides and sends the following pointers:</div>
+<div><br>
+</div>
+<div>
+<div style=3D"font-family:Calibri;font-size:medium">iRODS info:=C2=A0<a hre=
+f=3D"http://www.irods.org/" target=3D"_blank">http://www.irods.org</a></div=
+>
+<div style=3D"font-family:Calibri;font-size:medium">Example Arctos site:=C2=
+=A0<a href=3D"http://arctos.database.museum/" target=3D"_blank">http://arct=
+os.database.museum</a></div>
+<div style=3D"font-family:Calibri;font-size:medium">Wrangler Portal:=C2=A0<=
+a href=3D"https://portal.wrangler.tacc.utexas.edy/" target=3D"_blank">https=
+://portal.wrangler.tacc.utexas.edy</a></div>
+</div>
+<div><br>
+</div>
+<div>Thanks=E2=80=94</div>
+<div><br>
+</div>
+<div>Marlon</div>
+<div><br>
+</div>
+<div><br>
+</div>
+<span>
+<div style=3D"font-family:Calibri;font-size:11pt;text-align:left;color:blac=
+k;BORDER-BOTTOM:medium none;BORDER-LEFT:medium none;PADDING-BOTTOM:0in;PADD=
+ING-LEFT:0in;PADDING-RIGHT:0in;BORDER-TOP:#b5c4df 1pt solid;BORDER-RIGHT:me=
+dium none;PADDING-TOP:3pt">
+<span style=3D"font-weight:bold">From: </span>Marlon Pierce &lt;<a href=3D"=
+mailto:marpierc@iu.edu" target=3D"_blank">marpierc@iu.edu</a>&gt;<br>
+<span style=3D"font-weight:bold">Date: </span>Tuesday, September 1, 2015 at=
+ 1:54 PM<br>
+<span style=3D"font-weight:bold">To: </span>&quot;<a href=3D"mailto:gateway=
+s@xsede.org" target=3D"_blank">gateways@xsede.org</a>&quot; &lt;<a href=3D"=
+mailto:gateways@xsede.org" target=3D"_blank">gateways@xsede.org</a>&gt;, &q=
+uot;<a href=3D"mailto:auss-gateways@xsede.org" target=3D"_blank">auss-gatew=
+ays@xsede.org</a>&quot; &lt;<a href=3D"mailto:auss-gateways@xsede.org" targ=
+et=3D"_blank">auss-gateways@xsede.org</a>&gt;,
+ &quot;<a href=3D"mailto:auss-all@xsede.org" target=3D"_blank">auss-all@xse=
+de.org</a>&quot; &lt;<a href=3D"mailto:auss-all@xsede.org" target=3D"_blank=
+">auss-all@xsede.org</a>&gt;, &quot;<a href=3D"mailto:campuschampions@xsede=
+.org" target=3D"_blank">campuschampions@xsede.org</a>&quot; &lt;<a href=3D"=
+mailto:campuschampions@xsede.org" target=3D"_blank">campuschampions@xsede.o=
+rg</a>&gt;,
+ &quot;<a href=3D"mailto:workflows@xsede.org" target=3D"_blank">workflows@x=
+sede.org</a>&quot; &lt;<a href=3D"mailto:workflows@xsede.org" target=3D"_bl=
+ank">workflows@xsede.org</a>&gt;<br>
+<span style=3D"font-weight:bold">Subject: </span>XSEDE gateways community p=
+resentation: Data Collections and Gateways on Wrangler<br>
+</div><div><div class=3D"h5">
+<div><br>
+</div>
+<div>
+<div style=3D"word-wrap:break-word;color:rgb(0,0,0);font-size:14px;font-fam=
+ily:Calibri,sans-serif">
+<div>
+<div>
+<div style=3D"font-family:Calibri">Please join us Friday, September 4th for=
+ presentation by Chris Jordan on Data Collections and Gateways on Wrangler.=
+ =C2=A0 Coordinates, title and abstract below. Recordings of all our previo=
+us presentations are available from=C2=A0<a href=3D"https://www.xsede.org/g=
+ateways-symposium" target=3D"_blank">https://www.xsede.org/gateways-symposi=
+um</a>.
+ =C2=A0</div>
+<div style=3D"font-family:Calibri"><br>
+</div>
+<div style=3D"font-family:Calibri">
+<div style=3D"font-size:medium">Time: 12-1 pm ET, Friday September 4th, 201=
+5</div>
+<div style=3D"font-size:medium">Phone: <a href=3D"tel:1-866-939-8416" value=
+=3D"+18669398416" target=3D"_blank">1-866-939-8416</a></div>
+<div style=3D"font-size:medium">Participant code: 4906909#</div>
+<div style=3D"font-size:medium">Web Conference:=C2=A0<a href=3D"http://www.=
+atconference.com/web-conferencing/login.php" target=3D"_blank">http://www.a=
+tconference.com/web-conferencing/login.php</a></div>
+<div><br>
+</div>
+</div>
+</div>
+<div>Data Collections and Gateways on Wrangler</div>
+<div>Chris Jordan, Texas Advanced Computing Center</div>
+<div><br>
+</div>
+<div>TACC=E2=80=99s Wrangler system represents a novel architecture with se=
+veral non-traditional aspects, including hardware, software, and support mo=
+dels which are new to the XSEDE ecosystem. In this talk, we will introduce =
+the data management features of Wrangler
+ along with a brief overview of persistent service support, with a focus on=
+ the use of these mechanisms to develop research data collections and to pu=
+blish these collections in existing or new web-based =E2=80=9Cgateways. The=
+ iRODS data grid software and supported
+ open-source databases, including Postgres and MySQL/MariaDB will be briefl=
+y discussed, and the mechanisms for provisioning and managing these service=
+s at the user level will be described. Wrangler-specific iRODS features suc=
+h as audit trails, ingest verification,
+ and data publication will be presented as potential components in larger i=
+nfrastructures to allow the wider research community to query, retrieve, an=
+d analyze data sets created and/or curated by XSEDE users and projects.=C2=
+=A0</div>
+</div>
+<div><br>
+</div>
+<div>Thanks=E2=80=94</div>
+<div><br>
+</div>
+<div>Marlon</div>
+<div><br>
+</div>
+</div>
+</div>
+</div></div></span>
+</div>
+
+</div><br></div></div>
+
+--001a113ff224790d54051eee3e81--
+

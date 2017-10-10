@@ -1,0 +1,163 @@
+<!-- MHonArc v2.6.10 -->
+<!--X-Subject: FYI regarding sage2 screen sharing -->
+<!--X-From-R13: [vxr Terrzba <zserrzbaNvyyvabvf.rqh> -->
+<!--X-Date: Mon, 22 Jun 2015 09:57:25 &#45;0500 -->
+<!--X-Message-Id: 55882254.6050903@illinois.edu -->
+<!--X-Content-Type: text/plain -->
+<!--X-Reference: cf59b16a&#45;4673&#45;43a0&#45;91e8&#45;0c36cbcc96aa@googlegroups.com -->
+<!--X-Head-End-->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML//EN">
+<HTML>
+<HEAD>
+<TITLE>FYI regarding sage2 screen sharing</TITLE>
+<LINK REV="made" HREF="mailto:mfreemon@illinois.edu">
+</HEAD>
+<!--#INCLUDE VIRTUAL="/include/lists/discuss/message-header.html"-->
+<!--X-Body-Begin-->
+<!--X-User-Header-->
+<!--X-User-Header-End-->
+<!--X-TopPNI-->
+<!---->
+
+<!--X-TopPNI-End-->
+<!--X-MsgBody-->
+<!--X-Subject-Header-Begin-->
+<H1>FYI regarding sage2 screen sharing<HR></H1>
+<!--X-Subject-Header-End-->
+<!--X-Head-of-Message-->
+<ul>
+<li><strong>To</strong>: <strong>NDS discuss &lt;<a href="mailto:discuss@DOMAIN.HIDDEN">discuss@xxxxxxxxxxxxxxxxxxxxxxx</a>&gt;</strong></li>
+<li><strong>Subject</strong>: <strong>FYI regarding sage2 screen sharing</strong></li>
+<li><strong>From</strong>: <strong>Mike Freemon &lt;<a href="mailto:mfreemon@DOMAIN.HIDDEN">mfreemon@xxxxxxxxxxxx</a>&gt;</strong></li>
+<li>Date: Mon, 22 Jun 2015 09:57:24 -0500</li>
+<li>Content-transfer-encoding: 7bit</li>
+<li>Content-type: text/plain; charset=utf-8; format=flowed</li>
+<li>In-reply-to: &lt;cf59b16a-4673-43a0-91e8-0c36cbcc96aa@googlegroups.com&gt;</li>
+<li>References: &lt;cf59b16a-4673-43a0-91e8-0c36cbcc96aa@googlegroups.com&gt;</li>
+<li>Reply-to: <a href="mailto:discuss@DOMAIN.HIDDEN">discuss@xxxxxxxxxxxxxxxxxxxxxxx</a></li>
+<li>Sender: <a href="mailto:owner-discuss@DOMAIN.HIDDEN">owner-discuss@xxxxxxxxxxxxxxxxxxxxxxx</a></li>
+<li>User-agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Thunderbird/38.0.1</li>
+</ul>
+<!--X-Head-of-Message-End-->
+<!--X-Head-Body-Sep-Begin-->
+<hr>
+<!--X-Head-Body-Sep-End-->
+<!--X-Body-of-Message-->
+<pre style="margin: 0em;">FYI for those doing screen sharing on the sage2 system:</pre><br>
+<pre style="margin: 0em;">Just share one screen per web UI instance.  See below for details.</pre><br>
+<tt>I have confirmed that this does avoid the screen freeze/server crash 
+problem.</tt><br>
+<br>
+<pre style="margin: 0em;">- Mike</pre><br>
+<pre style="margin: 0em;"><br>-------- Forwarded Message --------
+Subject: 	Re: server crash while sharing multiple screens concurrently
+from the same client
+Date: 	Sun, 21 Jun 2015 20:26:06 -0700
+From: 	Luc Renambot &lt;renambot@xxxxxxxxx&gt;
+To: 	sage2@xxxxxxxxxxxxxxxx, mfreemon.nds@xxxxxxxxx</pre><br>
+<pre style="margin: 0em;">You can only share one content (screen or window) per Web UI, for now.
+The trick to share multiple windows is to open multiple Web UI (in
+multiple tabs for instance) and share one window within each tab.</pre><br>
+<pre style="margin: 0em;">Sorry for the inconvenience.</pre><br>
+<pre style="margin: 0em;">Luc</pre><br>
+<pre style="margin: 0em;"><br>On Saturday, June 20, 2015 at 2:11:06 PM UTC-5, Mike Freemon wrote:</pre><br>
+<tt>    Is sharing multiple screens concurrently from the same client 
+supported?</tt><br>
+<br>
+<pre style="margin: 0em;">    When I share two screens (not the entire screen), I see them stacked
+    vertically and stuck together on the sage display.  If I stop
+    sharing on one, the graphics show only a single title bar, which is
+    frozen, while the other screen continues to work.  This condition
+    frequently results in a server crash, with this message:</pre><br>
+<pre style="margin: 0em;">    /sage2/src/node-interactable.js:279</pre><br>
+<tt>    results.push(this.layers[layerId].objects.search([point.x, point.y,<br>
+    point.x,<br>
+                        ^<br>
+    TypeError: Cannot read property 'objects' of undefined<br>
+         at InteractableManager.searchGeometry<br>
+    (/sage2/src/node-interactable.js:279:36)<br>
+         at SAGE2ItemList.findButtonByPoint<br>
+    (/sage2/src/node-sage2itemlist.js:113:27)<br>
+         at pointerMoveOnApplication (/sage2/server.js:4343:36)<br>
+         at updatePointerPosition (/sage2/server.js:4300:5)<br>
+         at pointerPosition (/sage2/server.js:4187:2)<br>
+         at Object.wsPointerPosition [as pointerPosition]<br>
+    (/sage2/server.js:742:2)<br>
+         at WebSocket.&lt;anonymous&gt; (/sage2/src/node-websocket.io.js:80:26)<br>
+         at WebSocket.emit (events.js:110:17)<br>
+         at Receiver.ontext 
+(/sage2/node_modules/ws/lib/WebSocket.js:797:10)<br>
+         at /sage2/node_modules/ws/lib/Receiver.js:473:18</tt><br>
+<br>
+<pre style="margin: 0em;">    I suspect that I can always reproduce the server crash if I knew
+    exactly the sequence of clicks or cursor movements to perform.</pre><br>
+<pre style="margin: 0em;">    This occurs with multiple client O/Ss (Fedora 21, Win7) running
+    google chrome v43 with the sage2 extension.</pre><br>
+<pre style="margin: 0em;">    The server is running inside docker.</pre><br>
+<pre style="margin: 0em;">    REPOSITORY          TAG                 IMAGE ID
+    CREATED             VIRTUAL SIZE
+    mvictoras/sage2     latest              0b0f2ce9c3ee        9 days
+    ago          2.178 GB</pre><br>
+<pre style="margin: 0em;">    SAGE2&gt;          Node Version: 12 (v0.12.4)
+    SAGE2&gt;          Detected Server OS as:  Linux
+    SAGE2&gt;          SAGE2 Short Version:    0.3.0
+    ...
+    SAGE2&gt;          Full</pre><br>
+<pre style="margin: 0em;">Version:{base:&quot;0.3.0&quot;,branch:&quot;master&quot;,commit:&quot;d469755&quot;,date:&quot;2015/06/10&quot;}</pre><br>
+<pre style="margin: 0em;">    Thank you.</pre><br>
+<pre style="margin: 0em;">    - Mike</pre><br>
+<tt>--<br>
+You received this message because you are subscribed to the Google<br>
+Groups &quot;SAGE2&quot; group.<br>
+To unsubscribe from this group and stop receiving emails from it, send<br>
+an email to sage2+unsubscribe@xxxxxxxxxxxxxxxx<br>
+&lt;<a  href="mailto:sage2+unsubscribe@xxxxxxxxxxxxxxxx">mailto:sage2+unsubscribe@xxxxxxxxxxxxxxxx</a>&gt;.<br>
+To view this discussion on the web visit<br>
+<a  href="https://groups.google.com/d/msgid/sage2/cf59b16a-4673-43a0-91e8-0c36cbcc96aa%40googlegroups.com">https://groups.google.com/d/msgid/sage2/cf59b16a-4673-43a0-91e8-0c36cbcc96aa%40googlegroups.com</a> </tt><br>
+<br>
+<pre style="margin: 0em;">&lt;<a  href="https://urldefense.proofpoint.com/v2/url?u=https-3A__groups.google.com_d_msgid_sage2_cf59b16a-2D4673-2D43a0-2D91e8-2D0c36cbcc96aa-2540googlegroups.com-3Futm-5Fmedium-3Demail-26utm-5Fsource-3Dfooter&amp;d=AwMFaQ&amp;c=8hUWFZcy2Z-Za5rBPlktOQ&amp;r=iEj4zY2m23d9QPzTewICNOX29P1IYSX9q3kyeqIQKeo&amp;m=twj9Vo72ulL5K8zGBDcU3SJkMVe9wmUQvB52dnWLQdw&amp;s=oajSmu0s4hiuIv0-coJL5FBPmcv9goCwF4Cu5aTNPDw&amp;e=">https://urldefense.proofpoint.com/v2/url?u=https-3A__groups.google.com_d_msgid_sage2_cf59b16a-2D4673-2D43a0-2D91e8-2D0c36cbcc96aa-2540googlegroups.com-3Futm-5Fmedium-3Demail-26utm-5Fsource-3Dfooter&amp;d=AwMFaQ&amp;c=8hUWFZcy2Z-Za5rBPlktOQ&amp;r=iEj4zY2m23d9QPzTewICNOX29P1IYSX9q3kyeqIQKeo&amp;m=twj9Vo72ulL5K8zGBDcU3SJkMVe9wmUQvB52dnWLQdw&amp;s=oajSmu0s4hiuIv0-coJL5FBPmcv9goCwF4Cu5aTNPDw&amp;e=</a>&gt;.
+For more options, visit <a  href="https://groups.google.com/d/optout">https://groups.google.com/d/optout</a>
+&lt;<a  href="https://urldefense.proofpoint.com/v2/url?u=https-3A__groups.google.com_d_optout&amp;d=AwMFaQ&amp;c=8hUWFZcy2Z-Za5rBPlktOQ&amp;r=iEj4zY2m23d9QPzTewICNOX29P1IYSX9q3kyeqIQKeo&amp;m=twj9Vo72ulL5K8zGBDcU3SJkMVe9wmUQvB52dnWLQdw&amp;s=7wR6p1rybFnI3v71zjRGiiUaXL2NOTEitT82PO60VRw&amp;e=">https://urldefense.proofpoint.com/v2/url?u=https-3A__groups.google.com_d_optout&amp;d=AwMFaQ&amp;c=8hUWFZcy2Z-Za5rBPlktOQ&amp;r=iEj4zY2m23d9QPzTewICNOX29P1IYSX9q3kyeqIQKeo&amp;m=twj9Vo72ulL5K8zGBDcU3SJkMVe9wmUQvB52dnWLQdw&amp;s=7wR6p1rybFnI3v71zjRGiiUaXL2NOTEitT82PO60VRw&amp;e=</a>&gt;.</pre><br>
+<br>
+
+<!--X-Body-of-Message-End-->
+<!--X-MsgBody-End-->
+<!--X-Follow-Ups-->
+<hr>
+<!--X-Follow-Ups-End-->
+<!--X-References-->
+<!--X-References-End-->
+<!--X-BotPNI-->
+<HR>
+<UL>
+<li>Prev by Date:
+<strong><a href="msg00019.html">Re: No such file or directory: '/home/mturk/core.pub'</a></strong>
+</li>
+<li>Next by Date:
+<strong><a href="msg00021.html">Re: No such file or directory: '/home/mturk/core.pub'</a></strong>
+</li>
+
+<li>Previous by thread:
+<strong><a href="msg00018.html">Timeout issue when executing startup_ndslabs.py</a></strong>
+</li>
+<li>Next by thread:
+<strong><a href="msg00022.html">Connectivity to the VLAD OpenStack Management Network</a></strong>
+</li>
+
+</UL>
+<!--#INCLUDE VIRTUAL="/include/lists/discuss/message-footer.html"-->
+
+<!--X-BotPNI-End-->
+<!--X-User-Footer-->
+<strong>
+<center>
+<a href="/lists/">Other Mailing lists</a> |
+<a href="author.html">Author Index</a> |
+<a href="maillist.html">Date Index</a> |
+<a href="subject.html">Subject Index</a> |
+<a href="threads.html">Thread Index</a>
+</center>
+</strong>
+<!--X-User-Footer-End-->
+</body>
+</html>

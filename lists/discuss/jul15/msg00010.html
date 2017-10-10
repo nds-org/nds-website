@@ -1,0 +1,150 @@
+<!-- MHonArc v2.6.10 -->
+<!--X-Subject: Re: Connectivity issue to vlad&#45;mgmt resolved -->
+<!--X-From-R13: "Qbnxyrl, Yriva" <xpbnxyrlNfqfp.rqh> -->
+<!--X-Date: Sun, 12 Jul 2015 13:40:44 &#45;0500 -->
+<!--X-Message-Id: 615312AA&#45;0C8C&#45;4F9F&#45;A080&#45;265B20313422@sdsc.edu -->
+<!--X-Content-Type: text/plain -->
+<!--X-Reference: CA+1QfO=jtRdrOoJz99Lt7ZkkPvw6hdJiy9Ct8XsNXC_fDrLvqQ@mail.gmail.com -->
+<!--X-Reference: 559D80EE.3090908@illinois.edu -->
+<!--X-Reference: 55A066A1.5070708@gmail.com -->
+<!--X-Head-End-->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML//EN">
+<HTML>
+<HEAD>
+<TITLE>Re: Connectivity issue to vlad-mgmt resolved</TITLE>
+<LINK REV="made" HREF="mailto:kcoakley@sdsc.edu">
+</HEAD>
+<!--#INCLUDE VIRTUAL="/include/lists/discuss/message-header.html"-->
+<!--X-Body-Begin-->
+<!--X-User-Header-->
+<!--X-User-Header-End-->
+<!--X-TopPNI-->
+<!---->
+
+<!--X-TopPNI-End-->
+<!--X-MsgBody-->
+<!--X-Subject-Header-Begin-->
+<H1>Re: Connectivity issue to vlad-mgmt resolved<HR></H1>
+<!--X-Subject-Header-End-->
+<!--X-Head-of-Message-->
+<ul>
+<li><strong>To</strong>: <strong>&quot;<a href="mailto:discuss@DOMAIN.HIDDEN">discuss@xxxxxxxxxxxxxxxxxxxxxxx</a>&quot; &lt;<a href="mailto:discuss@DOMAIN.HIDDEN">discuss@xxxxxxxxxxxxxxxxxxxxxxx</a>&gt;</strong></li>
+<li><strong>Subject</strong>: <strong>Re: Connectivity issue to vlad-mgmt resolved</strong></li>
+<li><strong>From</strong>: <strong>&quot;Coakley, Kevin&quot; &lt;<a href="mailto:kcoakley@DOMAIN.HIDDEN">kcoakley@xxxxxxxx</a>&gt;</strong></li>
+<li>Date: Sun, 12 Jul 2015 18:40:40 +0000</li>
+<li>Accept-language: en-US</li>
+<li>Content-id: &lt;B18A106DE1034C40912D56F61F918515@AD.UCSD.EDU&gt;</li>
+<li>Content-language: en-US</li>
+<li>Content-transfer-encoding: 8bit</li>
+<li>Content-type: text/plain; charset=&quot;utf-8&quot;</li>
+<li>In-reply-to: &lt;<a href="msg00006.html">55A066A1.5070708@gmail.com</a>&gt;</li>
+<li>References: &lt;<a href="msg00002.html">CA+1QfO=jtRdrOoJz99Lt7ZkkPvw6hdJiy9Ct8XsNXC_fDrLvqQ@mail.gmail.com</a>&gt; &lt;<a href="msg00003.html">559D80EE.3090908@illinois.edu</a>&gt; &lt;<a href="msg00006.html">55A066A1.5070708@gmail.com</a>&gt;</li>
+<li>Reply-to: <a href="mailto:discuss@DOMAIN.HIDDEN">discuss@xxxxxxxxxxxxxxxxxxxxxxx</a></li>
+<li>Sender: <a href="mailto:owner-discuss@DOMAIN.HIDDEN">owner-discuss@xxxxxxxxxxxxxxxxxxxxxxx</a></li>
+<li>Thread-index: AQHQubUe3VkaUSbhLEKe/s4MsmRjp53ScuQAgAN0LICAAkoEgA==</li>
+<li>Thread-topic: Connectivity issue to vlad-mgmt resolved</li>
+<li>User-agent: Microsoft-MacOutlook/0.0.0.150701</li>
+</ul>
+<!--X-Head-of-Message-End-->
+<!--X-Head-Body-Sep-Begin-->
+<hr>
+<!--X-Head-Body-Sep-End-->
+<!--X-Body-of-Message-->
+<pre>Hi Everyone,
+
+I would be happy to contribute more with time I have available.
+
+I noticed that the startup_ndslabs.py script references resources by their uuid. I have the code to lookup resource uuids by their common name and I would be happy to contribute it to the project. Referring to the resources by their common name would make it easier run the scripts on multiple projects and multiple OpenStack clusters since the common name of the resources could be made the same across the projects and OpenStack clusters but the uuids cannot. Let me know if you think this could be useful.
+
+If you want to use AWS in addition to OpenStack, I have a script I wrote for another project that is vary similar to startup_ndslabs.py that uses the boto python package.
+
+I usually have a few hours per week that I can use to contribute. I would be happy to help with small new features, testing, bug fixes, streamlining of your code and docker containers. I looked at the open issues on your Jira server and I didn&#xE2;t see any of these type of issues submitted.
+
+
+-Kevin
+
+
+
+
+On 7/10/15, 5:43 PM, &quot;owner-discuss@xxxxxxxxxxxxxxxxxxxxxxx on behalf of Kacper Kowalik&quot; &lt;owner-discuss@xxxxxxxxxxxxxxxxxxxxxxx on behalf of xarthisius.kk@xxxxxxxxx&gt; wrote:
+
+&gt;On 07/08/2015 02:58 PM, Mike Freemon wrote:
+&gt;&gt; On 7/8/2015 2:30 PM, Lengyue Chen wrote:
+&gt;&gt;&gt; 1. You need to specify this parameter when running the script to avoid
+&gt;&gt;&gt; 'invalid key_name' error.
+&gt;&gt;&gt;         --ssh-key-name [your_key]
+&gt;&gt;&gt;      Do not include the pem extension.
+&gt;&gt;
+&gt;&gt; Note that this is the name of an existing key pair that is defined in
+&gt;&gt; the &quot;Access &amp; Security&quot; section of the OpenStack web interface, not the
+&gt;&gt; name of a local key file.  It's just coincidence (or convention) if they
+&gt;&gt; happen to match after dropping the pem extension.
+&gt;&gt;
+&gt;&gt; - Mike
+&gt;
+&gt;I just merged a great PR[1] by Kevin Coakley (SDSC) that introduces a 
+&gt;lot of error handling to the script. It should help to facilitate these 
+&gt;issues.
+&gt;
+&gt;Cheers,
+&gt;Kacper
+&gt;
+&gt;[1] <a  href="https://bitbucket.org/nds-org/nds-labs/pull-request/2">https://bitbucket.org/nds-org/nds-labs/pull-request/2</a>
+&gt;
+
+</pre>
+<!--X-Body-of-Message-End-->
+<!--X-MsgBody-End-->
+<!--X-Follow-Ups-->
+<hr>
+<ul><li><strong>Follow-Ups</strong>:
+<ul>
+<li><strong><a name="00011" href="msg00011.html">Re: Connectivity issue to vlad-mgmt resolved</a></strong>
+<ul><li><em>From:</em> Matthew Turk</li></ul></li>
+</ul></li></ul>
+<!--X-Follow-Ups-End-->
+<!--X-References-->
+<ul><li><strong>References</strong>:
+<ul>
+<li><strong><a name="00002" href="msg00002.html">Connectivity issue to vlad-mgmt resolved</a></strong>
+<ul><li><em>From:</em> Lengyue Chen</li></ul></li>
+<li><strong><a name="00003" href="msg00003.html">Re: Connectivity issue to vlad-mgmt resolved</a></strong>
+<ul><li><em>From:</em> Mike Freemon</li></ul></li>
+<li><strong><a name="00006" href="msg00006.html">Re: Connectivity issue to vlad-mgmt resolved</a></strong>
+<ul><li><em>From:</em> Kacper Kowalik</li></ul></li>
+</ul></li></ul>
+<!--X-References-End-->
+<!--X-BotPNI-->
+<HR>
+<UL>
+<li>Prev by Date:
+<strong><a href="msg00009.html">Re: NDS Dashboard</a></strong>
+</li>
+<li>Next by Date:
+<strong><a href="msg00011.html">Re: Connectivity issue to vlad-mgmt resolved</a></strong>
+</li>
+
+<li>Previous by thread:
+<strong><a href="msg00006.html">Re: Connectivity issue to vlad-mgmt resolved</a></strong>
+</li>
+<li>Next by thread:
+<strong><a href="msg00011.html">Re: Connectivity issue to vlad-mgmt resolved</a></strong>
+</li>
+
+</UL>
+<!--#INCLUDE VIRTUAL="/include/lists/discuss/message-footer.html"-->
+
+<!--X-BotPNI-End-->
+<!--X-User-Footer-->
+<strong>
+<center>
+<a href="/lists/">Other Mailing lists</a> |
+<a href="author.html">Author Index</a> |
+<a href="maillist.html">Date Index</a> |
+<a href="subject.html">Subject Index</a> |
+<a href="threads.html">Thread Index</a>
+</center>
+</strong>
+<!--X-User-Footer-End-->
+</body>
+</html>

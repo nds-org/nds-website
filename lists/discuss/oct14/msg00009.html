@@ -1,0 +1,117 @@
+<!-- MHonArc v2.6.10 -->
+<!--X-Subject: Re: Ongoing architecture work -->
+<!--X-From-R13: Ynpcre Ybjnyvx <kneguvfvhf.xxNtznvy.pbz> -->
+<!--X-Date: Fri, 10 Oct 2014 09:11:12 &#45;0500 -->
+<!--X-Message-Id: 5437E8BF.2070707@gmail.com -->
+<!--X-Content-Type: multipart/signed -->
+<!--X-Reference: CALO3=5ERkdYPmW9mTp6utR&#45;O6itsCtAq&#45;AC3jT5QJ0fsCw2YcQ@mail.gmail.com -->
+<!--X-Derived: pgpRHBjbWmJWZ.pgp -->
+<!--X-Head-End-->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML//EN">
+<HTML>
+<HEAD>
+<TITLE>Re: Ongoing architecture work</TITLE>
+<LINK REV="made" HREF="mailto:xarthisius.kk@gmail.com">
+</HEAD>
+<!--#INCLUDE VIRTUAL="/include/lists/discuss/message-header.html"-->
+<!--X-Body-Begin-->
+<!--X-User-Header-->
+<!--X-User-Header-End-->
+<!--X-TopPNI-->
+<!---->
+
+<!--X-TopPNI-End-->
+<!--X-MsgBody-->
+<!--X-Subject-Header-Begin-->
+<H1>Re: Ongoing architecture work<HR></H1>
+<!--X-Subject-Header-End-->
+<!--X-Head-of-Message-->
+<ul>
+<li><strong>To</strong>: <strong><a href="mailto:discuss@DOMAIN.HIDDEN">discuss@xxxxxxxxxxxxxxxxxxxxxxx</a></strong></li>
+<li><strong>Subject</strong>: <strong>Re: Ongoing architecture work</strong></li>
+<li><strong>From</strong>: <strong>Kacper Kowalik &lt;<a href="mailto:xarthisius.kk@DOMAIN.HIDDEN">xarthisius.kk@xxxxxxxxx</a>&gt;</strong></li>
+<li>Date: Fri, 10 Oct 2014 09:10:07 -0500</li>
+<li>Content-type: multipart/signed; micalg=pgp-sha256; protocol=&quot;application/pgp-signature&quot;; boundary=&quot;tkMFcUFcLj4ArgN1dH4ibIbe0hr8L6T16&quot;</li>
+<li>Dkim-signature: v=1; a=rsa-sha256; c=relaxed/relaxed;        d=gmail.com; s=20120113;        h=message-id:date:from:user-agent:mime-version:to:subject:references         :in-reply-to:content-type;        bh=TqSUC/SuvxcKv2HsqQa7rHk963cdYzHfoQgVM9i9+gs=;        b=M3S3w+Z/dQYEZdBuq2AVUm2MlAw9m81nmuOKqd5B8Ufe6/ga1AyuKTTB0mkJwgJ66y         AccaylvYhvMfQpDjOfO/hRziRjqZA/cyGUjq8eTJHfFe7JzR3E8Bmu3SpXF8qm0xxMzZ         J8a61TrSJufMDVLndwpX4Z8o4pJSFggpyzvmGNQkBfjY07r+oiV2OIgvGATRDwdHkQGz         0UoMBOcUw687RC1EUfEXqywVtZh76DrW/OLK0JCBHP+To5R9+8qU93xRSf5jYqFG89db         T6ieAzyOcIFZycF00N59u9grGLaQtr5tgjMl4TFozziTWhWufoehzDarSXYNwGyKIUke         aNCw==</li>
+<li>In-reply-to: &lt;<a href="msg00000.html">CALO3=5ERkdYPmW9mTp6utR-O6itsCtAq-AC3jT5QJ0fsCw2YcQ@mail.gmail.com</a>&gt;</li>
+<li>References: &lt;<a href="msg00000.html">CALO3=5ERkdYPmW9mTp6utR-O6itsCtAq-AC3jT5QJ0fsCw2YcQ@mail.gmail.com</a>&gt;</li>
+<li>Reply-to: <a href="mailto:discuss@DOMAIN.HIDDEN">discuss@xxxxxxxxxxxxxxxxxxxxxxx</a></li>
+<li>Sender: <a href="mailto:owner-discuss@DOMAIN.HIDDEN">owner-discuss@xxxxxxxxxxxxxxxxxxxxxxx</a></li>
+<li>User-agent: Mozilla/5.0 (X11; Linux x86_64; rv:24.0) Gecko/20100101 Thunderbird/24.4.0</li>
+</ul>
+<!--X-Head-of-Message-End-->
+<!--X-Head-Body-Sep-Begin-->
+<hr>
+<!--X-Head-Body-Sep-End-->
+<!--X-Body-of-Message-->
+<pre>Hi all!
+
+On 10/08/2014 11:13 AM, Matthew Turk wrote:
+&gt;  * Analysis launching (Kacper, feel free to share about this)
+
+as Matt already mentioned we've been working on a remote analysis
+framework. The idea behind it is to use dedicated docker[1] containers
+that can be dynamically spawned closely to data itself. The fact that we
+are using virtualized environment allows to easily switch underlying
+analysis software. Whole process: launching python script in docker
+container, monitoring job status, obtaining results, is wrapped in
+lightweight microservices exposing REST API. This allows for easy cml
+tools creation, as well as integrating with more sophisticated web
+services (like the dashboard that Ian's working on).
+
+Cheers,
+Kacper
+
+[1] <a  href="https://www.docker.com/whatisdocker/">https://www.docker.com/whatisdocker/</a>
+
+
+</pre><p><strong>Attachment:
+<a href="pgpRHBjbWmJWZ.pgp" ><tt>signature.asc</tt></a></strong><br>
+<em>Description:</em> OpenPGP digital signature</p>
+
+<!--X-Body-of-Message-End-->
+<!--X-MsgBody-End-->
+<!--X-Follow-Ups-->
+<hr>
+<!--X-Follow-Ups-End-->
+<!--X-References-->
+<ul><li><strong>References</strong>:
+<ul>
+<li><strong><a name="00000" href="msg00000.html">Ongoing architecture work</a></strong>
+<ul><li><em>From:</em> Matthew Turk</li></ul></li>
+</ul></li></ul>
+<!--X-References-End-->
+<!--X-BotPNI-->
+<HR>
+<UL>
+<li>Prev by Date:
+<strong><a href="msg00008.html">Re: Ongoing architecture work</a></strong>
+</li>
+<li>Next by Date:
+<strong><a href="msg00010.html">Some thoughts on NDS Labs</a></strong>
+</li>
+
+<li>Previous by thread:
+<strong><a href="msg00008.html">Re: Ongoing architecture work</a></strong>
+</li>
+<li>Next by thread:
+<strong><a href="msg00010.html">Some thoughts on NDS Labs</a></strong>
+</li>
+
+</UL>
+<!--#INCLUDE VIRTUAL="/include/lists/discuss/message-footer.html"-->
+
+<!--X-BotPNI-End-->
+<!--X-User-Footer-->
+<strong>
+<center>
+<a href="/lists/">Other Mailing lists</a> |
+<a href="author.html">Author Index</a> |
+<a href="maillist.html">Date Index</a> |
+<a href="subject.html">Subject Index</a> |
+<a href="threads.html">Thread Index</a>
+</center>
+</strong>
+<!--X-User-Footer-End-->
+</body>
+</html>

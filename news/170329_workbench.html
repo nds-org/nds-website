@@ -1,0 +1,64 @@
+<!--#set var="location" value="news_story" -->
+<!--#set var="story_title" value="Crop Improvement Research Gets a Boost from NDS Labs Workbench at Phenome 2017" -->
+<!--#include virtual = "/assets/global/includes/start.html" -->
+<!--#include virtual = "/assets/global/includes/styles.html" -->
+<!--#include virtual = "/assets/global/includes/nav.html" -->
+<!--#include virtual = "/assets/global/includes/breadcrumbs.html" -->
+
+                <!-- BEGIN CONTENT -->            
+                <div class="col-md-9 col-sm-9 blog-item">
+			<p style="font-size: 16px; font-style: italic;">"...the Workbench is really transformative. I can't tell you how many hours I&mdash;like many scientists&mdash;have spent installing netcdf and similar libraries. Being able to hold a workshop where everyone has access to these tools [was] very powerful."</p>
+			<p style="margin-left: 15px; margin-top: -10px; font-style: italic;">&mdash; David LeBauer, Data Processing and Computational Workflows Team Lead, TERRA-REF Reference Data and Computing, University of Illinois at Urbana-Champaign.</p>
+
+<p>The <a href="https://www.workbench.nationaldataservice.org/">Labs Workbench platform</a> was used to support TERRA-REF workshops at the <a href="http://www.phenome2017.org/">Phenome 2017 conference <i class="fa fa-external-link-square" title="external link"></i></a> (February 10, Tucson, AZ) and <a href="https://ag.purdue.edu/plantsciences/phenomics-curricula/">Phenomics Workshop <i class="fa fa-external-link-square" title="external link"></i></a> at Purdue (March 13-14, Purdue, IN). <a href="http://terraref.org/">TERRA-REF <i class="fa fa-external-link-square" title="external link"></i></a> is a project that uses advanced crop analytics to accelerate breeding and the commercial release of high-yield bioenergy sorghum hybrids. The tutorial session provided participants with hands-on experience using specialized Jupyter Notebook and RStudio environments to analyze TERRA-REF data products.</p>
+
+<p>NDS support for the workshop included:</p>
+
+<ul> 
+<li>A dedicated instance of Labs Workbench installed on the <a href="http://www.ncsa.illinois.edu/">National Center for Supercomputing Applications <i class="fa fa-external-link-square" title="external link"></i></a> (NCSA) Nebula OpenStack cloud platform and backup instance on the <a href="http://www.sdsc.edu/">San Diego Supercomputing Center's <i class="fa fa-external-link-square" title="external link"></i></a> (SDSC) Cloud system with monitoring.</li>
+<li>Development of <a href="https://github.com/terraref/toolserver-dockerfiles">three custom Docker images <i class="fa fa-external-link-square" title="external link"></i></a> adding specialized software dependencies and <a href="https://github.com/terraref/tutorials">tutorial materials <i class="fa fa-external-link-square" title="external link"></i></a>.</li>
+<li>A minimal-resource instance was provided one week in advance for initial exploration and tutorial development.  The instance was scaled up to support 50 simultaneous workshop registrants and scaled back down to allow for participant exploration for the 3-day conference.</li>
+</ul>
+
+<p>Half of the registrants participated in the hands-on tutorial, launching 56 containers.  Following the workshop, Dr. LeBauer reported on the usefulness of the Workbench:</p>
+ 
+<blockquote>"The NDS Labs Workbench went very well. Having taught both software carpentry (where part of the goal is explicitly to avoid virtualized environments) and PEcAn (where we have been using virtual machines for years) and this was by far the easiest way to get a class started, quickly running R and Python with complex dependencies.
+<br /><br /> 
+It is particularly convenient that I could choose almost any use case, find a Dockerfile or Docker Hub image, and have it ready to develop materials in a few hours. That saves me a lot of time writing caveats like 'if on Windows do X, on Mac do Y.' In a classroom setting, getting everyone up and running with the same software dependencies can require a lot of class time, mostly time that is spent dealing with individual problems. It can take an hour just to install virtual box and pass around or download the appropriate image. The fact that the only dependency is a browser makes teaching a class much easier and the NDS Labs Workbench is quite transformative. Indeed, there is an immediate demand for such a service at the University of Illinois across many departments."</blockquote>
+ 
+<p>To try out NDS Labs Workbench you can request an account at <a href="https://www.workbench.nationaldataservice.org/">https://www.workbench.nationaldataservice.org/</a>.</p>
+
+<a href="http://terraref.org/"><img src="/assets/frontend/pages/img/pics/news/terra-ref_logo.jpg" style="width: 100px;" alt="TERRA-REF logo" /></a>
+<a href="http://www.phenome2017.org/"><img src="/assets/frontend/pages/img/pics/news/phenome2017_logo.jpg" style="width: 100px; margin-left: 15px;" alt="Phenome 2017 logo" /></a>
+
+                  <ul class="blog-info">
+                    <li><i class="fa fa-calendar"></i> 3/29/2017</li>
+                    <!--<li><i class="fa fa-tags"></i> DOA, NDS, Brown Dog</li>-->
+                  </ul>
+                                    
+                </div>
+                <!-- END CONTENT -->
+
+                <!-- BEGIN RIGHT SIDEBAR -->            
+                <div class="col-md-3 col-sm-3 blog-sidebar">
+			<a href="/assets/frontend/pages/img/pics/news/170329_workbench.jpg" target="_blank"><img src="/assets/frontend/pages/img/pics/news/170329_workbench.jpg" alt="NDS Labs Workbench" /></a>
+			<p>Custom NDS Labs Workbench catalogue created for Phenome 2017 includes just the analysis software needed for participants: Jupyter, RStudio with associated libraries and a cloud-friendly file manager.</p>
+
+			<a href="/assets/frontend/pages/img/pics/news/170329_rstudio.jpg" target="_blank"><img src="/assets/frontend/pages/img/pics/news/170329_rstudio.jpg" alt="RStudio" /></a>
+                        <p>Participants used the NDS Labs Workbench to easily launch RStudio analysis environments on top of the TERRA-REF data.</p>
+
+			<a href="/assets/frontend/pages/img/pics/news/170329_jupyter.jpg" target="_blank"><img src="/assets/frontend/pages/img/pics/news/170329_jupyter.jpg" alt="Jupyter" /></a>
+                        <p>NDS Labs Workbench makes it easy to integrate several open source data management and analysis tools, such as Jupyter Notebooks.</p>
+                </div>
+                <!-- END RIGHT SIDEBAR -->            
+              </div>
+            </div>
+          </div>
+          <!-- END CONTENT -->
+        </div>
+        <!-- END SIDEBAR & CONTENT -->
+      </div>
+    </div>
+
+<!--#include virtual = "/assets/global/includes/footer.html" -->
+<!--#include virtual = "/assets/global/includes/js-loads.html" -->

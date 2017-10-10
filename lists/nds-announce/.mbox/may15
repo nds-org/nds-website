@@ -1,0 +1,78 @@
+From owner-nds-announce@nationaldataservice.org Thu May 21 13:24:22 2015
+Received: (from majordomo@localhost)
+	by pop.ncsa.uiuc.edu (8.11.7/8.11.7) id t4LIOMN13996;
+	Thu, 21 May 2015 13:24:22 -0500
+X-Envelope-From: rplante@illinois.edu
+X-Envelope-To: <nds-announce@nationaldataservice.org>
+Received: from rimantadine.ncsa.uiuc.edu (rimantadine.ncsa.uiuc.edu [141.142.199.3])
+	by pop.ncsa.uiuc.edu (8.11.7/8.11.7) with ESMTP id t4LIOL813984
+	for <nds-announce@nationaldataservice.org>; Thu, 21 May 2015 13:24:21 -0500
+Received: from epte.local ([141.142.23.226])
+	(authenticated bits=0)
+	by rimantadine.ncsa.uiuc.edu (8.14.9/8.14.4) with ESMTP id t4LIOL4I000624
+	(version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NO)
+	for <nds-announce@nationaldataservice.org>; Thu, 21 May 2015 13:24:21 -0500
+Date: Thu, 21 May 2015 13:24:21 -0500 (CDT)
+From: Ray Plante <rplante@illinois.edu>
+X-X-Sender: rplante@epte
+To: NDS Announce <nds-announce@nationaldataservice.org>
+Subject: Plante shifting his role in NDS
+Message-ID: <alpine.DEB.2.02.1505211241350.3548@epte>
+User-Agent: Alpine 2.02 (DEB 1266 2009-07-14)
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+X-Null-Tag: 0cac69d7c5dfa45bb85d5bc360081853
+X-NCSA-MailScanner-Information: Please contact help@ncsa.uiuc.edu for more information, rimantadine.ncsa.uiuc.edu
+X-NCSA-MailScanner-ID: t4LIOL4I000624
+X-NCSA-MailScanner: Found to be clean
+Sender: owner-nds-announce@nationaldataservice.org
+Precedence: bulk
+Reply-To: nds-announce@nationaldataservice.org
+
+Hi friends of NDS,
+
+For the past year, I've been serving as the Interim Project Manager 
+at NCSA for the National Data Service and the Consortium.  You've 
+known me as one sending out emails, planning the Consortium workshops, 
+and generally overseeing the kickstarting of this important community 
+endevour we are collaborating together on.  
+
+Later this month, we'll be proving out the "Interim" part of that job 
+title as I transition from my position here at NCSA to a new post at 
+NIST, beginning June 1.  There I'll be working with our friend Bob 
+Hanisch in the new Office of Data and Informatics in the Materials 
+Measurement Lab.  Fortunately, this new work will allow me to remain 
+involved in NDS, though in a much different and reduced role.
+
+This is a good time to thank all of you for the enthusiasm and 
+expertise you've brought to the NDS--it's made the work fascinating to 
+me in addition to just being plain important.  I would especially like 
+to thank Ed Seidel and John Towns for their vision, encouragement, and 
+support over the past year; few people understand the need for a 
+national data infrastructure better than they do, and I'm honored that 
+they would talk me into helping to build on their vision.  I must also 
+thank my co-pilot here at NCSA, Kandace Turner-Jones, has done a great 
+job, often quietly, keeping the project organized.
+
+Meanwhile, John and Kandace (along with Matt Turk working on NDS Labs) 
+have been working hard to keep activities going and bringing in new 
+faces from the community; you'll hear more about that soon.  This will 
+not be the last you'll hear from me as we'll have a few new updates 
+coming out soon.  Know that you can continue to communicate with us 
+through the info@nationaldataservice.org address or through the 
+discussion lists.  
+
+I look forward to continued work with you and, in particular, seeing 
+you at the next NDS workshop.
+
+sincerely,
+Ray Plante
+
+
+
+nds-announce is a mail list of the National Data Service Consortium.
+To unsubscribe, send a message to majordomo@nationaldataservice.org
+with "unsubscribe nds-announce Ray Plante <rplante@illinois.edu>" in the body.
+Questions about the list can be sent to
+owner-nds-announce@nationaldataservice.org.
+

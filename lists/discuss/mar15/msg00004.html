@@ -1,0 +1,193 @@
+<!-- MHonArc v2.6.10 -->
+<!--X-Subject: Re: Google "Nearline" service -->
+<!--X-From-R13: [nggurj Fhex <znggurjghexNtznvy.pbz> -->
+<!--X-Date: Thu, 12 Mar 2015 16:09:28 &#45;0500 -->
+<!--X-Message-Id: CALO3=5E8UdX3ryHfADxnhDY29TOpGhWMrif3t8ko5Mq6J9bENA@mail.gmail.com -->
+<!--X-Content-Type: multipart/alternative -->
+<!--X-Reference: 1426122608264.96097@hdfgroup.org -->
+<!--X-Reference: 5501C26C.2090204@ncsa.illinois.edu -->
+<!--X-Reference: CALO3=5FDdfitpOyNRQHRkf7dDDVdiJA6J7Gd=Z7e&#45;fFY_49qyQ@mail.gmail.com -->
+<!--X-Reference: 1426194322262.80508@hdfgroup.org -->
+<!--X-Head-End-->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML//EN">
+<HTML>
+<HEAD>
+<TITLE>Re: Google &quot;Nearline&quot; service</TITLE>
+<LINK REV="made" HREF="mailto:matthewturk@gmail.com">
+</HEAD>
+<!--#INCLUDE VIRTUAL="/include/lists/discuss/message-header.html"-->
+<!--X-Body-Begin-->
+<!--X-User-Header-->
+<!--X-User-Header-End-->
+<!--X-TopPNI-->
+<!---->
+
+<!--X-TopPNI-End-->
+<!--X-MsgBody-->
+<!--X-Subject-Header-Begin-->
+<H1>Re: Google &quot;Nearline&quot; service<HR></H1>
+<!--X-Subject-Header-End-->
+<!--X-Head-of-Message-->
+<ul>
+<li><strong>To</strong>: <strong>&quot;<a href="mailto:discuss@DOMAIN.HIDDEN">discuss@xxxxxxxxxxxxxxxxxxxxxxx</a>&quot; &lt;<a href="mailto:discuss@DOMAIN.HIDDEN">discuss@xxxxxxxxxxxxxxxxxxxxxxx</a>&gt;</strong></li>
+<li><strong>Subject</strong>: <strong>Re: Google &quot;Nearline&quot; service</strong></li>
+<li><strong>From</strong>: <strong>Matthew Turk &lt;<a href="mailto:matthewturk@DOMAIN.HIDDEN">matthewturk@xxxxxxxxx</a>&gt;</strong></li>
+<li>Date: Thu, 12 Mar 2015 16:08:30 -0500</li>
+<li>Content-type: multipart/alternative; boundary=089e0103e4ce925abd05111dca3d</li>
+<li>Dkim-signature: v=1; a=rsa-sha256; c=relaxed/relaxed;        d=gmail.com; s=20120113;        h=mime-version:in-reply-to:references:from:date:message-id:subject:to         :content-type;        bh=q5v+r+u8S1g4FVA7ixypM/GttvWYYRzHz0Fs9cpKPIc=;        b=jDM2qjfV5Hypvc2Tv2pqzk2Bh5Ab0o868K6EyB2LfKIeklJsKPAR377WyyYEOXZP6v         aGHpmkEEhQY/rdPBov35d5oR/aWJzl1y/Fb6jklU0BuymXKRk8lwh9dY1zWt5/UXShcL         53GXywll/S6UGwaQlypo28wK4vwYK52pO2+kTkE7G9hijca+2OxhJhi0zLQFhfXVY/N7         Juc4nmwx1sfijfV+eTibBMgUZqk0aVIFsDhE1BhOmPSNnmlQspHAHjcPbaePoicJKe54         JMVi/IHf7FDkXZlSS9S5YumVilk1wWeS3Hcbudy3Dk9AbK/b3Df0XuKMeG47FUCUgUkN         m+gQ==</li>
+<li>In-reply-to: &lt;<a href="msg00003.html">1426194322262.80508@hdfgroup.org</a>&gt;</li>
+<li>References: &lt;<a href="msg00000.html">1426122608264.96097@hdfgroup.org</a>&gt; &lt;<a href="msg00001.html">5501C26C.2090204@ncsa.illinois.edu</a>&gt; &lt;<a href="msg00002.html">CALO3=5FDdfitpOyNRQHRkf7dDDVdiJA6J7Gd=Z7e-fFY_49qyQ@mail.gmail.com</a>&gt; &lt;<a href="msg00003.html">1426194322262.80508@hdfgroup.org</a>&gt;</li>
+<li>Reply-to: <a href="mailto:discuss@DOMAIN.HIDDEN">discuss@xxxxxxxxxxxxxxxxxxxxxxx</a></li>
+<li>Sender: <a href="mailto:owner-discuss@DOMAIN.HIDDEN">owner-discuss@xxxxxxxxxxxxxxxxxxxxxxx</a></li>
+</ul>
+<!--X-Head-of-Message-End-->
+<!--X-Head-Body-Sep-Begin-->
+<hr>
+<!--X-Head-Body-Sep-End-->
+<!--X-Body-of-Message-->
+<div dir="ltr">Hi John,<div><br></div><div>Agreed -- and in fact, it should be reasonably straightforward to deploy on GCE, too. &#xC2;(Things developed in the nds-labs repo would be transparently deployable there, in fact.) &#xC2;A petabyte would be $10k/month or so, just for storage, right?&#xC2; It would be interesting to experiment with this.</div><div><br></div><div>-Matt</div></div><div class="gmail_extra"><br><div class="gmail_quote">On Thu, Mar 12, 2015 at 4:05 PM, John Readey <span dir="ltr">&lt;<a href="mailto:jreadey@xxxxxxxxxxxx" target="_blank">jreadey@xxxxxxxxxxxx</a>&gt;</span> wrote:<br><blockquote class="gmail_quote" style="margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex">
+
+
+
+
+<div dir="ltr">
+<div style="font-size:12pt;color:#000000;background-color:#ffffff;font-family:Calibri,Arial,Helvetica,sans-serif">
+<p>&#xE2;Right, the pricing model for AWS Glacier definitely gets you when you do retrievals.&#xC2; Nearline looks a million times better in this regard. &#xC2;<br>
+</p>
+<p><br>
+</p>
+<p>Also, I&#39;m thinking that access to the data would be mediated by a service layer.&#xC2; The service could make informed decisions (based on recent access) about which objects to keep in online vs nearline storage.&#xC2; It maybe as simple as keep everything in nearline.
+ &#xC2;On access move to online and keep for the next n days.<br>
+</p>
+<p><br>
+</p>
+<p>Notice the retrieval throughput scales with the amount of data you have in storage. &#xC2;4 MB/s per TB of storage.&#xC2; So at PB-scale this is looking pretty good.<br>
+</p>
+<p><br>
+</p>
+<p>-john<br>
+</p>
+<div style="color:rgb(33,33,33)">
+<hr style="display:inline-block;width:98%">
+<div dir="ltr"><font face="Calibri, sans-serif" color="#000000" style="font-size:11pt"><b>From:</b> <a href="mailto:owner-discuss@xxxxxxxxxxxxxxxxxxxxxxx" target="_blank">owner-discuss@xxxxxxxxxxxxxxxxxxxxxxx</a> &lt;<a href="mailto:owner-discuss@xxxxxxxxxxxxxxxxxxxxxxx" target="_blank">owner-discuss@xxxxxxxxxxxxxxxxxxxxxxx</a>&gt; on behalf of Matthew Turk &lt;<a href="mailto:matthewturk@xxxxxxxxx" target="_blank">matthewturk@xxxxxxxxx</a>&gt;<br>
+<b>Sent:</b> Thursday, March 12, 2015 1:38 PM<br>
+<b>To:</b> <a href="mailto:discuss@xxxxxxxxxxxxxxxxxxxxxxx" target="_blank">discuss@xxxxxxxxxxxxxxxxxxxxxxx</a><br>
+<b>Subject:</b> Re: Google &quot;Nearline&quot; service</font>
+<div>&#xC2;</div>
+</div><div><div class="h5">
+<div>
+<div dir="ltr">Hi Johns Towns and Readey,<br>
+<div><br>
+</div>
+<div>JR: This is a pretty promising service!&#xC2; The discussion on hacker news was pretty interesting as well.</div>
+<div><br>
+</div>
+<div>JT: The cost for retrieval is pretty low, and they obliquely compare quite favorably it to Glacier.&#xC2; Supposedly very, very fast retrieval speeds too.</div>
+<div><br>
+</div>
+<div>-Matt</div>
+</div>
+<div class="gmail_extra"><br>
+<div class="gmail_quote">On Thu, Mar 12, 2015 at 11:44 AM, John Towns - NCSA Cog <span dir="ltr">
+&lt;<a href="mailto:jtowns@xxxxxxxxxxxxxxxxx" target="_blank">jtowns@xxxxxxxxxxxxxxxxx</a>&gt;</span> wrote:<br>
+<blockquote class="gmail_quote" style="margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex">
+<div bgcolor="#FFFFFF">John--&#xC2; I haven&#39;t looked at this and am not online currently, but the typical problem with these services is that they tend to be &quot;store-once-read-never&quot; optimized.&#xC2; Is there a fee for data retrieval?&#xC2; I like the notion of cloud storage
+ for scientific data, but the cost are almost always prohibitive for large collections of data.&#xC2;
+<br>
+<span><font color="#888888"><br>
+-John</font></span>
+<div>
+<div><br>
+<br>
+<br>
+<div>On 3/11/2015 8:10 PM, John Readey wrote:<br>
+</div>
+<blockquote type="cite">
+<div style="font-size:12pt;color:#000000;background-color:#ffffff;font-family:Calibri,Arial,Helvetica,sans-serif">
+<p>Hey,</p>
+<p><br>
+</p>
+<p>Google just announced it&#39;s nearline storage service today:&#xC2;<a href="https://cloud.google.com/storage/docs/nearline-storage" target="_blank">https://cloud.google.com/storage/docs/nearline-storage</a>&#xE2; . &#xC2;&#xC2;It gives you storage at 1/3 the cost ($0.01/gb/month)
+ with some extra latency (3 sec) when the data is requested.<br>
+</p>
+<p><br>
+</p>
+<p>I think that this would be perfect for storing&#xC2;many scientific datasets in the cloud where much of the data is infrequently accessed. &#xC2;<br>
+</p>
+<p><br>
+</p>
+<p>What are this groups thoughts on the suitability &#xC2;of cloud storage for scientific data?<br>
+</p>
+<p><br>
+</p>
+<p>John<br>
+</p>
+</div>
+</blockquote>
+<br>
+</div>
+</div>
+</div>
+</blockquote>
+</div>
+<br>
+</div>
+</div>
+</div></div></div>
+</div>
+</div>
+
+</blockquote></div><br></div>
+
+<!--X-Body-of-Message-End-->
+<!--X-MsgBody-End-->
+<!--X-Follow-Ups-->
+<hr>
+<!--X-Follow-Ups-End-->
+<!--X-References-->
+<ul><li><strong>References</strong>:
+<ul>
+<li><strong><a name="00000" href="msg00000.html">Google &quot;Nearline&quot; service</a></strong>
+<ul><li><em>From:</em> John Readey</li></ul></li>
+<li><strong><a name="00001" href="msg00001.html">Re: Google &quot;Nearline&quot; service</a></strong>
+<ul><li><em>From:</em> John Towns - NCSA Cog</li></ul></li>
+<li><strong><a name="00002" href="msg00002.html">Re: Google &quot;Nearline&quot; service</a></strong>
+<ul><li><em>From:</em> Matthew Turk</li></ul></li>
+<li><strong><a name="00003" href="msg00003.html">Re: Google &quot;Nearline&quot; service</a></strong>
+<ul><li><em>From:</em> John Readey</li></ul></li>
+</ul></li></ul>
+<!--X-References-End-->
+<!--X-BotPNI-->
+<HR>
+<UL>
+<li>Prev by Date:
+<strong><a href="msg00003.html">Re: Google &quot;Nearline&quot; service</a></strong>
+</li>
+<li>Next by Date:
+<strong><a href="msg00005.html">Re: Google &quot;Nearline&quot; service</a></strong>
+</li>
+
+<li>Previous by thread:
+<strong><a href="msg00003.html">Re: Google &quot;Nearline&quot; service</a></strong>
+</li>
+<li>Next by thread:
+<strong><a href="msg00005.html">Re: Google &quot;Nearline&quot; service</a></strong>
+</li>
+
+</UL>
+<!--#INCLUDE VIRTUAL="/include/lists/discuss/message-footer.html"-->
+
+<!--X-BotPNI-End-->
+<!--X-User-Footer-->
+<strong>
+<center>
+<a href="/lists/">Other Mailing lists</a> |
+<a href="author.html">Author Index</a> |
+<a href="maillist.html">Date Index</a> |
+<a href="subject.html">Subject Index</a> |
+<a href="threads.html">Thread Index</a>
+</center>
+</strong>
+<!--X-User-Footer-End-->
+</body>
+</html>

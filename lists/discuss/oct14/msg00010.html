@@ -1,0 +1,89 @@
+<!-- MHonArc v2.6.10 -->
+<!--X-Subject: Some thoughts on NDS Labs -->
+<!--X-From-R13: [nggurj Fhex <znggurjghexNtznvy.pbz> -->
+<!--X-Date: Tue, 28 Oct 2014 10:57:57 &#45;0500 -->
+<!--X-Message-Id: CALO3=5GuivD4Qo1&#45;OOVBZ4P9dYkdTA=ew2KGm3k&#45;qUm6nOuX3Q@mail.gmail.com -->
+<!--X-Content-Type: multipart/alternative -->
+<!--X-Head-End-->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML//EN">
+<HTML>
+<HEAD>
+<TITLE>Some thoughts on NDS Labs</TITLE>
+<LINK REV="made" HREF="mailto:matthewturk@gmail.com">
+</HEAD>
+<!--#INCLUDE VIRTUAL="/include/lists/discuss/message-header.html"-->
+<!--X-Body-Begin-->
+<!--X-User-Header-->
+<!--X-User-Header-End-->
+<!--X-TopPNI-->
+<!---->
+
+<!--X-TopPNI-End-->
+<!--X-MsgBody-->
+<!--X-Subject-Header-Begin-->
+<H1>Some thoughts on NDS Labs<HR></H1>
+<!--X-Subject-Header-End-->
+<!--X-Head-of-Message-->
+<ul>
+<li><strong>To</strong>: <strong>&quot;<a href="mailto:discuss@DOMAIN.HIDDEN">discuss@xxxxxxxxxxxxxxxxxxxxxxx</a>&quot; &lt;<a href="mailto:discuss@DOMAIN.HIDDEN">discuss@xxxxxxxxxxxxxxxxxxxxxxx</a>&gt;</strong></li>
+<li><strong>Subject</strong>: <strong>Some thoughts on NDS Labs</strong></li>
+<li><strong>From</strong>: <strong>Matthew Turk &lt;<a href="mailto:matthewturk@DOMAIN.HIDDEN">matthewturk@xxxxxxxxx</a>&gt;</strong></li>
+<li>Date: Tue, 28 Oct 2014 15:56:48 +0000</li>
+<li>Content-type: multipart/alternative; boundary=001a1141fe7214c2e405067db244</li>
+<li>Dkim-signature: v=1; a=rsa-sha256; c=relaxed/relaxed;        d=gmail.com; s=20120113;        h=mime-version:from:date:message-id:subject:to:content-type;        bh=mPbZAlo7Bl5m72tMnHAGbcn8cunLxCwLhTRFmWhVA3o=;        b=O0pKgT0lFpH5KceB0gRLKoZ5dS+PPDfP3DZMkatgSZAPERKrrp2+Gs6CRifuuz+Ixv         T5A1MYKlhri7Mx6OibhvjcyIBTMr7OEe8dvbWNBG6FTKkiKI0aLjOVNg52yPXDkQ8Cuu         FQRU1biuTRwy0ZPzY1zjJE7E+gNO4lhxklYTsfcmW/QvFq+ESNoknDgP/JK/SqCp1baR         bsh92wVis+R4B6b1cYzEyrW8fuX8mXg6CqIe/u/38uoTmiVpfmtuzjbf8VzB/ZXxdOBm         DszvYgpIizdnInwQWHLLfluxee8WVcnDuu7Xz6/L1qGJ3bvtrrRc2fCglGbBuxqb+d/M         3i7A==</li>
+<li>Reply-to: <a href="mailto:discuss@DOMAIN.HIDDEN">discuss@xxxxxxxxxxxxxxxxxxxxxxx</a></li>
+<li>Sender: <a href="mailto:owner-discuss@DOMAIN.HIDDEN">owner-discuss@xxxxxxxxxxxxxxxxxxxxxxx</a></li>
+</ul>
+<!--X-Head-of-Message-End-->
+<!--X-Head-Body-Sep-Begin-->
+<hr>
+<!--X-Head-Body-Sep-End-->
+<!--X-Body-of-Message-->
+<div>(I hope you didn&#39;t get this twice -- I had an email hiccup and it might have gone out twice.&#xC2; My apologies.)</div><div><br></div><div>Hi all,</div><div><br></div><div>John Towns suggested we write to this mailing list with our thoughts, and what we&#39;d like to see in &quot;an NDS Labs,&quot; so here are some (somewhat organized) thoughts, following on the productive discussions at the meeting last week in DC.&#xC2; I&#39;ve tried to think through &quot;What would *I* like to see&quot; without favoring the things I&#39;m interested in too heavily. &#xC2; &#xC2;I&#39;d also emphasize that I&#39;m just one voice and I&#39;d really like to hear from others their thoughts, or feedback on what I&#39;ve put below.</div><div><br></div><div>I&#39;d also like to encourage you to check out <a href="http://jujucharms.com/sidebar/">jujucharms.com/sidebar/</a> which is a demonstration of the Ubuntu &quot;Juju Charm&quot; method of describing and deploying.</div><div><br></div><div>What I&#39;d Like To See In NDS Labs</div><div>================================</div><div><br></div><div>Below I&#39;ve outlined the various things that I would like to see in an NDS Labs first pass.&#xC2; Many of these describe abstract services, and support for those services, that would provide infrastructure for building sets of services operating in concert.</div><div><br></div><div>The entire remainder of this outline is designed such as to develop an NDS Labs setup that would be fully transportable, independent of the location or hardware running it.&#xC2; All that is pre-supposed is an OpenStack cluster.&#xC2; This would mean that the cyberinfrastructure for NDSLabs could run essentially anywhere -- supercomputing centers, institutional clusters, commercial clusters, and the like.&#xC2; However, the value-add will be in the place to collaborate and to explore.</div><div><br></div><div>I think the most important things we can provide in an NDSLabs infrastructure will be:</div><div><br></div><div>&#xC2;* Pre-built VMs and containers, ready to spin up, and the ability to modify and contribute modifications to these (root access for individuals on their own VMs would be allowed)</div><div>&#xC2;* A place to deploy these and experiment with these</div><div>&#xC2;* Support for integrating services</div><div>&#xC2;* Community infrastructure for collaboration -- maybe an &quot;NDS Labs dash board&quot; or &quot;app store&quot; model</div><div><br></div><div>This provides both a playground and an &quot;incubation&quot; method, to provide a gradual phasing of apps from experiment, to demo, to production.&#xC2; We may wish to consult with Chris Mattman or others with the Apache Software Foundation, as they have considerable experience in the area of incubation and project stewardship.</div><div><br></div><div>Base Infrastructure</div><div>-------------------</div><div><br></div><div>I believe there are a few things we can build on top of:</div><div><br></div><div>&#xC2;* VMs</div><div>&#xC2;* Containers</div><div>&#xC2;* Orchestration systems</div><div>&#xC2;* VM image repository</div><div>&#xC2;* Docker image repository</div><div>&#xC2;* Block storage devices (these are limited at some relatively small size)</div><div>&#xC2;* NFS mounts of large block devices (this will require more effort and work, and may only be initially exposed as read-only to circumvent permission issues)</div><div><br></div><div>Note that I am describing two separate types of execution models, that of the Virtual Machine (VM) similar to traditional cloud execution as well as the &quot;container&quot; (similar to docker, <a href="http://sandstorm.io">sandstorm.io</a>, and so on).&#xC2; I believe that running these on OpenStack is the simplest way to proceed; containers may eventually be supported at the level of the OpenStack compute engine (&quot;Nova&quot;) in a future release, but for now there are probably two modes of operation to explore:</div><div><br></div><div>&#xC2;* Provision and execute on VMs directly using Nova</div><div>&#xC2;* Provision an orchestration system (kubernetes, deis, mesos/mesosphere, stackato) and dispatch containers within that system</div><div><br></div><div>This should accomodate both &quot;full-stack&quot; systems such as existing applications like Dataverse, SEAD, Medici2 and the like, while still allowing for rapid prototyping of new applications that could be suited to container-based deployment.</div><div><br></div><div>To enable rapid deployment, we will provide vagrant, chef and/or ansible files that provision a common set of items -- orchestration systems as well as VMs drawn from the VM image repository.</div><div><br></div><div>The workflow for VM deployment would look something like:</div><div><br></div><div>&#xC2;* Build VM, upload to NDSLabs Glance</div><div>&#xC2;* Provision using NDSLabs vagrant, ansible or chef setup</div><div><br></div><div>The workflow for container deployment would look something like:</div><div><br></div><div>&#xC2;* Build docker image, upload to NDSLabs docker hub</div><div>&#xC2;* Provision set of nodes on which containers will deploy, using NDSLabs vagrant, ansible or chef setup, deploying a container orchestration system</div><div>&#xC2;* Deploy containers on this infrastructure</div><div><br></div><div>Software Infrastructure</div><div>-----------------------</div><div><br></div><div>OpenStack and AWS both provide, or promise to provide, a set of services.&#xC2; Both provide these at two levels, enabling individual apps (run in groups of containers or VMs) to utilize them independently; two NDS Labs projects running at the same time will likely need separate instances.</div><div><br></div><div>So what we will be providing are pre-configured, pre-built containers and VMs running these services, given some input for configuration.&#xC2; This will enable &quot;clean slate&quot; operation as well as isolation from other NDSLabs projects.</div><div><br></div><div>&#xC2;* Event system such as RabbitMQ</div><div>&#xC2;* Authentication system, such as either &quot;fake&quot; (prepopulated or not) LDAP server or generic user registry supporting OAuth2, PAM, etc etc.&#xC2;</div><div>&#xC2;* Relational databases</div><div>&#xC2;* Non-relational databases (MongoDB / SimpleDB-like)</div><div>&#xC2;* Storage infrastructure and coordinators; examples would be Globus Online endpoints and iRODS.</div><div><br></div><div>Note that production systems would approach this in a considerably different way, and we should have a second level of systems available as such.&#xC2; In the case of iRODS, we may wish to set up an &quot;NDSLabs&quot; zone, which individual servers can federate.&#xC2; In that case, however, we would run into the issue of admin rights, specifying iRODS rule engine rules, and so on, which can be limiting.&#xC2; This may need to be considered carefully for later.&#xC2; For a Globus Online endpoint, we&#39;d probably also want to consolidate in a single service, but I would defer on that topic to others more knowledgable.</div><div><br></div><div>Support Infrastructure</div><div>----------------------</div><div><br></div><div>In addition to developing the cyberinfrastructure that supports developing applications, we should provide the support infrastructure for particular pain points:</div><div><br></div><div>&#xC2;* How to develop horizontally scalable apps?&#xC2;</div><div>&#xC2;* What is the best way to store and retrieve data?&#xC2;</div><div>&#xC2;* What kind of security models are necessary?&#xC2;</div><div>&#xC2;* How to implement authorization and authentication?&#xC2;</div><div>&#xC2;* How to execute tests?</div><div><br></div><div>And perhaps most importantly, guidelines and in depth support to harden apps and increase their robustness sufficiently for production deployment.&#xC2; These roles would be fulfilled by individuals as well as the community, and they would provide a method of consultancy.&#xC2; This is an opportunity for industry connection, as well as drawing on the resources at various SC centers.</div><div><br></div><div>Community Infrastructure</div><div>------------------------</div><div><br></div><div>The community support structures will be crucial to ensuring that NDSLabs is not simply &quot;another academic cloud.&quot; &#xC2;NDSLabs *must* provide mechanisms for:</div><div><br></div><div>&#xC2;* Communication</div><div>&#xC2;* Collaboration</div><div>&#xC2;* Direct technology transfer</div><div><br></div><div>For communication, having communication channels that are both *open* and have different levels of latency will be quite valuable (i.e., like we use in yt <a href="http://arxiv.org/abs/1301.7064">http://arxiv.org/abs/1301.7064</a> ).&#xC2; I would suggest, but am not tied to, something like:</div><div><br></div><div>&#xC2;* IRC (low-latency)</div><div>&#xC2;* Mailing list (<a href="mailto:discuss@xxxxxxxxxxxxxxxxxxxxxxx">discuss@xxxxxxxxxxxxxxxxxxxxxxx</a> is one option, but it&#39;s perhaps not as easy as something like ndslabs at google groups)</div><div>&#xC2;* In-person workshops or &quot;Office Hours&quot; via Google hangouts</div><div><br></div><div>We may also consider something like Discourse, which provides a nice email/webforum gateway that shares characteristics with Stack Overflow.</div><div><br></div><div>The communication channels must be populated not only by app developers, but experienced individuals from collaborating locations -- people who can provide support on issues like &quot;How do I pass authentication tokens?&quot; or &quot;What&#39;s the best way to get my filesystem passed into my docker container?&quot; or &quot;Are there any VM images in glance that do [...]?&quot; &#xC2;For questions about specific services (i.e., &quot;How do I add Globus Nexus authentication?&quot;) individuals would probably want to go to the particular project mailing lists or avenues of discussion.</div><div><br></div><div>We may or may not want to explore a hosted Kallithea instance (<a href="http://kallithea-scm.org">kallithea-scm.org</a>), which could provide some interesting functionality for push-to-deploy workflows.&#xC2; However, at least encouraging individuals to utilize the existing BB/GH locations, as well as having some planning space or &quot;advertising&quot; space, would be nice.</div><div><br></div><div>Hardware and Software Necessary</div><div>-------------------------------</div><div><br></div><div>Looking over what I&#39;ve placed above, I think even a modest (but real) set of hardware and software could be quite useful.</div><div><br></div><div>&#xC2;* OpenStack cluster, perhaps 256 cores total, and connected to allocated storage space divided between object storage and block storage.&#xC2;</div><div>&#xC2;* Persistent docker repository</div><div>&#xC2;* Space in Glance (the OpenStack VM catalog) for VMs</div><div>&#xC2;* Pre-built or pre-configured docker images and VMs for the various items enumerated above</div><div><br></div><div>The first three of these will need to be done at the outset; the fourth is the one that need neither be in place at the outset nor developed from scratch. &#xC2;</div><div><br></div><div><br></div><div>-Matt</div><div><br></div>
+
+<!--X-Body-of-Message-End-->
+<!--X-MsgBody-End-->
+<!--X-Follow-Ups-->
+<hr>
+<ul><li><strong>Follow-Ups</strong>:
+<ul>
+<li><strong><a name="00011" href="msg00011.html">Re: Some thoughts on NDS Labs</a></strong>
+<ul><li><em>From:</em> Arthur Smith</li></ul></li>
+</ul></li></ul>
+<!--X-Follow-Ups-End-->
+<!--X-References-->
+<!--X-References-End-->
+<!--X-BotPNI-->
+<HR>
+<UL>
+<li>Prev by Date:
+<strong><a href="msg00009.html">Re: Ongoing architecture work</a></strong>
+</li>
+<li>Next by Date:
+<strong><a href="msg00011.html">Re: Some thoughts on NDS Labs</a></strong>
+</li>
+
+<li>Previous by thread:
+<strong><a href="msg00000.html">Ongoing architecture work</a></strong>
+</li>
+<li>Next by thread:
+<strong><a href="msg00011.html">Re: Some thoughts on NDS Labs</a></strong>
+</li>
+
+</UL>
+<!--#INCLUDE VIRTUAL="/include/lists/discuss/message-footer.html"-->
+
+<!--X-BotPNI-End-->
+<!--X-User-Footer-->
+<strong>
+<center>
+<a href="/lists/">Other Mailing lists</a> |
+<a href="author.html">Author Index</a> |
+<a href="maillist.html">Date Index</a> |
+<a href="subject.html">Subject Index</a> |
+<a href="threads.html">Thread Index</a>
+</center>
+</strong>
+<!--X-User-Footer-End-->
+</body>
+</html>

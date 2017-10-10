@@ -1,0 +1,181 @@
+<!-- MHonArc v2.6.10 -->
+<!--X-Subject: Re: Some thoughts on NDS Labs -->
+<!--X-From-R13: [nggurj Fhex <znggurjghexNtznvy.pbz> -->
+<!--X-Date: Tue, 28 Oct 2014 20:01:33 &#45;0500 -->
+<!--X-Message-Id: CALO3=5E+y8T7R0y6GotM1PxMKJ6kT&#45;T8C9huRHFtyUVH5XFzVQ@mail.gmail.com -->
+<!--X-Content-Type: multipart/alternative -->
+<!--X-Reference: CALO3=5GuivD4Qo1&#45;OOVBZ4P9dYkdTA=ew2KGm3k&#45;qUm6nOuX3Q@mail.gmail.com -->
+<!--X-Reference: 544FE605.4080800@aps.org -->
+<!--X-Reference: alpine.DEB.2.00.1410281413460.2206@epte -->
+<!--X-Reference: CALO3=5GKy5jZ_tUGKrZ5v1d9XXdiHKsnpY+p5t6f09qsVpiw2g@mail.gmail.com -->
+<!--X-Reference: 081101cff2f1$542a9270$fc7fb750$@umich.edu -->
+<!--X-Head-End-->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML//EN">
+<HTML>
+<HEAD>
+<TITLE>Re: Some thoughts on NDS Labs</TITLE>
+<LINK REV="made" HREF="mailto:matthewturk@gmail.com">
+</HEAD>
+<!--#INCLUDE VIRTUAL="/include/lists/discuss/message-header.html"-->
+<!--X-Body-Begin-->
+<!--X-User-Header-->
+<!--X-User-Header-End-->
+<!--X-TopPNI-->
+<!---->
+
+<!--X-TopPNI-End-->
+<!--X-MsgBody-->
+<!--X-Subject-Header-Begin-->
+<H1>Re: Some thoughts on NDS Labs<HR></H1>
+<!--X-Subject-Header-End-->
+<!--X-Head-of-Message-->
+<ul>
+<li><strong>To</strong>: <strong><a href="mailto:discuss@DOMAIN.HIDDEN">discuss@xxxxxxxxxxxxxxxxxxxxxxx</a></strong></li>
+<li><strong>Subject</strong>: <strong>Re: Some thoughts on NDS Labs</strong></li>
+<li><strong>From</strong>: <strong>Matthew Turk &lt;<a href="mailto:matthewturk@DOMAIN.HIDDEN">matthewturk@xxxxxxxxx</a>&gt;</strong></li>
+<li>Date: Wed, 29 Oct 2014 01:01:22 +0000</li>
+<li>Content-type: multipart/alternative; boundary=001a1140bfd86dfa590506854d03</li>
+<li>Dkim-signature: v=1; a=rsa-sha256; c=relaxed/relaxed;        d=gmail.com; s=20120113;        h=mime-version:references:from:date:message-id:subject:to         :content-type;        bh=rdIsABxsQY0h4+fG1TEaPVJZH25oMKzVspBvlD24VZk=;        b=KOFcluCelZYjePaK53l3pDI/j38f0LTg4t7QHVO097OUFCSvJL7b/PnEQ+SSTwS1Aa         2E8M/kLdWPe8tWt8Wb8ioLpfcjCFFwk8hBFTH1X/MppR8hxYeiNXphxSvFBiuZsgEBW7         g2bmw0+vO3ZyYm6CQQCQ4702eOlvxdfmSocScrR9xEGJfMqiQTrLmabbUL5T1Px2pk6q         bXGjdUMlHtAaqHf5yoHW248x5iHTssPgDf+Tj3vbpepi0/QnbwDW9+ZHtgJ1tEjulCAR         khg8g9IqAotXa3mKNUN1JTWgpP9eN3UAkwQrh7+ObqiRlTtTAlg1v/ERme7WQc6bdRe7         szvA==</li>
+<li>References: &lt;<a href="msg00010.html">CALO3=5GuivD4Qo1-OOVBZ4P9dYkdTA=ew2KGm3k-qUm6nOuX3Q@mail.gmail.com</a>&gt; &lt;<a href="msg00011.html">544FE605.4080800@aps.org</a>&gt; &lt;<a href="msg00013.html">alpine.DEB.2.00.1410281413460.2206@epte</a>&gt; &lt;<a href="msg00014.html">CALO3=5GKy5jZ_tUGKrZ5v1d9XXdiHKsnpY+p5t6f09qsVpiw2g@mail.gmail.com</a>&gt; &lt;<a href="msg00017.html">081101cff2f1$542a9270$fc7fb750$@umich.edu</a>&gt;</li>
+<li>Reply-to: <a href="mailto:discuss@DOMAIN.HIDDEN">discuss@xxxxxxxxxxxxxxxxxxxxxxx</a></li>
+<li>Sender: <a href="mailto:owner-discuss@DOMAIN.HIDDEN">owner-discuss@xxxxxxxxxxxxxxxxxxxxxxx</a></li>
+</ul>
+<!--X-Head-of-Message-End-->
+<!--X-Head-Body-Sep-Begin-->
+<hr>
+<!--X-Head-Body-Sep-End-->
+<!--X-Body-of-Message-->
+Hi Jim,<br><br>Thanks for the ideas -- I think they identify a number of important things that NDS Labs could provide.&#xC2; In reading them over, I wonder if we could identify some technical things that could support this vision.&#xC2; I came up with a few that I think might support this, but I&#39;m not sure I am on the right track.<div><br></div><div>&#xC2;* Service discovery.&#xC2; If there were a small number of pragmatically defined *verbs* (eg, collect-with-OAI-ORE, receive-SWORD) or *service names* (SEAD, or GlobusOnline, or Authenticate) that described things that something provides, it could advertise itself.&#xC2; Things like zookeeper and etcd fleet might be able provide this information.&#xC2; Then an app could, similar to how &quot;Rendezvous&quot; used to claim to work, discovery what else is available.</div><div>&#xC2;* &quot;Mixins&quot; for developing containers or collections of containers. &#xC2;i.e., if you&#39;re launching a bundle, if you want something that fulfills the need to provision a new MySQL db, use this drop-in addon.&#xC2; Or, a container that connected to an event bus, or something.&#xC2; I&#39;m speculating here, but I think that sharing the tech that performs specific functions would serve the purposes you laid out.</div><div>&#xC2;* Base images for &quot;NDS Labs,&quot; for instance, something that includes all the necessary bits to get going with an app that uses all the other running services for data access, collecting, etc.</div><div>&#xC2;* A few services that were provided to all apps or orchestrations running on the NDS Labs -- for instance, an authentication system that managed talking to Globus Nexus or InCommon and provided internal tokens that were passed around.&#xC2; Or something that was able to *name* storage locations and manage mountpoints (e.g., iRODS, Ceph, etc) &#xC2;These could be ala carte.</div><div><br></div><div>Now, in addition to this, of course we&#39;d need social interactions between different developers and groups to actually make this happen.&#xC2; This is where I think the hardest aspects of your first two points are going to come into play.&#xC2; I think identifying low-friction methods of communicating will be key here -- and by providing the location these things can be run (and I *hope* this will be federated, and with deployments at multiple sites!) then technology can be transferred directly.&#xC2; Do you have any suggestions for how we can facilitate this type of interaction?<br></div><div><br></div><div>Would you be interested in experimenting with deploying on something like Apache mesos / mesosphere?&#xC2; It seems to be a pretty low-friction way of deploying containers, and I&#39;m rather interested in the service discovery aspects of it.&#xC2; But perhaps it&#39;s a poor fit, especially if service discovery is not necessary.</div><div><br></div><div>-Matt</div><br><div class="gmail_quote">On Tue Oct 28 2014 at 3:55:44 PM Jim Myers &lt;<a href="mailto:myersjd@xxxxxxxxx" target="_blank">myersjd@xxxxxxxxx</a>&gt; wrote:<br><blockquote class="gmail_quote" style="margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex">I think my view would be consistent:<br>
+<br>
+NDS Labs should be a shared space in which projects can:<br>
+<br>
+* Develop/test interoperability<br>
+* Develop/test integration (of different types of services)<br>
+* Access and contribute to a growing national data space (NDS Share?) - i.e. being able to query/compute over &#39;real&#39; data and to publish &#39;real&#39; data collections<br>
+* Access and contribute to a growing set of test/demonstration data collections and shared/shareable services<br>
+* Develop/test scalability and scale with user demand (the latter linking to NDS Share?)<br>
+* Demonstrate/share best practice/new practice<br>
+<br>
+In my mind these are things that are hard for any one of us to do on our own and they all build in a reason why collective action is better than individual efforts to use other clouds, etc. I can build test suites and reference services to interact with, but with NDS Labs, I hopefully only need to supply 1/Nth as much effort to do this. Similarly with data - I can look to my project&#39;s user base for test collections (different data types, size, metadata, provenance, ...), but NDS Labs will have more breadth and there&#39;s potentially 1/Nth as much work for us to contribute to shared test data.<br>
+<br>
+Etcetera. The thing I like about this type of framing is that explains why you&#39;d come to NDS Labs and what the ground rules might be (you must be able to expose your data/metadata/events through one or more standard APIs, you should identify one or more cross-project interactions/interoperations you wish to test, you should register your &#39;real&#39; data products with NDS Share, ...), as well as detailing what NDS should provide (standardized machines to run pilots, reference services, and test runs, data/service test suites, test versions of NDS Share store/retrieve services, ...). (The intent would be to be lightweight - no one should be turned away from using NDS Labs because they aren&#39;t &#39;tall enough&#39;, but if you really don&#39;t want to follow any of the ground rules, you might wonder if you&#39;re in the wrong place, or these become criteria for deciding on larger resource requests. Similarly, rather than NDS Labs selecting a lot of specific services it will propose and run, if grou!<br>
+&#xC2;ps of projects can make requests/do the work to create shared resources within NDS Labs, the labs will be agile. (If several groups want a type registry they can stand one up in NDS Labs. If a lot of projects have interest in a given service or data resource, perhaps NDS Labs has some labor to contribute to setup or maintenance...).)<br>
+<br>
+<br>
+Partial aside: This might be a way to rework the draft NDS vision too - NDS shares a vision with other organizations and projects with the consortium coming together to do just those things where coordination, particularly coordination around data and resources, will accelerate our collective ability to realize the vision. The NDS Labs framing above fits that and I think NDS Share could as well - we all face the issues of provisioning for large data and for the long-term and in guaranteeing researchers a state-of-the-art mix of base and advanced services for longer periods than our project lifetimes. If NDS Share became a place that data could go regardless of input system, where data would remain accessible after the input system went away, where new services and systems (production, pilot, or experimental) could interact with the data, where users could go to understand the range of capabilities available and make apples-to-apples comparisons, and where data could either s!<br>
+&#xC2;tay forever or be moved at the lowest cost to future repositories, it would, with the consortium backing it, provide better answers on these issues than any of us could at a single project level...<br>
+<br>
+&#xC2; -&#xC2; Jim<br>
+<br>
+<br>
+James D. Myers, Ph.D.<br>
+Research Investigator<br>
+School of Information<br>
+University of Michigan<br>
+217-417-1786<br>
+<a href="mailto:myersjd@xxxxxxxxx" target="_blank">myersjd@xxxxxxxxx</a><br>
+<br>
+<br>
+<br>
+<br>
+<br>
+-----Original Message-----<br>
+From: <a href="mailto:owner-discuss@xxxxxxxxxxxxxxxxxxxxxxx" target="_blank">owner-discuss@<u></u>nationaldataserv<u></u>ice.org</a> [mailto:<a href="mailto:owner-discuss@xxxxxxxxxxxxxxxxxxxxxxx" target="_blank">owner-discuss@<u></u>national<u></u>dataservice.org</a>] On Behalf Of Matthew Turk<br>
+Sent: Tuesday, October 28, 2014 3:28 PM<br>
+To: <a href="mailto:discuss@xxxxxxxxxxxxxxxxxxxxxxx" target="_blank">discuss@nationaldataservice.<u></u>or<u></u>g</a><br>
+Subject: Re: Some thoughts on NDS Labs<br>
+<br>
+Hi Ray,<br>
+<br>
+On Tue, Oct 28, 2014 at 2:23 PM, Ray Plante &lt;<a href="mailto:rplante@xxxxxxxxxxxx" target="_blank">rplante@xxxxxxxxxxxx</a>&gt; wrote:<br>
+&gt; Hi,<br>
+&gt;<br>
+&gt; On Tue, 28 Oct 2014, Arthur Smith wrote:<br>
+&gt;&gt; If NDS is to be the Interop (or NSFNet) to RDA&#39;s IETF, then it seems<br>
+&gt;&gt; to me like the focus of NDS labs should be implementing and<br>
+&gt;&gt; highlighting interoperability of implementations of data standards.<br>
+&gt;&gt; For example we heard about the data type registry:<br>
+&gt;<br>
+&gt; I would definately like to see NDS Labs be a platform for RDA ideas.<br>
+&gt; I hope it can also be a lab for cultivating additional RDS WG<br>
+&gt; activity, both building on the currently deliveries and inspiring new<br>
+&gt; ones.<br>
+&gt;<br>
+&gt;&gt; But I think we should keep the focus on the data side, not just on<br>
+&gt;&gt; putting together another cloud computing environment.<br>
+&gt;<br>
+&gt; It&#39;s been proposed that NDS Labs respond to requests for projects, so<br>
+&gt; I would hope that there would be people from the RDA community<br>
+&gt; inspired to come forward.<br>
+&gt;<br>
+&gt; That said, the NDS Labs proposal is essentially one of storage and<br>
+&gt; compute resources and support to operate it.&#xC2; Your suggestion (puting<br>
+&gt; a registry in a docker container) helps us understand whether the<br>
+&gt; proposed environment can serve that role.<br>
+<br>
+I think we should go way beyond just storage and compute -- it needs to be tied into strong community interaction, otherwise we are simply Amazon EC2 (which, I note, has lots of public datasets already) or the Open Science Data Cloud.&#xC2; I think having strong community buy-in, emphasizing interoperability between applications, and so on needs to be a component.<br>
+<br>
+Can you say more about the &quot;NDS labs proposal&quot;?<br>
+<br>
+&gt;<br>
+&gt; cheers,<br>
+&gt; Ray<br>
+&gt;<br>
+<br>
+<br>
+</blockquote></div>
+
+<!--X-Body-of-Message-End-->
+<!--X-MsgBody-End-->
+<!--X-Follow-Ups-->
+<hr>
+<!--X-Follow-Ups-End-->
+<!--X-References-->
+<ul><li><strong>References</strong>:
+<ul>
+<li><strong><a name="00010" href="msg00010.html">Some thoughts on NDS Labs</a></strong>
+<ul><li><em>From:</em> Matthew Turk</li></ul></li>
+<li><strong><a name="00011" href="msg00011.html">Re: Some thoughts on NDS Labs</a></strong>
+<ul><li><em>From:</em> Arthur Smith</li></ul></li>
+<li><strong><a name="00013" href="msg00013.html">Re: Some thoughts on NDS Labs</a></strong>
+<ul><li><em>From:</em> Ray Plante</li></ul></li>
+<li><strong><a name="00014" href="msg00014.html">Re: Some thoughts on NDS Labs</a></strong>
+<ul><li><em>From:</em> Matthew Turk</li></ul></li>
+<li><strong><a name="00017" href="msg00017.html">RE: Some thoughts on NDS Labs</a></strong>
+<ul><li><em>From:</em> Jim Myers</li></ul></li>
+</ul></li></ul>
+<!--X-References-End-->
+<!--X-BotPNI-->
+<HR>
+<UL>
+<li>Prev by Date:
+<strong><a href="msg00017.html">RE: Some thoughts on NDS Labs</a></strong>
+</li>
+<li>Next by Date:
+<strong><a href="msg00019.html">Beyond another cloud: data service discovery for NDSLabs</a></strong>
+</li>
+
+<li>Previous by thread:
+<strong><a href="msg00017.html">RE: Some thoughts on NDS Labs</a></strong>
+</li>
+<li>Next by thread:
+<strong><a href="msg00019.html">Beyond another cloud: data service discovery for NDSLabs</a></strong>
+</li>
+
+</UL>
+<!--#INCLUDE VIRTUAL="/include/lists/discuss/message-footer.html"-->
+
+<!--X-BotPNI-End-->
+<!--X-User-Footer-->
+<strong>
+<center>
+<a href="/lists/">Other Mailing lists</a> |
+<a href="author.html">Author Index</a> |
+<a href="maillist.html">Date Index</a> |
+<a href="subject.html">Subject Index</a> |
+<a href="threads.html">Thread Index</a>
+</center>
+</strong>
+<!--X-User-Footer-End-->
+</body>
+</html>

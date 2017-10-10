@@ -1,0 +1,202 @@
+<!-- MHonArc v2.6.10 -->
+<!--X-Subject: RE: Changing way to invoke novaclient api in nds&#45;webservice rest api -->
+<!--X-From-R13: "Trynepn, [nevb [nepnvqn" <zsrynepnNvyyvabvf.rqh> -->
+<!--X-Date: Tue, 21 Jul 2015 02:18:33 &#45;0500 -->
+<!--X-Message-Id: E2327468FA22F742AF5C86405B05AC1A08FC43DA@CITESMBX5.ad.uillinois.edu -->
+<!--X-Content-Type: multipart/alternative -->
+<!--X-Reference: CA+1QfOmyp6p5_ZyevEZumA9yngd9+VTRvh9ADAvAT9zSrSwYzg@mail.gmail.com -->
+<!--X-Reference: CA+1QfOmc4_dBa=xGWJS=eVT9URZCouBLuS4ioGMteVWjnhYdrA@mail.gmail.com -->
+<!--X-Reference: CA+1QfOnbDcAE+gp8MPNx5W4nmqXbm6ePdjXYyqR2KGLkVU+7Mw@mail.gmail.com -->
+<!--X-Head-End-->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML//EN">
+<HTML>
+<HEAD>
+<TITLE>RE: Changing way to invoke novaclient api in nds-webservice rest api</TITLE>
+<LINK REV="made" HREF="mailto:mfelarca@illinois.edu">
+</HEAD>
+<!--#INCLUDE VIRTUAL="/include/lists/discuss/message-header.html"-->
+<!--X-Body-Begin-->
+<!--X-User-Header-->
+<!--X-User-Header-End-->
+<!--X-TopPNI-->
+<!---->
+
+<!--X-TopPNI-End-->
+<!--X-MsgBody-->
+<!--X-Subject-Header-Begin-->
+<H1>RE: Changing way to invoke novaclient api in nds-webservice rest api<HR></H1>
+<!--X-Subject-Header-End-->
+<!--X-Head-of-Message-->
+<ul>
+<li><strong>To</strong>: <strong>&quot;<a href="mailto:discuss@DOMAIN.HIDDEN">discuss@xxxxxxxxxxxxxxxxxxxxxxx</a>&quot; &lt;<a href="mailto:discuss@DOMAIN.HIDDEN">discuss@xxxxxxxxxxxxxxxxxxxxxxx</a>&gt;</strong></li>
+<li><strong>Subject</strong>: <strong>RE: Changing way to invoke novaclient api in nds-webservice rest api</strong></li>
+<li><strong>From</strong>: <strong>&quot;Felarca, Mario Marcaida&quot; &lt;<a href="mailto:mfelarca@DOMAIN.HIDDEN">mfelarca@xxxxxxxxxxxx</a>&gt;</strong></li>
+<li>Date: Tue, 21 Jul 2015 07:18:30 +0000</li>
+<li>Accept-language: en-US</li>
+<li>Content-language: en-US</li>
+<li>Content-type: multipart/alternative;	boundary=&quot;_000_E2327468FA22F742AF5C86405B05AC1A08FC43DACITESMBX5aduill_&quot;</li>
+<li>In-reply-to: &lt;<a href="msg00040.html">CA+1QfOnbDcAE+gp8MPNx5W4nmqXbm6ePdjXYyqR2KGLkVU+7Mw@mail.gmail.com</a>&gt;</li>
+<li>References: &lt;<a href="msg00038.html">CA+1QfOmyp6p5_ZyevEZumA9yngd9+VTRvh9ADAvAT9zSrSwYzg@mail.gmail.com</a>&gt;	&lt;<a href="msg00039.html">CA+1QfOmc4_dBa=xGWJS=eVT9URZCouBLuS4ioGMteVWjnhYdrA@mail.gmail.com</a>&gt;,&lt;<a href="msg00040.html">CA+1QfOnbDcAE+gp8MPNx5W4nmqXbm6ePdjXYyqR2KGLkVU+7Mw@mail.gmail.com</a>&gt;</li>
+<li>Reply-to: <a href="mailto:discuss@DOMAIN.HIDDEN">discuss@xxxxxxxxxxxxxxxxxxxxxxx</a></li>
+<li>Sender: <a href="mailto:owner-discuss@DOMAIN.HIDDEN">owner-discuss@xxxxxxxxxxxxxxxxxxxxxxx</a></li>
+<li>Thread-index: AQHQwzmK8OeoUFlywU6H5hnGdzirD53lX+ew</li>
+<li>Thread-topic: Changing way to invoke novaclient api in nds-webservice rest api</li>
+</ul>
+<!--X-Head-of-Message-End-->
+<!--X-Head-Body-Sep-Begin-->
+<hr>
+<!--X-Head-Body-Sep-End-->
+<!--X-Body-of-Message-->
+<table width="100%"><tr><td style="">
+
+
+<div style="direction: ltr;font-family: Tahoma;color: #000000;font-size: 10pt;">Hi Lengyue,<br>
+<br>
+I'm going to reply a couple of the items here, so I'm copying some of your original text from the original thread below.<br>
+<br>
+&gt;<br>
+&gt; I am kinda confused about what we are seeking for in the new method. <br>
+&gt;<br>
+<br>
+I believe from our discussion this morning, the concern is that the current implementation introduces some unnecessary complexity, as Kacper mentioned last week, as well as creating some points of fragility that are either extra edge cases that we need to account
+ for, or functionality that we actively have to build out support for, such as custom parsing of the messages that would be passed back from the other process.<br>
+<br>
+The goal with refactoring at this stage is to simplify by removing those edge cases and eliminating the extra custom work.<br>
+<br>
+In the near term, I think the decision was to go ahead and leverage the work that we have started and refactor to use pkgcloud or some other existing SDK.<br>
+<br>
+&gt;<br>
+&gt; It seems like there are no suspend and resume instance api in pkgcloud. <br>
+&gt;<br>
+<br>
+I believe you are correct, from what I have seen so far. I have done a bit of digging, and can't seem to find if there was a design decision made, or if it was a decision due to commonality, or if it is simply just not implemented yet. If we need the extra
+ functionality, we have several options, including simply directly calling the REST endpoint ourselves.
+<br>
+<br>
+<a href="http://developer.openstack.org/api-ref-compute-v2.1.html#os-multiple-create-v2.1" target="_blank">http://developer.openstack.org/api-ref-compute-v2.1.html#os-multiple-create-v2.1</a><br>
+<br>
+My $0.02. Hope that helps!<br>
+<br>
+Mario-<br>
+<br>
+<br>
+<br>
+<br>
+<div style="font-family: Times New Roman; color: #000000; font-size: 16px">
+<hr tabindex="-1">
+<div style="direction: ltr;" id="divRpF186107"><font color="#000000" face="Tahoma" size="2"><b>From:</b> owner-discuss@xxxxxxxxxxxxxxxxxxxxxxx [owner-discuss@xxxxxxxxxxxxxxxxxxxxxxx] on behalf of Lengyue Chen [lchen95@xxxxxxxxxxxx]<br>
+<b>Sent:</b> Monday, July 20, 2015 5:15 PM<br>
+<b>To:</b> discuss@xxxxxxxxxxxxxxxxxxxxxxx<br>
+<b>Subject:</b> Re: Changing way to invoke novaclient api in nds-webservice rest api<br>
+</font><br>
+</div>
+<div></div>
+<div>
+<div dir="ltr">It seems like there are no suspend and resume instance api in pkgcloud.&nbsp;</div>
+<div class="gmail_extra"><br>
+<div class="gmail_quote">On Mon, Jul 20, 2015 at 4:08 PM, Lengyue Chen <span dir="ltr">
+&lt;<a href="mailto:lchen95@xxxxxxxxxxxx" target="_blank">lchen95@xxxxxxxxxxxx</a>&gt;</span> wrote:<br>
+<blockquote class="gmail_quote" style="margin:0 0 0 .8ex; border-left:1px #ccc solid; padding-left:1ex">
+<div dir="ltr">
+<div>Here is the document of novaclient REST api:<br>
+</div>
+<div><a href="https://urldefense.proofpoint.com/v2/url?u=http-3A__docs.openstack.org_api_quick-2Dstart_content_&amp;d=AwMFaQ&amp;c=8hUWFZcy2Z-Za5rBPlktOQ&amp;r=JOuddKqy8U0za9sj3XnXgmDQ3RLS98xIjIwaaTaI68Q&amp;m=sAMuRC5KV_Y4Kbmr0JE5JbuEvSc4JeP25K9oDpv3OJc&amp;s=BmzTQ7quIBoCLB6jL7XMNc60RAhsPIq8vnque9sgmv8&amp;e=" target="_blank">http://docs.openstack.org/api/quick-start/content/</a><br>
+</div>
+<div><br>
+</div>
+<div>Here is a reference of how to invoke novaclient api in pckcloud:</div>
+<div><a href="https://urldefense.proofpoint.com/v2/url?u=https-3A__github.com_pkgcloud_pkgcloud_blob_master_docs_providers_openstack_compute.md&amp;d=AwMFaQ&amp;c=8hUWFZcy2Z-Za5rBPlktOQ&amp;r=JOuddKqy8U0za9sj3XnXgmDQ3RLS98xIjIwaaTaI68Q&amp;m=sAMuRC5KV_Y4Kbmr0JE5JbuEvSc4JeP25K9oDpv3OJc&amp;s=Ws5aqmmeHdffBfgRStD59HebaM5_pyu14FGzOmftxrs&amp;e=" target="_blank">https://github.com/pkgcloud/pkgcloud/blob/master/docs/providers/openstack/compute.md</a><br>
+</div>
+<div><br>
+</div>
+<div><br>
+</div>
+</div>
+<div class="HOEnZb">
+<div class="h5">
+<div class="gmail_extra"><br>
+<div class="gmail_quote">On Mon, Jul 20, 2015 at 3:57 PM, Lengyue Chen <span dir="ltr">
+&lt;<a href="mailto:lchen95@xxxxxxxxxxxx" target="_blank">lchen95@xxxxxxxxxxxx</a>&gt;</span> wrote:<br>
+<blockquote class="gmail_quote" style="margin:0 0 0 .8ex; border-left:1px #ccc solid; padding-left:1ex">
+<div dir="ltr">Hi all
+<div><br>
+</div>
+<div>We are going to change the way to invoke novaclient api in nds-webservice rest api and we need to talk about which one is better.&nbsp;</div>
+<div><br>
+</div>
+<div>I have found three ways to invoke novaclient api. The first one is to put all open stack management logics (create, suspend, resume,destroy lab) into a python script and execute that script in node.js and it is the way we are currently deploying. The second
+ one is to invoke the novaclient REST api via jQuery call in node.js. The third one is to using a node.js SDK called pkgcloud to invoke the &nbsp;novaclient api.</div>
+<div><br>
+</div>
+<div>I am kinda confused about what we are seeking for in the new method. I am currently working on adding more error catching logics to improve the robustness of the current method (using the python script) and I do want to hear from you guys, since you all
+ have more experiences than me, to decide which method we want to switch to.</div>
+<div><br>
+</div>
+<div>Best</div>
+<div>Zeo &nbsp; &nbsp;</div>
+<div><br>
+</div>
+</div>
+</blockquote>
+</div>
+<br>
+</div>
+</div>
+</div>
+</blockquote>
+</div>
+<br>
+</div>
+</div>
+</div>
+</div>
+
+
+</td></tr></table>
+<!--X-Body-of-Message-End-->
+<!--X-MsgBody-End-->
+<!--X-Follow-Ups-->
+<hr>
+<!--X-Follow-Ups-End-->
+<!--X-References-->
+<ul><li><strong>References</strong>:
+<ul>
+<li><strong><a name="00038" href="msg00038.html">Changing way to invoke novaclient api in nds-webservice rest api</a></strong>
+<ul><li><em>From:</em> Lengyue Chen</li></ul></li>
+<li><strong><a name="00039" href="msg00039.html">Re: Changing way to invoke novaclient api in nds-webservice rest api</a></strong>
+<ul><li><em>From:</em> Lengyue Chen</li></ul></li>
+<li><strong><a name="00040" href="msg00040.html">Re: Changing way to invoke novaclient api in nds-webservice rest api</a></strong>
+<ul><li><em>From:</em> Lengyue Chen</li></ul></li>
+</ul></li></ul>
+<!--X-References-End-->
+<!--X-BotPNI-->
+<HR>
+<UL>
+<li>Prev by Date:
+<strong><a href="msg00041.html">Re: merge conflict in startup_ndslabs.py</a></strong>
+</li>
+<li>Next by Date:
+<strong><a href="msg00043.html">Re: merge conflict in startup_ndslabs.py</a></strong>
+</li>
+
+<li>Previous by thread:
+<strong><a href="msg00040.html">Re: Changing way to invoke novaclient api in nds-webservice rest api</a></strong>
+</li>
+
+</UL>
+<!--#INCLUDE VIRTUAL="/include/lists/discuss/message-footer.html"-->
+
+<!--X-BotPNI-End-->
+<!--X-User-Footer-->
+<strong>
+<center>
+<a href="/lists/">Other Mailing lists</a> |
+<a href="author.html">Author Index</a> |
+<a href="maillist.html">Date Index</a> |
+<a href="subject.html">Subject Index</a> |
+<a href="threads.html">Thread Index</a>
+</center>
+</strong>
+<!--X-User-Footer-End-->
+</body>
+</html>

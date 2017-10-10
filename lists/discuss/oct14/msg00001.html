@@ -1,0 +1,153 @@
+<!-- MHonArc v2.6.10 -->
+<!--X-Subject: Re: Ongoing architecture work -->
+<!--X-From-R13: Wna Tbfgre <sbfgreNnay.tbi> -->
+<!--X-Date: Wed, 8 Oct 2014 11:24:36 &#45;0500 -->
+<!--X-Message-Id: 4D31CC82&#45;9BF7&#45;49CD&#45;88DB&#45;21D78DDECE30@anl.gov -->
+<!--X-Content-Type: text/plain -->
+<!--X-Reference: CALO3=5ERkdYPmW9mTp6utR&#45;O6itsCtAq&#45;AC3jT5QJ0fsCw2YcQ@mail.gmail.com -->
+<!--X-Head-End-->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML//EN">
+<HTML>
+<HEAD>
+<TITLE>Re: Ongoing architecture work</TITLE>
+<LINK REV="made" HREF="mailto:foster@anl.gov">
+</HEAD>
+<!--#INCLUDE VIRTUAL="/include/lists/discuss/message-header.html"-->
+<!--X-Body-Begin-->
+<!--X-User-Header-->
+<!--X-User-Header-End-->
+<!--X-TopPNI-->
+<!---->
+
+<!--X-TopPNI-End-->
+<!--X-MsgBody-->
+<!--X-Subject-Header-Begin-->
+<H1>Re: Ongoing architecture work<HR></H1>
+<!--X-Subject-Header-End-->
+<!--X-Head-of-Message-->
+<ul>
+<li><strong>To</strong>: <strong>&lt;<a href="mailto:discuss@DOMAIN.HIDDEN">discuss@xxxxxxxxxxxxxxxxxxxxxxx</a>&gt;</strong></li>
+<li><strong>Subject</strong>: <strong>Re: Ongoing architecture work</strong></li>
+<li><strong>From</strong>: <strong>Ian Foster &lt;<a href="mailto:foster@DOMAIN.HIDDEN">foster@xxxxxxx</a>&gt;</strong></li>
+<li>Date: Wed, 8 Oct 2014 11:24:32 -0500</li>
+<li>Content-transfer-encoding: 8bit</li>
+<li>Content-type: text/plain; charset=&quot;us-ascii&quot;</li>
+<li>In-reply-to: &lt;<a href="msg00000.html">CALO3=5ERkdYPmW9mTp6utR-O6itsCtAq-AC3jT5QJ0fsCw2YcQ@mail.gmail.com</a>&gt;</li>
+<li>References: &lt;<a href="msg00000.html">CALO3=5ERkdYPmW9mTp6utR-O6itsCtAq-AC3jT5QJ0fsCw2YcQ@mail.gmail.com</a>&gt;</li>
+<li>Reply-to: <a href="mailto:discuss@DOMAIN.HIDDEN">discuss@xxxxxxxxxxxxxxxxxxxxxxx</a></li>
+<li>Sender: <a href="mailto:owner-discuss@DOMAIN.HIDDEN">owner-discuss@xxxxxxxxxxxxxxxxxxxxxxx</a></li>
+</ul>
+<!--X-Head-of-Message-End-->
+<!--X-Head-Body-Sep-Begin-->
+<hr>
+<!--X-Head-Body-Sep-End-->
+<!--X-Body-of-Message-->
+<pre>Dear Matt:
+
+As NDS is supposed to be a collaborative project, I don't think it is appropriate to call this the &quot;preliminary architecture for the NDS.&quot; Call it an NDS pilot, perhaps?
+
+We are implementing (in fact, have operational) another NDS pilot based around Globus services--the Materials Data Facility. Having other parallel efforts exploring other technologies is fine, but calling it the NDS architecture disenfranchises us at Chicago and I believe is premature.
+
+Ian. 
+
+
+On Oct 8, 2014, at 11:13 AM, Matthew Turk &lt;matthewturk@xxxxxxxxx&gt; wrote:
+
+&gt; Hi all,
+&gt; 
+&gt; A couple of us have been working on deploying at NCSA a preliminary
+&gt; architecture for the NDS, based around commonly available software and
+&gt; with some homegrown development as well.  We've been taking notes
+&gt; here:
+&gt; 
+&gt; <a  href="https://docs.google.com/document/d/1SBRatAebX5-eQXB4qTFb5UGV0Cwy8Ppux_2RPs2ZUZY/edit#heading=h.b1qfdq9dlvv">https://docs.google.com/document/d/1SBRatAebX5-eQXB4qTFb5UGV0Cwy8Ppux_2RPs2ZUZY/edit#heading=h.b1qfdq9dlvv</a>
+&gt; 
+&gt; (Please excuse the first person, that's all me...)
+&gt; 
+&gt; There are some action items in the document, and it's also able to be
+&gt; commented on by anyone with the link, so feel free to do so.  Right
+&gt; now, we're trying to stand up:
+&gt; 
+&gt; * NDS Dashboard (IanT, do you want to chime in about this?)
+&gt; * Analysis launching (Kacper, feel free to share about this)
+&gt; * Authentication using first LDAP here at NCSA and soon InCommon
+&gt; * Storage backed by disk (frontend by iRODS), cloud storage (NCSA and
+&gt; SDSC, fronted by SciDrive), and access to other providers (fronted by
+&gt; ownCloud)
+&gt; * EZID DOI generation -- IanT has been exploring this, and we're
+&gt; hoping to sync up with some folks from the UIUC library to understand
+&gt; better the process and for some direct collaboration
+&gt; 
+&gt; There's some more going on as well, but I'm writing primarily to open
+&gt; up what has been a somewhat insular discussion to the broader
+&gt; community and to seek feedback, solicit engagement and to see where we
+&gt; can take this together.  We're still in the process of getting code
+&gt; online, but it will be hosted at either the bitbucket or github sites,
+&gt; and we're keen to get people to explore, contribute feedback or
+&gt; changes, and help out with conceptualizing.  Please don't take the
+&gt; list above as &quot;all inclusive&quot;!
+&gt; 
+&gt; One principal goal is that whatever we develop is able to have new
+&gt; components brought in with a minimum of fuss, components swapped out
+&gt; with a similarly minimum of fuss, and that we aim to make something
+&gt; that's (easily) deployable anywhere, not just at NCSA.
+&gt; 
+&gt; We're keen to get some feedback, either on the document, or here over email!
+&gt; 
+&gt; Thanks,
+&gt; 
+&gt; Matt
+&gt; 
+
+</pre>
+<!--X-Body-of-Message-End-->
+<!--X-MsgBody-End-->
+<!--X-Follow-Ups-->
+<hr>
+<ul><li><strong>Follow-Ups</strong>:
+<ul>
+<li><strong><a name="00002" href="msg00002.html">Re: Ongoing architecture work</a></strong>
+<ul><li><em>From:</em> Matthew Turk</li></ul></li>
+</ul></li></ul>
+<!--X-Follow-Ups-End-->
+<!--X-References-->
+<ul><li><strong>References</strong>:
+<ul>
+<li><strong><a name="00000" href="msg00000.html">Ongoing architecture work</a></strong>
+<ul><li><em>From:</em> Matthew Turk</li></ul></li>
+</ul></li></ul>
+<!--X-References-End-->
+<!--X-BotPNI-->
+<HR>
+<UL>
+<li>Prev by Date:
+<strong><a href="msg00000.html">Ongoing architecture work</a></strong>
+</li>
+<li>Next by Date:
+<strong><a href="msg00002.html">Re: Ongoing architecture work</a></strong>
+</li>
+
+<li>Previous by thread:
+<strong><a href="msg00000.html">Ongoing architecture work</a></strong>
+</li>
+<li>Next by thread:
+<strong><a href="msg00002.html">Re: Ongoing architecture work</a></strong>
+</li>
+
+</UL>
+<!--#INCLUDE VIRTUAL="/include/lists/discuss/message-footer.html"-->
+
+<!--X-BotPNI-End-->
+<!--X-User-Footer-->
+<strong>
+<center>
+<a href="/lists/">Other Mailing lists</a> |
+<a href="author.html">Author Index</a> |
+<a href="maillist.html">Date Index</a> |
+<a href="subject.html">Subject Index</a> |
+<a href="threads.html">Thread Index</a>
+</center>
+</strong>
+<!--X-User-Footer-End-->
+</body>
+</html>

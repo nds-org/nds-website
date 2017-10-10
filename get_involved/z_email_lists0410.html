@@ -1,0 +1,166 @@
+<!--#set var="location" value="get_email" -->
+<!--#include virtual = "/assets/global/includes/start.html" -->
+<!--#include virtual = "/assets/global/includes/styles.html" -->
+<!--#include virtual = "/assets/global/includes/nav.html" -->
+<!--#include virtual = "/assets/global/includes/breadcrumbs.html" -->
+
+                <!-- BEGIN INFO BLOCK -->               
+                <div class="col-md-12">
+                  <p class="lead">There are several ways to interact with NDS members: Subscribe to our <a href="https://nationaldataservice.slack.com/" target="_blank">Slack channel <i class="fa fa-external-link-square" title="external link"></i></a> and mailing lists. To join the mailing lists, enter your email address into the appropriate forms below or send an email to <a href="mailto:majordomo@nationaldataservice.org?body=subscribe">majordomo@nationaldataservice.org</a> with the text "subscribe <em>listname</em>" in the body of the message, where <em>listname</em> is the name of the list.</p>
+
+		<p>The public lists are:</p>
+
+		<div class="row">
+                	<div class="col-md-3 col-sm-3">
+                        	<div class="margin-bottom-20">
+                              		<ul class="tabbable faq-tabbable">
+                                	<li class="active"><a href="#tab_1" data-toggle="tab">nds-announce</a></li>
+                                	<li><a href="#tab_2" data-toggle="tab">discuss</a></li>
+                                	<li><a href="#tab_3" data-toggle="tab">consortium</a></li>
+                              		</ul>
+                          	</div>
+                        </div>
+			<div class="col-md-9 col-sm-9">
+                        	<div class="tab-content" style="padding:0; background: #fff;">
+                          		<!-- START TAB 1 -->
+                          		<div class="tab-pane active" id="tab_1">
+                             			<div class="panel-group" id="accordion1">
+                                			<div class="panel panel-default">
+                                   				<div class="panel-heading">
+                                      					<h4 class="panel-title">
+                                         					<a href="#accordion1_1" data-parent="#accordion1" data-toggle="collapse" class="accordion-toggle">
+											Receive news and updates about NDS activities
+                                         					</a>
+                                      					</h4>
+                                   				</div>
+                                   				<div class="panel-collapse collapse in" id="accordion1_1">
+                                      					<div class="panel-body">
+                                         					<p><strong>List name:</strong> <a href="mailto:nds-announce@nationaldataservice.org">nds-announce@nationaldataservice.org</a></p>
+										<p>We use this list to keep people interested in NDS up-to-date on its latest activities. </p>
+										<p><strong>To subscribe:</strong>
+										<form action="/assets/global/plugins/subscribe.php" method="post" role="form">
+                                                                                        <input type="hidden" name="which_list" id="which_list" value="nds-announce" />
+                                                                                        <div class="input-group">
+                                                                                                <input type="text" placeholder="youremail@mail.com" class="form-control" id="join_email" name="join_email">
+                                                                                                <span class="input-group-btn"><button class="btn btn-primary" type="submit">Subscribe</button></span>
+                                                                                        </div>
+                                                                                </form></p>
+
+										<!--<p>Send an email to <a href="mailto:majordomo@nationaldataservice.org?body=subscribe+nds-announce">majordomo@nationaldataservice.org</a> with the text "subscribe nds-announce" as the body of the message.  To subscribe with a different address then from where you are sending to, include in the message instead, "subscribe nds-announce <em>your_email</em>",  where <em>your_email</em> is your preferred email for receiving messages.</p>-->
+										<p><strong>To unsubscribe:</strong><br>
+										Send an email to <a href="mailto:majordomo@nationaldataservice.org?body=unsubscribe+nds-announce">majordomo@nationaldataservice.org</a> with the text "unsubscribe nds-announce" as the body of the message.  If unsubscribing from a different address then the one you subscribed with, send the text "unsubscribe nds-announce <em>your_email</em>" instead, where <em>your_email</em> is the address you subscribed with.</p>
+
+										<p><strong>Notes:</strong></p>
+										<ul>
+										<li>Messages sent to-date can be found in the <a href="/lists/nds-announce/">list archive</a></li>
+										<li>Members may not post to this list; for questions regarding this list, contact us at <a href="mailto:info@nationaldataservice.org">info@nationaldataservice.org</a></li>
+										</ul>
+                                      					</div>
+                                   				</div>
+                                			</div>
+                             			</div>
+                          		</div>
+                          		<!-- START TAB 2 -->
+                          		<div class="tab-pane" id="tab_2">
+                             			<div class="panel-group" id="accordion2">
+                                			<div class="panel panel-default">
+                                   				<div class="panel-heading">
+                                      					<h4 class="panel-title">
+                                         					<a href="#accordion2_1" data-parent="#accordion2" data-toggle="collapse" class="accordion-toggle">
+											Discuss technical issues
+                                         					</a>
+                                      					</h4>
+                                   				</div>
+                                   				<div class="panel-collapse collapse  in" id="accordion2_1">
+                                      					<div class="panel-body">
+										<p><strong>List name:</strong> <a href="mailto:discuss@nationaldataservice.org">discuss@nationaldataservice.org</a></p>
+										<p>This discussion list is for all technical topics, including:</p>
+										<ul>
+										<li>the NDS Framework</li>
+										<li>standards</li>
+										<li>using NDS Labs</li>
+										</ul>
+										<p><strong>To subscribe:</strong>
+										<form action="/assets/global/plugins/subscribe.php" method="post" role="form">
+                                                                                        <input type="hidden" name="which_list" id="which_list" value="discuss" />
+                                                                                        <div class="input-group">
+                                                                                                <input type="text" placeholder="youremail@mail.com" class="form-control" id="join_email" name="join_email">
+                                                                                                <span class="input-group-btn"><button class="btn btn-primary" type="submit">Subscribe</button></span>
+                                                                                        </div>
+                                                                                </form></p>
+
+										<!--<p>Send an email to <a href="mailto:majordomo@nationaldataservice.org?body=subscribe+discuss">majordomo@nationaldataservice.org</a> with the text "subscribe discuss" in the body of the message. To subscribe with a different address then from where you are sending to, include in the message instead, "subscribe discuss <em>your_email</em>" where <em>your_email</em> is your preferred email for receiving messages.</p>-->
+
+										<p><strong>To unsubscribe:</strong><br>
+										Send an email to <a href="mailto:majordomo@nationaldataservice.org?body=unsubscribe+discuss">majordomo@nationaldataservice.org</a> with the text "unsubscribe discuss" in the body of the message.  If unsubscribing from a different address then the one you subscribed with, send the text "unsubscribe discuss <em>your_email</em>" instead, where <em>your_email</em> is the address you subscribed with.</p>
+
+										<p><strong>Notes:</strong></p>
+										<ul>
+										<li>Messages sent to-date can be found in the <a href="/lists/discuss/">list archive</a></li>
+										</ul>
+                                      					</div>
+                                   				</div>
+                                			</div>
+                             			</div>
+                          		</div>
+                          		<!-- START TAB 3 -->
+                          		<div class="tab-pane" id="tab_3">
+                             			<div class="panel-group" id="accordion3">
+                                			<div class="panel panel-default">
+                                   				<div class="panel-heading">
+                                      					<h4 class="panel-title">
+                                         					<a href="#accordion3_1" data-parent="#accordion3" data-toggle="collapse" class="accordion-toggle">
+											Talk about the consortium
+                                         					</a>
+                                      					</h4>
+                                   				</div>
+                                   				<div class="panel-collapse collapse  in" id="accordion3_1">
+                                      					<div class="panel-body">
+										<p><strong>List name:</strong> <a href="mailto:consortium@nationaldataservice.org">consortium@nationaldataservice.org</a></p>
+										<p>This discussion list is for all topics related to organizing the NDS consortium, including:</p>
+										<ul>
+										<li>questions about membership</li>
+										<li>discussion of consortium documents</li>
+										<li>non-technical aspects of pilot projects</li>
+										</ul>
+
+										<p><strong>To subscribe:</strong>
+										<form action="/assets/global/plugins/subscribe.php" method="post" role="form">
+											<input type="hidden" name="which_list" id="which_list" value="consortium" />
+                									<div class="input-group">
+                  										<input type="text" placeholder="youremail@mail.com" class="form-control" id="join_email" name="join_email">
+                  										<span class="input-group-btn"><button class="btn btn-primary" type="submit">Subscribe</button></span>
+                									</div>
+              									</form></p>
+
+										<!--<p>Send an email to <a href="mailto:majordomo@nationaldataservice.org?body=subscribe+consortium">majordomo@nationaldataservice.org</a> with the text "subscribe consortium" to the body of the message.  To subscribe with a different address then from where you are sending to, include in the message instead, "subscribe consortium <em>your_email</em>" where <em>your_email</em> is your preferred email for receiving messages.</p>-->
+										<p><strong>To unsubscribe:</strong><br>
+										Send an email to <a href="mailto:majordomo@nationaldataservice.org?body=unsubscribe+consortium">majordomo@nationaldataservice.org</a> with the text "unsubscribe consortium" to the body of the message. If unsubscribing from a different address then the one you subscribed with, send the text "unsubscribe consortium <em>your_email</em>" instead, where <em>your_email</em> is the address you subscribed with.</p>
+
+										<p><strong>Notes:</strong></p>
+										<ul>
+										<li>Messages sent to-date can be found in the <a href="/lists/consortium/">list archive</a></li>
+										</ul>
+                                      					</div>
+                                   				</div>
+                                			</div>
+                             			</div>
+                          		</div>
+					<!-- END TABS -->
+                        	</div>
+                    	</div>
+                </div> 
+		<p>Specific pilots or projects communications are hosted on our <a href="https://nationaldataservice.slack.com/" target="_blank">Slack channel <i class="fa fa-external-link-square" title="external link"></i></a>.</p>
+      	</div>
+                <!-- END INFO BLOCK -->   
+              </div>
+            </div>
+          </div>
+          <!-- END CONTENT -->
+        </div>
+        <!-- END SIDEBAR & CONTENT -->
+      </div>
+    </div>
+
+<!--#include virtual = "/assets/global/includes/footer.html" -->
+<!--#include virtual = "/assets/global/includes/js-loads.html" -->

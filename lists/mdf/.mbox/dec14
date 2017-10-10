@@ -1,0 +1,53 @@
+From owner-mdf@nationaldataservice.org Tue Dec 16 08:19:26 2014
+Received: (from majordomo@localhost)
+	by pop.ncsa.uiuc.edu (8.11.7/8.11.7) id sBGEJQx14113;
+	Tue, 16 Dec 2014 08:19:26 -0600
+X-Envelope-From: rplante@illinois.edu
+X-Envelope-To: <mdf@nationaldataservice.org>
+Received: from rimantadine.ncsa.uiuc.edu (rimantadine.ncsa.uiuc.edu [141.142.199.3])
+	by pop.ncsa.uiuc.edu (8.11.7/8.11.7) with ESMTP id sBGEJQC14103
+	for <mdf@nationaldataservice.org>; Tue, 16 Dec 2014 08:19:26 -0600
+Received: from epte.local (adsl-76-195-223-56.dsl.chmpil.sbcglobal.net [76.195.223.56] (may be forged))
+	(authenticated bits=0)
+	by rimantadine.ncsa.uiuc.edu (8.14.9/8.14.4) with ESMTP id sBGEJFPJ005764
+	(version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NO)
+	for <mdf@nationaldataservice.org>; Tue, 16 Dec 2014 08:19:15 -0600
+Date: Tue, 16 Dec 2014 08:19:25 -0600 (CST)
+From: Ray Plante <rplante@illinois.edu>
+X-X-Sender: rplante@epte
+To: mdf@nationaldataservice.org
+Subject: MDF mailing list
+Message-ID: <alpine.DEB.2.00.1412160811210.2901@epte>
+User-Agent: Alpine 2.00 (DEB 1167 2008-08-23)
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+X-Null-Tag: ee70f0d2b0630b05241b605d72816a9e
+X-NCSA-MailScanner-Information: Please contact help@ncsa.uiuc.edu for more information, rimantadine.ncsa.uiuc.edu
+X-NCSA-MailScanner-ID: sBGEJFPJ005764
+X-NCSA-MailScanner: Found to be clean
+Sender: owner-mdf@nationaldataservice.org
+Precedence: bulk
+Reply-To: mdf@nationaldataservice.org
+
+Hi folks,
+
+BTW, nice work everyone getting the MDF demo together for SC14 and 
+then actually showing it off to folks.  We had an agressive schedule, 
+but it was great to see it come together for the meeting.  As a 
+result, we were able to share it with and impress a good number of our 
+target audience.  Thanks to everyone!
+
+Looking forward, I've set up a mailing list specifically for 
+on-going MDF work, as you should have noticed from the automated email 
+announcement.  It's a majordomo list, so feel free to invite relevant 
+colleagues to subscribe in the usual way (or unsubscribe if you've had 
+enough ;-).  
+
+(To subscribe, send email to Majordomo@nationaldataservice.org, 
+giving "subscribe mdf [email]", where [email] is optionally your email 
+address.)
+
+cheers,
+Ray
+
+

@@ -1,0 +1,372 @@
+<!-- MHonArc v2.6.10 -->
+<!--X-Subject: Re: Beyond another cloud: data service discovery for NDSLabs -->
+<!--X-From-R13: Oeguhe Ezvgu <ncfzvguNncf.bet> -->
+<!--X-Date: Mon, 3 Nov 2014 09:26:35 &#45;0600 -->
+<!--X-Message-Id: 54579E95.7050509@aps.org -->
+<!--X-Content-Type: multipart/alternative -->
+<!--X-Reference: CALO3=5EnDP5ewiDtm2iv92SRCeV=PRhBGR5Xzwmor&#45;o1YOzyuA@mail.gmail.com -->
+<!--X-Reference: 54528EBE.2020002@aps.org -->
+<!--X-Reference: CALO3=5EjOFJOhNDj&#45;gBUs8KjJ3CAj20U17&#45;65f2NiG3xs4_WmQ@mail.gmail.com -->
+<!--X-Head-End-->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML//EN">
+<HTML>
+<HEAD>
+<TITLE>Re: Beyond another cloud: data service discovery for NDSLabs</TITLE>
+<LINK REV="made" HREF="mailto:apsmith@aps.org">
+</HEAD>
+<!--#INCLUDE VIRTUAL="/include/lists/discuss/message-header.html"-->
+<!--X-Body-Begin-->
+<!--X-User-Header-->
+<!--X-User-Header-End-->
+<!--X-TopPNI-->
+<!---->
+
+<!--X-TopPNI-End-->
+<!--X-MsgBody-->
+<!--X-Subject-Header-Begin-->
+<H1>Re: Beyond another cloud: data service discovery for NDSLabs<HR></H1>
+<!--X-Subject-Header-End-->
+<!--X-Head-of-Message-->
+<ul>
+<li><strong>To</strong>: <strong><a href="mailto:discuss@DOMAIN.HIDDEN">discuss@xxxxxxxxxxxxxxxxxxxxxxx</a></strong></li>
+<li><strong>Subject</strong>: <strong>Re: Beyond another cloud: data service discovery for NDSLabs</strong></li>
+<li><strong>From</strong>: <strong>Arthur Smith &lt;<a href="mailto:apsmith@DOMAIN.HIDDEN">apsmith@xxxxxxx</a>&gt;</strong></li>
+<li>Date: Mon, 03 Nov 2014 10:26:13 -0500</li>
+<li>Content-type: multipart/alternative; boundary=&quot;------------080902030702000900060208&quot;</li>
+<li>In-reply-to: &lt;<a href="msg00000.html">CALO3=5EjOFJOhNDj-gBUs8KjJ3CAj20U17-65f2NiG3xs4_WmQ@mail.gmail.com</a>&gt;</li>
+<li>References: &lt;CALO3=5EnDP5ewiDtm2iv92SRCeV=PRhBGR5Xzwmor-o1YOzyuA@mail.gmail.com&gt; &lt;54528EBE.2020002@aps.org&gt; &lt;<a href="msg00000.html">CALO3=5EjOFJOhNDj-gBUs8KjJ3CAj20U17-65f2NiG3xs4_WmQ@mail.gmail.com</a>&gt;</li>
+<li>Reply-to: <a href="mailto:discuss@DOMAIN.HIDDEN">discuss@xxxxxxxxxxxxxxxxxxxxxxx</a></li>
+<li>Sender: <a href="mailto:owner-discuss@DOMAIN.HIDDEN">owner-discuss@xxxxxxxxxxxxxxxxxxxxxxx</a></li>
+<li>User-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:24.0) Gecko/20100101 Thunderbird/24.6.0</li>
+</ul>
+<!--X-Head-of-Message-End-->
+<!--X-Head-Body-Sep-Begin-->
+<hr>
+<!--X-Head-Body-Sep-End-->
+<!--X-Body-of-Message-->
+<table width="100%"><tr><td bgcolor="#FFFFFF" style="background-color: #FFFFFF; color: #000000; "><font color="#000000">
+  
+  
+    <div class="moz-cite-prefix">Matt,<br>
+      <br>
+      &#xC2; thanks for such a thoughtful response. I certainly don't know
+      myself exactly what will work, but the focus on answers to
+      specific questions in data handling sounds to me like a more
+      fruitful path.<br>
+      <br>
+      &#xC2; To explain a bit where I'm coming from, I've recently been
+      involved in the FORCE11 data citation implementation group (DCIG):<br>
+      <br>
+      <a class="moz-txt-link-freetext" href="https://www.force11.org/datacitationimplementation">https://www.force11.org/datacitationimplementation</a><br>
+      <br>
+      and in particular with those looking at what it means for a
+      dataset identifier to be "machine-actionable" as the "joint
+      declaration" held in principle #4:<br>
+      <br>
+      "
+      
+      <span style="font-size:14px;"><span style="color:#000000;">A data
+          citation should include a persistent method for identification
+          that is machine actionable, globally unique, and widely used
+          by a community</span><span style="font-size:10px;">"<br>
+          <br>
+          <br>
+        </span></span>This is really on your third question, "where can
+      selections of data be obtained". But maybe it feeds into the
+      others as well.<br>
+      <br>
+      The question that came up with DCIG was, suppose you have an
+      identifier for a dataset. What can an automated system reliably do
+      from that point? Suppose the user goal is to load some selection
+      of the data into an application - what would it take to do that
+      with the least amount of further user interaction if you just
+      start from the identifier?<br>
+      <br>
+      One consensus seemed to be the identifier (DOI, say) should
+      resolve to a landing page that provides (for appropriate queries)
+      some form of metadata about the dataset. There's a (in progress)
+      Google spreadsheet the group has been working on here that
+      compares different dataset metadata standards that are out there:<br>
+      <br>
+<a class="moz-txt-link-freetext" href="https://drive.google.com/folderview?id=0B-3fjDTO3dDaRlJWSzZFYlJUZTg&amp;usp=sharing">https://drive.google.com/folderview?id=0B-3fjDTO3dDaRlJWSzZFYlJUZTg&amp;usp=sharing</a><br>
+      <br>
+      So there is some hope that metadata of this sort can be expected
+      to be available after resolving a dataset identifier.<br>
+      <br>
+      Machine actionability then to me could imply<br>
+      &#xC2;&#xC2; * application (an interoperability layer, not necessarily the
+      final application for analysis) accepts identifier (eg. DOI) from
+      some sort of user interaction, for example following a citation.<br>
+      &#xC2;&#xC2; * application resolves DOI and receives metadata<br>
+      &#xC2;&#xC2; * application could display title, date, size, format, etc. to
+      user and ask for confirmation<br>
+      &#xC2;&#xC2; * application may download data from "file location", unpack
+      (to multiple files - a zipped "bagit" format was suggested - or
+      maybe OAI-ORE)<br>
+      &#xC2;&#xC2; * --- but - then what? It needs to know something more about
+      the data to do anything useful with it. If there is some way for
+      the data files to be linked to something like the RDA data type
+      registry, then maybe at least some of it could be pulled in
+      directly to the application. Or else further user interaction
+      would be needed to select specific files, columns, etc??? But
+      that's making it hard for the user again.<br>
+      <br>
+      This problem has essentially been solved for some datasets like
+      IVOA with things like the VOTable standard:<br>
+      <br>
+<a class="moz-txt-link-freetext" href="http://www.ivoa.net/documents/VOTable/20130920/REC-VOTable-1.3-20130920.html">http://www.ivoa.net/documents/VOTable/20130920/REC-VOTable-1.3-20130920.html</a><br>
+      <br>
+      (along with a lot of other components). Maybe it would be helpful
+      to start from there (or another example) and generalize?<br>
+      <br>
+      &#xC2;&#xC2; Arthur<br>
+      <br>
+      (PS for everybody except Matt, if this isn't appropriate for this
+      general mailing list please let me know!)<br>
+      <br>
+      On 11/1/14, 2:06 PM, Matthew Turk wrote:<br>
+    </div>
+    <blockquote
+cite=""
+      type="cite">Hi Arthur,<br>
+      <br>
+      <div>Sorry it's taken me a few days to reply, but I've been
+        pondering your email for a while and trying to formulate a
+        response to it.</div>
+      <div><br>
+      </div>
+      <div>I think perhaps what I've been trying to get at in thinking
+        about NDS Labs and trying to spur the conversation, is to figure
+        out what's the best possible way to foster interoperability --
+        specifically, what can we do, now, to create an environment to
+        explore and experiment.&#xC2; I originally thought we could do this
+        by providing:</div>
+      <div><br>
+      </div>
+      <div>&#xC2;* Communication mechanisms</div>
+      <div>&#xC2;* Gradual growth and incubation of components that are
+        connectable</div>
+      <div>&#xC2;* Simple start, complex end</div>
+      <div><br>
+      </div>
+      <div>Perhaps, though, approaching this from "service discovery" is
+        the wrong way.&#xC2; Adding more indirection, reimplementing things
+        that have been done before -- both are tricky, like you point
+        out, and probably are best to avoid for the time being.</div>
+      <div><br>
+      </div>
+      <div>Service discovery in general may simply be too *big* a
+        sandbox for NDSLabs, where individual projects and instances
+        will likely number in the handful, not the hundreds, and where
+        the N^2 process of developing interoperability is going to be
+        relatively small.&#xC2; If we can standardize generic k-v pairs but
+        can't manage service discovery without them, we probably are
+        doing something wrong! &#xC2;:)</div>
+      <div><br>
+      </div>
+      <div>So let's try what you suggested, and hammer down on what the
+        specific, difficult technical things are that we want to do, and
+        then figure out how to implement them.</div>
+      <div><br>
+      </div>
+      <div>Here are the things that for a "next gen epiphyte" I know I
+        would want:</div>
+      <div><br>
+      </div>
+      <div>&#xC2;* What are the possible applications I can send input data
+        to</div>
+      <div>&#xC2;* Where can the resultant data be sent</div>
+      <div>&#xC2;* Where can selections of data be obtained</div>
+      <div><br>
+      </div>
+      <div>I'd also like to provide as much as possible in the simplest
+        technology available -- which means that OAI will be a goal, but
+        not the only conduit for data.</div>
+      <div><br>
+      </div>
+      <div>For epiphyte, we're also taking the tactic that (for now) the
+        data is all in the form of files on disk.&#xC2; This won't work
+        forever, but it will for the time being.&#xC2; If we were going to
+        take those three "services," I think I would want to know a
+        host/port, and some format for the transmittance of data --
+        perhaps even just REST posting, or a URI to a
+        filesystem/filesystem-like thing.&#xC2; If we had that information it
+        might be enough to provide some degree of interop at that level,
+        with a basis of understanding we can build more complex ideas on
+        top of later.</div>
+      <div><br>
+      </div>
+      <div>Does that help to focus the ideas more?&#xC2; Or is this still
+        complexity in search of need?</div>
+      <div><br>
+      </div>
+      <div>-Matt</div>
+      <br>
+      <div class="gmail_quote">On Thu Oct 30 2014 at 2:17:34 PM Arthur
+        Smith &lt;<a moz-do-not-send="true"
+          href="mailto:apsmith@xxxxxxx">apsmith@xxxxxxx</a>&gt; wrote:<br>
+        <blockquote class="gmail_quote" style="margin:0 0 0
+          .8ex;border-left:1px #ccc solid;padding-left:1ex">
+          <div bgcolor="#FFFFFF" text="#000000">
+            <div>That does sound interesting. However, it also reminds
+              me of RFC 1925:<br>
+              <br>
+              <a moz-do-not-send="true"
+                href="http://tools.ietf.org/html/rfc1925"
+                target="_blank">http://tools.ietf.org/html/rfc1925</a><br>
+              <br>
+              in particular "6a - It is always possible to add another
+              level of indirection. " and perhaps #11 as well... Lots of
+              wisdom in the old IETF...<br>
+              <br>
+              I really liked your talk about what you'd done with
+              Epiphyte - in particular making hard things easy. Very
+              impressive work. Is there some way to organize this by
+              starting from the "hard" use cases NDS labs is trying to
+              address, and drill down to the technology components
+              really needed to make that happen? Discovery does seem
+              likely to be a good part of it, but if it's based on
+              key-value pairs (for example) how does the user know what
+              keys to query, who sets the standards for those keys and
+              meanings of corresponding values? Aside from knowing where
+              exactly the etcd server or whatever is doing that work is.
+              There's got to be some base starting point, a system that
+              knows enough to help the user do things, can we work from
+              there?</div>
+          </div>
+          <div bgcolor="#FFFFFF" text="#000000">
+            <div><br>
+              <br>
+              &#xC2;&#xC2; Arthur</div>
+          </div>
+          <div bgcolor="#FFFFFF" text="#000000">
+            <div><br>
+              <br>
+              <br>
+              On 10/30/14, 11:42 AM, Matthew Turk wrote:<br>
+            </div>
+          </div>
+          <div bgcolor="#FFFFFF" text="#000000">
+            <blockquote type="cite">Hi all,
+              <div><br>
+              </div>
+              <div>In the other thread, Arthur brought up that we don't
+                want "just another cloud infrastructure," which I think
+                was really apt, and something that deserves thought for
+                any NDS Labs project.&#xC2; So I wanted to start a couple
+                topics about what can be provided on top of a standard
+                cloud infrastructure that might be of use.</div>
+              <div><br>
+              </div>
+              <div>I'm wondering about discovering data services within
+                a region, where that region is either some subnet on a
+                cloud provider, or even more globally across locations.&#xC2;
+                If we are thinking about interoperability of services,
+                then there are probably a few verbs that could be
+                identified as being necessary.&#xC2; If we can have services
+                identify themselves as providing verb endpoints, that
+                could provide an environment for testing interop.</div>
+              <div><br>
+              </div>
+              <div>Kacper and I have been experimenting with this
+                ourselves, mostly looking at the various service
+                discovery mechanisms that operate on docker containers
+                being orchestrated across machines.&#xC2; Some of these do
+                this via introspection, and some will even set up
+                automatic (nginx) reverse proxies for docker containers
+                running inside a system.&#xC2; Right now it looks like etcd
+                is a pretty good solution for this:</div>
+              <div><br>
+              </div>
+              <div><a moz-do-not-send="true"
+href="https://coreos.com/docs/distributed-configuration/getting-started-with-etcd/"
+                  target="_blank">https://coreos.com/docs/distributed-configuration/getting-started-with-etcd/</a><br>
+              </div>
+              <div><a moz-do-not-send="true"
+href="http://www.activestate.com/blog/2014/03/brandon-philips-explains-etcd"
+                  target="_blank">http://www.activestate.com/blog/2014/03/brandon-philips-explains-etcd</a><br>
+              </div>
+              <div><a moz-do-not-send="true"
+                  href="https://github.com/coreos/etcd" target="_blank">https://github.com/coreos/etcd</a></div>
+              <div><br>
+              </div>
+              <div>as it can allow for key/value pairs to be stored, and
+                it's discoverable.&#xC2; For instance:</div>
+              <div><br>
+              </div>
+              <div><a moz-do-not-send="true"
+                  href="http://jasonwilder.com/blog/2014/07/15/docker-service-discovery/"
+                  target="_blank">http://jasonwilder.com/blog/2014/07/15/docker-service-discovery/</a><br>
+              </div>
+              <div><br>
+              </div>
+              <div>I think having a discussion about what we want
+                services to be able to do is perhaps a much bigger
+                topic, but I wonder if this type of thing --
+                particularly etcd -- would be useful to any projects,
+                and would be a good avenue for service discovery and
+                intertop.&#xC2; Is there something else that would be better?</div>
+              <div><br>
+              </div>
+              <div>-Matt</div>
+            </blockquote>
+            <br>
+          </div>
+        </blockquote>
+      </div>
+    </blockquote>
+    <br>
+  
+
+</font></td></tr></table>
+<!--X-Body-of-Message-End-->
+<!--X-MsgBody-End-->
+<!--X-Follow-Ups-->
+<hr>
+<ul><li><strong>Follow-Ups</strong>:
+<ul>
+<li><strong><a name="00002" href="msg00002.html">Re: Beyond another cloud: data service discovery for NDSLabs</a></strong>
+<ul><li><em>From:</em> Matthew Turk</li></ul></li>
+</ul></li></ul>
+<!--X-Follow-Ups-End-->
+<!--X-References-->
+<ul><li><strong>References</strong>:
+<ul>
+<li><strong><a name="00000" href="msg00000.html">Re: Beyond another cloud: data service discovery for NDSLabs</a></strong>
+<ul><li><em>From:</em> Matthew Turk</li></ul></li>
+</ul></li></ul>
+<!--X-References-End-->
+<!--X-BotPNI-->
+<HR>
+<UL>
+<li>Prev by Date:
+<strong><a href="msg00000.html">Re: Beyond another cloud: data service discovery for NDSLabs</a></strong>
+</li>
+<li>Next by Date:
+<strong><a href="msg00002.html">Re: Beyond another cloud: data service discovery for NDSLabs</a></strong>
+</li>
+
+<li>Previous by thread:
+<strong><a href="msg00000.html">Re: Beyond another cloud: data service discovery for NDSLabs</a></strong>
+</li>
+<li>Next by thread:
+<strong><a href="msg00002.html">Re: Beyond another cloud: data service discovery for NDSLabs</a></strong>
+</li>
+
+</UL>
+<!--#INCLUDE VIRTUAL="/include/lists/discuss/message-footer.html"-->
+
+<!--X-BotPNI-End-->
+<!--X-User-Footer-->
+<strong>
+<center>
+<a href="/lists/">Other Mailing lists</a> |
+<a href="author.html">Author Index</a> |
+<a href="maillist.html">Date Index</a> |
+<a href="subject.html">Subject Index</a> |
+<a href="threads.html">Thread Index</a>
+</center>
+</strong>
+<!--X-User-Footer-End-->
+</body>
+</html>

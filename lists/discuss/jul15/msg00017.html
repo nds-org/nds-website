@@ -1,0 +1,88 @@
+<!-- MHonArc v2.6.10 -->
+<!--X-Subject: Create NDS Labs API -->
+<!--X-From-R13: Zratlhr Qura <ypura95Nvyyvabvf.rqh> -->
+<!--X-Date: Tue, 14 Jul 2015 16:32:22 &#45;0500 -->
+<!--X-Message-Id: CA+1QfOnhiJDEOC&#45;=D6ky=5u=hmP6Y1Z14BgFP5iq373d5N6ALw@mail.gmail.com -->
+<!--X-Content-Type: multipart/alternative -->
+<!--X-Head-End-->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML//EN">
+<HTML>
+<HEAD>
+<TITLE>Create NDS Labs API</TITLE>
+<LINK REV="made" HREF="mailto:lchen95@illinois.edu">
+</HEAD>
+<!--#INCLUDE VIRTUAL="/include/lists/discuss/message-header.html"-->
+<!--X-Body-Begin-->
+<!--X-User-Header-->
+<!--X-User-Header-End-->
+<!--X-TopPNI-->
+<!---->
+
+<!--X-TopPNI-End-->
+<!--X-MsgBody-->
+<!--X-Subject-Header-Begin-->
+<H1>Create NDS Labs API<HR></H1>
+<!--X-Subject-Header-End-->
+<!--X-Head-of-Message-->
+<ul>
+<li><strong>To</strong>: <strong><a href="mailto:discuss@DOMAIN.HIDDEN">discuss@xxxxxxxxxxxxxxxxxxxxxxx</a></strong></li>
+<li><strong>Subject</strong>: <strong>Create NDS Labs API</strong></li>
+<li><strong>From</strong>: <strong>Lengyue Chen &lt;<a href="mailto:lchen95@DOMAIN.HIDDEN">lchen95@xxxxxxxxxxxx</a>&gt;</strong></li>
+<li>Date: Tue, 14 Jul 2015 16:32:12 -0500</li>
+<li>Content-type: multipart/alternative; boundary=047d7b3a83a647ecce051adc9258</li>
+<li>Reply-to: <a href="mailto:discuss@DOMAIN.HIDDEN">discuss@xxxxxxxxxxxxxxxxxxxxxxx</a></li>
+<li>Sender: <a href="mailto:owner-discuss@DOMAIN.HIDDEN">owner-discuss@xxxxxxxxxxxxxxxxxxxxxxx</a></li>
+</ul>
+<!--X-Head-of-Message-End-->
+<!--X-Head-Body-Sep-Begin-->
+<hr>
+<!--X-Head-Body-Sep-End-->
+<!--X-Body-of-Message-->
+<div dir="ltr"><div><div><div><div><div>Hi all<br><br></div>I have pushed the code of REST API to create NDS Lab to the nds-27-implement-create-rest-endpoint branch.<br><a href="https://bitbucket.org/nds-org/nds-webservice/src/8eeff20c855b27893418b1cc056db17c284b89f7?at=nds-27-implement-create-rest-endpoint">https://bitbucket.org/nds-org/nds-webservice/src/8eeff20c855b27893418b1cc056db17c284b89f7?at=nds-27-implement-create-rest-endpoint</a><br><br></div>To try the API, you have to install strongloop on which the api are built. It provides a test server running on you local host and a GUI to send HTTP request.&#xC2; <a href="https://strongloop.com/get-started/">https://strongloop.com/get-started/</a><br><br></div>After installing the strongloop, cd into nds-webservice directory and run <br>npm install<br>to install all dependencies.<br><br></div><div>And then you need to <br>1. modify nds-webservice/common/models/environment.js. In line 10, specify your ssh key name, openstack user name, password in the arguments of the python script.<br></div><div>2. modify nds-webservice/startup_ndslabs.py in line 129-136, specify your own volumes ids which can be found in openstack dash board.<br><br></div><div>The last step is to follow instructions here provided by Mike to resolve the connectivity issue to the vlad-mgmt:<br><br><a href="https://wiki.ncsa.illinois.edu/display/NDS/Connectivity+to+the+VLAD+OpenStack+Management+Network">https://wiki.ncsa.illinois.edu/display/NDS/Connectivity+to+the+VLAD+OpenStack+Management+Network</a> <br></div><div><br></div><div>You can start the server with command:<br></div><div>node .<br><br></div><div>and then browse to <a href="http://localhost:3000/explorer/">http://localhost:3000/explorer/</a> to try the API.<br><br><br></div><div>At this point, just specify the lab name and put 3 for the number of instances. It will create 3 instances in openstack and one of them is master node with public ip. It will store the instance id and ip address to the mongodb, with which we can manipulate those instances in other apis. Email me any issues you run into. Thank you.<br><br></div><div>Best<br></div><div>Zeo<br></div></div><div><br></div><br></div>
+
+<!--X-Body-of-Message-End-->
+<!--X-MsgBody-End-->
+<!--X-Follow-Ups-->
+<hr>
+<ul><li><strong>Follow-Ups</strong>:
+<ul>
+<li><strong><a name="00025" href="msg00025.html">Re: Create NDS Labs API</a></strong>
+<ul><li><em>From:</em> Mike Freemon</li></ul></li>
+</ul></li></ul>
+<!--X-Follow-Ups-End-->
+<!--X-References-->
+<!--X-References-End-->
+<!--X-BotPNI-->
+<HR>
+<UL>
+<li>Prev by Date:
+<strong><a href="msg00016.html">Re: Source Code Repository Conventions</a></strong>
+</li>
+<li>Next by Date:
+<strong><a href="msg00018.html">Issues in creating labs with more than 3 instances</a></strong>
+</li>
+
+<li>Previous by thread:
+<strong><a href="msg00015.html">Source Code Repository Conventions</a></strong>
+</li>
+<li>Next by thread:
+<strong><a href="msg00025.html">Re: Create NDS Labs API</a></strong>
+</li>
+
+</UL>
+<!--#INCLUDE VIRTUAL="/include/lists/discuss/message-footer.html"-->
+
+<!--X-BotPNI-End-->
+<!--X-User-Footer-->
+<strong>
+<center>
+<a href="/lists/">Other Mailing lists</a> |
+<a href="author.html">Author Index</a> |
+<a href="maillist.html">Date Index</a> |
+<a href="subject.html">Subject Index</a> |
+<a href="threads.html">Thread Index</a>
+</center>
+</strong>
+<!--X-User-Footer-End-->
+</body>
+</html>

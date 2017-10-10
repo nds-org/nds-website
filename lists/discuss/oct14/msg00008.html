@@ -1,0 +1,101 @@
+<!-- MHonArc v2.6.10 -->
+<!--X-Subject: Re: Ongoing architecture work -->
+<!--X-From-R13: Wna Fnlybe <vna.w.gnlybeNtznvy.pbz> -->
+<!--X-Date: Thu, 9 Oct 2014 20:56:12 &#45;0500 -->
+<!--X-Message-Id: C127B91B&#45;D8E0&#45;47A8&#45;80C3&#45;23A0862B497D@gmail.com -->
+<!--X-Content-Type: multipart/alternative -->
+<!--X-Reference: CALO3=5ERkdYPmW9mTp6utR&#45;O6itsCtAq&#45;AC3jT5QJ0fsCw2YcQ@mail.gmail.com -->
+<!--X-Reference: CALO3=5FK2tLhmYYRGfVbRAE5tEbyUwoYHEK4ymVTYBGc9XfsTg@mail.gmail.com -->
+<!--X-Reference: 79F552E91E276247A55968CB7B6291A05CDA52EC@XMAIL&#45;MBX&#45;BT1.AD.UCSD.EDU -->
+<!--X-Reference: CALO3=5GfwBE+SvDrRfpyuJHLsyOg7yOpF2VW0JoCquu1ENN96w@mail.gmail.com -->
+<!--X-Head-End-->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML//EN">
+<HTML>
+<HEAD>
+<TITLE>Re: Ongoing architecture work</TITLE>
+<LINK REV="made" HREF="mailto:ian.j.taylor@gmail.com">
+</HEAD>
+<!--#INCLUDE VIRTUAL="/include/lists/discuss/message-header.html"-->
+<!--X-Body-Begin-->
+<!--X-User-Header-->
+<!--X-User-Header-End-->
+<!--X-TopPNI-->
+<!---->
+
+<!--X-TopPNI-End-->
+<!--X-MsgBody-->
+<!--X-Subject-Header-Begin-->
+<H1>Re: Ongoing architecture work<HR></H1>
+<!--X-Subject-Header-End-->
+<!--X-Head-of-Message-->
+<ul>
+<li><strong>To</strong>: <strong><a href="mailto:discuss@DOMAIN.HIDDEN">discuss@xxxxxxxxxxxxxxxxxxxxxxx</a></strong></li>
+<li><strong>Subject</strong>: <strong>Re: Ongoing architecture work</strong></li>
+<li><strong>From</strong>: <strong>Ian Taylor &lt;<a href="mailto:ian.j.taylor@DOMAIN.HIDDEN">ian.j.taylor@xxxxxxxxx</a>&gt;</strong></li>
+<li>Date: Thu, 9 Oct 2014 21:55:15 -0400</li>
+<li>Content-type: multipart/alternative; boundary=&quot;Apple-Mail=_39CDD63B-5A2B-4034-8F2D-49763255DE1F&quot;</li>
+<li>Dkim-signature: v=1; a=rsa-sha256; c=relaxed/relaxed;        d=gmail.com; s=20120113;        h=from:content-type:message-id:mime-version:subject:date:references         :to:in-reply-to;        bh=hKkzffma3bMGI9bSjr68OsKrJJecm0oRAREyuIPpuYc=;        b=jtTGGKkBRvOtUPAtqcwRHI5WS0cojxlP1rpK1fWiklYomVXXOKlwWKzFuAwQ+eEbnh         dCov9xylCNJ5rhcjV6bmoWWkdoCvpEa8sLxi3um8KTy5s2L7GFbB9C7s6eBUKydDlxlQ         qiJG2oTM7msdeUjr6uB1y/ovjB+vJWWTlj7z1DDhu+Vla/9DABn04nf1oEcywPYZCm/s         V9MnOi7zlRv1wVAVhR8A5IyEJblEBTTVJrtGPwNGIl3qbCY++Gmx4717W2lbe4P3sDi+         P/kl/63BwXf/aa9WEaozWpiiffsbTtkOc94MoHTwT4WQiH3oWZaZLvupX8cbyYSeI/kL         PpAQ==</li>
+<li>In-reply-to: &lt;<a href="msg00007.html">CALO3=5GfwBE+SvDrRfpyuJHLsyOg7yOpF2VW0JoCquu1ENN96w@mail.gmail.com</a>&gt;</li>
+<li>References: &lt;<a href="msg00000.html">CALO3=5ERkdYPmW9mTp6utR-O6itsCtAq-AC3jT5QJ0fsCw2YcQ@mail.gmail.com</a>&gt; &lt;CALO3=5FK2tLhmYYRGfVbRAE5tEbyUwoYHEK4ymVTYBGc9XfsTg@mail.gmail.com&gt; &lt;<a href="msg00006.html">79F552E91E276247A55968CB7B6291A05CDA52EC@XMAIL-MBX-BT1.AD.UCSD.EDU</a>&gt; &lt;<a href="msg00007.html">CALO3=5GfwBE+SvDrRfpyuJHLsyOg7yOpF2VW0JoCquu1ENN96w@mail.gmail.com</a>&gt;</li>
+<li>Reply-to: <a href="mailto:discuss@DOMAIN.HIDDEN">discuss@xxxxxxxxxxxxxxxxxxxxxxx</a></li>
+<li>Sender: <a href="mailto:owner-discuss@DOMAIN.HIDDEN">owner-discuss@xxxxxxxxxxxxxxxxxxxxxxx</a></li>
+</ul>
+<!--X-Head-of-Message-End-->
+<!--X-Head-Body-Sep-Begin-->
+<hr>
+<!--X-Head-Body-Sep-End-->
+<!--X-Body-of-Message-->
+<table width="100%"><tr><td style=""><div>Dear All,</div><div><br></div><div>Matt asked me to say a little about the dashboard I have been working on. &nbsp; I saw Ed Seidel give a talk in Hannover last month and become interested in the NDS concept. &nbsp;Since then I have been experimenting with the idea of using the Object reuse and exchange (OAI-ORE) Web-based protocol to represent a research piece, along with the associated doc, data, code, tools, etc, &nbsp;as a Web aggregation. &nbsp;So, the general idea/hypothesis is that this model could help expose a publication collection as a single entity using a standardized method through the Web and that different serialisations of this model can be mapped using Web content negotiation (e.g. HTML, XML, JSON etc) to create different "views" e.g. a Web landing page, a Web API, a downloadable bundle, etc, depending on the query. Since ORE exposes a resource map that defines the relationships between the content, such an API can be used to discover (introspect) the web aggregation and interact with it programmatically.</div><div><div><br></div><div>To this end, I have created a pilot Website that models ORE concepts for creating and displaying research publications along with the various resources that can be included with them. &nbsp;It is written using Semantic UI and leverages HTML5 drag and drop to simplify the process. I would be happy to provide a URL to that site if anyone is interested in learning more, sending comments or getting involved in that aspect. &nbsp;</div><div><br></div><div>Thanks, all the best,</div></div><div><br></div><div>Ian</div><div><br></div><div><div>On 9 Oct 2014, at 06:53, Matthew Turk &lt;<a href="mailto:matthewturk@xxxxxxxxx">matthewturk@xxxxxxxxx</a>&gt; wrote:</div><br class="Apple-interchange-newline"><blockquote type="cite">Hi Christine and Vishu,<br><br>Thank you! &nbsp;This is a great connection to make. &nbsp;I'm somewhat familiar<br>with OpenTopo (I'm sure others here are more familiar than I am<br>though) and it would be very interesting to learn more about how the<br>various pieces fit together.<br><br>-Matt<br><br>On Wed, Oct 8, 2014 at 2:03 PM, Kirkpatrick, Christine<br>&lt;<a href="mailto:christine@xxxxxxxx">christine@xxxxxxxx</a>&gt; wrote:<br><blockquote type="cite">Greetings, all!<br><br>Matt, you might brainstorm with SDSC&#x2019;s Vishu Nandigam on EZID integration.<br>He has a working implementation that assigns DOI&#x2019;s for one of his projects,<br>OpenTopo. &nbsp;It&#x2019;s a SOA-based architecture and with any luck, we might have<br>pluggable code to share.<br><br>Thanks,<br><br>Christine<br><br>Christine (Bagwell) Kirkpatrick<br>Division Director, IT Systems &amp; Services<br>San Diego Supercomputer Center<br>UC San Diego<br><a href="mailto:Christine@xxxxxxxx">Christine@xxxxxxxx</a><br><br>---------- Forwarded message ----------<br>From: "Matthew Turk" &lt;matthewturk@xxxxxxxxx&gt;<br>Date: Oct 8, 2014 11:13 AM<br>Subject: Ongoing architecture work<br>To: &lt;discuss@xxxxxxxxxxxxxxxxxxxxxxx&gt;<br>Cc:<br><br>Hi all,<br><br>A couple of us have been working on deploying at NCSA a preliminary<br>architecture for the NDS, based around commonly available software and<br>with some homegrown development as well. &nbsp;We've been taking notes<br>here:<br><br>https://docs.google.com/document/d/1SBRatAebX5-eQXB4qTFb5UGV0Cwy8Ppux_2RPs2ZUZY/edit#heading=h.b1qfdq9dlvv<br><br>(Please excuse the first person, that's all me...)<br><br>There are some action items in the document, and it's also able to be<br>commented on by anyone with the link, so feel free to do so. &nbsp;Right<br>now, we're trying to stand up:<br><br> * NDS Dashboard (IanT, do you want to chime in about this?)<br> * Analysis launching (Kacper, feel free to share about this)<br> * Authentication using first LDAP here at NCSA and soon InCommon<br> * Storage backed by disk (frontend by iRODS), cloud storage (NCSA and<br>SDSC, fronted by SciDrive), and access to other providers (fronted by<br>ownCloud)<br> * EZID DOI generation -- IanT has been exploring this, and we're<br>hoping to sync up with some folks from the UIUC library to understand<br>better the process and for some direct collaboration<br><br>There's some more going on as well, but I'm writing primarily to open<br>up what has been a somewhat insular discussion to the broader<br>community and to seek feedback, solicit engagement and to see where we<br>can take this together. &nbsp;We're still in the process of getting code<br>online, but it will be hosted at either the bitbucket or github sites,<br>and we're keen to get people to explore, contribute feedback or<br>changes, and help out with conceptualizing. &nbsp;Please don't take the<br>list above as "all inclusive"!<br><br>One principal goal is that whatever we develop is able to have new<br>components brought in with a minimum of fuss, components swapped out<br>with a similarly minimum of fuss, and that we aim to make something<br>that's (easily) deployable anywhere, not just at NCSA.<br><br>We're keen to get some feedback, either on the document, or here over email!<br><br>Thanks,<br><br>Matt<br></blockquote><br></blockquote></div><br><div>
+<div style="color: rgb(0, 0, 0); font-family: Helvetica;  font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space; "><span class="Apple-style-span" style="border-collapse: separate; border-spacing: 0px;"><div style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space; "><span class="Apple-style-span" style="border-collapse: separate; color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; border-spacing: 0px; -webkit-text-decorations-in-effect: none; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px;  "><div style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space; "><div>Ian Taylor</div><div><div><a href="http://users.cs.cf.ac.uk/Ian.J.Taylor/">http://users.cs.cf.ac.uk/Ian.J.Taylor/</a></div><div><div><a href="http://www.linkedin.com/pub/ian-taylor/4/886/636">http://www.linkedin.com/pub/ian-taylor/4/886/636</a></div><div><a href="http://www.mendeley.com/profiles/ian-taylor/">http://www.mendeley.com/profiles/ian-taylor/&nbsp;</a>&nbsp;</div></div></div></div></span><br class="Apple-interchange-newline"></div></span><br class="Apple-interchange-newline"></div><br class="Apple-interchange-newline"><br class="Apple-interchange-newline">
+</div>
+<br></td></tr></table>
+<!--X-Body-of-Message-End-->
+<!--X-MsgBody-End-->
+<!--X-Follow-Ups-->
+<hr>
+<!--X-Follow-Ups-End-->
+<!--X-References-->
+<ul><li><strong>References</strong>:
+<ul>
+<li><strong><a name="00000" href="msg00000.html">Ongoing architecture work</a></strong>
+<ul><li><em>From:</em> Matthew Turk</li></ul></li>
+<li><strong><a name="00006" href="msg00006.html">RE: Ongoing architecture work</a></strong>
+<ul><li><em>From:</em> Kirkpatrick, Christine</li></ul></li>
+<li><strong><a name="00007" href="msg00007.html">Re: Ongoing architecture work</a></strong>
+<ul><li><em>From:</em> Matthew Turk</li></ul></li>
+</ul></li></ul>
+<!--X-References-End-->
+<!--X-BotPNI-->
+<HR>
+<UL>
+<li>Prev by Date:
+<strong><a href="msg00007.html">Re: Ongoing architecture work</a></strong>
+</li>
+<li>Next by Date:
+<strong><a href="msg00009.html">Re: Ongoing architecture work</a></strong>
+</li>
+
+<li>Previous by thread:
+<strong><a href="msg00007.html">Re: Ongoing architecture work</a></strong>
+</li>
+<li>Next by thread:
+<strong><a href="msg00009.html">Re: Ongoing architecture work</a></strong>
+</li>
+
+</UL>
+<!--#INCLUDE VIRTUAL="/include/lists/discuss/message-footer.html"-->
+
+<!--X-BotPNI-End-->
+<!--X-User-Footer-->
+<strong>
+<center>
+<a href="/lists/">Other Mailing lists</a> |
+<a href="author.html">Author Index</a> |
+<a href="maillist.html">Date Index</a> |
+<a href="subject.html">Subject Index</a> |
+<a href="threads.html">Thread Index</a>
+</center>
+</strong>
+<!--X-User-Footer-End-->
+</body>
+</html>

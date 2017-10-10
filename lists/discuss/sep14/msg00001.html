@@ -1,0 +1,296 @@
+<!-- MHonArc v2.6.10 -->
+<!--X-Subject: September 2014 Hackathon notes -->
+<!--X-From-R13: [nggurj Fhex <znggurjghexNtznvy.pbz> -->
+<!--X-Date: Thu, 25 Sep 2014 09:52:04 &#45;0500 -->
+<!--X-Message-Id: CALO3=5EpKqH3w9N7CbT1rMQ8bOumOrXWpRQYz7wQ=FaXfa+L_g@mail.gmail.com -->
+<!--X-Content-Type: text/plain -->
+<!--X-Head-End-->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML//EN">
+<HTML>
+<HEAD>
+<TITLE>September 2014 Hackathon notes</TITLE>
+<LINK REV="made" HREF="mailto:matthewturk@gmail.com">
+</HEAD>
+<!--#INCLUDE VIRTUAL="/include/lists/discuss/message-header.html"-->
+<!--X-Body-Begin-->
+<!--X-User-Header-->
+<!--X-User-Header-End-->
+<!--X-TopPNI-->
+<!---->
+
+<!--X-TopPNI-End-->
+<!--X-MsgBody-->
+<!--X-Subject-Header-Begin-->
+<H1>September 2014 Hackathon notes<HR></H1>
+<!--X-Subject-Header-End-->
+<!--X-Head-of-Message-->
+<ul>
+<li><strong>To</strong>: <strong><a href="mailto:discuss@DOMAIN.HIDDEN">discuss@xxxxxxxxxxxxxxxxxxxxxxx</a></strong></li>
+<li><strong>Subject</strong>: <strong>September 2014 Hackathon notes</strong></li>
+<li><strong>From</strong>: <strong>Matthew Turk &lt;<a href="mailto:matthewturk@DOMAIN.HIDDEN">matthewturk@xxxxxxxxx</a>&gt;</strong></li>
+<li>Date: Thu, 25 Sep 2014 09:51:34 -0500</li>
+<li>Content-type: text/plain; charset=UTF-8</li>
+<li>Dkim-signature: v=1; a=rsa-sha256; c=relaxed/relaxed;        d=gmail.com; s=20120113;        h=mime-version:from:date:message-id:subject:to:content-type;        bh=wtGa2R5jZw/2DsccLYvRJRASUrXvWQOavybU86BWMgM=;        b=NzO+KkZE2p52aAcNSXPCvHgtRBv1bTFVDsOue58euOXcYLMSNumbFYZtvo5awl4YqU         nYHR03VWd7GDoFPzCE5aWeSanXBijDvcRBh29WE2xoNBbljA9iRh6Estoyt/x15ODdej         5XPnGRtHoyd+e3MFJQABnlpy09DkytHXyeW8ji4Bsxl0XnneeDGyK+NbhhNA0PiAEMW5         Jfr5gYtOJi4Uxoed+/brp7pFWeEeg+r8w1oN8hVUdjiL2kru+zzguQhD/xiNVQlhTncg         5Iuv4/kg5d/XGIBeCggBTJGU9LI8tx92ZWUiLeKI/BxgFedJoQKcOpTTsFJBrCtibrdz         PsoA==</li>
+<li>Reply-to: <a href="mailto:discuss@DOMAIN.HIDDEN">discuss@xxxxxxxxxxxxxxxxxxxxxxx</a></li>
+<li>Sender: <a href="mailto:owner-discuss@DOMAIN.HIDDEN">owner-discuss@xxxxxxxxxxxxxxxxxxxxxxx</a></li>
+</ul>
+<!--X-Head-of-Message-End-->
+<!--X-Head-Body-Sep-Begin-->
+<hr>
+<!--X-Head-Body-Sep-End-->
+<!--X-Body-of-Message-->
+<pre>Hi everyone,
+
+Here's my summary of my experience at the Hackathon.  I have likely
+missed some things, and maybe even misrepresented some other things,
+so please do step in and correct me as need be.
+
+Last week at the Hackathon, we had participation from several visitors
+as well as several NCSA and UIUC individuals.  There were many pieces
+of technology demoed, as well as lots of work on new developments and
+deployments locally.  Below I've summarized the technologies and
+attempted to describe some of the interconnections, although I hope
+that in areas where I'm less familiar that Ray can step in and help
+out with some updates and expansions.
+
+Software Projects
+=================
+
+SEAD
+----
+
+Jim Myers represented the SEAD project, and provided a demo of how
+SEAD ingests data, transports data, and presents it.  SEAD includes a
+number of interesting functions, especially the virtual archiver, and
+I believe that there is now ongoing discussion between NCSA and UMich
+teams about the underpinning technology Medici.  SEAD is open source
+and can be deployed.
+
+SEEDME
+------
+
+SEEDME is a project out of SDSC which provides storage for transitory
+artifacts from the data analysis process.  One example is emitting
+image frames from in situ analysis of simulations, which SEEDME will
+then turn into movie files.  SEEDME can also accept IPython notebooks,
+which it can dispatch to a renderer to display.  (These are
+essentially computable papers.)  SEEDME is a DIBBS project.  During
+the hackathon, yt was instrumented to communicate with SEEDME, sending
+notebooks and images.  Discussed was exporting from SEEDME to
+SciDrive.  SEEDME is not currently open source and cannot be deployed
+locally.
+
+SciDrive
+--------
+
+SciDrive is described as a &quot;dropbox for science,&quot; which can act as a
+platform for applying processes to data.  Examples include parsing
+FITS files or converting to and from CSV files and databases.  During
+the hackathon, CILogin was added to SciDrive, an instance was deployed
+at NCSA, and a plugin for metadata extraction was created.  Unlike
+Dropbox, SciDrive also tracks metadata.  Like Dropbox, it uses an
+object store for storing files.  While for the purposes of my writeup
+I have thought of iRODS as the mechanism by which data can be
+archived, SciDrive may also present a compelling possibility for such
+archiving.  SciDrive is open source and can be deployed locally.
+
+Analysis as a Service
+---------------------
+
+Starting with a project called Jiffylab, this was developed as a
+mechanism for supplying scripts, running those scripts in an isolated
+environment, and retaining the artifacts.  Scripts are executed next
+to the data, in a protected and safe environment.  OpenID is currently
+the only supported authentication service.  This is open source and
+can be deployed locally.
+
+iRODS Archive
+-------------
+
+iRODS is a piece of software that provides methods to abstract out
+many important components of data archiving, while still leaving room
+for providing services on top.  During the hackathon, iRODS was
+experimented with, including tying it into the AaaS project for both
+providing data and ingesting the results of that data.  iRODS is open
+source and can be deployed locally.
+
+ownCloud
+--------
+
+ownCloud is an application server.  It includes APIs to communciate
+with Dropbox (and thus SciDrive), S3, iRODS, and several other storage
+methods.  The purpose of ownCloud is to provide a single entry point
+to the variety of archiving systems.  ownCloud is open source
+(although AGPLv3) and can be deployed locally.
+
+EZID for UIUC
+-------------
+
+The UIUC Library has developed a web application to accept metadata
+and/or data which will be provided to EZID and DataCite to get back
+DOIs.
+
+How Do They Tie Together
+========================
+
+The components that are available at this point provide the following
+services for the NDS:
+
+ * Generating DOIs with affiliated [meta]data
+ * Archival storage (iRODS) that exposes:
+   * GSI authentication
+   * Methods for upload and download, including web-based and CLI
+   * Registration of data objects that exist on a file system
+   * Generation of new archives and &quot;collections&quot;
+   * Querying based on metadata
+ * Temporary storage (SEEDME) that can collect intermediate data
+products along with viewers and metadata.
+ * Semi-permanent storage (SciDrive) that can manipulate data, retain
+metadata, and import/export to various sources.
+   * Metadata can be extracted from recognized files.
+   * Convenient interface for exploring available data.
+ * Transformation of data and generation of new data products
+   * Data selected from the archival system
+   * New artifacts created
+ * User interface for these data systems (ownCloud)
+
+What this presents is this story, which an individual can dip in and
+out of at any time:
+
+ * User A generates data, which goes into one of the following: SEEDME
+(then to SciDrive once it has been curated), SciDrive, or the iRODS
+system.  IMPORTANT NOTE: This can and probably should be accomplished
+via Globus!
+ * User A either automatedly or manually generates a DOI for this
+using the EZID interface.
+ * User B searches the metadata, identifies a dataset.
+ * User B uploads a script, which executes in an environment that has
+access to the data identified previously.
+ * Artifacts from this process are presented to User B, which she can
+save to her SciDrive folder.
+ * User B exports from SciDrive to the iRODS system, which generates a
+DOI and metadata linking that DOI back to the initial DOI generated
+for User A.
+
+What They Don't Do Yet
+======================
+
+At present, there are many gaps in the system which prevent it from
+being fully functioning, or even demo-worthy.  Each individual
+component presents a nice featureset, but as of yet they are still
+largely disconnected.
+
+ * ownCloud hasn't been switched over to use SciDrive instead of Dropbox.
+ * SEEDME still exists largely on its own.
+ * Artifacts generated by the analysis as a service are not yet sent
+back to SciDrive.
+ * SciDrive exporting to iRODS has not been implemented.
+ * The archiving system (iRODS) as of yet is largely empty, and does
+not track metadata.  This is simply a matter of turning on this
+functionality, but the necessary modifications to other aspects of
+iRODS suggest we will likely require help from an iRODS expert.
+ * AaaS and the archiving system need authentication, and
+authentication passed through the system, that match elsewhere.
+ * The user interface for the archive and analysis-as-a-service are
+embarassingly barebones.
+
+Despite this, the entire system will accomplish many of the tasks identified as
+key for NDS:
+
+ * Collecting data
+ * Assigning DOIs
+ * Querying based on DOIs
+ * Providing methods to link up to papers from DOI landing pages
+ * Doing something with data
+
+How Do We Finish The Job
+========================
+
+I believe that with the following sets of work, we can have a
+compelling use case that is generic enough not to just serve a single
+pilot project.
+
+ * Authentication work for iRODS and AaaS
+ * Work on the iRODS microservices; specifically, utilizing the EZID
+interface from UIUC library, adding metadata, and retaining upstream
+metadata links.  This may all be written via the &quot;microservice&quot;
+architecture or &quot;rules&quot; files.
+ * Work connecting SciDrive, AaaS, iRODS and ownCloud.  This may be
+relatively simple, as they all utilize APIs that are documented, open,
+and even implemented in draft or final form.
+ * Web UI work on the various frontends.  I believe this may be the
+most key aspect of the project.
+ * Coordinated orchestration of the deployed services, likely through
+some cloud orchestration technology such as Mesos, Juju, Vagrant, or
+something similar.  This will be crucial for deploying these services
+reproducibly elsewhere, including at the SC14 demo.
+
+To support this, we will likely need concerted effort on short
+timescales from individuals who are interested or skilled in these
+areas:
+
+ * Orchestration of cloud services
+ * Web design for semantic UI, such as AngularJS
+ * iRODS mso and/or rules language
+ * Constructing and utilizing REST APIs
+
+I believe that with these skills, we can have a workable pilot.  We
+have these resources here at NCSA:
+
+ * SciDrive instance tied to CILogin (scidrive.ncsa)
+ * ownCloud instance tied to Kerberos (owncloud.ncsa)
+ * Three VMs for analysis as a service (ythub[123].ncsa)
+ * Storage in the storage condo
+
+GitHub and BitBucket organizations and repos have been created under
+the name nds-org.  Once UI has begun to be worked on, we can set up
+continuous deployment for code and UI changes pushed to these repos.
+This should speed development and also reduce conflicts during
+deployment.
+
+Thanks very much,
+
+Matt
+
+</pre>
+<!--X-Body-of-Message-End-->
+<!--X-MsgBody-End-->
+<!--X-Follow-Ups-->
+<hr>
+<!--X-Follow-Ups-End-->
+<!--X-References-->
+<!--X-References-End-->
+<!--X-BotPNI-->
+<HR>
+<UL>
+<li>Prev by Date:
+<strong><a href="msg00000.html">Welcome!</a></strong>
+</li>
+<li>Next by Date:
+<strong><a href="msg00002.html">Components of the NDS</a></strong>
+</li>
+
+<li>Previous by thread:
+<strong><a href="msg00000.html">Welcome!</a></strong>
+</li>
+<li>Next by thread:
+<strong><a href="msg00002.html">Components of the NDS</a></strong>
+</li>
+
+</UL>
+<!--#INCLUDE VIRTUAL="/include/lists/discuss/message-footer.html"-->
+
+<!--X-BotPNI-End-->
+<!--X-User-Footer-->
+<strong>
+<center>
+<a href="/lists/">Other Mailing lists</a> |
+<a href="author.html">Author Index</a> |
+<a href="maillist.html">Date Index</a> |
+<a href="subject.html">Subject Index</a> |
+<a href="threads.html">Thread Index</a>
+</center>
+</strong>
+<!--X-User-Footer-End-->
+</body>
+</html>

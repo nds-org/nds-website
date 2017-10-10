@@ -1,0 +1,195 @@
+<!-- MHonArc v2.6.10 -->
+<!--X-Subject: Re: CENDI/NFAIS &#45; and Cameron Neylon post -->
+<!--X-From-R13: [nggurj Fhex <znggurjghexNtznvy.pbz> -->
+<!--X-Date: Wed, 3 Dec 2014 19:26:57 &#45;0600 -->
+<!--X-Message-Id: CALO3=5HroS518X+GAq2pBipEwwRJXcoERyOts=q3bfjdfem7Wg@mail.gmail.com -->
+<!--X-Content-Type: text/plain -->
+<!--X-Reference: 546C99E6.6030505@aps.org -->
+<!--X-Reference: CALO3=5GB_hSiLRyE3tFi9X_iuB8qs+yLmz43Sg_ZJh9iOejY1Q@mail.gmail.com -->
+<!--X-Reference: 547C6BF1.9000303@aps.org -->
+<!--X-Head-End-->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML//EN">
+<HTML>
+<HEAD>
+<TITLE>Re: CENDI/NFAIS - and Cameron Neylon post</TITLE>
+<LINK REV="made" HREF="mailto:matthewturk@gmail.com">
+</HEAD>
+<!--#INCLUDE VIRTUAL="/include/lists/discuss/message-header.html"-->
+<!--X-Body-Begin-->
+<!--X-User-Header-->
+<!--X-User-Header-End-->
+<!--X-TopPNI-->
+<!---->
+
+<!--X-TopPNI-End-->
+<!--X-MsgBody-->
+<!--X-Subject-Header-Begin-->
+<H1>Re: CENDI/NFAIS - and Cameron Neylon post<HR></H1>
+<!--X-Subject-Header-End-->
+<!--X-Head-of-Message-->
+<ul>
+<li><strong>To</strong>: <strong>&quot;<a href="mailto:discuss@DOMAIN.HIDDEN">discuss@xxxxxxxxxxxxxxxxxxxxxxx</a>&quot; &lt;<a href="mailto:discuss@DOMAIN.HIDDEN">discuss@xxxxxxxxxxxxxxxxxxxxxxx</a>&gt;</strong></li>
+<li><strong>Subject</strong>: <strong>Re: CENDI/NFAIS - and Cameron Neylon post</strong></li>
+<li><strong>From</strong>: <strong>Matthew Turk &lt;<a href="mailto:matthewturk@DOMAIN.HIDDEN">matthewturk@xxxxxxxxx</a>&gt;</strong></li>
+<li>Date: Wed, 3 Dec 2014 19:26:23 -0600</li>
+<li>Content-type: text/plain; charset=UTF-8</li>
+<li>Dkim-signature: v=1; a=rsa-sha256; c=relaxed/relaxed;        d=gmail.com; s=20120113;        h=mime-version:in-reply-to:references:from:date:message-id:subject:to         :content-type;        bh=7kQIJZZqQcYxyBeoXDahKVDMGoEKG0VZJmd3cvlidy0=;        b=xcMCIgM3o3DTQnpG9eKbn/0Aw/1kwzAkaVINyoxxkZiestqhL+YsfOqsZ5VrA7DzpS         F3QNOflBBwc6LJymTtKYjHyYZmIs0kY+1fWCvdJENcde6ENaaAH1EJ/kIkP+0zTPntkp         guqzyKK7DRjImO+yN2ivXOS47yTXWLZHju2rG4eRBCZNNJoFh7uqi7BG1f06sOjpk6au         CEyUkY3CYmaGMIj8Th8BBINaekodrrs2KQ4gUYZ1oN51RLDxL79lYlQKnEfcVWoVcupX         vjpoGaw61RHEWBzlkkkdDI0IHONcg+dMelftZdpj50m+iiAYuLE/lafFcvPTI04CXrBm         d2NQ==</li>
+<li>In-reply-to: &lt;<a href="msg00000.html">547C6BF1.9000303@aps.org</a>&gt;</li>
+<li>References: &lt;546C99E6.6030505@aps.org&gt; &lt;CALO3=5GB_hSiLRyE3tFi9X_iuB8qs+yLmz43Sg_ZJh9iOejY1Q@mail.gmail.com&gt; &lt;<a href="msg00000.html">547C6BF1.9000303@aps.org</a>&gt;</li>
+<li>Reply-to: <a href="mailto:discuss@DOMAIN.HIDDEN">discuss@xxxxxxxxxxxxxxxxxxxxxxx</a></li>
+<li>Sender: <a href="mailto:owner-discuss@DOMAIN.HIDDEN">owner-discuss@xxxxxxxxxxxxxxxxxxxxxxx</a></li>
+</ul>
+<!--X-Head-of-Message-End-->
+<!--X-Head-Body-Sep-Begin-->
+<hr>
+<!--X-Head-Body-Sep-End-->
+<!--X-Body-of-Message-->
+<pre>Hi Arthur,
+
+On Mon, Dec 1, 2014 at 7:24 AM, Arthur Smith &lt;apsmith@xxxxxxx&gt; wrote:
+&gt; I think what the blog post highlights, at least for me, is the &quot;moving data
+&gt; around&quot; piece is much more significant at the local scale: copying data from
+&gt; an instrument database onto local storage for analysis, copying analysis
+&gt; products derived from other data sources, putting it somewhere for long-term
+&gt; storage, while having it clearly identified and labeled - those seem like
+&gt; such simple things but surprisingly tricky to do consistently and reliably
+&gt; for the unique circumstances of actual experimental lab situations.
+
+Good point.  That's something that I've been thinking about too -- how
+can the data lifecycle be made much more easy, and more transparent?
+From the perspective of an NDS system, what I think might work is to
+have a staging area, an ingestion system, analysis, and then
+connecting all three of those in all directions.  EUDAT has taken this
+approach using ownCloud, which (independently of finding out EUDAT had
+done so!) we've been experimenting with deploying on an experimental
+&quot;NDS Labs&quot; testbed.  I can only assume further pain points would be
+illuminated after experimenting with this type of system.
+
+&gt;
+&gt; There were a few folks I have seen at NDS meetings also at the CENDI/NFAIS
+&gt; meeting - Jane Greenberg from Drexel was there and spoke about Dryad (and
+&gt; metadata). Jim Warren from NIST was there also, and one or two others. A lot
+&gt; of the talks were about motivating scientists to be more open with their
+&gt; data - about the incentive structure, etc. About making it easier, focusing
+&gt; on what scientists actually need, helping them to do their jobs. All the
+&gt; federal agencies there have some sort of data policy to promote integrity
+&gt; and reproducibility - requiring &quot;Data Management Plans&quot; in funding
+&gt; proposals, for instance. But what researchers actually do still seems highly
+&gt; variable and generally limited.
+&gt;
+&gt; Two things I learned - there is a federal &quot;Data Reference Model&quot; which all
+&gt; the agencies are supposed to be mindful of in providing data and metadata:
+&gt; <a  href="http://en.wikipedia.org/wiki/Data_Reference_Model">http://en.wikipedia.org/wiki/Data_Reference_Model</a>
+&gt;
+
+This is great -- I didn't know about this either.
+
+&gt; It's supposed to promote interoperability but it doesn't seem to have met
+&gt; with wide success (or perhaps it has? Wasn't clear from presentations there
+&gt; though).
+&gt;
+&gt; The other thing was - there's a new &quot;Data Carpentry&quot; effort to train
+&gt; scientists on being better managers of their data:
+&gt; <a  href="http://datacarpentry.org">http://datacarpentry.org</a>
+&gt; - it seems to be just starting up. As with Software Carpentry it looks like
+&gt; it'll have a python/github slant - something to be aware of, perhaps, maybe
+&gt; NDS should participate somehow...
+&gt;
+
+I agree completely.  I've been in touch with a few folks from data
+carpentry, but not in connection with NDS.  It could be very
+interesting to deploy DC on an NDS system...
+
+&gt;    Arthur
+&gt;
+&gt;
+&gt; On 11/25/14, 3:24 PM, Matthew Turk wrote:
+&gt;
+&gt; Hi Arthur,
+&gt;
+&gt; I can't speak for anyone else, but I was at SC last week and not at the PTO.
+&gt; How was the meeting?  At SC there were a lot of really good opportunities to
+&gt; meet with folks and brainstorm ideas; I plan to send out a roundup at some
+&gt; point, once I've gotten my head screwed back on after the conference!  :)
+&gt;
+&gt; This blog post is pretty great.  I think he's hit something really
+&gt; fundamental.  A few weeks ago, David Tarboton from Hydroshare gave a
+&gt; colloquium at NCSA and he made the point that they hope to see adoption by
+&gt; the software becoming a part of the daily workflow.  I think there's
+&gt; something really powerful there -- and from my perspective, I think that's
+&gt; an easier goal to reach the *smaller* the initial scope of a project, or
+&gt; aims...  Start small, build outward, develop an ecosystem.
+&gt;
+&gt; -Matt
+&gt;
+&gt; On Wed Nov 19 2014 at 7:24:17 AM Arthur Smith &lt;apsmith@xxxxxxx&gt; wrote:
+&gt;&gt;
+&gt;&gt; Are any other people on this list attending the CENDI/NFAIS meeting on
+&gt;&gt; &quot;Data Infrastructure&quot; at the US PTO tomorrow? Details at
+&gt;&gt; <a  href="http://cendievents.iiaweb.com/CENDI_NFAIS_2014/">http://cendievents.iiaweb.com/CENDI_NFAIS_2014/</a> - I know the supercomputing
+&gt;&gt; meeting is going on this week also...
+&gt;&gt;
+&gt;&gt; On a completely different topic - for those who were interested in working
+&gt;&gt; on a &quot;laboratory workbench&quot; prototype project, Cameron Neylon has a post
+&gt;&gt; today on exactly that problem:
+&gt;&gt;
+&gt;&gt; <a  href="http://cameronneylon.net/blog/data-capture-for-the-real-world/">http://cameronneylon.net/blog/data-capture-for-the-real-world/</a>
+&gt;&gt;
+&gt;&gt; He notes that there are a lot of good projects out there supporting
+&gt;&gt; research data, but &quot; The bit that is lacking is often the interface onto the
+&gt;&gt; day to day workings of an experimental laboratory. Something like this
+&gt;&gt; system could be the glue-ware that brings those much more powerful systems
+&gt;&gt; into play for the average researcher.&quot;
+&gt;&gt;
+&gt;&gt;
+&gt;&gt;      Arthur
+&gt;
+&gt;
+
+</pre>
+<!--X-Body-of-Message-End-->
+<!--X-MsgBody-End-->
+<!--X-Follow-Ups-->
+<hr>
+<!--X-Follow-Ups-End-->
+<!--X-References-->
+<ul><li><strong>References</strong>:
+<ul>
+<li><strong><a name="00000" href="msg00000.html">Re: CENDI/NFAIS - and Cameron Neylon post</a></strong>
+<ul><li><em>From:</em> Arthur Smith</li></ul></li>
+</ul></li></ul>
+<!--X-References-End-->
+<!--X-BotPNI-->
+<HR>
+<UL>
+<li>Prev by Date:
+<strong><a href="msg00000.html">Re: CENDI/NFAIS - and Cameron Neylon post</a></strong>
+</li>
+<li>Next by Date:
+<strong><a href="msg00002.html">Fwd: [WSSSPE] NSF CI software development best practices and challenges</a></strong>
+</li>
+
+<li>Previous by thread:
+<strong><a href="msg00000.html">Re: CENDI/NFAIS - and Cameron Neylon post</a></strong>
+</li>
+<li>Next by thread:
+<strong><a href="msg00002.html">Fwd: [WSSSPE] NSF CI software development best practices and challenges</a></strong>
+</li>
+
+</UL>
+<!--#INCLUDE VIRTUAL="/include/lists/discuss/message-footer.html"-->
+
+<!--X-BotPNI-End-->
+<!--X-User-Footer-->
+<strong>
+<center>
+<a href="/lists/">Other Mailing lists</a> |
+<a href="author.html">Author Index</a> |
+<a href="maillist.html">Date Index</a> |
+<a href="subject.html">Subject Index</a> |
+<a href="threads.html">Thread Index</a>
+</center>
+</strong>
+<!--X-User-Footer-End-->
+</body>
+</html>

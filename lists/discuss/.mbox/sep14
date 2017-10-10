@@ -1,0 +1,566 @@
+From owner-discuss@nationaldataservice.org Thu Sep 25 09:43:06 2014
+Received: (from majordomo@localhost)
+	by pop.ncsa.uiuc.edu (8.11.7/8.11.7) id s8PEh6U03215;
+	Thu, 25 Sep 2014 09:43:06 -0500
+X-Envelope-From: matthewturk@gmail.com
+X-Envelope-To: <discuss@nationaldataservice.org>
+Received: from rimantadine.ncsa.uiuc.edu (rimantadine.ncsa.uiuc.edu [141.142.199.3])
+	by pop.ncsa.uiuc.edu (8.11.7/8.11.7) with ESMTP id s8PEh4603142
+	for <discuss@nationaldataservice.org>; Thu, 25 Sep 2014 09:43:04 -0500
+Received: from mail-ie0-f181.google.com (mail-ie0-f181.google.com [209.85.223.181])
+	by rimantadine.ncsa.uiuc.edu (8.14.9/8.14.4) with ESMTP id s8PEgub8014075
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL)
+	for <discuss@nationaldataservice.org>; Thu, 25 Sep 2014 09:42:57 -0500
+Received: by mail-ie0-f181.google.com with SMTP id tr6so13289209ieb.26
+        for <discuss@nationaldataservice.org>; Thu, 25 Sep 2014 07:42:57 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:from:date:message-id:subject:to:content-type;
+        bh=MiywGGeySOT9EfHRCkkNZsA32Meqe+Ygytzjx/AOD1Y=;
+        b=mYEROmxICqYgK4y/CaKzNcugH3JQirg9Y0ZT40or/fZQkd9sfXaI2An2iOUyN8s4Bq
+         5auqEjmRUfCLk7+9rxXvOuOuSrB0ooad/NYU1zVm95u/jE28ESqch3ftNswy0aXGtkST
+         irChaJb9FWCmLlBnrEUQBMkK6C/zeUc9Mahy/WdBydP7yQpAhG3M76F4paqubKiR/pRn
+         4S5AUPFTx7kAzCi1CWj5z3KhpR6y616maSz1/uiwodrchvnmhwqteEt1aDnPcsb4yH3v
+         d9RAIsRRReFhcs8GeKynyyt2mpzqheRUX39XDqcA7BGDloMvdnXZDhiS04iCyBdJ7s5S
+         1how==
+X-Received: by 10.42.87.207 with SMTP id z15mr19468779icl.8.1411656177519;
+ Thu, 25 Sep 2014 07:42:57 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.42.29.135 with HTTP; Thu, 25 Sep 2014 07:42:36 -0700 (PDT)
+From: Matthew Turk <matthewturk@gmail.com>
+Date: Thu, 25 Sep 2014 09:42:36 -0500
+Message-ID: <CALO3=5Fs-vNMce_MzViOqeai4+hwRc0fz9u4K=7LO-6hRa15Lw@mail.gmail.com>
+Subject: Welcome!
+To: discuss@nationaldataservice.org
+Content-Type: text/plain; charset=UTF-8
+X-Null-Tag: fc102a47a938d9c0e2151e3469bc8174
+X-Scanned-By: milter-spamc/1.15.388 (zanamavir.ncsa.uiuc.edu [141.142.199.4]); Thu, 25 Sep 2014 09:43:02 -0500
+X-Spam-Status: NO, hits=2.70 required=4.90
+X-Spam-Report: Spam detection software, running on the system "rimantadine.ncsa.uiuc.edu", has
+  | identified this incoming email as possible spam.  The original message
+  | has been attached to this so you can view it (if it isn't spam) or label
+  | similar future email.  If you have any questions, see
+  | postmaster@ncsa.uiuc.edu for details.
+  | 
+  | Content preview:  Hi all, Thanks for joining up the technical discussion mailing
+  |    list for NDS. I'm going to send out a copy of some notes I came up with from
+  |    the hackathon last week, which I hope can be a starting point for figuring
+  |    out what next steps might be. [...]
+  | 
+  | Content analysis details:   (2.7 points, 4.9 required)
+  | 
+  |  pts rule name              description
+  | ---- ---------------------- --------------------------------------------------
+  |  4.0 BAYES_99               BODY: Bayesian spam probability is 99 to 100p
+  |                             [score: 1.0000]
+  | -1.0 RCVD_IN_DNSWL_LOW      RBL: Sender listed at http://www.dnswl.org/, low
+  |                             trust
+  |                             [209.85.223.181 listed in list.dnswl.org]
+  | -1.0 SPF_PASS               SPF: sender matches SPF record
+  |  0.7 AWL                    AWL: From: address is in the auto white-list
+  | 
+X-NCSA-MailScanner-Information: Please contact help@ncsa.uiuc.edu for more information, rimantadine.ncsa.uiuc.edu
+X-NCSA-MailScanner-ID: s8PEgub8014075
+X-NCSA-MailScanner: Found to be clean
+Sender: owner-discuss@nationaldataservice.org
+Precedence: bulk
+Reply-To: discuss@nationaldataservice.org
+
+Hi all,
+
+Thanks for joining up the technical discussion mailing list  for NDS.
+I'm going to send out a copy of some notes I came up with from the
+hackathon last week, which I hope can be a starting point for figuring
+out what next steps might be.
+
+But, I also hope that we can use this mailing list as a place to
+discuss integration, software, and so on.
+
+I also wanted to make sure everyone knew that we have a few places
+where code and discussion are being stuck:
+
+https://trello.com/nds_org
+https://bitbucket.org/nds-org
+https://github.com/nds-org
+
+Trello requires people to be "organization members" before they can
+create boards and whatnot, so please feel free to just reply to let me
+know if you want to be added, and include your username.  The other
+two you should be able to fork any existing repos and submit PRs, but
+I can add you to the teams there, too.  GitHub is the only one that
+requires its own account, as both BB and Trello support Google auth
+and a few others.
+
+I'll be pushing up a few additional repos to BB in the next few days,
+and I'd encourage anyone else who is developing code to put their
+repos somewhere accessible.
+
+-Matt
+
+From owner-discuss@nationaldataservice.org Thu Sep 25 09:52:04 2014
+Received: (from majordomo@localhost)
+	by pop.ncsa.uiuc.edu (8.11.7/8.11.7) id s8PEq4717340;
+	Thu, 25 Sep 2014 09:52:04 -0500
+X-Envelope-From: matthewturk@gmail.com
+X-Envelope-To: <discuss@nationaldataservice.org>
+Received: from rimantadine.ncsa.uiuc.edu (rimantadine.ncsa.uiuc.edu [141.142.199.3])
+	by pop.ncsa.uiuc.edu (8.11.7/8.11.7) with ESMTP id s8PEq4617328
+	for <discuss@nationaldataservice.org>; Thu, 25 Sep 2014 09:52:04 -0500
+Received: from mail-ig0-f177.google.com (mail-ig0-f177.google.com [209.85.213.177])
+	by rimantadine.ncsa.uiuc.edu (8.14.9/8.14.4) with ESMTP id s8PEps6D024534
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL)
+	for <discuss@nationaldataservice.org>; Thu, 25 Sep 2014 09:51:54 -0500
+Received: by mail-ig0-f177.google.com with SMTP id h3so8533332igd.16
+        for <discuss@nationaldataservice.org>; Thu, 25 Sep 2014 07:51:55 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:from:date:message-id:subject:to:content-type;
+        bh=wtGa2R5jZw/2DsccLYvRJRASUrXvWQOavybU86BWMgM=;
+        b=NzO+KkZE2p52aAcNSXPCvHgtRBv1bTFVDsOue58euOXcYLMSNumbFYZtvo5awl4YqU
+         nYHR03VWd7GDoFPzCE5aWeSanXBijDvcRBh29WE2xoNBbljA9iRh6Estoyt/x15ODdej
+         5XPnGRtHoyd+e3MFJQABnlpy09DkytHXyeW8ji4Bsxl0XnneeDGyK+NbhhNA0PiAEMW5
+         Jfr5gYtOJi4Uxoed+/brp7pFWeEeg+r8w1oN8hVUdjiL2kru+zzguQhD/xiNVQlhTncg
+         5Iuv4/kg5d/XGIBeCggBTJGU9LI8tx92ZWUiLeKI/BxgFedJoQKcOpTTsFJBrCtibrdz
+         PsoA==
+X-Received: by 10.50.176.202 with SMTP id ck10mr5491051igc.2.1411656715110;
+ Thu, 25 Sep 2014 07:51:55 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.42.29.135 with HTTP; Thu, 25 Sep 2014 07:51:34 -0700 (PDT)
+From: Matthew Turk <matthewturk@gmail.com>
+Date: Thu, 25 Sep 2014 09:51:34 -0500
+Message-ID: <CALO3=5EpKqH3w9N7CbT1rMQ8bOumOrXWpRQYz7wQ=FaXfa+L_g@mail.gmail.com>
+Subject: September 2014 Hackathon notes
+To: discuss@nationaldataservice.org
+Content-Type: text/plain; charset=UTF-8
+X-Null-Tag: c478f96ce16dfc3f719d158e47d6d7fb
+X-Scanned-By: milter-spamc/1.15.388 (amantadine-old.ncsa.illinois.edu [141.142.199.5]); Thu, 25 Sep 2014 09:52:01 -0500
+X-Spam-Status: NO, hits=2.70 required=4.90
+X-Spam-Report: Spam detection software, running on the system "rimantadine.ncsa.uiuc.edu", has
+  | identified this incoming email as possible spam.  The original message
+  | has been attached to this so you can view it (if it isn't spam) or label
+  | similar future email.  If you have any questions, see
+  | postmaster@ncsa.uiuc.edu for details.
+  | 
+  | Content preview:  Hi everyone, Here's my summary of my experience at the Hackathon.
+  |    I have likely missed some things, and maybe even misrepresented some other
+  |    things, so please do step in and correct me as need be. Last week at the
+  |   Hackathon, we had participation from several visitors as well as several NCSA
+  |    and UIUC individuals. There were many pieces of technology demoed, as well
+  |    as lots of work on new developments and deployments locally. Below I've summarized
+  |    the technologies and attempted to describe some of the interconnections,
+  |   although I hope that in areas where I'm less familiar that Ray can step in
+  |    and help out with some updates and expansions. [...]
+  | 
+  | Content analysis details:   (2.7 points, 4.9 required)
+  | 
+  |  pts rule name              description
+  | ---- ---------------------- --------------------------------------------------
+  |  4.0 BAYES_99               BODY: Bayesian spam probability is 99 to 100p
+  |                             [score: 1.0000]
+  | -1.0 RCVD_IN_DNSWL_LOW      RBL: Sender listed at http://www.dnswl.org/, low
+  |                             trust
+  |                             [209.85.213.177 listed in list.dnswl.org]
+  | -1.0 SPF_PASS               SPF: sender matches SPF record
+  |  0.7 AWL                    AWL: From: address is in the auto white-list
+  | 
+X-NCSA-MailScanner-Information: Please contact help@ncsa.uiuc.edu for more information, rimantadine.ncsa.uiuc.edu
+X-NCSA-MailScanner-ID: s8PEps6D024534
+X-NCSA-MailScanner: Found to be clean
+Sender: owner-discuss@nationaldataservice.org
+Precedence: bulk
+Reply-To: discuss@nationaldataservice.org
+
+Hi everyone,
+
+Here's my summary of my experience at the Hackathon.  I have likely
+missed some things, and maybe even misrepresented some other things,
+so please do step in and correct me as need be.
+
+Last week at the Hackathon, we had participation from several visitors
+as well as several NCSA and UIUC individuals.  There were many pieces
+of technology demoed, as well as lots of work on new developments and
+deployments locally.  Below I've summarized the technologies and
+attempted to describe some of the interconnections, although I hope
+that in areas where I'm less familiar that Ray can step in and help
+out with some updates and expansions.
+
+Software Projects
+=================
+
+SEAD
+----
+
+Jim Myers represented the SEAD project, and provided a demo of how
+SEAD ingests data, transports data, and presents it.  SEAD includes a
+number of interesting functions, especially the virtual archiver, and
+I believe that there is now ongoing discussion between NCSA and UMich
+teams about the underpinning technology Medici.  SEAD is open source
+and can be deployed.
+
+SEEDME
+------
+
+SEEDME is a project out of SDSC which provides storage for transitory
+artifacts from the data analysis process.  One example is emitting
+image frames from in situ analysis of simulations, which SEEDME will
+then turn into movie files.  SEEDME can also accept IPython notebooks,
+which it can dispatch to a renderer to display.  (These are
+essentially computable papers.)  SEEDME is a DIBBS project.  During
+the hackathon, yt was instrumented to communicate with SEEDME, sending
+notebooks and images.  Discussed was exporting from SEEDME to
+SciDrive.  SEEDME is not currently open source and cannot be deployed
+locally.
+
+SciDrive
+--------
+
+SciDrive is described as a "dropbox for science," which can act as a
+platform for applying processes to data.  Examples include parsing
+FITS files or converting to and from CSV files and databases.  During
+the hackathon, CILogin was added to SciDrive, an instance was deployed
+at NCSA, and a plugin for metadata extraction was created.  Unlike
+Dropbox, SciDrive also tracks metadata.  Like Dropbox, it uses an
+object store for storing files.  While for the purposes of my writeup
+I have thought of iRODS as the mechanism by which data can be
+archived, SciDrive may also present a compelling possibility for such
+archiving.  SciDrive is open source and can be deployed locally.
+
+Analysis as a Service
+---------------------
+
+Starting with a project called Jiffylab, this was developed as a
+mechanism for supplying scripts, running those scripts in an isolated
+environment, and retaining the artifacts.  Scripts are executed next
+to the data, in a protected and safe environment.  OpenID is currently
+the only supported authentication service.  This is open source and
+can be deployed locally.
+
+iRODS Archive
+-------------
+
+iRODS is a piece of software that provides methods to abstract out
+many important components of data archiving, while still leaving room
+for providing services on top.  During the hackathon, iRODS was
+experimented with, including tying it into the AaaS project for both
+providing data and ingesting the results of that data.  iRODS is open
+source and can be deployed locally.
+
+ownCloud
+--------
+
+ownCloud is an application server.  It includes APIs to communciate
+with Dropbox (and thus SciDrive), S3, iRODS, and several other storage
+methods.  The purpose of ownCloud is to provide a single entry point
+to the variety of archiving systems.  ownCloud is open source
+(although AGPLv3) and can be deployed locally.
+
+EZID for UIUC
+-------------
+
+The UIUC Library has developed a web application to accept metadata
+and/or data which will be provided to EZID and DataCite to get back
+DOIs.
+
+How Do They Tie Together
+========================
+
+The components that are available at this point provide the following
+services for the NDS:
+
+ * Generating DOIs with affiliated [meta]data
+ * Archival storage (iRODS) that exposes:
+   * GSI authentication
+   * Methods for upload and download, including web-based and CLI
+   * Registration of data objects that exist on a file system
+   * Generation of new archives and "collections"
+   * Querying based on metadata
+ * Temporary storage (SEEDME) that can collect intermediate data
+products along with viewers and metadata.
+ * Semi-permanent storage (SciDrive) that can manipulate data, retain
+metadata, and import/export to various sources.
+   * Metadata can be extracted from recognized files.
+   * Convenient interface for exploring available data.
+ * Transformation of data and generation of new data products
+   * Data selected from the archival system
+   * New artifacts created
+ * User interface for these data systems (ownCloud)
+
+What this presents is this story, which an individual can dip in and
+out of at any time:
+
+ * User A generates data, which goes into one of the following: SEEDME
+(then to SciDrive once it has been curated), SciDrive, or the iRODS
+system.  IMPORTANT NOTE: This can and probably should be accomplished
+via Globus!
+ * User A either automatedly or manually generates a DOI for this
+using the EZID interface.
+ * User B searches the metadata, identifies a dataset.
+ * User B uploads a script, which executes in an environment that has
+access to the data identified previously.
+ * Artifacts from this process are presented to User B, which she can
+save to her SciDrive folder.
+ * User B exports from SciDrive to the iRODS system, which generates a
+DOI and metadata linking that DOI back to the initial DOI generated
+for User A.
+
+What They Don't Do Yet
+======================
+
+At present, there are many gaps in the system which prevent it from
+being fully functioning, or even demo-worthy.  Each individual
+component presents a nice featureset, but as of yet they are still
+largely disconnected.
+
+ * ownCloud hasn't been switched over to use SciDrive instead of Dropbox.
+ * SEEDME still exists largely on its own.
+ * Artifacts generated by the analysis as a service are not yet sent
+back to SciDrive.
+ * SciDrive exporting to iRODS has not been implemented.
+ * The archiving system (iRODS) as of yet is largely empty, and does
+not track metadata.  This is simply a matter of turning on this
+functionality, but the necessary modifications to other aspects of
+iRODS suggest we will likely require help from an iRODS expert.
+ * AaaS and the archiving system need authentication, and
+authentication passed through the system, that match elsewhere.
+ * The user interface for the archive and analysis-as-a-service are
+embarassingly barebones.
+
+Despite this, the entire system will accomplish many of the tasks identified as
+key for NDS:
+
+ * Collecting data
+ * Assigning DOIs
+ * Querying based on DOIs
+ * Providing methods to link up to papers from DOI landing pages
+ * Doing something with data
+
+How Do We Finish The Job
+========================
+
+I believe that with the following sets of work, we can have a
+compelling use case that is generic enough not to just serve a single
+pilot project.
+
+ * Authentication work for iRODS and AaaS
+ * Work on the iRODS microservices; specifically, utilizing the EZID
+interface from UIUC library, adding metadata, and retaining upstream
+metadata links.  This may all be written via the "microservice"
+architecture or "rules" files.
+ * Work connecting SciDrive, AaaS, iRODS and ownCloud.  This may be
+relatively simple, as they all utilize APIs that are documented, open,
+and even implemented in draft or final form.
+ * Web UI work on the various frontends.  I believe this may be the
+most key aspect of the project.
+ * Coordinated orchestration of the deployed services, likely through
+some cloud orchestration technology such as Mesos, Juju, Vagrant, or
+something similar.  This will be crucial for deploying these services
+reproducibly elsewhere, including at the SC14 demo.
+
+To support this, we will likely need concerted effort on short
+timescales from individuals who are interested or skilled in these
+areas:
+
+ * Orchestration of cloud services
+ * Web design for semantic UI, such as AngularJS
+ * iRODS mso and/or rules language
+ * Constructing and utilizing REST APIs
+
+I believe that with these skills, we can have a workable pilot.  We
+have these resources here at NCSA:
+
+ * SciDrive instance tied to CILogin (scidrive.ncsa)
+ * ownCloud instance tied to Kerberos (owncloud.ncsa)
+ * Three VMs for analysis as a service (ythub[123].ncsa)
+ * Storage in the storage condo
+
+GitHub and BitBucket organizations and repos have been created under
+the name nds-org.  Once UI has begun to be worked on, we can set up
+continuous deployment for code and UI changes pushed to these repos.
+This should speed development and also reduce conflicts during
+deployment.
+
+Thanks very much,
+
+Matt
+
+From owner-discuss@nationaldataservice.org Fri Sep 26 15:22:14 2014
+Received: (from majordomo@localhost)
+	by pop.ncsa.uiuc.edu (8.11.7/8.11.7) id s8QKMEV05861;
+	Fri, 26 Sep 2014 15:22:14 -0500
+X-Envelope-From: matthewturk@gmail.com
+X-Envelope-To: <discuss@nationaldataservice.org>
+Received: from rimantadine.ncsa.uiuc.edu (rimantadine.ncsa.uiuc.edu [141.142.199.3])
+	by pop.ncsa.uiuc.edu (8.11.7/8.11.7) with ESMTP id s8QKME605851
+	for <discuss@nationaldataservice.org>; Fri, 26 Sep 2014 15:22:14 -0500
+Received: from mail-yh0-f47.google.com (mail-yh0-f47.google.com [209.85.213.47])
+	by rimantadine.ncsa.uiuc.edu (8.14.9/8.14.4) with ESMTP id s8QKLxjA013914
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL)
+	for <discuss@nationaldataservice.org>; Fri, 26 Sep 2014 15:21:59 -0500
+Received: by mail-yh0-f47.google.com with SMTP id 29so559601yhl.6
+        for <discuss@nationaldataservice.org>; Fri, 26 Sep 2014 13:21:15 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:from:date:message-id:subject:to:content-type;
+        bh=+8k3JyI0hZhvPA/mYvWv2M18snG6Y+HO/xyrn1VW+7g=;
+        b=ASvO66z5RbVqJMlGqJgaL6fRgnh6MfhVVo5KEuKOn+2eFHH0CLfqGV8V9TJ+4tFAvU
+         vI+S5wSHK5qz4OUdyjP75Pg+gvPkYO2axj+qWYe49LwgDdZVT4Zc3zXF8ZQxnUAqz7PE
+         u342b7Q1CF5pACNdppFj/GRy+qwYfn3VQ1seVapDvjCkRVJl8siIr7Sdj8mlo4yCLOfo
+         rm6Wo/tCJGkwa0ObtQD5AAWFWyW1kBIF4R4MUDjo55fhBFHhNCb2QfROsWkR2Zdfo6Yk
+         UNZ4sBMkWRMIuOj6mokZgMC/WdrJmP7N7nR/7WFjaDzMJ5ksCORXouvkOjd2xQco2N70
+         WsZg==
+X-Received: by 10.236.230.70 with SMTP id i66mr29302389yhq.26.1411762874904;
+ Fri, 26 Sep 2014 13:21:14 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.170.48.7 with HTTP; Fri, 26 Sep 2014 13:20:54 -0700 (PDT)
+From: Matthew Turk <matthewturk@gmail.com>
+Date: Fri, 26 Sep 2014 15:20:54 -0500
+Message-ID: <CALO3=5FD99HiFEXrqpZ1S539wP=EhnK3oBwbfCp8=D_HhNG_9g@mail.gmail.com>
+Subject: Components of the NDS
+To: discuss@nationaldataservice.org
+Content-Type: text/plain; charset=UTF-8
+X-Null-Tag: ee2d7cbb91ae024d575f3dacf9f0478d
+X-Scanned-By: milter-spamc/1.15.388 (amantadine-old.ncsa.illinois.edu [141.142.199.5]); Fri, 26 Sep 2014 15:22:06 -0500
+X-Spam-Status: NO, hits=2.70 required=4.90
+X-Spam-Report: Spam detection software, running on the system "rimantadine.ncsa.uiuc.edu", has
+  | identified this incoming email as possible spam.  The original message
+  | has been attached to this so you can view it (if it isn't spam) or label
+  | similar future email.  If you have any questions, see
+  | postmaster@ncsa.uiuc.edu for details.
+  | 
+  | Content preview:  Hi all, I've been trying to work through in my head, and on
+  |    paper, how the various components can tie together. I've spoken with Ian
+  |   Taylor this morning, and he's been doing quite a lot of work that can be used
+  |    for frontends, and after the hackathon last week we have lots of backend+frontend
+  |    work, and I know that Randy, SteveT and the MDF team have really been pushing
+  |    hard on their front. But I'm sort of stuck with how to take this to the next
+  |    step and build out and interoperate the necessary components. [...]
+  | 
+  | Content analysis details:   (2.7 points, 4.9 required)
+  | 
+  |  pts rule name              description
+  | ---- ---------------------- --------------------------------------------------
+  | -1.0 RCVD_IN_DNSWL_LOW      RBL: Sender listed at http://www.dnswl.org/, low
+  |                             trust
+  |                             [209.85.213.47 listed in list.dnswl.org]
+  |  4.0 BAYES_99               BODY: Bayesian spam probability is 99 to 100p
+  |                             [score: 1.0000]
+  | -1.0 SPF_PASS               SPF: sender matches SPF record
+  |  0.7 AWL                    AWL: From: address is in the auto white-list
+  | 
+X-NCSA-MailScanner-Information: Please contact help@ncsa.uiuc.edu for more information, rimantadine.ncsa.uiuc.edu
+X-NCSA-MailScanner-ID: s8QKLxjA013914
+X-NCSA-MailScanner: Found to be clean
+Sender: owner-discuss@nationaldataservice.org
+Precedence: bulk
+Reply-To: discuss@nationaldataservice.org
+
+Hi all,
+
+I've been trying to work through in my head, and on paper, how the
+various components can tie together.  I've spoken with Ian Taylor this
+morning, and he's been doing quite a lot of work that can be used for
+frontends, and after the hackathon last week we have lots of
+backend+frontend work, and I know that Randy, SteveT and the MDF team
+have really been pushing hard on their front.  But I'm sort of stuck
+with how to take this to the next step and build out and interoperate
+the necessary components.
+
+For instance, for the astro pilot, it's not 100% clear to me how to
+build on things developed elsewhere, or how to swap out components.
+There are things I've been working on which might be of use elsewhere,
+but I'm not sure how to make them available in a useful way.  And,
+what services does Globus provide that I should utilize, or integrate
+with, is another overarching question.
+
+I tried to boil this down to a few questions which will maybe spur discussion:
+
+ * What technical components are there for the NDS?  i.e., does it go
+all the way down to the filesystem, or does it stop at the web
+interface?
+ * Really, what is the astro pilot for NDS?  And by this I mean, where
+should the "astro" part stop, and the "NDS" part start?
+ * Related to that, can the MDF implementation share components with
+the astro pilot?
+ * What can the *very next* steps be?  Based on the things developed
+at the hackathon and in other venues, how can we move forward
+efficiently?
+
+Really, the underlying question here is: what does "NDS" mean, and how
+do our implementations map into the consortium?
+
+Thanks, and I look forward to figuring this out a bit together.  It
+would be nice to figure out a way to say, "if you clone this repo, you
+will have [service X] which can tie into [service Y] and then you can
+develop [service Z] on top of them."
+
+-Matt
+
+From owner-discuss@nationaldataservice.org Mon Sep 29 12:06:35 2014
+Received: (from majordomo@localhost)
+	by pop.ncsa.uiuc.edu (8.11.7/8.11.7) id s8TH6Zn20154;
+	Mon, 29 Sep 2014 12:06:35 -0500
+X-Envelope-From: matthewturk@gmail.com
+X-Envelope-To: <discuss@nationaldataservice.org>
+Received: from rimantadine.ncsa.uiuc.edu (rimantadine.ncsa.uiuc.edu [141.142.199.3])
+	by pop.ncsa.uiuc.edu (8.11.7/8.11.7) with ESMTP id s8TH6Z620086
+	for <discuss@nationaldataservice.org>; Mon, 29 Sep 2014 12:06:35 -0500
+Received: from mail-ig0-f180.google.com (mail-ig0-f180.google.com [209.85.213.180])
+	by rimantadine.ncsa.uiuc.edu (8.14.9/8.14.4) with ESMTP id s8TH6N9J000969
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL)
+	for <discuss@nationaldataservice.org>; Mon, 29 Sep 2014 12:06:23 -0500
+Received: by mail-ig0-f180.google.com with SMTP id a13so3771362igq.13
+        for <discuss@nationaldataservice.org>; Mon, 29 Sep 2014 10:06:25 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:from:date:message-id:subject:to:content-type;
+        bh=wpR3J6Q7+IRDkEDaCp2t+o2Jiv5xSHFCE3kvOT6ldqY=;
+        b=ZpleJgMpeC3SOOENhFlHhqUkW3wUg1wvjX5l+YE88Z85XDHWiRY+KluY2teX3PD2P4
+         Eed8CGfxe9490/Vpd5nX9rv5mMGkH+g1o3RzZOFyS7YiDjP75K3yJDB4i5jqgt9Ku2Lc
+         SV3G5Ur3yOU+UhXPXIwpL+Zp5lSZKOpgbIU77XM3ZixlaJ/JyiSdJEU3Gred/h0qi58V
+         d29pCyDDMveKaMt873IyFU8z+h8NtWV/On+f/CdCLN7wcWahnl3kQT92M5302j7Djavo
+         4ge6QNhn4AQi5R1vDrhMd4yeqAM5+zVLx9FXoGDVnul/B/9Nhz9H797qxHicevc6IVD7
+         5z+w==
+X-Received: by 10.42.39.7 with SMTP id f7mr2784427ice.93.1412010384895; Mon,
+ 29 Sep 2014 10:06:24 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.42.29.135 with HTTP; Mon, 29 Sep 2014 10:06:04 -0700 (PDT)
+From: Matthew Turk <matthewturk@gmail.com>
+Date: Mon, 29 Sep 2014 12:06:04 -0500
+Message-ID: <CALO3=5HtB22Y=22iVRNuzdAtnSpCgpiAXwMVYY6FCxbcB5FHmA@mail.gmail.com>
+Subject: Testing
+To: discuss@nationaldataservice.org
+Content-Type: text/plain; charset=UTF-8
+X-Null-Tag: ddcd05ada5e418626c5cbc35c58779ed
+X-Scanned-By: milter-spamc/1.15.388 (rimantadine.ncsa.uiuc.edu [141.142.199.3]); Mon, 29 Sep 2014 12:06:31 -0500
+X-Spam-Status: NO, hits=2.70 required=4.90
+X-Spam-Report: Spam detection software, running on the system "rimantadine.ncsa.uiuc.edu", has
+  | identified this incoming email as possible spam.  The original message
+  | has been attached to this so you can view it (if it isn't spam) or label
+  | similar future email.  If you have any questions, see
+  | postmaster@ncsa.uiuc.edu for details.
+  | 
+  | Content preview:  Hi, this is a test message. We're having an issue with delivery,
+  |    just checking to see if this is going through. [...]
+  | 
+  | Content analysis details:   (2.7 points, 4.9 required)
+  | 
+  |  pts rule name              description
+  | ---- ---------------------- --------------------------------------------------
+  |  4.0 BAYES_99               BODY: Bayesian spam probability is 99 to 100p
+  |                             [score: 1.0000]
+  | -1.0 RCVD_IN_DNSWL_LOW      RBL: Sender listed at http://www.dnswl.org/, low
+  |                             trust
+  |                             [209.85.213.180 listed in list.dnswl.org]
+  | -1.0 SPF_PASS               SPF: sender matches SPF record
+  |  0.7 AWL                    AWL: From: address is in the auto white-list
+  | 
+X-NCSA-MailScanner-Information: Please contact help@ncsa.uiuc.edu for more information, rimantadine.ncsa.uiuc.edu
+X-NCSA-MailScanner-ID: s8TH6N9J000969
+X-NCSA-MailScanner: Found to be clean
+Sender: owner-discuss@nationaldataservice.org
+Precedence: bulk
+Reply-To: discuss@nationaldataservice.org
+
+Hi, this is a test message.  We're having an issue with delivery, just
+checking to see if this is going through.
+

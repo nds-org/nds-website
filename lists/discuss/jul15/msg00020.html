@@ -1,0 +1,133 @@
+<!-- MHonArc v2.6.10 -->
+<!--X-Subject: Re: Issues in creating labs with more than 3 instances -->
+<!--X-From-R13: "Qbnxyrl, Yriva" <xpbnxyrlNfqfp.rqh> -->
+<!--X-Date: Wed, 15 Jul 2015 10:50:17 &#45;0500 -->
+<!--X-Message-Id: BA868F32&#45;0965&#45;44C9&#45;AE7D&#45;487A59874020@sdsc.edu -->
+<!--X-Content-Type: text/plain -->
+<!--X-Reference: CA+1QfOkdjk3LdMVT+vqYTFDAK_2hqwuU95H8UiKs4sozHicExg@mail.gmail.com -->
+<!--X-Head-End-->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML//EN">
+<HTML>
+<HEAD>
+<TITLE>Re: Issues in creating labs with more than 3 instances</TITLE>
+<LINK REV="made" HREF="mailto:kcoakley@sdsc.edu">
+</HEAD>
+<!--#INCLUDE VIRTUAL="/include/lists/discuss/message-header.html"-->
+<!--X-Body-Begin-->
+<!--X-User-Header-->
+<!--X-User-Header-End-->
+<!--X-TopPNI-->
+<!---->
+
+<!--X-TopPNI-End-->
+<!--X-MsgBody-->
+<!--X-Subject-Header-Begin-->
+<H1>Re: Issues in creating labs with more than 3 instances<HR></H1>
+<!--X-Subject-Header-End-->
+<!--X-Head-of-Message-->
+<ul>
+<li><strong>To</strong>: <strong>&quot;<a href="mailto:discuss@DOMAIN.HIDDEN">discuss@xxxxxxxxxxxxxxxxxxxxxxx</a>&quot; &lt;<a href="mailto:discuss@DOMAIN.HIDDEN">discuss@xxxxxxxxxxxxxxxxxxxxxxx</a>&gt;</strong></li>
+<li><strong>Subject</strong>: <strong>Re: Issues in creating labs with more than 3 instances</strong></li>
+<li><strong>From</strong>: <strong>&quot;Coakley, Kevin&quot; &lt;<a href="mailto:kcoakley@DOMAIN.HIDDEN">kcoakley@xxxxxxxx</a>&gt;</strong></li>
+<li>Date: Wed, 15 Jul 2015 15:49:45 +0000</li>
+<li>Accept-language: en-US</li>
+<li>Content-id: &lt;F617AB37C68B2549AA9D653986F91FE0@AD.UCSD.EDU&gt;</li>
+<li>Content-language: en-US</li>
+<li>Content-transfer-encoding: 8bit</li>
+<li>Content-type: text/plain; charset=&quot;utf-8&quot;</li>
+<li>In-reply-to: &lt;<a href="msg00018.html">CA+1QfOkdjk3LdMVT+vqYTFDAK_2hqwuU95H8UiKs4sozHicExg@mail.gmail.com</a>&gt;</li>
+<li>References: &lt;<a href="msg00018.html">CA+1QfOkdjk3LdMVT+vqYTFDAK_2hqwuU95H8UiKs4sozHicExg@mail.gmail.com</a>&gt;</li>
+<li>Reply-to: <a href="mailto:discuss@DOMAIN.HIDDEN">discuss@xxxxxxxxxxxxxxxxxxxxxxx</a></li>
+<li>Sender: <a href="mailto:owner-discuss@DOMAIN.HIDDEN">owner-discuss@xxxxxxxxxxxxxxxxxxxxxxx</a></li>
+<li>Thread-index: AQHQvn9BRBaO8w5hNk+eE+CmiS3sBJ3crr+A</li>
+<li>Thread-topic: Issues in creating labs with more than 3 instances</li>
+<li>User-agent: Microsoft-MacOutlook/0.0.0.150701</li>
+</ul>
+<!--X-Head-of-Message-End-->
+<!--X-Head-Body-Sep-Begin-->
+<hr>
+<!--X-Head-Body-Sep-End-->
+<!--X-Body-of-Message-->
+<pre>Only the first instance is returned from servers.create when using min_count and max_count to launch multiple instances with the v1 and v2 OpenStack Compute (Nova) API. The v3 api should return a list server objects, see <a  href="http://specs.openstack.org/openstack/nova-specs/specs/juno/approved/return-all-servers-during-multiple-create.html">http://specs.openstack.org/openstack/nova-specs/specs/juno/approved/return-all-servers-during-multiple-create.html</a> . Until the v3 api is available, I recommend using a loop to create multiple servers instead of using min_count and max_count if you need details about each instance that is created.
+
+-Kevin
+
+
+
+From:  &lt;owner-discuss@xxxxxxxxxxxxxxxxxxxxxxx&gt; on behalf of Lengyue Chen
+Reply-To:  &quot;discuss@xxxxxxxxxxxxxxxxxxxxxxx&quot;
+Date:  Tuesday, July 14, 2015 at 2:51 PM
+To:  &quot;discuss@xxxxxxxxxxxxxxxxxxxxxxx&quot;
+Subject:  Issues in creating labs with more than 3 instances
+
+
+Hi all
+
+
+I am using the startup_ndslabs.py in the NDS REST API and I can only get the instance id of the first three instances if I create a lab with more than 3 instances. I have uploaded the startup_ndslabs.py I am using to the repo
+<a  href="https://bitbucket.org/nds-org/nds-webservice/src/8eeff20c855b27893418b1cc056db17c284b89f7/startup_ndslabs.py?at=nds-27-implement-create-rest-endpoint">https://bitbucket.org/nds-org/nds-webservice/src/8eeff20c855b27893418b1cc056db17c284b89f7/startup_ndslabs.py?at=nds-27-implement-create-rest-endpoint</a>
+
+
+In line 186, the print out statement only give me 3 instance ids even there are more. And strange thing is, all instances are actually created on openstack and  instances other than first 3 instances have their instance ids attached in their names although
+ I did not write any code to do that.
+
+
+Any one who familiar the script can help me? Thanks a lot.
+
+
+Best 
+
+Lengyue   
+
+</pre>
+<!--X-Body-of-Message-End-->
+<!--X-MsgBody-End-->
+<!--X-Follow-Ups-->
+<hr>
+<ul><li><strong>Follow-Ups</strong>:
+<ul>
+<li><strong><a name="00021" href="msg00021.html">Re: Issues in creating labs with more than 3 instances</a></strong>
+<ul><li><em>From:</em> Coakley, Kevin</li></ul></li>
+</ul></li></ul>
+<!--X-Follow-Ups-End-->
+<!--X-References-->
+<ul><li><strong>References</strong>:
+<ul>
+<li><strong><a name="00018" href="msg00018.html">Issues in creating labs with more than 3 instances</a></strong>
+<ul><li><em>From:</em> Lengyue Chen</li></ul></li>
+</ul></li></ul>
+<!--X-References-End-->
+<!--X-BotPNI-->
+<HR>
+<UL>
+<li>Prev by Date:
+<strong><a href="msg00019.html">NDS Developer Meeting / Working Session 7/15/2015</a></strong>
+</li>
+<li>Next by Date:
+<strong><a href="msg00021.html">Re: Issues in creating labs with more than 3 instances</a></strong>
+</li>
+
+<li>Previous by thread:
+<strong><a href="msg00018.html">Issues in creating labs with more than 3 instances</a></strong>
+</li>
+<li>Next by thread:
+<strong><a href="msg00021.html">Re: Issues in creating labs with more than 3 instances</a></strong>
+</li>
+
+</UL>
+<!--#INCLUDE VIRTUAL="/include/lists/discuss/message-footer.html"-->
+
+<!--X-BotPNI-End-->
+<!--X-User-Footer-->
+<strong>
+<center>
+<a href="/lists/">Other Mailing lists</a> |
+<a href="author.html">Author Index</a> |
+<a href="maillist.html">Date Index</a> |
+<a href="subject.html">Subject Index</a> |
+<a href="threads.html">Thread Index</a>
+</center>
+</strong>
+<!--X-User-Footer-End-->
+</body>
+</html>

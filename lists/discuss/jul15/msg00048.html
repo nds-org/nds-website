@@ -1,0 +1,141 @@
+<!-- MHonArc v2.6.10 -->
+<!--X-Subject: Re: NDS Developer Meeting / Working Session 7/24/2015 @ 11A CT -->
+<!--X-From-R13: [vxr Terrzba <zserrzbaNvyyvabvf.rqh> -->
+<!--X-Date: Fri, 24 Jul 2015 13:01:56 &#45;0500 -->
+<!--X-Message-Id: 55B27D92.6040305@illinois.edu -->
+<!--X-Content-Type: text/plain -->
+<!--X-Reference: 55B23D73.5020206@illinois.edu -->
+<!--X-Head-End-->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML//EN">
+<HTML>
+<HEAD>
+<TITLE>Re: NDS Developer Meeting / Working Session 7/24/2015 @ 11A CT</TITLE>
+<LINK REV="made" HREF="mailto:mfreemon@illinois.edu">
+</HEAD>
+<!--#INCLUDE VIRTUAL="/include/lists/discuss/message-header.html"-->
+<!--X-Body-Begin-->
+<!--X-User-Header-->
+<!--X-User-Header-End-->
+<!--X-TopPNI-->
+<!---->
+
+<!--X-TopPNI-End-->
+<!--X-MsgBody-->
+<!--X-Subject-Header-Begin-->
+<H1>Re: NDS Developer Meeting / Working Session 7/24/2015 @ 11A CT<HR></H1>
+<!--X-Subject-Header-End-->
+<!--X-Head-of-Message-->
+<ul>
+<li><strong>To</strong>: <strong>NDS discuss &lt;<a href="mailto:discuss@DOMAIN.HIDDEN">discuss@xxxxxxxxxxxxxxxxxxxxxxx</a>&gt;</strong></li>
+<li><strong>Subject</strong>: <strong>Re: NDS Developer Meeting / Working Session 7/24/2015 @ 11A CT</strong></li>
+<li><strong>From</strong>: <strong>Mike Freemon &lt;<a href="mailto:mfreemon@DOMAIN.HIDDEN">mfreemon@xxxxxxxxxxxx</a>&gt;</strong></li>
+<li>Date: Fri, 24 Jul 2015 13:01:54 -0500</li>
+<li>Content-transfer-encoding: 8bit</li>
+<li>Content-type: text/plain; charset=utf-8; format=flowed</li>
+<li>In-reply-to: &lt;<a href="msg00047.html">55B23D73.5020206@illinois.edu</a>&gt;</li>
+<li>References: &lt;<a href="msg00047.html">55B23D73.5020206@illinois.edu</a>&gt;</li>
+<li>Reply-to: <a href="mailto:discuss@DOMAIN.HIDDEN">discuss@xxxxxxxxxxxxxxxxxxxxxxx</a></li>
+<li>Sender: <a href="mailto:owner-discuss@DOMAIN.HIDDEN">owner-discuss@xxxxxxxxxxxxxxxxxxxxxxx</a></li>
+<li>User-agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Thunderbird/38.1.0</li>
+</ul>
+<!--X-Head-of-Message-End-->
+<!--X-Head-Body-Sep-Begin-->
+<hr>
+<!--X-Head-Body-Sep-End-->
+<!--X-Body-of-Message-->
+<pre style="margin: 0em;">Notes from the meeting:
+<a  href="https://wiki.ncsa.illinois.edu/display/NDS/2015-07-24+Developer+Meeting">https://wiki.ncsa.illinois.edu/display/NDS/2015-07-24+Developer+Meeting</a></pre><br>
+<pre style="margin: 0em;">Attendees</pre><br>
+<pre style="margin: 0em;">    Ian Taylor
+    Jeff Terstriep
+    Patrick Mulrooney
+    Mike Freemon
+    Lengyue Chen
+    Mario Felarca
+    Lisa Xu</pre><br>
+<pre style="margin: 0em;">Agenda/Notes</pre><br>
+<tt>    General discussion regarding direction, intent, design, and 
+implementation details of the two NDS REST APIs, and their clients, such 
+as NDS Dashboard and NDS Explorer</tt><br>
+<br>
+<tt>    API for service management (nds-django)<br>
+        the direction is to move all nds service management 
+(starting/stopping docker containers, etc.) to nds-django<br>
+        unclear which backend is currently being used by nds-dashboard<br>
+        should not matter &#xE2; the API should be the same so it shouldn't 
+matter to the dashboard<br>
+        Mario Felarca will create a wiki page that defines the REST API 
+for the nds services<br>
+            this will reflect the current implementation right now &#xE2; 
+but will be the basis for the followup discussion with Ian regarded 
+upcoming changes that might be needed<br>
+        we need to stand up a running instance of nds-django if not 
+already running</tt><br>
+<br>
+<tt>    Block diagram changes (Mike Freemon will update it)<br>
+        move the existing nds-explorer inside the labs environment, 
+replacing the &quot;mystery&quot; box<br>
+            do we even need the &quot;mystery box&quot;?  yes<br>
+        move the nds-dashboard inside the nds labs environment (as a 
+service in an OpenStack instance)<br>
+        brand new repository for the top left webapp (the frontend for 
+nds-webservices</tt><br>
+<br>
+<tt>    Repository naming<br>
+        need a new name for the top left webapp (the frontend for 
+nds-webservices)<br>
+        need better names for these repositories<br>
+            nds-webservice &#xE2;  this is the REST implementation for 
+managing openstack resources<br>
+            nds-django&#xE2; this is the REST implementation for managing 
+nds services<br>
+        leave the nds-explorer name alone</tt><br>
+<br>
+<pre style="margin: 0em;">&lt;eom&gt;</pre><br>
+
+<!--X-Body-of-Message-End-->
+<!--X-MsgBody-End-->
+<!--X-Follow-Ups-->
+<hr>
+<!--X-Follow-Ups-End-->
+<!--X-References-->
+<ul><li><strong>References</strong>:
+<ul>
+<li><strong><a name="00047" href="msg00047.html">NDS Developer Meeting / Working Session 7/24/2015 @ 11A CT</a></strong>
+<ul><li><em>From:</em> Mike Freemon</li></ul></li>
+</ul></li></ul>
+<!--X-References-End-->
+<!--X-BotPNI-->
+<HR>
+<UL>
+<li>Prev by Date:
+<strong><a href="msg00047.html">NDS Developer Meeting / Working Session 7/24/2015 @ 11A CT</a></strong>
+</li>
+<li>Next by Date:
+<strong><a href="msg00049.html">NDS Explorer Block Diagram Version 6</a></strong>
+</li>
+
+<li>Previous by thread:
+<strong><a href="msg00047.html">NDS Developer Meeting / Working Session 7/24/2015 @ 11A CT</a></strong>
+</li>
+<li>Next by thread:
+<strong><a href="msg00049.html">NDS Explorer Block Diagram Version 6</a></strong>
+</li>
+
+</UL>
+<!--#INCLUDE VIRTUAL="/include/lists/discuss/message-footer.html"-->
+
+<!--X-BotPNI-End-->
+<!--X-User-Footer-->
+<strong>
+<center>
+<a href="/lists/">Other Mailing lists</a> |
+<a href="author.html">Author Index</a> |
+<a href="maillist.html">Date Index</a> |
+<a href="subject.html">Subject Index</a> |
+<a href="threads.html">Thread Index</a>
+</center>
+</strong>
+<!--X-User-Footer-End-->
+</body>
+</html>

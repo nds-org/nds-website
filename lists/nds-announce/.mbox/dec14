@@ -1,0 +1,95 @@
+From owner-nds-announce@nationaldataservice.org Wed Dec 17 16:41:42 2014
+Received: (from majordomo@localhost)
+	by pop.ncsa.uiuc.edu (8.11.7/8.11.7) id sBHMfgq11243;
+	Wed, 17 Dec 2014 16:41:42 -0600
+X-Envelope-From: rplante@illinois.edu
+X-Envelope-To: <nds-announce@nationaldataservice.org>
+Received: from rimantadine.ncsa.uiuc.edu (rimantadine.ncsa.uiuc.edu [141.142.199.3])
+	by pop.ncsa.uiuc.edu (8.11.7/8.11.7) with ESMTP id sBHMfgC11233
+	for <nds-announce@nationaldataservice.org>; Wed, 17 Dec 2014 16:41:42 -0600
+Received: from epte.local ([141.142.20.197])
+	(authenticated bits=0)
+	by rimantadine.ncsa.uiuc.edu (8.14.9/8.14.4) with ESMTP id sBHMfW6h021411
+	(version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NO)
+	for <nds-announce@nationaldataservice.org>; Wed, 17 Dec 2014 16:41:32 -0600
+Date: Wed, 17 Dec 2014 16:41:42 -0600 (CST)
+From: Ray Plante <rplante@illinois.edu>
+X-X-Sender: rplante@epte
+To: nds-announce@nationaldataservice.org
+Subject: NDS Update: Consortium Doc RFC, discussion list
+Message-ID: <alpine.DEB.2.00.1412171436080.2901@epte>
+User-Agent: Alpine 2.00 (DEB 1167 2008-08-23)
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+X-Null-Tag: e4c505ea64b730cd65738bdbd0928cad
+X-NCSA-MailScanner-Information: Please contact help@ncsa.uiuc.edu for more information, rimantadine.ncsa.uiuc.edu
+X-NCSA-MailScanner-ID: sBHMfW6h021411
+X-NCSA-MailScanner: Found to be clean
+Sender: owner-nds-announce@nationaldataservice.org
+Precedence: bulk
+Reply-To: nds-announce@nationaldataservice.org
+
+Hi folks,
+
+Here a few quick updates as we end the year:
+
+  o  Don't forget about the Consortium RFC
+  o  New consortium discussion list
+  o  Looking ahead
+
+Don't forget about the Consortium RFC
+-------------------------------------
+
+Thanks to all those who have sent your comments on the two documents, 
+the Shared Vision of Success, and the Elements of an Interim Charter, 
+which are intended to help us formally establish the NDS Consortium.  
+If you haven't yet, it's not too late.  You can find the documents at 
+http://www.nationaldataservice.org/rfc/ along with instructions for 
+sending comments.  We'd like to hear from by Dec. 19 to ensure your 
+feedback is incorporated into the next versions to be released in 
+early January.  
+
+"New" consortium discussion list
+--------------------------------
+
+To encourage more multi-way discussion of consortium matters, 
+including the document RFC mentioned above, we've set up a new mailing 
+list: consortium@nationaldataservice.org.  (Actually, we've 
+resurrected it.)  This list is intended for discussion of 
+organizational and policy issues.  (The discuss mailing list is for 
+technical discussions.)
+
+We have reset the membership to this list, so YOU MUST SUBSCRIBE to 
+receive and post messages going forward.  To subscribe, either click 
+on the link for joining the consortium list at 
+http://www.nationaldataservice.org/involved.html, or send an email to 
+majordomo@nationaldataservice.org with "subscribe consortium" in the 
+body of the message.
+
+Feel free to use this new list to share your thoughts on the 
+Consortium documents now under RFC!
+
+Looking Ahead
+-------------
+
+We're interested in getting a few more pilot projects running in the 
+new year, and we've been working hard to get NDS Labs ready to host 
+them.  Look for an announcement in early January about NDS Labs.  
+We have a few more pilot projects starting to come together, some that 
+will be looking for interested partners.  
+
+Also in January, we plan to announce the final dates for our Spring 
+NDS Workshop with registration opening soon after that.  
+
+Have a restful holiday!
+Ray Plante
+NDS Interim Project Manager
+
+
+
+nds-announce is a mail list of the National Data Service Consortium.
+To unsubscribe, send a message to majordomo@nationaldataservice.org
+with "unsubscribe nds-announce Ray Plante <rplante@illinois.edu>" in the body.
+Questions about the list can be sent to
+owner-nds-announce@nationaldataservice.org.
+

@@ -1,0 +1,207 @@
+<!-- MHonArc v2.6.10 -->
+<!--X-Subject: Resources coming to NDS Labs and NDS Share -->
+<!--X-From-R13: Dnl Bynagr <ecynagrNvyyvabvf.rqh> -->
+<!--X-Date: Fri, 9 Jan 2015 15:00:10 &#45;0600 -->
+<!--X-Message-Id: alpine.DEB.2.00.1501091251130.6226@epte -->
+<!--X-Content-Type: text/plain -->
+<!--X-Head-End-->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML//EN">
+<HTML>
+<HEAD>
+<TITLE>Resources coming to NDS Labs and NDS Share</TITLE>
+<LINK REV="made" HREF="mailto:rplante@illinois.edu">
+</HEAD>
+<!--#INCLUDE VIRTUAL="/include/lists/discuss/message-header.html"-->
+<!--X-Body-Begin-->
+<!--X-User-Header-->
+<!--X-User-Header-End-->
+<!--X-TopPNI-->
+<!---->
+
+<!--X-TopPNI-End-->
+<!--X-MsgBody-->
+<!--X-Subject-Header-Begin-->
+<H1>Resources coming to NDS Labs and NDS Share<HR></H1>
+<!--X-Subject-Header-End-->
+<!--X-Head-of-Message-->
+<ul>
+<li><strong>To</strong>: <strong><a href="mailto:discuss@DOMAIN.HIDDEN">discuss@xxxxxxxxxxxxxxxxxxxxxxx</a></strong></li>
+<li><strong>Subject</strong>: <strong>Resources coming to NDS Labs and NDS Share</strong></li>
+<li><strong>From</strong>: <strong>Ray Plante &lt;<a href="mailto:rplante@DOMAIN.HIDDEN">rplante@xxxxxxxxxxxx</a>&gt;</strong></li>
+<li>Date: Fri, 9 Jan 2015 15:00:08 -0600 (CST)</li>
+<li>Content-type: TEXT/PLAIN; charset=US-ASCII</li>
+<li>Reply-to: <a href="mailto:discuss@DOMAIN.HIDDEN">discuss@xxxxxxxxxxxxxxxxxxxxxxx</a></li>
+<li>Sender: <a href="mailto:owner-discuss@DOMAIN.HIDDEN">owner-discuss@xxxxxxxxxxxxxxxxxxxxxxx</a></li>
+<li>User-agent: Alpine 2.00 (DEB 1167 2008-08-23)</li>
+</ul>
+<!--X-Head-of-Message-End-->
+<!--X-Head-Body-Sep-Begin-->
+<hr>
+<!--X-Head-Body-Sep-End-->
+<!--X-Body-of-Message-->
+<pre>Hi folks,
+
+Since the NDS workshop, there's been a lot of activity pulling 
+together the NDS Labs environment we discussed at the workshop.  As a 
+reminder, NDS Labs is a developer's environment that is being made 
+available to consortium collaborators to explore, build, and 
+demonstrate important capabilities needed by the NDS.  In this 
+environment, developers will have access to significant storage, cloud 
+computing, and common data software tools ready to use or modify.  We 
+hope and expect that many of the capabilities created in NDS Labs will 
+be of immediate use to researchers today; for these products, we 
+expect to migrate them to NDS Share, a platform for hosting data 
+applications and services, where we can expose them to friendly users.
+
+Recently, we had a telecon of the supercomputing consortium partners 
+to discuss what resources we can make available in this environment.  
+To give you a sense of what's coming, I'm sharing my notes from that 
+meeting below.  
+
+I'll note that we're looking to do an initial roll-out of NDS Labs 
+roughly around February 1.  Interested folks will find via the Labs 
+portal information on how to get access and what the environment 
+currently looks like.  Note, however, it won't be a complete solution, 
+and I hope to interest consortium partners in not only using the 
+environment, but also in helping us expand it.  In particular, if your 
+organization is interested in making resources available, we would 
+love to hear from you.  Alternatively, as a developer, you may have 
+ideas about software or capabilities that would be useful to have.
+
+In other words, we're keen to get the discussion going again.  I 
+believe Matt is going to follow-up with a summary of what we expect to 
+have upon &quot;opening day&quot; and some of the directions we're going.  For 
+now, have a look at my notes, particularly in the 2nd half for the 
+list of resources we are hoping to bring to NDS Labs.
+
+cheers,
+Ray Plante
+
+-------------------------
+Here are my notes from our call on Friday where we discussed resources 
+to be included in NDS Labs and Share.  The main purpose was to take a 
+census of the resources we would like to include both near- and 
+long-term.  I also reviewed the goals of Labs and Share and answered 
+policy-type questions.  Technical questions and problem-solving were 
+deferred to our follow-up call in January when Matt could attend.  
+
+Some of the high points from the policy related discussion:
+  o  We recognize that support for resources is coming out of the 
+     margins of existing projects; thus, we'll need to do our best to 
+     accommadate the constraints and limits this may present in terms 
+     of integration, support, and schedule
+  o  It is assumed that access to resources will be subject to local 
+     security policies.
+  o  NDS Labs targeted to developers from the consortium interested in 
+     developing some component or demonstration of NDS capabilities.  
+     While the consortium is broadly inclusive (no membership cards 
+     required) and the barrier to access should be low, the bargain is 
+     that the development is intended to bring back value to the 
+     consortium.  
+  o  There should also be a value proposition for the 
+     developers--something that they get out of it.  Often this will 
+     be in the form of real value/capability made available to a 
+     community (via Share).  In other cases it will be support for 
+     development that is also of local interest.  
+  o  We envision that potential users will submit a short application, 
+     proposing their project and listing the resources they would like 
+     access to.  A visit to the Labs web site will show a list of 
+     resources available.  
+  o  We see 3 levels of integration possible.  
+     1)  At the lowest end, itegration is limited to being listed in 
+         the Labs list of resources:  the resource may available only 
+         through its host site, and Labs provides a link to its access 
+         point.  
+     2)  Labs can leverage the federation capabilities built into a 
+         particular resource that is available at multiple sites.  
+         Examples include:
+           o  support for a Globus endpoint
+	   o  IRODS federation: the ability to access other IRODS 
+               storage at other sites
+           o  SciDrive instances that can transfer from other 
+               instances. 
+     3)  At the highest level of integration, other openstack clusters 
+         can support the &quot;Labs Infrastructure&quot; based on Docker 
+         containers and re-use either stock Labs containers or new 
+         ones produced by projects.  
+  o  NDS Share is targeted to &quot;friendly users&quot; in which we invited 
+     end-users to use deployed instances of various applications, 
+     including ones developed in Labs, to understand how users make 
+     use of them and where their particular strengths are.  
+  o  Visitors to the Share web site will see a menu of applications of 
+     available for use.  
+  o  Share will also be supported by the Labs Infrastructure.  That 
+     is, most of the services made available will run in Docker 
+     containers.  
+
+Here's what resources we recorded that could be made available via 
+Labs and Share.  Do let me know of corrections or if I've missed 
+something.  For the items below, those marked with * are resources 
+that can be made available more or less now (as personnel resources 
+allow).
+
+TACC:
+  *  Rodeo, an openstack cloud platform
+  o  1 PB filesystem (old; not clear how much and for how long)
+  o  Wrangler - cluster optimized for high through-put data analytics, 
+     10 PB repository, distributed between Indiana and TACC.  (Now
+     under assembly)
+  o  Chameleon - cloud compute
+
+SDSC:
+  *  Portion of 100TB replicated Lustre filesystem, accessible via 
+     Globus Share.  An XSEDE resource which SDSC has discretionary 
+     access that could be provided for NDS.  
+  *  Portion of 100TB openstack Cloud storage accessible via Swift 
+     web service and SciDrive
+  *  Gordon, an XSEDE resource; allocations could be made available 
+     from discretionary time.  (Example of lowest integration level.)
+  o  Comet -- virtual cloud resource, in works on June-ish time-scale
+  o  openstack compute cluster (February-ish)
+
+NCSA: 
+  *  Portion of storage condo
+  *  ISL openstack compute cluster
+  o  Production openstack compute cluster (available late-winter?)
+
+BTW, Is this something we should share on the NDS discuss list?  
+
+thanks,
+Ray
+
+</pre>
+<!--X-Body-of-Message-End-->
+<!--X-MsgBody-End-->
+<!--X-Follow-Ups-->
+<hr>
+<!--X-Follow-Ups-End-->
+<!--X-References-->
+<!--X-References-End-->
+<!--X-BotPNI-->
+<HR>
+<UL>
+<li>Next by Date:
+<strong><a href="msg00001.html">Fwd: [iROD-Chat:13083] Announcing iRODS Digital Archive Working Group</a></strong>
+</li>
+
+<li>Next by thread:
+<strong><a href="msg00001.html">Fwd: [iROD-Chat:13083] Announcing iRODS Digital Archive Working Group</a></strong>
+</li>
+
+</UL>
+<!--#INCLUDE VIRTUAL="/include/lists/discuss/message-footer.html"-->
+
+<!--X-BotPNI-End-->
+<!--X-User-Footer-->
+<strong>
+<center>
+<a href="/lists/">Other Mailing lists</a> |
+<a href="author.html">Author Index</a> |
+<a href="maillist.html">Date Index</a> |
+<a href="subject.html">Subject Index</a> |
+<a href="threads.html">Thread Index</a>
+</center>
+</strong>
+<!--X-User-Footer-End-->
+</body>
+</html>

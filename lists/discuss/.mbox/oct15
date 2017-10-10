@@ -1,0 +1,75 @@
+From owner-discuss@nationaldataservice.org Mon Oct 19 14:43:35 2015
+Received: (from majordomo@localhost)
+	by pop.ncsa.uiuc.edu (8.11.7/8.11.7) id t9JJhZQ08826;
+	Mon, 19 Oct 2015 14:43:35 -0500
+X-Envelope-From: raymond.plante@nist.gov
+X-Envelope-To: <discuss@nationaldataservice.org>
+Received: from rimantadine.ncsa.uiuc.edu (amantadine.ncsa.uiuc.edu [141.142.192.229])
+	by pop.ncsa.uiuc.edu (8.11.7/8.11.7) with ESMTP id t9JJhZJ08816
+	for <discuss@nationaldataservice.org>; Mon, 19 Oct 2015 14:43:35 -0500
+Received: from na01-bn1-obe.outbound.protection.outlook.com (mail-bn1bon0117.outbound.protection.outlook.com [157.56.111.117])
+	by rimantadine.ncsa.uiuc.edu (8.14.9/8.14.4) with ESMTP id t9JJhXQN011797
+	(version=TLSv1/SSLv3 cipher=AES256-SHA bits=256 verify=FAIL)
+	for <discuss@nationaldataservice.org>; Mon, 19 Oct 2015 14:43:34 -0500
+Received: from BY1PR09MB0935.namprd09.prod.outlook.com (10.162.144.17) by
+ BY1PR09MB0933.namprd09.prod.outlook.com (10.162.144.158) with Microsoft SMTP
+ Server (TLS) id 15.1.300.14; Mon, 19 Oct 2015 19:43:32 +0000
+Received: from BY1PR09MB0935.namprd09.prod.outlook.com ([10.162.144.17]) by
+ BY1PR09MB0935.namprd09.prod.outlook.com ([10.162.144.17]) with mapi id
+ 15.01.0300.010; Mon, 19 Oct 2015 19:43:32 +0000
+From: "Plante, Raymond L." <raymond.plante@nist.gov>
+To: "discuss@nationaldataservice.org" <discuss@nationaldataservice.org>
+Subject: Labs Example: QMCDB
+Thread-Topic: Labs Example: QMCDB
+Thread-Index: AdEKpYA/fW1gkTwBTgyY4YRkrMbuDg==
+Date: Mon, 19 Oct 2015 19:43:32 +0000
+Message-ID: <BY1PR09MB093557985C021B9488343B6FE43A0@BY1PR09MB0935.namprd09.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+authentication-results: spf=none (sender IP is )
+ smtp.mailfrom=raymond.plante@nist.gov; 
+x-originating-ip: [129.6.222.125]
+x-microsoft-exchange-diagnostics: 1;BY1PR09MB0933;5:FCjBCHrzOZMCah257uvcpTcsX51klevCtQeXpdHhKhlpQ/JRe1DHEv/ZEDE/rrQcMJhT7qbV/0moYQ+U9bvELEfDf/Ba0ePeI27rh2KlgBGKQ6rRP2rW5yrnQ27Xah1/U43lBxnXAbmtesS3bdgpGg==;24:BnrzJFyUtJZs5RYQbibMHIkKR3wPj8unbXAw2BCb0WxnafXPEOcJs1JcJzPOFSSat4JJNaRQrHxhvPoZUCD4dumniFjllcUCgMMEGOaZx9w=;20:mcy2eWVxVZ+Ga6En2d0Duavch9plw1AKOA7KD/DY5oF3HVLfYSkqjet8CBOHzANFCwxylHyKbW3lIqNKio30lw==
+x-microsoft-antispam: UriScan:;BCL:0;PCL:0;RULEID:;SRVR:BY1PR09MB0933;
+x-microsoft-antispam-prvs: <BY1PR09MB0933803CE77F652205EABD84E43A0@BY1PR09MB0933.namprd09.prod.outlook.com>
+x-exchange-antispam-report-test: UriScan:;
+x-exchange-antispam-report-cfa-test: BCL:0;PCL:0;RULEID:(601004)(2401047)(8121501046)(5005006)(520078)(3002001);SRVR:BY1PR09MB0933;BCL:0;PCL:0;RULEID:;SRVR:BY1PR09MB0933;
+x-forefront-prvs: 07349BFAD2
+x-forefront-antispam-report: SFV:NSPM;SFS:(10019020)(6009001)(52044002)(189002)(199003)(2351001)(229853001)(74316001)(122556002)(110136002)(450100001)(64706001)(11100500001)(92566002)(10400500002)(2501003)(5007970100001)(46102003)(5008740100001)(97736004)(107886002)(66066001)(99286002)(101416001)(19580395003)(2900100001)(15975445007)(86362001)(5004730100002)(189998001)(5003600100002)(5002640100001)(77096005)(5001960100002)(33656002)(76576001)(87936001)(102836002)(40100003)(1720100001)(106356001)(81156007)(105586002)(54356999)(50986999);DIR:OUT;SFP:1102;SCL:1;SRVR:BY1PR09MB0933;H:BY1PR09MB0935.namprd09.prod.outlook.com;FPR:;SPF:None;PTR:InfoNoRecords;MX:1;A:1;LANG:en;
+received-spf: None (protection.outlook.com: nist.gov does not designate
+ permitted sender hosts)
+spamdiagnosticoutput: 1:23
+spamdiagnosticmetadata: NSPM
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+X-OriginatorOrg: nist.gov
+X-MS-Exchange-CrossTenant-originalarrivaltime: 19 Oct 2015 19:43:32.3709
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 2ab5d82f-d8fa-4797-a93e-054655c61dec
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BY1PR09MB0933
+X-Null-Tag: 8728b3b6d11bee79747a8a937a7b54f8
+X-NCSA-MailScanner-Information: Please contact help@ncsa.uiuc.edu for more information, rimantadine.ncsa.uiuc.edu
+X-NCSA-MailScanner-ID: t9JJhXQN011797
+X-NCSA-MailScanner: Found to be clean
+Content-Transfer-Encoding: 8bit
+X-MIME-Autoconverted: from quoted-printable to 8bit by pop.ncsa.uiuc.edu id t9JJhZJ08817
+Sender: owner-discuss@nationaldataservice.org
+Precedence: bulk
+Reply-To: discuss@nationaldataservice.org
+
+Hi folks,
+
+We're here at the NDS4 Hackathon where I'm about to do a quick demo of my use of Labs so far in the QMCDB project.  I've been keeping notes on how I've done things (working with the OpenStack Dashboard, bringing up a CoreOS machine with storage, running containers) in our project on the NDS wiki: 
+
+  http://wiki.nationaldataservice.org/QMCDBProject
+
+(Look under "More Information".)
+
+I mention this as I hope other Labs users may find it helpful, too.  More importantly, I would be thrilled to hear if there are better ways to do the things I've done.  Feel free to send me suggestions via this list, and I can update the notes.
+
+cheers,
+Ray 
+

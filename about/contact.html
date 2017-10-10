@@ -1,0 +1,103 @@
+<!--#set var="location" value="abt_contact" -->
+<!--#include virtual="/assets/global/includes/start.html" -->
+<!--#include virtual="/assets/global/includes/styles.html" -->
+<!--#include virtual="/assets/global/includes/nav.html" -->
+<!--#include virtual = "/assets/global/includes/breadcrumbs.html" -->
+
+                <div class="col-md-9 col-sm-9">
+                  <!--<h2>Get in Touch</h2>-->
+			<p>The easiest way to contact the NDS project is to send mail to <a href="mailto:info@nationaldataservice.org">info@nationaldataservice.org</a>, <a href="https://nationaldataservice.slack.com/" target="_blank">join us on Slack <i class="fa fa-external-link-square" title="external link"></i></a>, or submit your query via the form below.</p>
+
+			<p>NDS activities are coordinated via teams at the <a href="http://www.ncsa.illinois.edu/" target="_blank">National Center for Supercomputing Applications <i class="fa fa-external-link-square" title="external link"></i></a> at the <a href="http://illinois.edu/" target="_blank">University of Illinois Urbana-Champaign <i class="fa fa-external-link-square" title="external link"></i></a> and the <a href="http://www.sdsc.edu/" target="_blank">San Diego Supercomputing Center <i class="fa fa-external-link-square" title="external link"></i></a> at the <a href="http://www.ucsd.edu/" target="_blank">University of California San Diego <i class="fa fa-external-link-square" title="external link"></i></a>.</p>
+
+			<p>Team contacts include:</p>
+
+			<div class="front-team">
+                		<ul class="list-unstyled">
+                  		<li class="col-md-4">
+                    			<div class="thumbnail">
+                      				<img alt="Christine Kirkpatrick" src="/assets/frontend/pages/img/people/kirkpatrick_sm.jpg">
+                      				<h3>
+							<strong>Christine Kirkpatrick</strong>
+							<small>Executive Director</small>
+						</h3>
+					</div>
+				</li>
+				<li class="col-md-4">
+                    			<div class="thumbnail">
+                      				<img alt="Robert Hanisch" src="/assets/frontend/pages/img/people/hanisch_sm.jpg">
+                      				<h3>
+                        				<strong>Robert Hanisch</strong>
+							<small>Steering Committee Chair</small>
+						</h3>
+                    			</div>
+                  		</li>
+				<li class="col-md-4">
+                                        <div class="thumbnail">
+                                                <img alt="John Towns" src="/assets/frontend/pages/img/people/towns_sm2.jpg">
+                                                <h3>
+                                                        <strong>John Towns</strong>
+                                                        <small>Executive Committee Chair</small>
+                                                </h3>
+                                        </div>
+                                </li>
+				</ul>
+			</div>
+		</div>
+		<div class="col-md-3 col-sm-3 sidebar2">
+                	<!--<h2>Contact Us</h2>-->
+                  	<address>
+				<strong>Postal mail</strong><br>
+                    		National Data Service<br>
+                    		Room 4003 NCSA Building<br>
+				1205 W Clark Street<br>
+				Urbana, IL 61801
+                  	</address>
+                  	<address>
+                    		<strong>Email</strong><br>
+                    		<a href="mailto:info@nationaldataservice.org">info@nationaldataservice.org</a>
+                  	</address>
+
+                  	<!--<strong>Social</strong>
+                  	<ul class="list-unstyled list-inline margin-top-10 margin-bottom-40">
+                    		<li><a href="https://twitter.com/NatDataService"><i class="fa fa-2x fa-twitter-square"></i></a></li>
+                    		<li><a href="#"><i class="fa fa-2x fa-linkedin-square"></i></a></li>
+                    		<li><a href="https://bitbucket.org/nds-org"><i class="fa fa-2x fa-bitbucket-square"></i></a></li>
+              			<li><a href="https://github.com/nds-org"><i class="fa fa-2x fa-github-square"></i></a></li>
+                  	</ul>-->
+                </div>
+	</div>
+	<div class="row">
+                <div class="col-md-9 col-sm-9">
+			<p>See also the information on <a href="/get_involved/">getting involved</a>, including our various <a href="/get_involved/email_lists.html">discussion groups</a>. </p>
+                  
+                  <!-- BEGIN FORM-->
+		  <form action="email_nds.php" method="post" role="form">
+                    <div class="form-group">
+                      <label for="contactsname">Name</label>
+                      <input type="text" class="form-control" id="contactsname" name="contactsname">
+                    </div>
+                    <div class="form-group">
+                      <label for="contactsemail">Email</label>
+                      <input type="text" class="form-control" id="contactsemail" name="contactsemail">
+                    </div>
+                    <div class="form-group">
+                      <label for="contactsmessage">Message</label>
+                      <textarea class="form-control" rows="5" id="contactsmessage" name="contactsmessage"></textarea>
+                    </div>
+		    <div class="g-recaptcha" data-sitekey="6LeRGAETAAAAAF8xCJmKa0WxbNmyJFoVRbPjDR6i"></div><br />
+                    <button type="submit" class="btn btn-primary"><i class="icon-ok"></i> Send</button>
+                    <button type="button" class="btn btn-default">Cancel</button>
+                  </form>
+                  <!-- END FORM-->
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- END CONTENT -->
+        </div>
+      </div>
+    </div>
+
+<!--#include virtual="/assets/global/includes/footer.html" -->
+<!--#include virtual="/assets/global/includes/js-loads.html" -->

@@ -1,0 +1,128 @@
+<!-- MHonArc v2.6.10 -->
+<!--X-Subject: Source Code Repository Conventions -->
+<!--X-From-R13: [vxr Terrzba <zserrzbaNvyyvabvf.rqh> -->
+<!--X-Date: Tue, 14 Jul 2015 11:20:36 &#45;0500 -->
+<!--X-Message-Id: 55A536C8.9030907@illinois.edu -->
+<!--X-Content-Type: text/plain -->
+<!--X-Head-End-->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML//EN">
+<HTML>
+<HEAD>
+<TITLE>Source Code Repository Conventions</TITLE>
+<LINK REV="made" HREF="mailto:mfreemon@illinois.edu">
+</HEAD>
+<!--#INCLUDE VIRTUAL="/include/lists/discuss/message-header.html"-->
+<!--X-Body-Begin-->
+<!--X-User-Header-->
+<!--X-User-Header-End-->
+<!--X-TopPNI-->
+<!---->
+
+<!--X-TopPNI-End-->
+<!--X-MsgBody-->
+<!--X-Subject-Header-Begin-->
+<H1>Source Code Repository Conventions<HR></H1>
+<!--X-Subject-Header-End-->
+<!--X-Head-of-Message-->
+<ul>
+<li><strong>To</strong>: <strong>NDS discuss &lt;<a href="mailto:discuss@DOMAIN.HIDDEN">discuss@xxxxxxxxxxxxxxxxxxxxxxx</a>&gt;</strong></li>
+<li><strong>Subject</strong>: <strong>Source Code Repository Conventions</strong></li>
+<li><strong>From</strong>: <strong>Mike Freemon &lt;<a href="mailto:mfreemon@DOMAIN.HIDDEN">mfreemon@xxxxxxxxxxxx</a>&gt;</strong></li>
+<li>Date: Tue, 14 Jul 2015 11:20:24 -0500</li>
+<li>Content-transfer-encoding: 7bit</li>
+<li>Content-type: text/plain; charset=utf-8; format=flowed</li>
+<li>Reply-to: <a href="mailto:discuss@DOMAIN.HIDDEN">discuss@xxxxxxxxxxxxxxxxxxxxxxx</a></li>
+<li>Sender: <a href="mailto:owner-discuss@DOMAIN.HIDDEN">owner-discuss@xxxxxxxxxxxxxxxxxxxxxxx</a></li>
+<li>User-agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Thunderbird/38.0.1</li>
+</ul>
+<!--X-Head-of-Message-End-->
+<!--X-Head-Body-Sep-Begin-->
+<hr>
+<!--X-Head-Body-Sep-End-->
+<!--X-Body-of-Message-->
+<tt>Following up on our discussion yesterday during the developers meeting 
+regarding source code repository conventions:</tt><br>
+<br>
+<pre style="margin: 0em;"><a  href="https://wiki.ncsa.illinois.edu/display/NDS/Source+Code+Repository+Conventions">https://wiki.ncsa.illinois.edu/display/NDS/Source+Code+Repository+Conventions</a></pre><br>
+<tt>The point has been raised since the meeting that branching is not the 
+same between hg and git.</tt><br>
+<br>
+<tt>* git branch != hg branch<br>
+* git branches are more like hg bookmarks  &lt;-- use these for lightweight 
+development<br>
+* hg branches are more heavyweight and the information about them is 
+baked into the commit for all time<br>
+* there should be only a very small number of long-lived hg branches in 
+a hg repository</tt><br>
+<br>
+<tt>As a bit of an aside, git submodules work differently than hg 
+subrepositories.  We are currently using git submodules in at least one 
+of the NDS repositories.  I consider this an aside since we don't really 
+need to use submodules (AFAICT).</tt><br>
+<br>
+<tt>The main issue is the branching and merging conventions we want to 
+adopt.  These conventions (the language we use and the documentation we 
+write) are, on a day-to-day practical level, closely associated with the 
+tools we use and the terminology of those tools.  I'm certain either 
+mercurial or git would work for us just fine.  It does, however, seem 
+like a good idea to just pick one and go with it.</tt><br>
+<br>
+<pre style="margin: 0em;">Please comment.</pre><br>
+<pre style="margin: 0em;">Various random links that touch on this topics:</pre><br>
+<tt>* 
+<a  href="https://docs.python.org/devguide/gitdevs.html#main-differences-between-git-and-hg">https://docs.python.org/devguide/gitdevs.html#main-differences-between-git-and-hg</a><br>
+* <a  href="https://jhw.dreamwidth.org/1868.html">https://jhw.dreamwidth.org/1868.html</a>  (pro hg)<br>
+* 
+<a  href="https://felipec.wordpress.com/2013/08/27/analysis-of-hg-and-git-branches/">https://felipec.wordpress.com/2013/08/27/analysis-of-hg-and-git-branches/</a> 
+(pro git)<br>
+* <a  href="https://git-scm.com/book/en/v2/Git-Tools-Submodules">https://git-scm.com/book/en/v2/Git-Tools-Submodules</a><br>
+* <a  href="https://mercurial.selenic.com/wiki/Subrepository">https://mercurial.selenic.com/wiki/Subrepository</a></tt><br>
+<br>
+<pre style="margin: 0em;">- Mike</pre><br>
+
+<!--X-Body-of-Message-End-->
+<!--X-MsgBody-End-->
+<!--X-Follow-Ups-->
+<hr>
+<ul><li><strong>Follow-Ups</strong>:
+<ul>
+<li><strong><a name="00016" href="msg00016.html">Re: Source Code Repository Conventions</a></strong>
+<ul><li><em>From:</em> Matthew Turk</li></ul></li>
+</ul></li></ul>
+<!--X-Follow-Ups-End-->
+<!--X-References-->
+<!--X-References-End-->
+<!--X-BotPNI-->
+<HR>
+<UL>
+<li>Prev by Date:
+<strong><a href="msg00014.html">Re: NDS Dashboard</a></strong>
+</li>
+<li>Next by Date:
+<strong><a href="msg00016.html">Re: Source Code Repository Conventions</a></strong>
+</li>
+
+<li>Previous by thread:
+<strong><a href="msg00013.html">NDS Developer Meeting / Working Session 7/13/2015</a></strong>
+</li>
+<li>Next by thread:
+<strong><a href="msg00016.html">Re: Source Code Repository Conventions</a></strong>
+</li>
+
+</UL>
+<!--#INCLUDE VIRTUAL="/include/lists/discuss/message-footer.html"-->
+
+<!--X-BotPNI-End-->
+<!--X-User-Footer-->
+<strong>
+<center>
+<a href="/lists/">Other Mailing lists</a> |
+<a href="author.html">Author Index</a> |
+<a href="maillist.html">Date Index</a> |
+<a href="subject.html">Subject Index</a> |
+<a href="threads.html">Thread Index</a>
+</center>
+</strong>
+<!--X-User-Footer-End-->
+</body>
+</html>

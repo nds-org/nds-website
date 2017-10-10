@@ -1,0 +1,84 @@
+<!-- MHonArc v2.6.10 -->
+<!--X-Subject: What can we do right now for a Labs environment? -->
+<!--X-From-R13: [nggurj Fhex <znggurjghexNtznvy.pbz> -->
+<!--X-Date: Wed, 12 Nov 2014 14:12:15 &#45;0600 -->
+<!--X-Message-Id: CALO3=5G+75zX8SpZZN6ABfB8xu3hQ489OZr5Z+zC1hpk=NEiew@mail.gmail.com -->
+<!--X-Content-Type: multipart/alternative -->
+<!--X-Head-End-->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML//EN">
+<HTML>
+<HEAD>
+<TITLE>What can we do right now for a Labs environment?</TITLE>
+<LINK REV="made" HREF="mailto:matthewturk@gmail.com">
+</HEAD>
+<!--#INCLUDE VIRTUAL="/include/lists/discuss/message-header.html"-->
+<!--X-Body-Begin-->
+<!--X-User-Header-->
+<!--X-User-Header-End-->
+<!--X-TopPNI-->
+<!---->
+
+<!--X-TopPNI-End-->
+<!--X-MsgBody-->
+<!--X-Subject-Header-Begin-->
+<H1>What can we do right now for a Labs environment?<HR></H1>
+<!--X-Subject-Header-End-->
+<!--X-Head-of-Message-->
+<ul>
+<li><strong>To</strong>: <strong>&quot;<a href="mailto:discuss@DOMAIN.HIDDEN">discuss@xxxxxxxxxxxxxxxxxxxxxxx</a>&quot; &lt;<a href="mailto:discuss@DOMAIN.HIDDEN">discuss@xxxxxxxxxxxxxxxxxxxxxxx</a>&gt;</strong></li>
+<li><strong>Subject</strong>: <strong>What can we do right now for a Labs environment?</strong></li>
+<li><strong>From</strong>: <strong>Matthew Turk &lt;<a href="mailto:matthewturk@DOMAIN.HIDDEN">matthewturk@xxxxxxxxx</a>&gt;</strong></li>
+<li>Date: Wed, 12 Nov 2014 20:12:00 +0000</li>
+<li>Content-type: multipart/alternative; boundary=20cf303348193a90e60507af028b</li>
+<li>Dkim-signature: v=1; a=rsa-sha256; c=relaxed/relaxed;        d=gmail.com; s=20120113;        h=mime-version:from:date:message-id:subject:to:content-type;        bh=KH1Ik+hKfsZoWez9ocpvW7QCsqnAyBIKbvO1rMLn7jw=;        b=ESR5dwxGX+mQ08+ssk1h3Krevl99Fhx0iv9+cUTARvrKJjynoj+ms2O6MaIxmaBFba         46ThKc8dqRkQPJ7KIAQ9IaIwEgzvV09Wx1ag6wglpa74JgVxsXEDKmsWYfyWyNpLU4Pw         9UCjn59ZQgEIbV8tIb56bTsg1nUeSMibfi3QrlsNOW2TQ8s5c3WexPC/dQouyucxpBT0         K3QnkeJwKP5+Pb3/79TQaePHFcyHV/MuZq6UC6IWGa0zzwaaHlgzP2ZdnBGIr8sXaGFv         Slm3+aePiUDA4UsIKIp8QDS1UGUsFSGpF3YumUEkUVr5X7tafJnH32QpSc5Ty//qcF4L         TE8Q==</li>
+<li>Reply-to: <a href="mailto:discuss@DOMAIN.HIDDEN">discuss@xxxxxxxxxxxxxxxxxxxxxxx</a></li>
+<li>Sender: <a href="mailto:owner-discuss@DOMAIN.HIDDEN">owner-discuss@xxxxxxxxxxxxxxxxxxxxxxx</a></li>
+</ul>
+<!--X-Head-of-Message-End-->
+<!--X-Head-Body-Sep-Begin-->
+<hr>
+<!--X-Head-Body-Sep-End-->
+<!--X-Body-of-Message-->
+Hi all,<div><br></div><div>Glad to see some of the discussion recently (Arthur, I think I owe you a response!) about what we might be able to provide longer term in a &quot;labs&quot; environment that goes beyond a cloud.</div><div><br></div><div>I wanted to propose something which may be of interest, which is an extension of the &quot;Epiphyte&quot; demo I showed at the NDS-Rockville meting.&#xC2; A few of us have been working on extending that demo and developing it a bit further, with hardening of some aspects and deploying a few more.&#xC2; But before it got too much further, I wanted to bring it here to see if anyone else was interested in exploring it.</div><div><br></div><div>We&#39;ve been working to set up scripts to automate the process of:</div><div><br></div><div>&#xC2;* Setting up a CoreOS cluster</div><div>&#xC2;* Managing docker containers locally</div><div>&#xC2;* Ingesting data into iRODS</div><div>&#xC2;* Deploying docker containers dynamically, with access to subsets of iRODS-stored data</div><div>&#xC2;* Detecting when new containers are exposing port 80, and setting up automatic handling of sub-URLs to those containers</div><div><br></div><div>This is an environment in which we would be able to deploy new services for:</div><div><br></div><div>&#xC2;* Accepting data</div><div>&#xC2;* Displaying data</div><div>&#xC2;* Manipulating data</div><div><br></div><div>It could be seen as something of a platform-as-a-service for data -- it provides mechanisms for very simply describing services, and then down the road building the matchmaking services that Arthur, Kenton and I were brainstorming over.&#xC2; It could be used to develop frontends to data, to bring data to other frontends, and to re-ingest artifacts for subsequent publication.&#xC2; But it&#39;s at its core a set of deployment, management and orchestration mechanisms that are focused around *data* -- and in that way, it should be able to be flexible and experimental.</div><div><br></div><div>The use case I&#39;ve had in my head for a while has been to get some big dataset there, linked to a publication, and then make it easy for people to use IPython notebooks or Python scripts, grab the artifacts those result in, and publish them as data on their own.&#xC2; And I think it&#39;s almost there.&#xC2; The next phase, in my eyes, would be to allow people to upload their own webapps that interface with their data.&#xC2; That one might take a bit longer, but not too much.</div><div><br></div><div>Anyway, we have a first stab at this running, and next week if you&#39;re at SC14 I&#39;ll be at the NCSA booth a couple times and can talk about it (it might be listed as &quot;NDS Labs&quot;) but I don&#39;t think there&#39;s any way it can be successful without figuring out if it&#39;s on the right track or if it&#39;s missing some ideas.&#xC2; And the only way to figure that out is to try to get other people to try it.&#xC2; So if you want to experiment, let&#39;s get you onto the system, and let&#39;s figure out what&#39;s good about it, what&#39;s bad about it, and what would make it better.</div><div><br></div><div>-Matt</div>
+
+<!--X-Body-of-Message-End-->
+<!--X-MsgBody-End-->
+<!--X-Follow-Ups-->
+<hr>
+<!--X-Follow-Ups-End-->
+<!--X-References-->
+<!--X-References-End-->
+<!--X-BotPNI-->
+<HR>
+<UL>
+<li>Prev by Date:
+<strong><a href="msg00009.html">Fwd: big long tail data in neuroscience</a></strong>
+</li>
+<li>Next by Date:
+<strong><a href="msg00011.html">CENDI/NFAIS - and Cameron Neylon post</a></strong>
+</li>
+
+<li>Previous by thread:
+<strong><a href="msg00009.html">Fwd: big long tail data in neuroscience</a></strong>
+</li>
+<li>Next by thread:
+<strong><a href="msg00011.html">CENDI/NFAIS - and Cameron Neylon post</a></strong>
+</li>
+
+</UL>
+<!--#INCLUDE VIRTUAL="/include/lists/discuss/message-footer.html"-->
+
+<!--X-BotPNI-End-->
+<!--X-User-Footer-->
+<strong>
+<center>
+<a href="/lists/">Other Mailing lists</a> |
+<a href="author.html">Author Index</a> |
+<a href="maillist.html">Date Index</a> |
+<a href="subject.html">Subject Index</a> |
+<a href="threads.html">Thread Index</a>
+</center>
+</strong>
+<!--X-User-Footer-End-->
+</body>
+</html>

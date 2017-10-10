@@ -1,0 +1,206 @@
+<!-- MHonArc v2.6.10 -->
+<!--X-Subject: Re: merge conflict in startup_ndslabs.py -->
+<!--X-From-R13: [vxr Terrzba <zserrzbaNvyyvabvf.rqh> -->
+<!--X-Date: Mon, 20 Jul 2015 17:44:37 &#45;0500 -->
+<!--X-Message-Id: 55AD79CE.8060403@illinois.edu -->
+<!--X-Content-Type: text/plain -->
+<!--X-Reference: 55AD3A9A.1030707@illinois.edu -->
+<!--X-Reference: 55AD3FE6.6000102@gmail.com -->
+<!--X-Head-End-->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML//EN">
+<HTML>
+<HEAD>
+<TITLE>Re: merge conflict in startup_ndslabs.py</TITLE>
+<LINK REV="made" HREF="mailto:mfreemon@illinois.edu">
+</HEAD>
+<!--#INCLUDE VIRTUAL="/include/lists/discuss/message-header.html"-->
+<!--X-Body-Begin-->
+<!--X-User-Header-->
+<!--X-User-Header-End-->
+<!--X-TopPNI-->
+<!---->
+
+<!--X-TopPNI-End-->
+<!--X-MsgBody-->
+<!--X-Subject-Header-Begin-->
+<H1>Re: merge conflict in startup_ndslabs.py<HR></H1>
+<!--X-Subject-Header-End-->
+<!--X-Head-of-Message-->
+<ul>
+<li><strong>To</strong>: <strong>NDS discuss &lt;<a href="mailto:discuss@DOMAIN.HIDDEN">discuss@xxxxxxxxxxxxxxxxxxxxxxx</a>&gt;</strong></li>
+<li><strong>Subject</strong>: <strong>Re: merge conflict in startup_ndslabs.py</strong></li>
+<li><strong>From</strong>: <strong>Mike Freemon &lt;<a href="mailto:mfreemon@DOMAIN.HIDDEN">mfreemon@xxxxxxxxxxxx</a>&gt;</strong></li>
+<li>Date: Mon, 20 Jul 2015 17:44:30 -0500</li>
+<li>Content-transfer-encoding: 7bit</li>
+<li>Content-type: text/plain; charset=utf-8; format=flowed</li>
+<li>In-reply-to: &lt;<a href="msg00037.html">55AD3FE6.6000102@gmail.com</a>&gt;</li>
+<li>References: &lt;<a href="msg00036.html">55AD3A9A.1030707@illinois.edu</a>&gt; &lt;<a href="msg00037.html">55AD3FE6.6000102@gmail.com</a>&gt;</li>
+<li>Reply-to: <a href="mailto:discuss@DOMAIN.HIDDEN">discuss@xxxxxxxxxxxxxxxxxxxxxxx</a></li>
+<li>Sender: <a href="mailto:owner-discuss@DOMAIN.HIDDEN">owner-discuss@xxxxxxxxxxxxxxxxxxxxxxx</a></li>
+<li>User-agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Thunderbird/38.1.0</li>
+</ul>
+<!--X-Head-of-Message-End-->
+<!--X-Head-Body-Sep-Begin-->
+<hr>
+<!--X-Head-Body-Sep-End-->
+<!--X-Body-of-Message-->
+<pre style="margin: 0em;">Hi Kacper,</pre><br>
+<pre style="margin: 0em;">Does this version of the script look good to you?</pre><br>
+<pre style="margin: 0em;"><a  href="https://bitbucket.org/nds-org/nds-labs/commits/d1326779adb2b65b556e6d0674e1ba43c9eb4cb1">https://bitbucket.org/nds-org/nds-labs/commits/d1326779adb2b65b556e6d0674e1ba43c9eb4cb1</a></pre><br>
+<pre style="margin: 0em;">- Mike</pre><br>
+<tt><br>On 7/20/2015 1:37 PM, Kacper Kowalik wrote:
+</tt><blockquote style="border-left: #5555EE solid 0.2em; margin: 0em; padding-left: 0.85em"><tt>On 07/20/2015 01:14 PM, Mike Freemon wrote:
+</tt><blockquote style="border-left: #5555EE solid 0.2em; margin: 0em; padding-left: 0.85em"><pre style="margin: 0em;">Hi Kacper,</pre><br>
+<pre style="margin: 0em;">Over the weekend, I had a merge conflict which I would like to ask about.</pre><br>
+<pre style="margin: 0em;">The relevant portion of the diff is below.  It involves changes to the
+ephemeral service, copying a private key, SFTPing the file
+/mnt/docker-file.  I did not follow exactly what was going on there.  I
+resolved the conflict by not bringing these forward.</pre><br>
+<pre style="margin: 0em;">The current version is sitting in branch 'mfreemon-dev' right now, but I
+want to merge that into 'dev' if this resolution to the merge conflict
+is ok.  Let me know.  Thanks...</pre><br>
+<tt>- Mike
+</tt></blockquote><pre style="margin: 0em;"><br>Hi Mike,
+I used to host sparse file pre-populated with all docker images to speed
+up the cluster boot. It's a band-aid solution and should be deprecated
+in favor of running local docker-registry.</pre><br>
+<pre style="margin: 0em;">BTW, currently ythub1 is down so it won't work at all. Previous
+implementation utilized ephemeral devices that ISL's cloud *used* to
+provide. It won't work either.</pre><br>
+<pre style="margin: 0em;">I'd suggest removing both {format,get}-ephemeral.serice and
+var-lib-docker.mount from the startup script.</pre><br>
+<pre style="margin: 0em;">Cheers,
+Kacper</pre><br>
+<br>
+<blockquote style="border-left: #5555EE solid 0.2em; margin: 0em; padding-left: 0.85em"><pre style="margin: 0em;">diff -r ff0edde9c4fb -r 4c4d48ec4b87 startup_ndslabs.py
+--- a/startup_ndslabs.py        Sat Jul 18 14:52:17 2015 -0500
++++ b/startup_ndslabs.py        Mon Mar 30 15:49:34 2015 -0500
+@@ -1,10 +1,8 @@
+  import argparse
+  import time
+  import os
+-import sys
+  import requests
+  from string import Template
+-import novaclient
+  from novaclient.v1_1 import client</pre><br>
+<pre style="margin: 0em;">  CLOUD_CONFIG = Template('''#cloud-config
+@@ -43,28 +41,28 @@
+          [Service]
+          Type=oneshot
+          ExecStart=/usr/bin/systemctl enable docker-tcp.socket
+-    - name: format-ephemeral.service
++    - name: get-ephemeral.service
+        command: start
+        content: |
+          [Unit]
+-        Description=Formats the ephemeral drive
++        Description=Gets the docker drive
+          [Service]
+          Type=oneshot
+          RemainAfterExit=yes
+-        ExecStart=/bin/sh -c &quot;/usr/sbin/wipefs -f $$(blkid -L ephemeral0)&quot;
+-        ExecStart=/bin/sh -c &quot;/usr/sbin/mkfs.btrfs -f $$(blkid -L
+ephemeral0) -L ephemeral0&quot;
++        ExecStartPre=/bin/sh -c &quot;(mkdir /root/.ssh; ssh-keyscan
+ythub1.ncsa.illinois.edu &gt;&gt; /root/.ssh/known_hosts)&quot;
++        ExecStart=/bin/sh -c &quot;(echo 'lcd /mnt'; echo 'get docker-file';
+echo quit)| sftp core@xxxxxxxxxxxxxxxxxxxxxxxx&quot;
+      - name: var-lib-docker.mount
+        command: start
+        content: |
+          [Unit]
+          Description=Mount ephemeral to /var/lib/docker
+-        Requires=format-ephemeral.service
+-        After=format-ephemeral.service
++        Requires=get-ephemeral.service
++        After=get-ephemeral.service
+          Before=docker.service
+          [Mount]
+-        What=LABEL=&quot;ephemeral0&quot;
++        What=/mnt/docker-file
+          Where=/var/lib/docker
+-        Type=btrfs
++        Type=
+      - name: format-swap.service
+        command: start
+        content: |
+@@ -88,12 +86,19 @@
+      permissions: 0644
+      owner: root
+      content: |
+-$envfile''')
++$envfile
++  - path: /root/.ssh/id_rsa
++    permissions: 0600
++    owner: root
++    content: |
++$scponlykey''')</pre><br>
+<pre style="margin: 0em;">  if __name__ == &quot;__main__&quot;:
+      parser = argparse.ArgumentParser(description=&quot;Spawn our coreOS.&quot;)
+      parser.add_argument('--ssh-key', action='store', dest='ssh_key',
+                          default=&quot;/home/mturk/core.pub&quot;)
++    parser.add_argument('--scponly-key', action='store', dest='scp_key',
++                        default=&quot;scponly.key&quot;)
+      parser.add_argument('--ssh-key-name', action='store',
+dest='ssh_key_name',
+                          default='core')
+[snip]</pre><br>
+<pre style="margin: 0em;">&lt;eom&gt;</pre><br>
+<br>
+</blockquote><pre style="margin: 0em;"><br></pre><br>
+</blockquote><br>
+
+<!--X-Body-of-Message-End-->
+<!--X-MsgBody-End-->
+<!--X-Follow-Ups-->
+<hr>
+<ul><li><strong>Follow-Ups</strong>:
+<ul>
+<li><strong><a name="00043" href="msg00043.html">Re: merge conflict in startup_ndslabs.py</a></strong>
+<ul><li><em>From:</em> Kacper Kowalik</li></ul></li>
+</ul></li></ul>
+<!--X-Follow-Ups-End-->
+<!--X-References-->
+<ul><li><strong>References</strong>:
+<ul>
+<li><strong><a name="00036" href="msg00036.html">merge conflict in startup_ndslabs.py</a></strong>
+<ul><li><em>From:</em> Mike Freemon</li></ul></li>
+<li><strong><a name="00037" href="msg00037.html">Re: merge conflict in startup_ndslabs.py</a></strong>
+<ul><li><em>From:</em> Kacper Kowalik</li></ul></li>
+</ul></li></ul>
+<!--X-References-End-->
+<!--X-BotPNI-->
+<HR>
+<UL>
+<li>Prev by Date:
+<strong><a href="msg00040.html">Re: Changing way to invoke novaclient api in nds-webservice rest api</a></strong>
+</li>
+<li>Next by Date:
+<strong><a href="msg00042.html">RE: Changing way to invoke novaclient api in nds-webservice rest api</a></strong>
+</li>
+
+<li>Previous by thread:
+<strong><a href="msg00037.html">Re: merge conflict in startup_ndslabs.py</a></strong>
+</li>
+<li>Next by thread:
+<strong><a href="msg00043.html">Re: merge conflict in startup_ndslabs.py</a></strong>
+</li>
+
+</UL>
+<!--#INCLUDE VIRTUAL="/include/lists/discuss/message-footer.html"-->
+
+<!--X-BotPNI-End-->
+<!--X-User-Footer-->
+<strong>
+<center>
+<a href="/lists/">Other Mailing lists</a> |
+<a href="author.html">Author Index</a> |
+<a href="maillist.html">Date Index</a> |
+<a href="subject.html">Subject Index</a> |
+<a href="threads.html">Thread Index</a>
+</center>
+</strong>
+<!--X-User-Footer-End-->
+</body>
+</html>

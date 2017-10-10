@@ -1,0 +1,996 @@
+From owner-discuss@nationaldataservice.org Tue Mar  8 19:47:16 2016
+Received: (from majordomo@localhost)
+	by pop.ncsa.uiuc.edu (8.11.7/8.11.7) id u291lGA07466;
+	Tue, 8 Mar 2016 19:47:16 -0600
+X-Envelope-From: matthewturk@gmail.com
+X-Envelope-To: <discuss@nationaldataservice.org>
+Received: from rimantadine.ncsa.uiuc.edu (amantadine.ncsa.uiuc.edu [141.142.192.229])
+	by pop.ncsa.uiuc.edu (8.11.7/8.11.7) with ESMTP id u291lGI07456
+	for <discuss@nationaldataservice.org>; Tue, 8 Mar 2016 19:47:16 -0600
+Received: from mail-vk0-f52.google.com (mail-vk0-f52.google.com [209.85.213.52])
+	by rimantadine.ncsa.uiuc.edu (8.14.9/8.14.4) with ESMTP id u291lFYS024890
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL)
+	for <discuss@nationaldataservice.org>; Tue, 8 Mar 2016 19:47:15 -0600
+Received: by mail-vk0-f52.google.com with SMTP id e185so39506636vkb.1
+        for <discuss@nationaldataservice.org>; Tue, 08 Mar 2016 17:47:15 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:from:date:message-id:subject:to;
+        bh=IpOVMPM8zAhz00OAaX/HtBmeRc6ZeXA4oTRLUem4BJ8=;
+        b=DVfcnqHuskIwTVvmNLwoCX32XIOzACIlKQfhb9wCt9SJO35N7CF3wyk3K/9kt8dlcl
+         FECwVtXxlMg3FEWPPgdVsf+RBgHt6viAsojMd22P2TcJXyhX/AzzH0iQQtjvVZNmUDhJ
+         ufevYjKQOFkh6YU/uZR45Koj9Ze84gV+WkF1oZr6IVoH1L6JetlLkzyUAI4cg1df3FVd
+         9Iu0RwoOiMKXSGSGbRLYQXml23YcSmAoYE1VfTIzXxAfjsmSy1lFGWbZuGbGnywpwfUz
+         DBTB3WMZjTFUll9KTD4QpcDL/0/U3yQ6pFzLnxdSmNi4iLybn0DsyXNpdS4zgldGZMP/
+         BQTA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:from:date:message-id:subject:to;
+        bh=IpOVMPM8zAhz00OAaX/HtBmeRc6ZeXA4oTRLUem4BJ8=;
+        b=c82T/S8HZbRhS5oEOpieNCj5BPn6V0ZB+umtqtoBn+y4L8CoF+/VPupjuBZDPObJ4V
+         75HsR32a3wo7cj7b5Gg6JntK110DN1Co4BU1Wf2jhg0dFF9rt8rRYs0WwoWicwz0Eupb
+         63MvRPbPmdqia1XFIgq5O3ebxIWFGF6IvHBogvirVAguAwISrZHIgZHyNdRAgpURJ07y
+         5HJr5QKt6MNg8iGxd34UHKE6G14BJEXJUHOyq+f4DuyDU3bsbbJVuV4qrbOBUK5xaACC
+         uK3aGUcUySkIdBwcOILsmkJD0O7OF6G/cMGpNBpvyUpGCL6R9uB9vf7gc2uDv+E+ru2P
+         4ubw==
+X-Gm-Message-State: AD7BkJJ73yTlj5ua0q0fDXjdjr+okj/0qaZF59UrDG97ooRSdj3WRAxO8Hz6FHyd92aECMAHvjjejyAneDSPWA==
+X-Received: by 10.31.13.194 with SMTP id 185mr26221641vkn.142.1457488034730;
+ Tue, 08 Mar 2016 17:47:14 -0800 (PST)
+MIME-Version: 1.0
+Received: by 10.176.67.7 with HTTP; Tue, 8 Mar 2016 17:46:55 -0800 (PST)
+From: Matthew Turk <matthewturk@gmail.com>
+Date: Tue, 8 Mar 2016 19:46:55 -0600
+Message-ID: <CALO3=5EU+CcBLgYV8Db-g=s76bcDaXZ+PAt4pm5px=z8X5Ro_A@mail.gmail.com>
+Subject: arceli: informal communications
+To: "discuss@nationaldataservice.org" <discuss@nationaldataservice.org>
+Content-Type: text/plain; charset=UTF-8
+X-Null-Tag: a1eafae4886190638e3090572fdbbb0e
+X-NCSA-MailScanner-Information: Please contact help@ncsa.uiuc.edu for more information, rimantadine.ncsa.uiuc.edu
+X-NCSA-MailScanner-ID: u291lFYS024890
+X-NCSA-MailScanner: Found to be clean
+Sender: owner-discuss@nationaldataservice.org
+Precedence: bulk
+Reply-To: discuss@nationaldataservice.org
+
+Hi folks,
+
+I saw this today and thought it, or the concepts behind it, may be of
+interest to people here. Particularly relevant is the archiving of
+narrative data analysis, I thought.
+
+https://github.com/arceli/charter/blob/master/README.md
+
+-Matt
+
+From owner-discuss@nationaldataservice.org Thu Mar 31 12:37:52 2016
+Received: (from majordomo@localhost)
+	by pop.ncsa.uiuc.edu (8.11.7/8.11.7) id u2VHbq915954;
+	Thu, 31 Mar 2016 12:37:52 -0500
+X-Envelope-From: jtowns@ncsa.illinois.edu
+X-Envelope-To: <discuss@nationaldataservice.org>
+Received: from rimantadine.ncsa.uiuc.edu (amantadine.ncsa.uiuc.edu [141.142.192.229])
+	by pop.ncsa.uiuc.edu (8.11.7/8.11.7) with ESMTP id u2VHbq115944
+	for <discuss@nationaldataservice.org>; Thu, 31 Mar 2016 12:37:52 -0500
+Received: from [10.70.134.140] ([38.127.159.5])
+	(authenticated bits=0)
+	by rimantadine.ncsa.uiuc.edu (8.14.9/8.14.4) with ESMTP id u2VHbnuP008098
+	(version=TLSv1/SSLv3 cipher=DHE-RSA-AES128-SHA bits=128 verify=NO)
+	for <discuss@nationaldataservice.org>; Thu, 31 Mar 2016 12:37:50 -0500
+Subject: Fwd: Best Practices in Data Infrastructure Workshop at PSC - May
+ 17-18, 2016
+References: <56FD47AF.4050903@psc.edu>
+To: discuss@nationaldataservice.org
+From: John Towns <jtowns@ncsa.illinois.edu>
+X-Forwarded-Message-Id: <56FD47AF.4050903@psc.edu>
+Message-ID: <56FD60AC.2020109@ncsa.illinois.edu>
+Date: Thu, 31 Mar 2016 12:38:52 -0500
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:38.0) Gecko/20100101
+ Thunderbird/38.7.1
+MIME-Version: 1.0
+In-Reply-To: <56FD47AF.4050903@psc.edu>
+Content-Type: multipart/mixed;
+ boundary="------------090503070702050603030105"
+X-Null-Tag: efe19d65832cc70ae9b9c53063616c4a
+X-NCSA-MailScanner-Information: Please contact help@ncsa.uiuc.edu for more information, rimantadine.ncsa.uiuc.edu
+X-NCSA-MailScanner-ID: u2VHbnuP008098
+X-NCSA-MailScanner: Found to be clean
+Sender: owner-discuss@nationaldataservice.org
+Precedence: bulk
+Reply-To: discuss@nationaldataservice.org
+
+This is a multi-part message in MIME format.
+--------------090503070702050603030105
+Content-Type: multipart/alternative;
+ boundary="------------070806040003050707010005"
+
+
+--------------070806040003050707010005
+Content-Type: text/plain; charset=windows-1252; format=flowed
+Content-Transfer-Encoding: 7bit
+
+FYI...
+
+
+-------- Forwarded Message --------
+Subject: 	[Cascmem] Best Practices in Data Infrastructure Workshop at 
+PSC - May 17-18, 2016
+Date: 	Thu, 31 Mar 2016 11:52:15 -0400
+From: 	David Moses <dmoses@psc.edu>
+
+
+
+The Pittsburgh Supercomputing Center will host a workshop on Best 
+Practices in Data Infrastructure to bring together developers and users 
+of advanced cyberinfrastructure relating to data management and 
+analytics.  The workshop will be held over 1.5 days to allow time for 
+presentations and discussion.  For more details, including agenda and 
+registration information, please visit:
+
+http://www.psc.edu/index.php/bpdi-workshop
+
+Rgds,
+Dave
+-- 
+David J
+
+*David J. Moses, PhD | Executive Director | Pittsburgh Supercomputing 
+Center*
+
+*Carnegie Mellon University*| 300 South Craig St. Room 308 | Pittsburgh, 
+PA 15213
+
+Phone: 412.268.4960 | email: dmoses@psc.edu <mailto:dmoses@psc.edu> | 
+URL: http://www.psc.edu/~dmoses 
+<https://urldefense.proofpoint.com/v2/url?u=http-3A__www.psc.edu_-257Edmoses&d=BQMDaQ&c=8hUWFZcy2Z-Za5rBPlktOQ&r=kUnbnYEwjOSlOUrpmQihSDty-a-4wnRZNLEOVK1A6LM&m=baWiya0xGN2ywJgxzUMkJgEm6m51F51V6MQs6q2j6tg&s=ReCuGVb_kn4fK55W8c8CDwR7QYv-TLQvu3gKH21Tv54&e=>
+
+
+
+
+--------------070806040003050707010005
+Content-Type: text/html; charset=windows-1252
+Content-Transfer-Encoding: 8bit
+
+<html>
+  <head>
+
+    <meta http-equiv="content-type" content="text/html; charset=windows-1252">
+  </head>
+  <body bgcolor="#FFFFFF" text="#000000">
+    FYI...<br>
+    <div class="moz-forward-container"><br>
+      <br>
+      -------- Forwarded Message --------
+      <table class="moz-email-headers-table" border="0" cellpadding="0"
+        cellspacing="0">
+        <tbody>
+          <tr>
+            <th align="RIGHT" nowrap="nowrap" valign="BASELINE">Subject:
+            </th>
+            <td>[Cascmem] Best Practices in Data Infrastructure Workshop
+              at PSC - May 17-18, 2016</td>
+          </tr>
+          <tr>
+            <th align="RIGHT" nowrap="nowrap" valign="BASELINE">Date: </th>
+            <td>Thu, 31 Mar 2016 11:52:15 -0400</td>
+          </tr>
+          <tr>
+            <th align="RIGHT" nowrap="nowrap" valign="BASELINE">From: </th>
+            <td>David Moses <a class="moz-txt-link-rfc2396E" href="mailto:dmoses@psc.edu">&lt;dmoses@psc.edu&gt;</a></td>
+          </tr>
+        </tbody>
+      </table>
+      <br>
+      <br>
+      <meta http-equiv="Content-Type" content="text/html;
+        charset=windows-1252">
+      The Pittsburgh Supercomputing Center will host a workshop on Best
+      Practices in Data Infrastructure to bring together developers and
+      users of advanced cyberinfrastructure relating to data management
+      and analytics.� The workshop will be held over 1.5 days to allow
+      time for presentations and discussion.� For more details,
+      including agenda and registration information, please visit:<br>
+      <br>
+      <a moz-do-not-send="true" class="moz-txt-link-freetext"
+href="https://urldefense.proofpoint.com/v2/url?u=http-3A__www.psc.edu_index.php_bpdi-2Dworkshop&amp;d=BQMDaQ&amp;c=8hUWFZcy2Z-Za5rBPlktOQ&amp;r=kUnbnYEwjOSlOUrpmQihSDty-a-4wnRZNLEOVK1A6LM&amp;m=baWiya0xGN2ywJgxzUMkJgEm6m51F51V6MQs6q2j6tg&amp;s=EaH2A2RKnqmISCSzhNxa-_nL12sqUXeSeuqhWbAM3xc&amp;e=">http://www.psc.edu/index.php/bpdi-workshop</a><br>
+      <br>
+      Rgds,<br>
+      Dave<br>
+      <div class="moz-signature">-- <br>
+        <meta name="ProgId" content="Word.Document">
+        <meta name="Generator" content="Microsoft Word 14">
+        <meta name="Originator" content="Microsoft Word 14">
+        <link rel="File-List" href="PSC_new_files/filelist.xml">
+        <title>David J</title>
+        <!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>David Moses</o:Author>
+  <o:LastAuthor>dmoses</o:LastAuthor>
+  <o:Revision>21</o:Revision>
+  <o:TotalTime>39</o:TotalTime>
+  <o:Created>2015-06-10T16:41:00Z</o:Created>
+  <o:LastSaved>2015-07-23T14:11:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>47</o:Words>
+  <o:Characters>271</o:Characters>
+  <o:Company>PSC</o:Company>
+  <o:Lines>2</o:Lines>
+  <o:Paragraphs>1</o:Paragraphs>
+  <o:CharactersWithSpaces>317</o:CharactersWithSpaces>
+  <o:Version>14.00</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]-->
+        <link rel="dataStoreItem" href="PSC_new_files/item0006.xml"
+          target="PSC_new_files/props007.xml">
+        <link rel="themeData" href="PSC_new_files/themedata.thmx">
+        <link rel="colorSchemeMapping"
+          href="PSC_new_files/colorschememapping.xml">
+        <!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:Zoom>120</w:Zoom>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:TrackMoves>false</w:TrackMoves>
+  <w:TrackFormatting/>
+  <w:PunctuationKerning/>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:DoNotPromoteQF/>
+  <w:LidThemeOther>EN-US</w:LidThemeOther>
+  <w:LidThemeAsian>X-NONE</w:LidThemeAsian>
+  <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
+  <w:Compatibility>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+   <w:DontGrowAutofit/>
+   <w:SplitPgBreakAndParaMark/>
+   <w:DontVertAlignCellWithSp/>
+   <w:DontBreakConstrainedForcedTables/>
+   <w:DontVertAlignInTxbx/>
+   <w:Word11KerningPairs/>
+   <w:CachedColBalance/>
+  </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+  <m:mathPr>
+   <m:mathFont m:val="Cambria Math"/>
+   <m:brkBin m:val="before"/>
+   <m:brkBinSub m:val="&#45;-"/>
+   <m:smallFrac m:val="off"/>
+   <m:dispDef/>
+   <m:lMargin m:val="0"/>
+   <m:rMargin m:val="0"/>
+   <m:defJc m:val="centerGroup"/>
+   <m:wrapIndent m:val="1440"/>
+   <m:intLim m:val="subSup"/>
+   <m:naryLim m:val="undOvr"/>
+  </m:mathPr></w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
+  DefSemiHidden="false" DefQFormat="false" LatentStyleCount="267">
+  <w:LsdException Locked="false" QFormat="true" Name="Normal"/>
+  <w:LsdException Locked="false" QFormat="true" Name="heading 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   QFormat="true" Name="heading 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   QFormat="true" Name="heading 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   QFormat="true" Name="heading 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   QFormat="true" Name="heading 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   QFormat="true" Name="heading 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   QFormat="true" Name="heading 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   QFormat="true" Name="heading 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   QFormat="true" Name="heading 9"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   QFormat="true" Name="caption"/>
+  <w:LsdException Locked="false" QFormat="true" Name="Title"/>
+  <w:LsdException Locked="false" Priority="1" Name="Default Paragraph Font"/>
+  <w:LsdException Locked="false" QFormat="true" Name="Subtitle"/>
+  <w:LsdException Locked="false" QFormat="true" Name="Strong"/>
+  <w:LsdException Locked="false" QFormat="true" Name="Emphasis"/>
+  <w:LsdException Locked="false" Priority="99" Name="No List"/>
+  <w:LsdException Locked="false" Priority="99" SemiHidden="true"
+   Name="Placeholder Text"/>
+  <w:LsdException Locked="false" Priority="1" QFormat="true" Name="No Spacing"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 1"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="99" SemiHidden="true" Name="Revision"/>
+  <w:LsdException Locked="false" Priority="34" QFormat="true"
+   Name="List Paragraph"/>
+  <w:LsdException Locked="false" Priority="29" QFormat="true" Name="Quote"/>
+  <w:LsdException Locked="false" Priority="30" QFormat="true"
+   Name="Intense Quote"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 1"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 1"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 2"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 2"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 2"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 3"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 3"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 3"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 4"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 4"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 4"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 5"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 5"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 5"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 6"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 6"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 6"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="19" QFormat="true"
+   Name="Subtle Emphasis"/>
+  <w:LsdException Locked="false" Priority="21" QFormat="true"
+   Name="Intense Emphasis"/>
+  <w:LsdException Locked="false" Priority="31" QFormat="true"
+   Name="Subtle Reference"/>
+  <w:LsdException Locked="false" Priority="32" QFormat="true"
+   Name="Intense Reference"/>
+  <w:LsdException Locked="false" Priority="33" QFormat="true" Name="Book Title"/>
+  <w:LsdException Locked="false" Priority="37" SemiHidden="true"
+   UnhideWhenUsed="true" Name="Bibliography"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="TOC Heading"/>
+ </w:LatentStyles>
+</xml><![endif]-->
+        <style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:1;
+	mso-generic-font-family:roman;
+	mso-font-format:other;
+	mso-font-pitch:variable;
+	mso-font-signature:0 0 0 0 0 0;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-520081665 -1073717157 41 0 66047 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"Times New Roman";}
+a:link, span.MsoHyperlink
+	{mso-style-unhide:no;
+	color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-unhide:no;
+	color:purple;
+	text-decoration:underline;
+	text-underline:single;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-unhide:no;
+	mso-style-link:"Balloon Text Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:8.0pt;
+	font-family:"Tahoma","sans-serif";
+	mso-fareast-font-family:"Times New Roman";}
+span.BalloonTextChar
+	{mso-style-name:"Balloon Text Char";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Balloon Text";
+	mso-ansi-font-size:8.0pt;
+	mso-bidi-font-size:8.0pt;
+	font-family:"Tahoma","sans-serif";
+	mso-ascii-font-family:Tahoma;
+	mso-hansi-font-family:Tahoma;
+	mso-bidi-font-family:Tahoma;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-size:10.0pt;
+	mso-ansi-font-size:10.0pt;
+	mso-bidi-font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.25in 1.0in 1.25in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style><!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-parent:"";
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+	mso-para-margin:0in;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="1026"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+        <div class="WordSection1">
+          <p class="MsoNormal"><b><span
+style="font-size:9.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;color:#002060">David
+
+
+                J. Moses, PhD�| Executive Director�| Pittsburgh
+                Supercomputing Center</span></b><span
+              style="color:#002060"><o:p></o:p></span></p>
+          <p class="MsoNormal"><b><span
+style="font-size:9.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;color:#A50021">Carnegie
+
+
+                Mellon University</span></b><span style="font-size:
+9.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;color:gray">
+            </span><span
+style="font-size:9.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;color:#002060">|
+              300 South Craig St. Room 308 | Pittsburgh, PA 15213 <o:p></o:p></span></p>
+          <p class="MsoNormal"><span
+style="font-size:9.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;color:#002060">Phone:
+
+
+              412.268.4960 | email: <a moz-do-not-send="true"
+                href="mailto:dmoses@psc.edu">dmoses@psc.edu</a> | URL: <a
+                moz-do-not-send="true"
+href="https://urldefense.proofpoint.com/v2/url?u=http-3A__www.psc.edu_-257Edmoses&amp;d=BQMDaQ&amp;c=8hUWFZcy2Z-Za5rBPlktOQ&amp;r=kUnbnYEwjOSlOUrpmQihSDty-a-4wnRZNLEOVK1A6LM&amp;m=baWiya0xGN2ywJgxzUMkJgEm6m51F51V6MQs6q2j6tg&amp;s=ReCuGVb_kn4fK55W8c8CDwR7QYv-TLQvu3gKH21Tv54&amp;e="><a class="moz-txt-link-freetext" href="http://www.psc.edu/~dmoses">http://www.psc.edu/~dmoses</a></a><o:p></o:p></span></p>
+          <p class="MsoNormal"><span
+style="font-size:9.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;color:#002060"><o:p>�</o:p></span></p>
+        </div>
+      </div>
+      <br>
+    </div>
+    <br>
+  </body>
+</html>
+
+--------------070806040003050707010005--
+
+--------------090503070702050603030105
+Content-Type: text/plain; charset=UTF-8;
+ name="Attached Message Part"
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment;
+ filename="Attached Message Part"
+
+_______________________________________________
+CASCmem mailing list
+CASCmem@casc.org
+http://lists.casc.org/mailman/listinfo/cascmem
+
+--------------090503070702050603030105--
+
+From owner-discuss@nationaldataservice.org Thu Mar 31 17:41:09 2016
+Received: (from majordomo@localhost)
+	by pop.ncsa.uiuc.edu (8.11.7/8.11.7) id u2VMf9D00824;
+	Thu, 31 Mar 2016 17:41:09 -0500
+X-Envelope-From: jtowns@ncsa.illinois.edu
+X-Envelope-To: <discuss@nationaldataservice.org>
+Received: from rimantadine.ncsa.uiuc.edu (amantadine.ncsa.uiuc.edu [141.142.192.229])
+	by pop.ncsa.uiuc.edu (8.11.7/8.11.7) with ESMTP id u2VMf9100814
+	for <discuss@nationaldataservice.org>; Thu, 31 Mar 2016 17:41:09 -0500
+Received: from [10.70.134.140] ([38.127.159.5])
+	(authenticated bits=0)
+	by rimantadine.ncsa.uiuc.edu (8.14.9/8.14.4) with ESMTP id u2VMf7K3018484
+	(version=TLSv1/SSLv3 cipher=DHE-RSA-AES128-SHA bits=128 verify=NO)
+	for <discuss@nationaldataservice.org>; Thu, 31 Mar 2016 17:41:07 -0500
+Subject: Fwd: NCDS Webinar features NOAA Big Data Project
+References: <DC8515A9-8C80-4532-8DF3-AA4F931EB708@renci.org>
+To: discuss@nationaldataservice.org
+From: John Towns <jtowns@ncsa.illinois.edu>
+X-Forwarded-Message-Id: <DC8515A9-8C80-4532-8DF3-AA4F931EB708@renci.org>
+Message-ID: <56FDA7C1.90603@ncsa.illinois.edu>
+Date: Thu, 31 Mar 2016 17:42:09 -0500
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:38.0) Gecko/20100101
+ Thunderbird/38.7.1
+MIME-Version: 1.0
+In-Reply-To: <DC8515A9-8C80-4532-8DF3-AA4F931EB708@renci.org>
+Content-Type: multipart/alternative;
+ boundary="------------020207020409000208010202"
+X-Null-Tag: 3f817f6f16350f0c94e59c10711e8133
+X-NCSA-MailScanner-Information: Please contact help@ncsa.uiuc.edu for more information, rimantadine.ncsa.uiuc.edu
+X-NCSA-MailScanner-ID: u2VMf7K3018484
+X-NCSA-MailScanner: Found to be clean
+Sender: owner-discuss@nationaldataservice.org
+Precedence: bulk
+Reply-To: discuss@nationaldataservice.org
+
+This is a multi-part message in MIME format.
+--------------020207020409000208010202
+Content-Type: text/plain; charset=UTF-8; format=flowed
+Content-Transfer-Encoding: 8bit
+
+This might be of interest...
+
+
+-------- Forwarded Message --------
+Subject: 	NCDS Webinar features NOAA Big Data Project
+From: 	Karen Green <kgreen@renci.org>
+
+
+
+We invite you to join the next NCDS webinar next Wednesday. The webinar 
+is free and open to all, so please share widely with colleagues who 
+might be interested.
+Best regardsâ¦Karen
+
+*National Consortium for Data Science DataBytes Lunchtime Webinar Series*
+*Next Webinar:* Wednesday, April 6th, 2016 at noon EDT
+*Title:* The NOAA Big Data Project
+*Speaker:* Jeff de La Beaujardiere, data management architect, National 
+Oceanic and Atmospheric Administration
+To register: visit 
+*http://datascienceconsortium.org/databytes-webinars/* 
+<https://urldefense.proofpoint.com/v2/url?u=http-3A__datascienceconsortium.org_databytes-2Dwebinars_&d=BQMGaQ&c=8hUWFZcy2Z-Za5rBPlktOQ&r=SQ5tjq4SpyLteYDZdD5h09m7gHvBauCk2WTUtsxhIsk&m=dlC_6ShZ-7ZJqKw8N0ZAIXw2O1dyF1Z6w2qJDI_JIZA&s=-SJkm-q1NopXWmsTpVB6K6yBwTa1hlS9E-YzbCheU1k&e=>
+*About the Talk: *
+NOAA generates vast amounts of data every day from satellites, radars, 
+in situ sensors, numerical models, and other sources. These 
+constitute âBig Dataâ in terms of volume, velocity, and other 
+attributes. Most of the data are publicly discoverable through the NOAA 
+Data Catalog and are accessible in some fashion or other but may be 
+difficult to obtain and use, especially when the volumes are large.
+The NOAA Big Data Project is working with several Cloud infrastructure 
+providers on a research and development basis to determine whether 
+making it possible to easily compute directly on NOAA data in the Cloud 
+will stimulate additional use cases for NOAA data and the development of 
+new value-added products, services, or lines of business.
+*About the Speaker:*
+JEFF_April_photoJeff de La Beaujardiere has been the NOAA Data 
+Management Architect since May 2011 and the Chair of the Environmental 
+Data Management Committee since 2012. Jeff also serves on inter-agency 
+and international groups aimed at enhancing data sharing and 
+interoperability, including the international Group on Earth 
+Observations Data Management Principles Task Force, the US Group on 
+Earth Observations Data Management Working Group, and the Open 
+Geospatial Consortium. In these roles, he works toward the unique vision 
+that NOAAâs rich and unique data holdings shall be discoverable, 
+well-documented, compatible, and preserved for future use.
+Previously, Jeff was Senior Systems Architect for the US Integrated 
+Ocean Observing System Program Office at NOAA, where he guided the 
+implementation of interoperability standards by IOOS partners for data 
+access and discovery. Prior to joining NOAA, Jeff spent 13 years at NASA 
+Goddard Space Flight Center in such roles as Geospatial One-Stop Portal 
+Manager; web services developer for the Modeling, Analysis and 
+Prediction 2005 project, the GLOBE Program, and the Public Use of Remote 
+Sensing Data Program; and NASAâs representative to OGC and to the 
+Unidata Policy Committee. He participated in the first OGC Web Mapping 
+Testbed in 1998, implemented the first Web Map Server at NASA, and was 
+editor of the WMS specification for OGC and the International 
+Organization for Standardization.
+Jeff holds a BA in Physics (1985) from the University of California at 
+Berkeley and a PhD in Astrophysics (1990) from the University of 
+Colorado at Boulder.
+
+_____________________________
+Karen Green
+Communications Director
+RENCI | iRODS Consortium | NCDS
+University of North Carolina at Chapel Hill
+919.445.9648 (office)
+919.619.8213 (mobile)
+@renci | @irods | @thencds
+renci.org 
+<https://urldefense.proofpoint.com/v2/url?u=http-3A__renci.org&d=BQMGaQ&c=8hUWFZcy2Z-Za5rBPlktOQ&r=SQ5tjq4SpyLteYDZdD5h09m7gHvBauCk2WTUtsxhIsk&m=dlC_6ShZ-7ZJqKw8N0ZAIXw2O1dyF1Z6w2qJDI_JIZA&s=14dQCYhId-oLdprC7ULoW4EGkvzxX8yGp3BmxYOen5I&e=> | 
+irods.org 
+<https://urldefense.proofpoint.com/v2/url?u=http-3A__irods.org&d=BQMGaQ&c=8hUWFZcy2Z-Za5rBPlktOQ&r=SQ5tjq4SpyLteYDZdD5h09m7gHvBauCk2WTUtsxhIsk&m=dlC_6ShZ-7ZJqKw8N0ZAIXw2O1dyF1Z6w2qJDI_JIZA&s=xa2s8veVgbzslYmuAwolgfjU--u1f7MJFIuYerJW07c&e=> | 
+datascienceconsortium.org 
+<https://urldefense.proofpoint.com/v2/url?u=http-3A__datascienceconsortium.org&d=BQMGaQ&c=8hUWFZcy2Z-Za5rBPlktOQ&r=SQ5tjq4SpyLteYDZdD5h09m7gHvBauCk2WTUtsxhIsk&m=dlC_6ShZ-7ZJqKw8N0ZAIXw2O1dyF1Z6w2qJDI_JIZA&s=h58d1Q9hBwuyTpYhq9Z4-NrCXGqijqGSMYWXsODtcMI&e=>
+
+
+
+
+
+
+
+
+--------------020207020409000208010202
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<html>
+  <head>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  </head>
+  <body bgcolor="#FFFFFF" text="#000000">
+    This might be of interest...<br>
+    <div class="moz-forward-container"><br>
+      <br>
+      -------- Forwarded Message --------
+      <table class="moz-email-headers-table" border="0" cellpadding="0"
+        cellspacing="0">
+        <tbody>
+          <tr>
+            <th align="RIGHT" nowrap="nowrap" valign="BASELINE">Subject:
+            </th>
+            <td>NCDS Webinar features NOAA Big Data Project</td>
+          </tr>
+          <tr>
+            <th align="RIGHT" nowrap="nowrap" valign="BASELINE">From: </th>
+            <td>Karen Green <a class="moz-txt-link-rfc2396E" href="mailto:kgreen@renci.org">&lt;kgreen@renci.org&gt;</a></td>
+          </tr>
+        </tbody>
+      </table>
+      <br>
+      <br>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <div style="box-sizing: border-box; margin: 0px; padding: 10px
+        0px; border: 0px; vertical-align: baseline; word-wrap:
+        break-word; word-break: break-word; font-variant-ligatures:
+        normal; font-variant-position: normal; font-variant-numeric:
+        normal; font-variant-alternates: normal;
+        font-variant-east-asian: normal; widows: 1; background-color:
+        rgb(255, 255, 255); line-height: 26px !important;" class="">
+        <span style="box-sizing: border-box; margin: 0px; padding: 0px;
+          border: 0px; vertical-align: baseline;" class=""><font
+            class="" color="#171717" face="Avenir"><span
+              style="font-size: 14px;" class="">We invite you to join
+              the next NCDS webinar next Wednesday. The webinar is free
+              and open to all, so please share widely with colleagues
+              who might be interested.  </span></font></span></div>
+      <div style="box-sizing: border-box; margin: 0px; padding: 10px
+        0px; border: 0px; vertical-align: baseline; word-wrap:
+        break-word; word-break: break-word; font-variant-ligatures:
+        normal; font-variant-position: normal; font-variant-numeric:
+        normal; font-variant-alternates: normal;
+        font-variant-east-asian: normal; widows: 1; background-color:
+        rgb(255, 255, 255); line-height: 26px !important;" class="">
+        <span style="box-sizing: border-box; margin: 0px; padding: 0px;
+          border: 0px; vertical-align: baseline;" class=""><font
+            class="" color="#171717" face="Avenir"><span
+              style="font-size: 14px;" class="">Best regardsâ¦Karen</span></font></span></div>
+      <div style="box-sizing: border-box; margin: 0px; padding: 10px
+        0px; border: 0px; vertical-align: baseline; word-wrap:
+        break-word; word-break: break-word; font-variant-ligatures:
+        normal; font-variant-position: normal; font-variant-numeric:
+        normal; font-variant-alternates: normal;
+        font-variant-east-asian: normal; widows: 1; background-color:
+        rgb(255, 255, 255); line-height: 26px !important;" class="">
+        <span style="box-sizing: border-box; margin: 0px; padding: 0px;
+          border: 0px; vertical-align: baseline;" class=""><font
+            class="" color="#171717" face="Avenir"><span
+              style="font-size: 14px;" class=""><br class="">
+            </span></font></span></div>
+      <div style="box-sizing: border-box; margin: 0px; padding: 10px
+        0px; border: 0px; vertical-align: baseline; word-wrap:
+        break-word; word-break: break-word; color: rgb(23, 23, 23);
+        font-family: Avenir; font-variant-ligatures: normal;
+        font-variant-position: normal; font-variant-numeric: normal;
+        font-variant-alternates: normal; font-variant-east-asian:
+        normal; widows: 1; background-color: rgb(255, 255, 255);
+        line-height: 26px !important;" class="">
+        <span style="font-size: 14px;" class=""><b style="box-sizing:
+            border-box; margin: 0px; padding: 0px; border: 0px;
+            vertical-align: baseline;" class="">National Consortium for
+            Data Science DataBytes Lunchtime Webinar Series</b></span></div>
+      <div style="box-sizing: border-box; margin: 0px; padding: 10px
+        0px; border: 0px; vertical-align: baseline; word-wrap:
+        break-word; word-break: break-word; color: rgb(23, 23, 23);
+        font-family: Avenir; font-variant-ligatures: normal;
+        font-variant-position: normal; font-variant-numeric: normal;
+        font-variant-alternates: normal; font-variant-east-asian:
+        normal; widows: 1; background-color: rgb(255, 255, 255);
+        line-height: 26px !important;" class="">
+        <span style="font-size: 14px;" class=""><b style="box-sizing:
+            border-box; margin: 0px; padding: 0px; border: 0px;
+            vertical-align: baseline;" class="">Next Webinar:</b> Wednesday,
+          April 6th, 2016 at noon EDT</span></div>
+      <div style="box-sizing: border-box; margin: 0px; padding: 10px
+        0px; border: 0px; vertical-align: baseline; word-wrap:
+        break-word; word-break: break-word; color: rgb(23, 23, 23);
+        font-family: Avenir; font-variant-ligatures: normal;
+        font-variant-position: normal; font-variant-numeric: normal;
+        font-variant-alternates: normal; font-variant-east-asian:
+        normal; widows: 1; background-color: rgb(255, 255, 255);
+        line-height: 26px !important;" class="">
+        <span style="font-size: 14px;" class=""><b style="box-sizing:
+            border-box; margin: 0px; padding: 0px; border: 0px;
+            vertical-align: baseline;" class="">Title:</b> The NOAA Big
+          Data Project</span></div>
+      <div style="box-sizing: border-box; margin: 0px; padding: 10px
+        0px; border: 0px; vertical-align: baseline; word-wrap:
+        break-word; word-break: break-word; color: rgb(23, 23, 23);
+        font-family: Avenir; font-variant-ligatures: normal;
+        font-variant-position: normal; font-variant-numeric: normal;
+        font-variant-alternates: normal; font-variant-east-asian:
+        normal; widows: 1; background-color: rgb(255, 255, 255);
+        line-height: 26px !important;" class="">
+        <span style="font-size: 14px;" class=""><b style="box-sizing:
+            border-box; margin: 0px; padding: 0px; border: 0px;
+            vertical-align: baseline;" class="">Speaker:</b> Jeff de La
+          Beaujardiere, data management architect, National Oceanic and
+          Atmospheric Administration</span></div>
+      <div style="box-sizing: border-box; margin: 0px; padding: 10px
+        0px; border: 0px; vertical-align: baseline; word-wrap:
+        break-word; word-break: break-word; color: rgb(23, 23, 23);
+        font-family: Avenir; font-variant-ligatures: normal;
+        font-variant-position: normal; font-variant-numeric: normal;
+        font-variant-alternates: normal; font-variant-east-asian:
+        normal; widows: 1; background-color: rgb(255, 255, 255);
+        line-height: 26px !important;" class="">
+        <span style="font-size: 14px;" class="">To register: visit </span><a
+          moz-do-not-send="true"
+href="https://urldefense.proofpoint.com/v2/url?u=http-3A__datascienceconsortium.org_databytes-2Dwebinars_&amp;d=BQMGaQ&amp;c=8hUWFZcy2Z-Za5rBPlktOQ&amp;r=SQ5tjq4SpyLteYDZdD5h09m7gHvBauCk2WTUtsxhIsk&amp;m=dlC_6ShZ-7ZJqKw8N0ZAIXw2O1dyF1Z6w2qJDI_JIZA&amp;s=-SJkm-q1NopXWmsTpVB6K6yBwTa1hlS9E-YzbCheU1k&amp;e="
+          style="font-size: 14px;" class=""><b class=""><a class="moz-txt-link-freetext" href="http://datascienceconsortium.org/databytes-webinars/">http://datascienceconsortium.org/databytes-webinars/</a></b></a></div>
+      <div style="box-sizing: border-box; margin: 0px; padding: 10px
+        0px; border: 0px; vertical-align: baseline; word-wrap:
+        break-word; word-break: break-word; color: rgb(23, 23, 23);
+        font-family: Avenir; font-variant-ligatures: normal;
+        font-variant-position: normal; font-variant-numeric: normal;
+        font-variant-alternates: normal; font-variant-east-asian:
+        normal; widows: 1; background-color: rgb(255, 255, 255);
+        line-height: 26px !important;" class="">
+        <div style="box-sizing: border-box; margin: 0px; padding: 10px
+          0px; border: 0px; vertical-align: baseline; word-wrap:
+          break-word; word-break: break-word; font-variant-ligatures:
+          normal; font-variant-position: normal; font-variant-numeric:
+          normal; font-variant-alternates: normal;
+          font-variant-east-asian: normal; line-height: 26px
+          !important;" class="">
+          <strong style="box-sizing: border-box; margin: 0px; padding:
+            0px; border: 0px; vertical-align: baseline; font-size:
+            14px;" class="">About the Talk: </strong></div>
+        <div style="box-sizing: border-box; margin: 0px; padding: 10px
+          0px; border: 0px; vertical-align: baseline; word-wrap:
+          break-word; word-break: break-word; font-variant-ligatures:
+          normal; font-variant-position: normal; font-variant-numeric:
+          normal; font-variant-alternates: normal;
+          font-variant-east-asian: normal; line-height: 26px
+          !important;" class="">
+          <span style="font-size: 14px;" class="">NOAA generates vast
+            amounts of data every day from satellites, radars, in situ
+            sensors, numerical models, and other sources. These
+            constitute âBig Dataâ in terms of volume, velocity, and
+            other attributes. Most of the data are publicly discoverable
+            through the NOAA Data Catalog and are accessible in some
+            fashion or other but may be difficult to obtain and use,
+            especially when the volumes are large.</span></div>
+        <div style="box-sizing: border-box; margin: 0px; padding: 10px
+          0px; border: 0px; vertical-align: baseline; word-wrap:
+          break-word; word-break: break-word; font-variant-ligatures:
+          normal; font-variant-position: normal; font-variant-numeric:
+          normal; font-variant-alternates: normal;
+          font-variant-east-asian: normal; line-height: 26px
+          !important;" class="">
+          <span style="font-size: 14px;" class="">The NOAA Big Data
+            Project is working with several Cloud infrastructure
+            providers on a research and development basis to determine
+            whether making it possible to easily compute directly on
+            NOAA data in the Cloud will stimulate additional use cases
+            for NOAA data and the development of new value-added
+            products, services, or lines of business.</span></div>
+        <div style="box-sizing: border-box; margin: 0px; padding: 10px
+          0px; border: 0px; vertical-align: baseline; word-wrap:
+          break-word; word-break: break-word; font-variant-ligatures:
+          normal; font-variant-position: normal; font-variant-numeric:
+          normal; font-variant-alternates: normal;
+          font-variant-east-asian: normal; line-height: 26px
+          !important;" class="">
+          <strong style="box-sizing: border-box; margin: 0px; padding:
+            0px; border: 0px; vertical-align: baseline; font-size:
+            14px;" class="">About the Speaker:</strong></div>
+        <div style="box-sizing: border-box; margin: 0px; padding: 10px
+          0px; border: 0px; vertical-align: baseline; word-wrap:
+          break-word; word-break: break-word; font-variant-ligatures:
+          normal; font-variant-position: normal; font-variant-numeric:
+          normal; font-variant-alternates: normal;
+          font-variant-east-asian: normal; line-height: 26px
+          !important;" class="">
+          <img moz-do-not-send="true" class="size-thumbnail
+            wp-image-2501 alignleft"
+src="http://datascienceconsortium.org/wp-content/uploads/2016/03/JEFF_April_photo-150x150.jpg"
+            alt="JEFF_April_photo" style="box-sizing: border-box;
+            border: 0px; vertical-align: baseline; max-width: 100%;
+            height: auto; display: inline; float: left; margin: 20px
+            !important; padding: 0px !important;" height="150"
+            width="150"><span style="font-size: 14px;" class="">Jeff de
+            La Beaujardiere has been the NOAA Data Management Architect
+            since May 2011 and the Chair of the Environmental Data
+            Management Committee since 2012. Jeff also serves on
+            inter-agency and international groups aimed at enhancing
+            data sharing and interoperability, including the
+            international Group on Earth Observations Data Management
+            Principles Task Force, the US Group on Earth Observations
+            Data Management Working Group, and the Open Geospatial
+            Consortium. In these roles, he works toward the unique
+            vision that NOAAâs rich and unique data holdings shall be
+            discoverable, well-documented, compatible, and preserved for
+            future use.</span></div>
+        <div style="box-sizing: border-box; margin: 0px; padding: 10px
+          0px; border: 0px; vertical-align: baseline; word-wrap:
+          break-word; word-break: break-word; font-variant-ligatures:
+          normal; font-variant-position: normal; font-variant-numeric:
+          normal; font-variant-alternates: normal;
+          font-variant-east-asian: normal; line-height: 26px
+          !important;" class="">
+          <span style="font-size: 14px;" class="">Previously, Jeff was
+            Senior Systems Architect for the US Integrated Ocean
+            Observing System Program Office at NOAA, where he guided the
+            implementation of interoperability standards by IOOS
+            partners for data access and discovery. Prior to joining
+            NOAA, Jeff spent 13 years at NASA Goddard Space Flight
+            Center in such roles as Geospatial One-Stop Portal Manager;
+            web services developer for the Modeling, Analysis and
+            Prediction 2005 project, the GLOBE Program, and the Public
+            Use of Remote Sensing Data Program; and NASAâs
+            representative to OGC and to the Unidata Policy Committee.
+            He participated in the first OGC Web Mapping Testbed in
+            1998, implemented the first Web Map Server at NASA, and was
+            editor of the WMS specification for OGC and the
+            International Organization for Standardization.</span></div>
+        <div style="box-sizing: border-box; margin: 0px; padding: 10px
+          0px; border: 0px; vertical-align: baseline; word-wrap:
+          break-word; word-break: break-word; font-variant-ligatures:
+          normal; font-variant-position: normal; font-variant-numeric:
+          normal; font-variant-alternates: normal;
+          font-variant-east-asian: normal; line-height: 26px
+          !important;" class="">
+          <span style="font-size: 14px;" class="">Jeff holds a BA in
+            Physics (1985) from the University of California at Berkeley
+            and a PhD in Astrophysics (1990) from the University of
+            Colorado at Boulder.</span></div>
+      </div>
+      <div style="box-sizing: border-box; margin: 0px; padding: 10px
+        0px; border: 0px; vertical-align: baseline; word-wrap:
+        break-word; word-break: break-word; color: rgb(23, 23, 23);
+        font-family: Avenir; font-variant-ligatures: normal;
+        font-variant-position: normal; font-variant-numeric: normal;
+        font-variant-alternates: normal; font-variant-east-asian:
+        normal; widows: 1; background-color: rgb(255, 255, 255);
+        font-size: 18px !important; line-height: 26px !important;"
+        class="">
+        <br class="">
+      </div>
+      <div class="">
+        <div style="color: rgb(0, 0, 0); letter-spacing: normal;
+          orphans: auto; text-align: start; text-indent: 0px;
+          text-transform: none; white-space: normal; widows: auto;
+          word-spacing: 0px; -webkit-text-stroke-width: 0px; word-wrap:
+          break-word; -webkit-nbsp-mode: space; -webkit-line-break:
+          after-white-space;" class="">
+          <div style="color: rgb(0, 0, 0); letter-spacing: normal;
+            orphans: auto; text-align: start; text-indent: 0px;
+            text-transform: none; white-space: normal; widows: auto;
+            word-spacing: 0px; -webkit-text-stroke-width: 0px;
+            word-wrap: break-word; -webkit-nbsp-mode: space;
+            -webkit-line-break: after-white-space;" class="">
+            <div class="">
+              <div class="">_____________________________</div>
+              <div class="">Karen Green</div>
+              <div class="">Communications Director</div>
+              <div class="">RENCI | iRODS Consortium | NCDS</div>
+              <div class="">University of North Carolina at Chapel Hill</div>
+              <div class="">919.445.9648 (office)</div>
+              <div class="">919.619.8213 (mobile)</div>
+              <div class="">@renci | @irods | @thencds</div>
+              <div class=""><a moz-do-not-send="true"
+href="https://urldefense.proofpoint.com/v2/url?u=http-3A__renci.org&amp;d=BQMGaQ&amp;c=8hUWFZcy2Z-Za5rBPlktOQ&amp;r=SQ5tjq4SpyLteYDZdD5h09m7gHvBauCk2WTUtsxhIsk&amp;m=dlC_6ShZ-7ZJqKw8N0ZAIXw2O1dyF1Z6w2qJDI_JIZA&amp;s=14dQCYhId-oLdprC7ULoW4EGkvzxX8yGp3BmxYOen5I&amp;e="
+                  class="">renci.org</a> | <a moz-do-not-send="true"
+href="https://urldefense.proofpoint.com/v2/url?u=http-3A__irods.org&amp;d=BQMGaQ&amp;c=8hUWFZcy2Z-Za5rBPlktOQ&amp;r=SQ5tjq4SpyLteYDZdD5h09m7gHvBauCk2WTUtsxhIsk&amp;m=dlC_6ShZ-7ZJqKw8N0ZAIXw2O1dyF1Z6w2qJDI_JIZA&amp;s=xa2s8veVgbzslYmuAwolgfjU--u1f7MJFIuYerJW07c&amp;e="
+                  class="">irods.org</a> | <a moz-do-not-send="true"
+href="https://urldefense.proofpoint.com/v2/url?u=http-3A__datascienceconsortium.org&amp;d=BQMGaQ&amp;c=8hUWFZcy2Z-Za5rBPlktOQ&amp;r=SQ5tjq4SpyLteYDZdD5h09m7gHvBauCk2WTUtsxhIsk&amp;m=dlC_6ShZ-7ZJqKw8N0ZAIXw2O1dyF1Z6w2qJDI_JIZA&amp;s=h58d1Q9hBwuyTpYhq9Z4-NrCXGqijqGSMYWXsODtcMI&amp;e="
+                  class="">datascienceconsortium.org</a></div>
+              <div class=""><br class="">
+              </div>
+            </div>
+          </div>
+          <br class="Apple-interchange-newline">
+        </div>
+        <br class="Apple-interchange-newline">
+        <br class="Apple-interchange-newline">
+      </div>
+      <br class="">
+      <br>
+    </div>
+    <br>
+  </body>
+</html>
+
+--------------020207020409000208010202--
+
