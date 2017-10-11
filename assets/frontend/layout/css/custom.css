@@ -1,0 +1,112 @@
+/* here you can put your own css to customize and override the theme */
+
+blockquote { font-size: 13.5px; }
+
+.blog-sidebar img { width: 100%; }
+.blog-sidebar p { font-size: 12px; margin-top: 10px; font-style: italic; color: #777; text-align: center; }
+
+
+/* Mobile Navigation */
+
+@media (max-width: 1205px) and (min-width: 1025px) {
+.header .header-navigation > ul > li { margin-right: 43px; }
+}
+
+
+@media (max-width: 992px) {
+.header-navigation .dropdown-menu { display: block; }
+}
+
+/* Logo */
+.site-logo { font-size: 18px; font-weight: 600; line-height: 18px; }
+
+.site-logo small { font-size: 18px; }
+
+/* Blockquote Box */
+.quote-v1 { background: #e84d1c; padding: 10px 0; margin-left: 0; margin-right: 0; }
+
+/* front steps */
+.front-steps-wrapper .front-step { position: relative; padding: 15px 20px 45px; min-height: 236px; }
+.front-steps-wrapper .front-step1 { background: #44b1c1; }
+.front-steps-wrapper .front-step2 { background: #e18604; }
+.front-steps-wrapper .front-step3 { background: #67bd3c; }
+.front-steps-wrapper .front-step4 { background: #852b99; }
+.front-steps-wrapper .front-step5 { background: #5e6369; }
+.front-steps-wrapper .front-step6 { background: #55585d; }
+.front-steps-wrapper .front-step1:before { content: "1"; opacity: 0.2; }
+.front-steps-wrapper .front-step2:before { content: "2"; right: -15px; opacity: 0.2; }
+.front-steps-wrapper .front-step3:before { content: "3"; opacity: 0.2; }
+.front-steps-wrapper .front-step4:before { content: "4"; opacity: 0.2; }
+.front-steps-wrapper .front-step1:after { border-left: 15px solid #e18604; }
+.front-steps-wrapper .front-step2:after { border-left: 15px solid #67bd3c; }
+.front-steps-wrapper .front-step3:after { border-left: 15px solid #852b99; }
+.front-steps-wrapper .front-step4:after { border-left: 15px solid #5e6369; }
+.front-steps-wrapper .front-step5:after { border-left-color: #55585d; top: auto; bottom: 10%; }
+
+.front-steps-wrapper h2 {
+	color: #f0f0f0;
+	font-size: 22px;
+	line-height: 1.2;
+	padding: 12px 0;
+	margin-bottom: 5px;
+	}
+
+.front-steps-wrapper h2 i {
+  	color: #fff;
+  	border: 1px solid #fff;
+  	padding: 0;
+	border-radius: 34px;
+    	font-size: 18px;
+    	height: 32px;
+    	width: 32px;
+    	line-height: 32px;
+    	text-align: center;
+    	vertical-align: baseline;
+	}
+
+.front-steps-wrapper h2 span {
+  	color: #fff;
+  	font-size: 21px;
+  	line-height: 25px;
+  	font-weight: 400;
+  	margin-bottom: 10px; 
+  	margin-left: 10px;
+  	display: inline-block;
+	}
+
+.front-steps-wrapper h2 [class^="icon-"], .front-steps-wrapper [class*=" icon-"] 
+	{ display: inline-block; text-align: center; }
+
+.front-steps-wrapper h2 [class^="icon-"].icon-large,
+.front-steps-wrapper [class*=" icon-"].icon-large 
+	{ width: 1.5625em; } /* increased font size for icon-large */
+
+/*TABS*/
+
+.tab-content { background: #fff; padding: 20px 0; }
+
+/*CONTENT PAGE LINKS*/
+.content-page a, .sidebar2 a { color: #e02222; }
+
+/*SERVICE BOX*/
+.service-box-v1:hover a { color: #fff; text-decoration: underline; }
+
+/*MDF IMAGES*/
+.mdf-img { width: 100%; padding: 3px; border: 1px solid rgb(216,74,56); }
+
+@media all and (min-width: 768px) {
+.front-steps-wrapper .front-step { min-height: 290px; }
+}
+
+/*WORKSHOP PHOTO GALLERY*/
+.photogallery { list-style: none; margin: 0; padding: 0; }
+.photogallery li { width: 29.5%; display: inline-block; margin: 10px; padding: 0; }
+.photogallery img { width: 100%; }
+
+@media all and (max-width: 990px) {
+.photogallery li { width: 28.5%; }
+}
+
+/*PROGRAM TITLE*/
+.panel .panel-body .event-title { font-size: 15px; }
+.panel .panel-body .event-non-event { font-style: italic; color: #777; }

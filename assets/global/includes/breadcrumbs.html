@@ -1,0 +1,75 @@
+<div class="main">
+      <div class="container">
+        <ul class="breadcrumb">
+<!-- HOME -->
+<li><a href="/">Home</a></li>
+
+<!-- MAIN NAV -->
+<!--#if expr="(${DOCUMENT_URI}=/about/) && (${location}!='abt_index')" --><li><a href="/about/">About</a></li>
+<!--#elif expr="(${DOCUMENT_URI}=/projects/) && (${location}!='prj_index')" --><li><a href="/projects/">Projects</a></li>
+<!--#elif expr="(${DOCUMENT_URI}=/news/) && (${location}!='news_index')" --><li><a href="/news/">News</a></li>
+<!--#elif expr="(${DOCUMENT_URI}=/get_involved/) && (${location}!='get_index')" --><li><a href="/get_involved/">Get Involved</a></li>
+<!--#else --><!--#endif -->
+<!--#if expr="${events_title}!=''" --><li><a href="/get_involved/events/">Events</a></li><!--#endif -->
+
+<!-- SUB NAV -->
+<!--#if expr="${location}='abt_capabilities'" --><li class="active">Capabilities</li>
+<!--#elif expr="${location}='abt_groups'" --><li class="active">Committees and Working Groups</li>
+<!--#elif expr="${location}='abt_partners'" --><li class="active">Partners</li>
+<!--#elif expr="${location}='abt_transcript'" --><li class="active">Transcript: About the National Data Service</li>
+<!--#elif expr="${location}='abt_contact'" --><li class="active">Contact Us</li>
+<!--#elif expr="${location}='abt_index'" --><li class="active">About the National Data Service</li>
+<!--#elif expr="${location}='abt_provide'" --><li class="active">What Should NDS Provide?</li>
+<!--#elif expr="${location}='abt_vision'" --><li class="active">The NDS Vision</li>
+<!--#elif expr="${location}='abt_operate'" --><li class="active">How the NDS Operates</li>
+<!--#elif expr="${location}='abt_pubs'" --><li class="active">Publications</li>
+<!--#elif expr="${location}='prj_index'" --><li class="active">Projects and Pilots</li>
+<!--#elif expr="${location}='platform_share'" --><li class="active">NDS Share</li>
+<!--#elif expr="${location}='platform_workbench'" --><li class="active">NDS Labs Workbench</li>
+<!--#elif expr="${location}='services_hosting'" --><li class="active">Hosting Workbench</li>
+<!--#elif expr="${location}='services_piloting'" --><li class="active">Piloting Services</li>
+<!--#elif expr="${story_title}!=''" --><li class="active"><!--#echo var="story_title" -->
+<!--#elif expr="${location}='news_index'" --><li class="active">News</li>
+<!--#elif expr="${location}='get_consortium'" --><li class="active">NDS Consortium</li>
+<!--#elif expr="${location}='get_guidelines'" --><li class="active">Consortium Guidelines</li>
+<!--#elif expr="${location}='get_rfc'" --><li class="active">Consortium Requests for Comments</li>
+<!--#elif expr="${location}='get_email'" --><li class="active">Virtual Collaboration Opportunities</li>
+<!--#elif expr="${events_title}!=''" --><li class="active"><!--#echo var="events_title" -->
+<!--#elif expr="${location}='get_events'" --><li class="active">Events</li>
+<!--#elif expr="${location}='get_index'" --><li class="active">How to Get Involved</li>
+<!--#else --><!--#endif -->
+        </ul>
+
+        <!-- BEGIN SIDEBAR & CONTENT -->
+        <div class="row margin-bottom-40">
+          <!-- BEGIN CONTENT -->
+          <div class="col-md-12 col-sm-12">
+<h1>
+<!--#if expr="${location}='abt_capabilities'" -->Capabilities
+<!--#elif expr="${location}='abt_groups'" -->Committees and Working Groups
+<!--#elif expr="${location}='abt_partners'" -->Partners
+<!--#elif expr="${location}='abt_transcript'" -->Transcript: About the National Data Service
+<!--#elif expr="${location}='abt_contact'" -->Contact Us
+<!--#elif expr="${location}='abt_index'" -->About the National Data Service
+<!--#elif expr="${location}='abt_provide'" -->What Should NDS Provide?
+<!--#elif expr="${location}='abt_vision'" -->The NDS Vision
+<!--#elif expr="${location}='abt_operate'" -->How the NDS Operates
+<!--#elif expr="${location}='abt_pubs'" -->Publications
+<!--#elif expr="${location}='prj_index'" -->Projects and Pilots
+<!--#elif expr="${location}='platform_share'" -->NDS Share: A Testing Ground for Users
+<!--#elif expr="${location}='platform_workbench'" -->Labs Workbench: A Scalable Platform for Research Data Access, Education, and Training
+<!--#elif expr="${location}='services_hosting'" -->Hosting Workbench
+<!--#elif expr="${location}='services_piloting'" -->Piloting Services
+<!--#elif expr="${location}='news_index'" -->News
+<!--#elif expr="${story_title}!=''" --><!--#echo var="story_title" -->
+<!--#elif expr="${location}='get_consortium'" -->NDS Consortium
+<!--#elif expr="${location}='get_guidelines'" -->Consortium Guidelines
+<!--#elif expr="${location}='get_rfc'" -->Consortium Requests for Comments
+<!--#elif expr="${location}='get_email'" -->Virtual Collaboration Opportunities
+<!--#elif expr="${location}='get_events'" -->Events
+<!--#elif expr="${events_title}!=''" --><!--#echo var="events_title" -->
+<!--#elif expr="${location}='get_index'" -->How to Get Involved
+<!--#else --><!--#endif -->
+</h1>
+            <div class="content-page">
+              <div class="row margin-bottom-30">
