@@ -7,6 +7,7 @@
 <!-- MAIN NAV -->
 <!--#if expr="(${DOCUMENT_URI}=/about/) && (${location}!='abt_index')" --><li><a href="/about/">About</a></li>
 <!--#elif expr="(${DOCUMENT_URI}=/projects/) && (${location}!='prj_index')" --><li><a href="/projects/">Projects</a></li>
+<!--#elif expr="(${DOCUMENT_URI}=/data/) && (${location}!='data_index')" --><li><a href="/data/">Featured Data</a></li>
 <!--#elif expr="(${DOCUMENT_URI}=/news/) && (${location}!='news_index')" --><li><a href="/news/">News</a></li>
 <!--#elif expr="(${DOCUMENT_URI}=/get_involved/) && (${location}!='get_index')" --><li><a href="/get_involved/">Get Involved</a></li>
 <!--#else --><!--#endif -->
@@ -60,6 +61,7 @@
 <!--#elif expr="${location}='platform_workbench'" -->Labs Workbench: A Scalable Platform for Research Data Access, Education, and Training
 <!--#elif expr="${location}='services_hosting'" -->Hosting Workbench
 <!--#elif expr="${location}='services_piloting'" -->Piloting Services
+<!--#elif expr="${location}='data_index'" -->Data
 <!--#elif expr="${location}='news_index'" -->News
 <!--#elif expr="${story_title}!=''" --><!--#echo var="story_title" -->
 <!--#elif expr="${location}='get_consortium'" -->NDS Consortium
